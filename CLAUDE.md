@@ -43,6 +43,19 @@ function of the committed JSON — **if the site shows wrong data, look at
 The bucket a PR lands in is decided in `src/domain/buckets.ts` at sync time
 and stored in the data, so the UI never re-derives it.
 
+## Design authority
+
+The UI follows the backoffice (`duynhlab/admin-service`) product-design skill,
+vendored at `.claude/skills/product-design/SKILL.md`: shadcn `base-nova`
+preset on Base UI (`render` prop, never `asChild`), the neutral OKLCH token
+block in `src/styles/app.css`, Geist/Geist Mono, sidebar shell, `text-sm`
+body, `text-[13px]` controls, status through one `Badge`. Colour is reserved
+for meaning: `destructive` tint for breaking, amber text for minor,
+`secondary` for no impact; areas and update types stay `outline`.
+`tests/unit/styles.test.ts` and `tests/unit/contrast.test.ts` pin the
+contract. Keep `src/components/ui/*` pristine; customise in
+`src/components/app/*` or at the call site.
+
 ## Setup
 
 ```bash
@@ -52,6 +65,12 @@ pnpm gen && pnpm dev
 ```
 
 - Node >= 26 runs the `.ts` scripts natively.
+- `pnpm dev:fixture` overlays `tests/fixtures/prs/*.json` (one PR with a full
+  review, one ready, one stale) onto `data/` so the detail page can be seen
+  before real reviews exist. Local only: `pnpm sync` restores the snapshot;
+  never commit the overlay.
+- TypeScript stays on 6.0.x: typescript-eslint 8 refuses TS 7. Vitest stays
+  on 4.1.x: `@cloudflare/vitest-pool-workers` peers `vitest ^4.1`.
 - pnpm 11, pinned via `packageManager`; `pnpm-workspace.yaml` holds
   `allowBuilds` (a **map**, not a list).
 

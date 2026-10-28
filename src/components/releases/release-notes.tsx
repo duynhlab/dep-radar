@@ -15,6 +15,6 @@ export function ReleaseNotes({
   repository: string;
 }) {
   return (
-    <div className="rr-notes">{renderReleaseNotes(markdown, repository)}</div>
+    <div className="notes">{renderReleaseNotes(markdown, repository)}</div>
   );
 }

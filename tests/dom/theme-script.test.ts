@@ -69,7 +69,7 @@ describe("theme boot script", () => {
     expect(document.documentElement.classList.contains("dark")).toBe(true);
   });
 
-  it("falls back to dark when storage throws", () => {
+  it("falls back to light when storage throws", () => {
     mockPrefersLight(true);
     const getItem = vi
       .spyOn(Storage.prototype, "getItem")
@@ -77,7 +77,7 @@ describe("theme boot script", () => {
         throw new Error("blocked");
       });
     expect(() => runBootScript()).not.toThrow();
-    expect(document.documentElement.classList.contains("dark")).toBe(true);
+    expect(document.documentElement.classList.contains("light")).toBe(true);
     getItem.mockRestore();
   });
 

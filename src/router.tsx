@@ -13,6 +13,9 @@ export function getRouter() {
     // The index is a build-time constant; nothing goes stale in a session.
     defaultStaleTime: Number.POSITIVE_INFINITY,
     scrollRestoration: true,
+    // Inbox → detail swaps through document.startViewTransition where the
+    // browser has it; app.css disables the animation under reduced motion.
+    defaultViewTransition: true,
     defaultNotFoundComponent: () => <NotFound />,
     defaultErrorComponent: AppError,
   });

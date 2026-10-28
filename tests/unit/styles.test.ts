@@ -2,10 +2,13 @@ import { readFileSync, readdirSync, statSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 
-const CSS = readFileSync(
-  path.join(process.cwd(), "src", "styles", "app.css"),
-  "utf8",
-);
+/**
+ * Pins the design contract: the backoffice token set (admin-service
+ * product-design skill), one theme block per mode with identical keys, no
+ * hardcoded colours, and Base UI's `render` prop rather than Radix `asChild`.
+ */
+
+const CSS = readFileSync(path.join(process.cwd(), "src", "styles", "app.css"), "utf8");
 
 function sourceFiles(dir: string): string[] {
   return readdirSync(dir).flatMap((entry) => {
@@ -19,125 +22,83 @@ const SOURCES = sourceFiles(path.join(process.cwd(), "src")).filter(
   (p) => !p.includes("generated") && !p.endsWith("routeTree.gen.ts"),
 );
 
-/** Strip comments so a rule named in prose is not mistaken for a declaration. */
 function withoutComments(css: string): string {
   return css.replace(/\/\*[\s\S]*?\*\//g, "");
 }
 
-describe("font declarations", () => {
-  it("never names a literal font stack outside @theme", () => {
-    // The legacy app shipped `body { font-family: Arial }` in globals.css,
-    // which silently defeated the Geist it was loading. The invariant is about
-    // LITERAL stacks: `font-family: var(--font-mono)` is the tokens working as
-    // intended, and .rr-notes code legitimately does that.
-    const body = withoutComments(CSS);
-    const afterTheme = body.slice(
-      body.indexOf("}", body.indexOf("@theme inline")),
-    );
-    const declarations = [...afterTheme.matchAll(/font-family\s*:\s*([^;]+);/g)]
-      .map((m) => m[1]!.trim())
-      .filter((value) => !value.startsWith("var(--font-"));
-    expect(declarations).toEqual([]);
+function tokensIn(selector: RegExp): Set<string> {
+  const block = withoutComments(CSS).match(selector)?.[1];
+  if (!block) throw new Error(`theme block not found: ${selector}`);
+  return new Set([...block.matchAll(/^\s*(--[\w-]+):/gm)].map((m) => m[1]!));
+}
+
+describe("theme tokens", () => {
+  it("defines every light token in dark too, and vice versa", () => {
+    const light = tokensIn(/\n:root\s*\{([\s\S]*?)\n\}/);
+    const dark = tokensIn(/\n\.dark\s*\{([\s\S]*?)\n\}/);
+    // --radius is a shape token, set once.
+    light.delete("--radius");
+    expect([...light].filter((v) => !dark.has(v))).toEqual([]);
+    expect([...dark].filter((v) => !light.has(v))).toEqual([]);
   });
 
-  it("points --font-sans and --font-mono at the self-hosted Geist faces", () => {
+  it("maps every theme token into @theme as a Tailwind colour", () => {
+    const theme = withoutComments(CSS).match(/@theme inline\s*\{([\s\S]*?)\n\}/)?.[1] ?? "";
+    for (const token of [
+      "background",
+      "foreground",
+      "card",
+      "muted",
+      "muted-foreground",
+      "primary",
+      "destructive",
+      "destructive-on-tint",
+      "warning-on-tint",
+      "success",
+      "border",
+      "ring",
+      "sidebar-accent",
+    ]) {
+      expect(theme, token).toContain(`--color-${token}: var(--${token})`);
+    }
+  });
+
+  it("points the fonts at the self-hosted Geist faces", () => {
     expect(CSS).toMatch(/--font-sans:\s*"Geist Variable"/);
     expect(CSS).toMatch(/--font-mono:\s*"Geist Mono Variable"/);
   });
+
+  it("carries no release-radar tokens or type tiers any more", () => {
+    expect(CSS).not.toMatch(/--rr-/);
+    expect(CSS).not.toMatch(/--text-(micro|meta|control|body|version)/);
+  });
 });
 
-describe("type scale", () => {
-  const TIERS = [
-    "micro",
-    "meta",
-    "control",
-    "body",
-    "card-title",
-    "version",
-    "page-title",
-    "detail-title",
-  ];
+describe("source conventions", () => {
+  const offenders = (pattern: RegExp) =>
+    SOURCES.flatMap((file) => {
+      const hits = readFileSync(file, "utf8").match(pattern);
+      return hits ? [`${path.relative(process.cwd(), file)}: ${hits.join(", ")}`] : [];
+    });
 
-  it("defines every semantic tier", () => {
-    for (const tier of TIERS) {
-      expect(CSS, tier).toMatch(new RegExp(`--text-${tier}:`));
-    }
+  it("never hardcodes black or white outside the generated primitives", () => {
+    // components/ui/* is shadcn output kept pristine; its overlay uses bg-black/10.
+    const app = offenders(/\b(bg|text|border)-(white|black)\b|#(fff|000)(?![0-9a-f])/gi).filter(
+      (hit) => !hit.startsWith("src/components/ui/"),
+    );
+    expect(app).toEqual([]);
   });
 
-  it("has no raw Tailwind size classes left in src/", () => {
-    // The whole point of the named scale is that a size is chosen by role. A
-    // stray text-sm re-opens the seven-step ad-hoc scale this replaced.
-    const offenders: string[] = [];
-    for (const file of SOURCES) {
-      const hits = readFileSync(file, "utf8").match(
-        /\btext-(xs|sm|base|lg|xl|2xl|3xl)\b/g,
-      );
-      if (hits) offenders.push(`${path.relative(process.cwd(), file)}: ${hits.join(", ")}`);
-    }
-    expect(offenders).toEqual([]);
+  it("uses Base UI's render prop, never Radix asChild", () => {
+    expect(offenders(/\basChild\b/g)).toEqual([]);
   });
 
-  it("has no arbitrary font sizes in src/", () => {
-    const offenders: string[] = [];
-    for (const file of SOURCES) {
-      const hits = readFileSync(file, "utf8").match(/text-\[[0-9.]+(px|rem)\]/g);
-      if (hits) offenders.push(`${path.relative(process.cwd(), file)}: ${hits.join(", ")}`);
-    }
-    expect(offenders).toEqual([]);
+  it("uses no release-radar tier classes or tokens", () => {
+    expect(offenders(/\btext-(micro|meta|control|body|version|card-title|page-title|detail-title)\b/g)).toEqual([]);
+    expect(offenders(/\b(bg|text|border)-(fg|surface|accent-soft)(-[\w-]+)?\b/g)).toEqual([]);
   });
 
   it("uses no font-weight above 600", () => {
-    // 700 was reserved for a metric that actually matters; nothing qualifies.
-    const offenders: string[] = [];
-    for (const file of SOURCES) {
-      const hits = readFileSync(file, "utf8").match(/\bfont-(bold|extrabold|black)\b/g);
-      if (hits) offenders.push(`${path.relative(process.cwd(), file)}: ${hits.join(", ")}`);
-    }
-    expect(offenders).toEqual([]);
-  });
-});
-
-describe("radius scale", () => {
-  it("defines exactly the four radius steps", () => {
-    for (const step of ["badge", "control", "card", "pill"]) {
-      expect(CSS, step).toMatch(new RegExp(`--radius-${step}:`));
-    }
-  });
-
-  it("never falls back to Tailwind's default `rounded`", () => {
-    // A bare `rounded` is 4px and escapes the scale, which is how the app ended
-    // up rendering five radii while claiming three.
-    const offenders: string[] = [];
-    for (const file of SOURCES) {
-      const hits = readFileSync(file, "utf8").match(/\brounded(?![-\w[])/g);
-      if (hits) offenders.push(path.relative(process.cwd(), file));
-    }
-    expect(offenders).toEqual([]);
-  });
-});
-
-describe("theme tokens", () => {
-  const varsIn = (selector: string) => {
-    const body = withoutComments(CSS);
-    const start = body.indexOf(selector);
-    const block = body.slice(start, body.indexOf("}", start));
-    return new Set([...block.matchAll(/(--rr-[\w-]+):/g)].map((m) => m[1]!));
-  };
-
-  it("defines every dark token in light too", () => {
-    // A half-authored light theme is the classic failure of a dark-first build:
-    // it inherits whatever the dark block set and looks subtly broken.
-    const dark = varsIn(":root,");
-    const light = varsIn(".light {");
-    expect([...dark].filter((v) => !light.has(v))).toEqual([]);
-    expect([...light].filter((v) => !dark.has(v))).toEqual([]);
-  });
-
-  it("pairs every area and impact background with a foreground", () => {
-    const bgs = [...CSS.matchAll(/--rr-(area|impact)-([\w-]+)-bg:/g)].map((m) => `${m[1]}-${m[2]}`);
-    for (const hue of bgs) {
-      expect(CSS, hue).toMatch(new RegExp(`--rr-${hue}-fg:`));
-    }
-    expect(bgs.length).toBeGreaterThan(0);
+    expect(offenders(/\bfont-(bold|extrabold|black)\b/g)).toEqual([]);
   });
 });

@@ -16,10 +16,8 @@ const store = createLocalStorageStore<ThemePreference>({
 
 function resolveTheme(preference: ThemePreference): ResolvedTheme {
   if (preference !== "system") return preference;
-  if (typeof window === "undefined") return "dark";
-  return window.matchMedia("(prefers-color-scheme: light)").matches
-    ? "light"
-    : "dark";
+  if (typeof window === "undefined") return "light";
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 }
 
 function apply(preference: ThemePreference): void {

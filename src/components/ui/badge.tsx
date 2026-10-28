@@ -1,79 +1,56 @@
-import type { ReactNode } from "react";
-import { Link } from "@tanstack/react-router";
-import { AREA_LABELS, type Area, type Impact, type UpdateType } from "@/domain/types";
-import { cn } from "@/lib/cn";
+import { mergeProps } from "@base-ui/react/merge-props"
+import { useRender } from "@base-ui/react/use-render"
+import { cva, type VariantProps } from "class-variance-authority"
 
-// Static class strings per value so Tailwind's scanner sees them. A computed
-// `bg-area-${area}-bg` would be invisible to it and silently render unstyled.
-const AREA_STYLES: Record<Area, string> = {
-  observability: "bg-area-observability-bg text-area-observability-fg",
-  monitoring: "bg-area-monitoring-bg text-area-monitoring-fg",
-  databases: "bg-area-databases-bg text-area-databases-fg",
-  gateway: "bg-area-gateway-bg text-area-gateway-fg",
-  secrets: "bg-area-secrets-bg text-area-secrets-fg",
-  security: "bg-area-security-bg text-area-security-fg",
-  gitops: "bg-area-gitops-bg text-area-gitops-fg",
-  platform: "bg-area-platform-bg text-area-platform-fg",
-  apps: "bg-area-apps-bg text-area-apps-fg",
-  "local-stack": "bg-area-local-stack-bg text-area-local-stack-fg",
-  terraform: "bg-area-terraform-bg text-area-terraform-fg",
-  ci: "bg-area-ci-bg text-area-ci-fg",
-  scripts: "bg-area-scripts-bg text-area-scripts-fg",
-  docs: "bg-area-docs-bg text-area-docs-fg",
-};
+import { cn } from "@/lib/utils"
 
-const IMPACT_STYLES: Record<Impact, string> = {
-  none: "bg-impact-none-bg text-impact-none-fg",
-  minor: "bg-impact-minor-bg text-impact-minor-fg",
-  breaking: "bg-impact-breaking-bg text-impact-breaking-fg",
-};
+const badgeVariants = cva(
+  "group/badge inline-flex h-5 w-fit shrink-0 items-center justify-center gap-1 overflow-hidden rounded-4xl border border-transparent px-2 py-0.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&>svg]:pointer-events-none [&>svg]:size-3!",
+  {
+    variants: {
+      variant: {
+        // /90 for the same reason as the default button.
+        default: "bg-primary text-primary-foreground [a]:hover:bg-primary/90",
+        secondary:
+          "bg-secondary text-secondary-foreground [a]:hover:bg-secondary/80",
+        // text-destructive-on-tint, not text-destructive: the base token is
+        // tuned against a solid surface and only reaches 3.98:1 on this 10%
+        // tint at 12px — below WCAG AA. See --destructive-on-tint in index.css.
+        destructive:
+          "bg-destructive/10 text-destructive-on-tint focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:focus-visible:ring-destructive/40 [a]:hover:bg-destructive/20",
+        outline:
+          "border-border text-foreground [a]:hover:bg-muted [a]:hover:text-muted-foreground",
+        ghost:
+          "hover:bg-muted hover:text-muted-foreground dark:hover:bg-muted/50",
+        link: "text-primary underline-offset-4 hover:underline",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+    },
+  }
+)
 
-/** Hollow, half, cross: the state survives a colour-blind reading. */
-export const IMPACT_GLYPH: Record<Impact, string> = {
-  none: "○",
-  minor: "△",
-  breaking: "✕",
-};
-
-const base = "inline-flex h-5 items-center gap-1 rounded-badge px-1.5 text-micro font-medium";
-
-export function AreaBadge({ area, asLink = false }: { area: Area; asLink?: boolean }) {
-  const className = cn(base, AREA_STYLES[area]);
-  const label = AREA_LABELS[area];
-  if (!asLink) return <span className={className}>{label}</span>;
-  return (
-    <Link to="/" search={{ area }} className={cn(className, "hover:brightness-110")}>
-      {label}
-    </Link>
-  );
-}
-
-export function ImpactBadge({ impact, className }: { impact: Impact; className?: string }) {
-  return (
-    <span className={cn(base, IMPACT_STYLES[impact], className)}>
-      <span aria-hidden="true">{IMPACT_GLYPH[impact]}</span>
-      {impact}
-    </span>
-  );
-}
-
-/** The update type is a fact about the bump, not a judgement: neutral. */
-export function UpdateTypeBadge({ type }: { type: UpdateType }) {
-  return <NeutralBadge>{type}</NeutralBadge>;
-}
-
-export function NeutralBadge({
-  children,
+function Badge({
   className,
-  title,
-}: {
-  children: ReactNode;
-  className?: string;
-  title?: string;
-}) {
-  return (
-    <span title={title} className={cn(base, "bg-surface-hover text-fg-muted", className)}>
-      {children}
-    </span>
-  );
+  variant = "default",
+  render,
+  ...props
+}: useRender.ComponentProps<"span"> & VariantProps<typeof badgeVariants>) {
+  return useRender({
+    defaultTagName: "span",
+    props: mergeProps<"span">(
+      {
+        className: cn(badgeVariants({ variant }), className),
+      },
+      props
+    ),
+    render,
+    state: {
+      slot: "badge",
+      variant,
+    },
+  })
 }
+
+export { Badge, badgeVariants }
