@@ -53,7 +53,7 @@ if (totalGzip > WORKER_GZIP_BUDGET) failures.push(`worker bundle ${totalGzip} by
 
 // 4. Every expected page prerendered as a flat file (autoSubfolderIndex:false).
 const htmlCount = walk(CLIENT_DIR).filter((f) => f.endsWith(".html")).length;
-const expected = 1 + index.prs.length;
+const expected = 2 + index.prs.length;
 if (htmlCount !== expected) failures.push(`prerendered ${htmlCount} pages, expected ${expected}`);
 
 // 5. No GitHub credential may appear in anything shipped.

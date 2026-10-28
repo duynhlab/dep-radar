@@ -34,6 +34,11 @@ export default defineConfig([
   {
     settings: { react: { version: "detect" } },
     languageOptions: { globals: { ...globals.browser } },
+    rules: {
+      // Base UI composes through `render={<a … />}`: the anchor's content is
+      // injected by the primitive, so the static rule cannot see it.
+      "jsx-a11y/anchor-has-content": "off",
+    },
   },
   {
     files: ["scripts/**/*.ts", "src/domain/**", "src/server/**", "*.ts"],

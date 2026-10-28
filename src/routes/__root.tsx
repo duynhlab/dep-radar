@@ -19,9 +19,9 @@ export const Route = createRootRoute({
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: SITE_NAME },
       { name: "description", content: SITE_DESCRIPTION },
-      // Dark is the no-JS default; the theme boot script rewrites this to the
+      // Light is the no-JS default; the theme boot script rewrites this to the
       // resolved theme's background before first paint.
-      { name: "theme-color", content: THEME_COLORS.dark },
+      { name: "theme-color", content: THEME_COLORS.light },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -47,7 +47,7 @@ function RootDocument({ children }: { children: ReactNode }) {
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
         <HeadContent />
       </head>
-      <body className="flex min-h-screen flex-col font-sans antialiased">
+      <body className="antialiased">
         <TooltipProvider>
           <AppShell generatedAt={generatedAt}>{children}</AppShell>
         </TooltipProvider>

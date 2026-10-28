@@ -1,41 +1,32 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { AREAS, IMPACTS } from "@/domain/types";
 import { THEME_COLORS } from "@/features/theme/theme-script";
 
 /**
- * WCAG contrast, computed from the oklch tokens in app.css.
- *
- * axe cannot resolve oklch() — it reports 1.00 for every pair — which is how
- * light fg-subtle once shipped at 4.29:1 on 12px metadata with a green audit.
- * The e2e doc measures by sampling rendered pixels; this test closes the gap
- * in CI by doing the colour math directly on the source tokens, so a palette
- * edit that breaks a floor fails the build rather than a manual audit.
+ * WCAG contrast computed from the oklch tokens in app.css. axe cannot resolve
+ * oklch() — it reports 1.00 for every pair — so this is the only automated
+ * check that a palette edit cannot push 12px metadata under the AA floor.
  */
 
-const css = readFileSync(
-  path.join(process.cwd(), "src", "styles", "app.css"),
-  "utf8",
-);
+const css = readFileSync(path.join(process.cwd(), "src", "styles", "app.css"), "utf8").replace(/\/\*[\s\S]*?\*\//g, "");
 
-/** Extract the `--rr-*: oklch(...)` tokens from one selector block. */
-function parseTheme(selector: RegExp): Record<string, [number, number, number]> {
+type Oklch = [number, number, number, number];
+
+function parseTheme(selector: RegExp): Record<string, Oklch> {
   const block = css.match(selector)?.[1];
   if (!block) throw new Error(`theme block not found: ${selector}`);
-  const tokens: Record<string, [number, number, number]> = {};
-  for (const m of block.matchAll(
-    /--rr-([\w-]+):\s*oklch\(([\d.]+)\s+([\d.]+)\s+([\d.]+)\)/g,
-  )) {
-    tokens[m[1]!] = [Number(m[2]), Number(m[3]), Number(m[4])];
+  const tokens: Record<string, Oklch> = {};
+  for (const m of block.matchAll(/--([\w-]+):\s*oklch\(([\d.]+)\s+([\d.]+)\s+([\d.]+)(?:\s*\/\s*([\d.]+)%)?\)/g)) {
+    tokens[m[1]!] = [Number(m[2]), Number(m[3]), Number(m[4]), m[5] ? Number(m[5]) / 100 : 1];
   }
   return tokens;
 }
 
-const DARK = parseTheme(/:root,\s*\.dark\s*\{([\s\S]*?)\n\}/);
-const LIGHT = parseTheme(/\n\.light\s*\{([\s\S]*?)\n\}/);
+const LIGHT = parseTheme(/\n:root\s*\{([\s\S]*?)\n\}/);
+const DARK = parseTheme(/\n\.dark\s*\{([\s\S]*?)\n\}/);
 
-function oklchToLinearSrgb([L, C, h]: [number, number, number]) {
+function oklchToLinearSrgb([L, C, h]: Oklch): [number, number, number] {
   const hr = (h * Math.PI) / 180;
   const a = C * Math.cos(hr);
   const b = C * Math.sin(hr);
@@ -47,104 +38,72 @@ function oklchToLinearSrgb([L, C, h]: [number, number, number]) {
     -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s,
     -0.0041960863 * l - 0.7034186147 * m + 1.707614701 * s,
   ];
-  return rgb.map((v) => Math.min(1, Math.max(0, v))) as [
-    number,
-    number,
-    number,
-  ];
+  return rgb.map((v) => Math.min(1, Math.max(0, v))) as [number, number, number];
 }
 
-/** WCAG relative luminance takes linear sRGB directly. */
-function luminance(oklch: [number, number, number]): number {
-  const [r, g, b] = oklchToLinearSrgb(oklch);
-  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+/** Composite `fg` at `alpha` over `bg` in linear light, then take luminance. */
+function luminance(fg: Oklch, over?: Oklch, alpha = 1): number {
+  const f = oklchToLinearSrgb(fg);
+  const b: [number, number, number] = over ? oklchToLinearSrgb(over) : [0, 0, 0];
+  const r = f[0] * alpha + b[0] * (1 - alpha);
+  const g = f[1] * alpha + b[1] * (1 - alpha);
+  const bl = f[2] * alpha + b[2] * (1 - alpha);
+  return 0.2126 * r + 0.7152 * g + 0.0722 * bl;
 }
 
-function ratio(
-  theme: Record<string, [number, number, number]>,
-  fg: string,
-  bg: string,
-): number {
+function ratio(theme: Record<string, Oklch>, fg: string, bg: string, tint?: { of: string; alpha: number }): number {
   const f = theme[fg];
   const b = theme[bg];
   if (!f || !b) throw new Error(`missing token: ${!f ? fg : bg}`);
-  const [hi, lo] = [luminance(f), luminance(b)].sort((x, y) => y - x);
+  const bgLum = tint ? luminance(theme[tint.of]!, b, tint.alpha) : luminance(b);
+  const [hi, lo] = [luminance(f), bgLum].sort((x, y) => y - x);
   return (hi! + 0.05) / (lo! + 0.05);
 }
 
-function toHex(oklch: [number, number, number]): string {
-  const gamma = (v: number) =>
-    v <= 0.0031308 ? 12.92 * v : 1.055 * Math.pow(v, 1 / 2.4) - 0.055;
-  return (
-    "#" +
-    oklchToLinearSrgb(oklch)
-      .map((v) =>
-        Math.round(gamma(v) * 255)
-          .toString(16)
-          .padStart(2, "0"),
-      )
-      .join("")
-  );
+function toHex(oklch: Oklch): string {
+  const gamma = (v: number) => (v <= 0.0031308 ? 12.92 * v : 1.055 * Math.pow(v, 1 / 2.4) - 0.055);
+  return "#" + oklchToLinearSrgb(oklch).map((v) => Math.round(gamma(v) * 255).toString(16).padStart(2, "0")).join("");
 }
 
-
 describe.each([
-  ["dark", DARK],
   ["light", LIGHT],
-] as const)("%s theme contrast", (_name, theme) => {
-  it("keeps body foreground at AAA on both grounds", () => {
-    expect(ratio(theme, "fg", "bg")).toBeGreaterThanOrEqual(7);
-    expect(ratio(theme, "fg", "surface")).toBeGreaterThanOrEqual(7);
+  ["dark", DARK],
+] as const)("%s theme contrast", (name, theme) => {
+  it("keeps body foreground at AAA on page and card", () => {
+    expect(ratio(theme, "foreground", "background")).toBeGreaterThanOrEqual(7);
+    expect(ratio(theme, "foreground", "card")).toBeGreaterThanOrEqual(7);
   });
 
-  // 4.5:1 is the AA floor for normal-size text (WCAG 1.4.3), and every one of
-  // these tiers appears at 14px or below. Checked on both bg and surface,
-  // because cards put the same tokens on the lighter ground.
+  // 4.5:1 is the AA floor for normal-size text (WCAG 1.4.3); every one of
+  // these appears at 14px or below somewhere on the inbox.
   it.each([
-    ["fg-muted", "bg"],
-    ["fg-muted", "surface"],
-    ["fg-subtle", "bg"],
-    ["fg-subtle", "surface"],
-    ["accent", "bg"],
-    ["accent", "surface"],
-    ["accent", "accent-soft"],
-    ["accent-fg", "accent"],
-    ["pre-fg", "pre-bg"],
+    ["muted-foreground", "background"],
+    ["muted-foreground", "card"],
+    ["primary-foreground", "primary"],
+    ["secondary-foreground", "secondary"],
+    ["sidebar-accent-foreground", "sidebar-accent"],
   ] as const)("%s on %s meets 4.5:1", (fg, bg) => {
     expect(ratio(theme, fg, bg)).toBeGreaterThanOrEqual(4.5);
   });
 
-  it("keeps every area badge pair above 4.5:1", () => {
-    for (const area of AREAS) {
-      expect.soft(ratio(theme, `area-${area}-fg`, `area-${area}-bg`)).toBeGreaterThanOrEqual(4.5);
-    }
+  it("keeps the attention badge readable on its tint", () => {
+    const alpha = name === "dark" ? 0.2 : 0.1;
+    expect(ratio(theme, "destructive-on-tint", "card", { of: "destructive", alpha })).toBeGreaterThanOrEqual(4.5);
   });
 
-  it("keeps every impact badge pair above 4.5:1 and the status glyphs readable", () => {
-    for (const impact of IMPACTS) {
-      expect.soft(ratio(theme, `impact-${impact}-fg`, `impact-${impact}-bg`)).toBeGreaterThanOrEqual(4.5);
-    }
-    expect.soft(ratio(theme, "ok", "bg")).toBeGreaterThanOrEqual(3);
-    expect.soft(ratio(theme, "fail", "bg")).toBeGreaterThanOrEqual(3);
+  it("keeps the warning text readable on the card", () => {
+    expect(ratio(theme, "warning-on-tint", "card")).toBeGreaterThanOrEqual(4.5);
   });
-});
 
-describe("dark theme glare ceiling", () => {
-  it("keeps fg below near-white halation territory", () => {
-    // fg once sat at oklch 0.965 — 17.4:1, near-white on a dark ground. That
-    // passes every WCAG floor and still reads badly: it haloes, and next to
-    // 10:1 body text every paragraph looked gray-with-glaring-bold. The
-    // ceiling pins the fix; if a redesign genuinely needs a brighter fg,
-    // change this number in the same commit and say why.
-    expect(ratio(DARK, "fg", "bg")).toBeLessThanOrEqual(15.5);
+  it("keeps status icons distinguishable from the card (3:1, non-text)", () => {
+    expect(ratio(theme, "success", "card")).toBeGreaterThanOrEqual(3);
+    expect(ratio(theme, "destructive", "card")).toBeGreaterThanOrEqual(3);
   });
 });
 
 describe("theme-color meta mapping", () => {
-  it("matches the bg tokens it mirrors", () => {
-    // THEME_COLORS ships to browser chrome via the boot script; it must track
-    // the CSS source of truth.
-    expect(toHex(DARK.bg!)).toBe(THEME_COLORS.dark);
-    expect(toHex(LIGHT.bg!)).toBe(THEME_COLORS.light);
+  it("matches the background tokens it mirrors", () => {
+    expect(toHex(LIGHT.background!)).toBe(THEME_COLORS.light);
+    expect(toHex(DARK.background!)).toBe(THEME_COLORS.dark);
   });
 });

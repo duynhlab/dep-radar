@@ -7,6 +7,11 @@ allowBuilds:
   sharp: true
   agent-browser: true
 
+minimumReleaseAgeExclude:
+  - lucide-react@1.63.0
+  - miniflare@5.20261023.1-beta
+  - wrangler@4.154.0
+
 # pnpm 11 reads overrides here, not from package.json.
 #
 # brace-expansion is lint-time only (eslint plugin chain) and pins forward

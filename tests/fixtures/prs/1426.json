@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "syncedAt": "2026-10-28T12:00:00.000Z",
+  "number": 1426,
+  "title": "chore(deps): update grafana/grafana docker tag to v13.3.0",
+  "url": "https://github.com/duynhlab/homelab/pull/1426",
+  "branch": "renovate/grafana-monorepo",
+  "author": "renovate[bot]",
+  "state": "open",
+  "isDraft": false,
+  "headSha": "def0727c643ca5bae8ff00000000000000000000",
+  "mergeable": "MERGEABLE",
+  "ci": "SUCCESS",
+  "labels": ["impact/breaking", "ai/needs-verification", "size/XS"],
+  "files": ["kubernetes/infra/configs/observability/grafana/grafana.yaml", "local-stack/compose.yaml"],
+  "areas": ["monitoring", "local-stack"],
+  "createdAt": "2026-10-28T02:10:00Z",
+  "updatedAt": "2026-10-28T09:40:00Z",
+  "mergedAt": null,
+  "closedAt": null,
+  "dependency": {
+    "name": "grafana/grafana",
+    "updateType": "minor",
+    "from": "13.2.3",
+    "to": "13.3.0",
+    "sourceUrl": "https://github.com/grafana/grafana"
+  },
+  "releaseNotesMarkdown": "### grafana/grafana\n\n### [`v13.3.0`](https://github.com/grafana/grafana/blob/HEAD/CHANGELOG.md#1330-2026-10-27)\n\n##### Security\n\n- Security: Fix CVE-2026-100105\n- Security: Fix CVE-2026-13719\n\n##### Features and enhancements\n\n- **Dashboards:** Make the auto grid to be default [#130749](https://github.com/grafana/grafana/pull/130749)\n- **Packaging:** Remove bash dependency from alpine Docker image [#132643](https://github.com/grafana/grafana/pull/132643)\n- **Provisioning:** Add generic git OAuth app connections [#134186](https://github.com/grafana/grafana/pull/134186)\n\n##### Bug fixes\n\n- **Alerting:** Fix import wizard losing staged config on reload\n",
+  "notesTruncated": false,
+  "review": {
+    "schema_version": 1,
+    "pr": 1426,
+    "head_sha": "def0727c643ca5bae8ff00000000000000000000",
+    "reviewed_at": "2026-10-28T09:45:12Z",
+    "prompt_version": 1,
+    "model": "gpt-5",
+    "dependency": {
+      "name": "grafana/grafana",
+      "manager": "docker",
+      "update_type": "minor",
+      "from": "13.2.3",
+      "to": "13.3.0",
+      "notes_truncated": false,
+      "first_party": false
+    },
+    "verdict": "hold",
+    "hold_reason": "image-level-bootstrap-proof",
+    "impact": "breaking",
+    "summary": "13.3.0 removes bash from the alpine image. local-stack/compose.yaml runs a /bin/bash init script against this image; the cluster uses the operator-managed image and is unaffected. Switch the script to sh or verify the image before merging.",
+    "breaking": [
+      {
+        "title": "Packaging: remove bash dependency from alpine Docker image",
+        "relevant": true,
+        "why": "local-stack/compose.yaml grafana init command starts with /bin/bash",
+        "version": "13.3.0",
+        "evidence_url": "https://github.com/grafana/grafana/pull/132643"
+      },
+      {
+        "title": "Dashboards: make the auto grid the default",
+        "relevant": false,
+        "why": "every provisioned dashboard under the grafana dashboards directory sets explicit gridPos",
+        "version": "13.3.0",
+        "evidence_url": "https://github.com/grafana/grafana/pull/130749"
+      }
+    ],
+    "features": [
+      {
+        "title": "Provisioning: generic git OAuth app connections",
+        "useful_for_repo": true,
+        "why": "would let the as-code dashboards sync from GitHub without the obs-as-code OCI hop",
+        "evidence_url": "https://github.com/grafana/grafana/pull/134186"
+      }
+    ],
+    "affected_files": [
+      { "path": "local-stack/compose.yaml", "role": "compose", "note": "grafana service image pin and bash init script" },
+      { "path": "kubernetes/infra/configs/observability/grafana/grafana.yaml", "role": "manifest", "note": "Grafana CR image pin" }
+    ],
+    "verification": [
+      { "step": "docker compose up grafana and confirm the init script completes", "kind": "runtime" },
+      { "step": "change the init command shebang to /bin/sh if bash is gone", "kind": "docs" }
+    ],
+    "related_prs": [{ "number": 1425, "relationship": "same-family", "note": "victorialogs datasource plugin pin" }],
+    "evidence": [
+      { "label": "Release notes 13.3.0", "url": "https://github.com/grafana/grafana/blob/HEAD/CHANGELOG.md#1330-2026-10-27" }
+    ],
+    "notes": []
+  },
+  "reviewState": "fresh",
+  "reviewError": null,
+  "reviewCommentUrl": "https://github.com/duynhlab/homelab/pull/1426#issuecomment-1",
+  "bucket": "breaking"
+}

@@ -45,6 +45,7 @@ Merged and closed PRs stay for 30 days as history, then drop out.
 | Command | Purpose |
 |---|---|
 | `pnpm sync` | Snapshot the PRs (needs `GITHUB_TOKEN`; read-only) |
+| `pnpm dev:fixture` | Overlay the review fixtures onto `data/` for a local preview; `pnpm sync` restores |
 | `pnpm gen` | Validate `data/index.json`, emit the typed module, copy PR assets |
 | `pnpm dev` | Vite dev server |
 | `pnpm test` | Vitest: unit + dom + worker projects |
@@ -67,6 +68,9 @@ Merged and closed PRs stay for 30 days as history, then drop out.
 | `src/data/` | Isomorphic accessors: bundled index, asset-fetched PR records |
 | `src/features/inbox/` | Filters, URL search params, the inbox view |
 | `src/components/review/` | Detail-page sections: verdict, breaking, affected files, checklist, provenance |
+| `src/components/app/` | Application wrappers over the shadcn primitives: status badges, status icons, detail header and field grid, chips |
+| `src/components/ui/` | shadcn `base-nova` primitives (Base UI), kept pristine |
+| `.claude/skills/product-design/` | The design contract the UI follows (vendored from admin-service) |
 | `data/` | **Generated.** Never edit by hand; the sync overwrites it |
 | `.github/workflows/sync.yaml` | Twice-daily sync, `contents: write`, commits only if `data/` changed |
 

@@ -11,8 +11,8 @@ export interface PrerenderPage {
 }
 
 /**
- * The authoritative prerender list: the inbox plus one page per PR in the
- * index. Derived from the same validated index the routes read, so
+ * The authoritative prerender list: the inbox, the history page and one page
+ * per PR in the index. Derived from the same validated index the routes read, so
  * "prerendered set == 404-free set" holds by construction.
  */
 export function buildPrerenderPages(index: PrIndex): PrerenderPage[] {
@@ -22,6 +22,11 @@ export function buildPrerenderPages(index: PrIndex): PrerenderPage[] {
       path: "/",
       prerender: { enabled: true },
       sitemap: { priority: 1, changefreq: "hourly", lastmod },
+    },
+    {
+      path: "/history",
+      prerender: { enabled: true },
+      sitemap: { priority: 0.5, changefreq: "daily", lastmod },
     },
     ...index.prs.map((pr) => ({
       path: `/prs/${pr.number}`,

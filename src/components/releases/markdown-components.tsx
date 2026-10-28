@@ -6,7 +6,7 @@ function NoteLink({ href, children, ...rest }: ComponentPropsWithoutRef<"a">) {
   const kind = classifyNoteHref(href);
   if (!kind) {
     return (
-      <span data-blocked-href="" className="rr-notes__blocked">
+      <span data-blocked-href="" className="notes__blocked">
         {children}
       </span>
     );
@@ -34,7 +34,7 @@ function NoteImage({ src, alt, title }: ComponentPropsWithoutRef<"img">) {
         title={title}
         loading="lazy"
         decoding="async"
-        className="max-w-full rounded-control"
+        className="max-w-full rounded-md"
       />
     );
   }
@@ -47,12 +47,12 @@ function NoteImage({ src, alt, title }: ComponentPropsWithoutRef<"img">) {
       target="_blank"
       rel="noopener noreferrer nofollow ugc"
       data-blocked-image=""
-      className="rr-notes__blocked"
+      className="notes__blocked"
     >
       {label}
     </a>
   ) : (
-    <span data-blocked-image="" className="rr-notes__blocked">
+    <span data-blocked-image="" className="notes__blocked">
       {label}
     </span>
   );
@@ -70,8 +70,8 @@ function noteHeading(className: string) {
   };
 }
 
-const NoteHeadingPrimary = noteHeading("text-card-title font-semibold text-fg");
-const NoteHeadingSecondary = noteHeading("text-body font-semibold text-fg");
+const NoteHeadingPrimary = noteHeading("text-base font-medium");
+const NoteHeadingSecondary = noteHeading("text-sm font-medium");
 
 /*
  * Code blocks and tables scroll horizontally, and axe's
@@ -93,7 +93,7 @@ export function NotePre(props: ComponentPropsWithoutRef<"pre">) {
 export function NoteTable({ children, ...rest }: ComponentPropsWithoutRef<"table">) {
   return (
     // eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex -- axe scrollable-region-focusable
-    <div className="rr-notes__scroll" tabIndex={0}>
+    <div className="notes__scroll" tabIndex={0}>
       <table {...rest}>{children}</table>
     </div>
   );
