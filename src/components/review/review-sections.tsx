@@ -122,7 +122,7 @@ export function BreakingList({ review }: { review: Review }) {
 }
 
 export function FeaturesList({ review }: { review: Review }) {
-  const useful = (review.features ?? []).filter((f) => f.useful_for_homelab);
+  const useful = (review.features ?? []).filter((f) => f.useful_for_repo);
   if (useful.length === 0) return null;
   return (
     <section aria-labelledby="features">

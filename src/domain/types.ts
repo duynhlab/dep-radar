@@ -180,7 +180,7 @@ export const ReviewSchema = z.strictObject({
     .array(
       z.strictObject({
         title: z.string().min(1),
-        useful_for_homelab: z.boolean().optional(),
+        useful_for_repo: z.boolean().optional(),
         why: z.string().optional(),
         evidence_url: url.optional(),
       }),
