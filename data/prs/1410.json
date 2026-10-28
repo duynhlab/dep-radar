@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "databases"
+  ],
+  "author": "renovate",
+  "branch": "renovate/ghcr.io-pgdogdev-pgdog-0.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-28T12:28:58Z",
+  "dependency": {
+    "from": "v0.1.61",
+    "name": "ghcr.io/pgdogdev/pgdog",
+    "sourceUrl": "https://github.com/pgdogdev/pgdog",
+    "to": "0.1.62",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/databases/clusters/product-db/poolers/helmrelease.yaml"
+  ],
+  "headSha": "6297cbe26639185eb1d29c6cd5cc05bf2e9c641b",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1410,
+  "releaseNotesMarkdown": "### pgdogdev/pgdog (ghcr.io/pgdogdev/pgdog)\n\n### [`v0.1.62`](https://redirect.github.com/pgdogdev/pgdog/blob/HEAD/CHANGELOG.md#v0162)\n\n[Compare Source](https://redirect.github.com/pgdogdev/pgdog/compare/v0.1.61...v0.1.62)\n\n| Application | Docker image                     |\n| ----------- | -------------------------------- |\n| PgDog       | `ghcr.io/pgdogdev/pgdog:v0.1.62` |\n\n##### Features\n\n- Basic support for cross-shard subqueries [@&#8203;jkaczman](https://redirect.github.com/jkaczman)\n- Add `auth_type` config to user entries in `users.toml` [@&#8203;levkk](https://redirect.github.com/levkk) [@&#8203;BABTUNA](https://redirect.github.com/BABTUNA)\n- Use replication origin to track replication progress during resharding. This makes it durable and allows us to recover progress after a crash (still a TODO). [@&#8203;meskill](https://redirect.github.com/meskill)\n- Add row-level metrics for DML/DDL queries [@&#8203;murex971](https://redirect.github.com/murex971)\n- Ensure non-deterministic functions like `now()` return consistent results in cross-shard DELETEs [@&#8203;jkaczman](https://redirect.github.com/jkaczman)\n- Support parsing custom logical messages to handle DDL replication [@&#8203;jkaczman](https://redirect.github.com/jkaczman)\n\n##### Bug fixes\n\n- `pg_try_advisory_lock` handling was optimistic / did not account for lock not being actually available. PgDog will only pin the session now if the lock was actually acquired. [@&#8203;levkk](https://redirect.github.com/levkk)\n- `DISCARD ALL` returned wrong command tag, breaking JDBC driver prepared statements handling [@&#8203;levkk](https://redirect.github.com/levkk)\n- `SET` now correctly overrides `SET LOCAL` inside a transaction [@&#8203;levkk](https://redirect.github.com/levkk)\n- `RESET` now correctly restores startup parameters [@&#8203;levkk](https://redirect.github.com/levkk)\n- `ROLLBACK` no longer undo's a `RESET` from previous transaction [@&#8203;levkk](https://redirect.github.com/levkk)\n- Invalid parameter settings would leave server connection in a partial/dirty state [@&#8203;levkk](https://redirect.github.com/levkk)\n- Parameter names were incorrectly escaped [@&#8203;levkk](https://redirect.github.com/levkk)\n- `SET LOCAL [...] TO DEFAULT` would be incorrectly treated as `SET` [@&#8203;anna-poutanen](https://redirect.github.com/anna-poutanen)\n- PgDog now compiles under FreeBSD [@&#8203;mahlonsmith](https://redirect.github.com/mahlonsmith)\n- `COPY` identifiers (table name and column names) are now correctly escaped during resharding [@&#8203;BABTUNA](https://redirect.github.com/BABTUNA)\n- Correctly handle `ABORT` and `END` when query parser is off. This was regression introduced in v0.1.60. [@&#8203;levkk](https://redirect.github.com/levkk) [@&#8203;valanor-vaelmir](https://redirect.github.com/valanor-vaelmir)\n- Correctly detect sharding key in join clause [@&#8203;levkk](https://redirect.github.com/levkk) [@&#8203;PeterZaitsev](https://redirect.github.com/PeterZaitsev)\n- Correctly check that each shard committed the transaction before returning success during resharding [@&#8203;jkaczman](https://redirect.github.com/jkaczman)\n- Unsupported agggregate functions now return an `ERROR` instead of `FATAL` [@&#8203;levkk](https://redirect.github.com/levkk) [@&#8203;PeterZaitsev](https://redirect.github.com/PeterZaitsev)\n- Fix `avg()` scale for cross-shard numerics [@&#8203;murex971](https://redirect.github.com/murex971) [@&#8203;PeterZaitsev](https://redirect.github.com/PeterZaitsev)\n\n##### Performance\n\n- Reduce memory usage of prepared statements cache after bursts of new statements are added and removed. This affects drivers like `tokio-postgres`, `go/pq`, `Postgrex` and others that prepare one-off prepared statements to execute queries\n\n##### Code quality\n\n- Improve replication benchmark [@&#8203;meskill](https://redirect.github.com/meskill)\n- Microbenchmarks for our query engine [@&#8203;jkaczman](https://redirect.github.com/jkaczman)",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.62",
+  "updatedAt": "2026-10-28T13:51:41Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1410"
+}

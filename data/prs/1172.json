@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "ci"
+  ],
+  "author": "renovate",
+  "branch": "renovate/renovatebot-github-action-46.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-01T04:50:23Z",
+  "createdAt": "2026-10-01T04:48:47Z",
+  "dependency": {
+    "from": "v46.3.4",
+    "name": "renovatebot/github-action",
+    "sourceUrl": "https://github.com/renovatebot/github-action",
+    "to": "v46.3.6",
+    "updateType": "patch"
+  },
+  "files": [
+    ".github/workflows/renovate.yml"
+  ],
+  "headSha": "44cc5729b9854151d266f75bd221dfbd514a015f",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-01T04:50:23Z",
+  "notesTruncated": false,
+  "number": 1172,
+  "releaseNotesMarkdown": "### renovatebot/github-action (renovatebot/github-action)\n\n### [`v46.3.6`](https://redirect.github.com/renovatebot/github-action/releases/tag/v46.3.6)\n\n[Compare Source](https://redirect.github.com/renovatebot/github-action/compare/v46.3.5...v46.3.6)\n\n##### Bug Fixes\n\n- ensure logs use coloured output ([#&#8203;1083](https://redirect.github.com/renovatebot/github-action/issues/1083)) ([c368bd1](https://redirect.github.com/renovatebot/github-action/commit/c368bd1b3d8eed82a170a7f7d243e7f555ba3501)), closes [#&#8203;970](https://redirect.github.com/renovatebot/github-action/issues/970)\n\n##### Documentation\n\n- update references to renovatebot/github-action to v46.3.5 ([95f5665](https://redirect.github.com/renovatebot/github-action/commit/95f566512987884f16c085b49a7aef3f76fb3c16))\n\n##### Miscellaneous Chores\n\n- **deps:** update dependency typescript-eslint to v8.70.1 ([339064e](https://redirect.github.com/renovatebot/github-action/commit/339064e8edec2397719fa63793ba155f84d3e57d))\n- **deps:** update semantic-release monorepo ([a0ea084](https://redirect.github.com/renovatebot/github-action/commit/a0ea08461f352d4a50cf3cf63ed521e5e9af9d33))\n\n##### Continuous Integration\n\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.116.0 ([ecd6815](https://redirect.github.com/renovatebot/github-action/commit/ecd68155e183cdac3bd14c5b7265367c99f28ef9))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.116.1 ([687bf74](https://redirect.github.com/renovatebot/github-action/commit/687bf74d45080d8f67fe04e04bf6b799ff272028))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.117.0 ([38b166e](https://redirect.github.com/renovatebot/github-action/commit/38b166ec0c831e8538da154f9073f6a2af469149))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.117.1 ([d2f2ff9](https://redirect.github.com/renovatebot/github-action/commit/d2f2ff9e532a28b6baf412aac6577bf0f6c8a38f))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.117.2 ([79feb4a](https://redirect.github.com/renovatebot/github-action/commit/79feb4a54423887f86c520d5e480a275b466aca0))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.118.1 ([b33ff4f](https://redirect.github.com/renovatebot/github-action/commit/b33ff4f9d1f027f347a27d422d5f3538a13d271c))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.119.1 ([1155eb1](https://redirect.github.com/renovatebot/github-action/commit/1155eb1e83d2dbbdda6609edabce2f2a1d27e7cf))\n\n### [`v46.3.5`](https://redirect.github.com/renovatebot/github-action/releases/tag/v46.3.5)\n\n[Compare Source](https://redirect.github.com/renovatebot/github-action/compare/v46.3.4...v46.3.5)\n\n##### Documentation\n\n- update references to renovatebot/github-action to v46.3.4 ([daa3d6d](https://redirect.github.com/renovatebot/github-action/commit/daa3d6d6901fb4b7257eb732891dafa86fb1aded))\n\n##### Miscellaneous Chores\n\n- **deps:** update commitlint monorepo to v21.2.3 ([4857c68](https://redirect.github.com/renovatebot/github-action/commit/4857c6870eafcecffd130e3a1dee7a5083ea9489))\n- **deps:** update dependency [@&#8203;types/node](https://redirect.github.com/types/node) to v24.13.6 ([c9c68ec](https://redirect.github.com/renovatebot/github-action/commit/c9c68ecc828692d6f6f37f4c8b3473dd08afa08c))\n\n##### Build System\n\n- **deps:** lock file maintenance ([be286e9](https://redirect.github.com/renovatebot/github-action/commit/be286e9e5546b48a9ec908327a52bb01450bd982))\n\n##### Continuous Integration\n\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.115.10 ([3cbf83a](https://redirect.github.com/renovatebot/github-action/commit/3cbf83af7f631ee317a23bd0aaf1db118135b6e1))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.115.12 ([005d8b7](https://redirect.github.com/renovatebot/github-action/commit/005d8b762c2e38fbc2bec0a164e186b90d5e2ef4))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.115.13 ([dbe3ae6](https://redirect.github.com/renovatebot/github-action/commit/dbe3ae60b9a7731e3404398560ab2900579fb4c5))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.115.5 ([398f238](https://redirect.github.com/renovatebot/github-action/commit/398f23884bb47796c8534f40e6f7f529f04cc726))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.115.6 ([a5ad697](https://redirect.github.com/renovatebot/github-action/commit/a5ad69776fa342951e8bf949916274aba5eed1a7))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.115.7 ([8e0a2ed](https://redirect.github.com/renovatebot/github-action/commit/8e0a2ed52d8dc272216f87e3214c0930c3e7d01f))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.115.9 ([cd624bc](https://redirect.github.com/renovatebot/github-action/commit/cd624bc9d4cf3e55b848afde542c3d4b7dbbf816))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update renovatebot/github-action action to v46.3.6",
+  "updatedAt": "2026-10-01T04:50:25Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1172"
+}

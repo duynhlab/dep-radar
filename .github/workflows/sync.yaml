@@ -1,0 +1,62 @@
+name: Sync pull requests
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 09:23 + 21:23 local time; off the hour to dodge peak-load delays, and a
+    # few minutes after release-radar's sync so the two never race for runners.
+    - cron: "23 9,21 * * *"
+      timezone: "Asia/Ho_Chi_Minh"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-prs
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # The source repository is public, so the job token is enough to read
+      # pull requests, comments and check rollups.
+      - name: Sync Renovate pull requests
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync.ts
+
+      # ci.yaml skips data-only pushes, but Cloudflare still rebuilds on them.
+      # `pnpm gen` runs the exact IndexSchema parse the build performs, so a
+      # malformed index fails here instead of in an unattended Workers Build.
+      - name: Verify the synced data builds
+        run: pnpm gen
+
+      - name: Commit and push if changed
+        run: |
+          if [[ -n "$(git status --porcelain data)" ]]; then
+            git config user.name  "duynebot"
+            git config user.email "duynebot@users.noreply.github.com"
+            git add data
+            git commit -m "chore(data): sync pull requests $(date -u +%F)"
+            git push
+          else
+            echo "No changes, skipping commit"
+          fi

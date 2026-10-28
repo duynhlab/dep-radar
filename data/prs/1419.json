@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/valkey-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:29:52Z",
+  "createdAt": "2026-10-28T12:31:56Z",
+  "dependency": {
+    "from": "0.12.0",
+    "name": "valkey",
+    "sourceUrl": "https://valkey.io/valkey-helm/",
+    "to": "0.12.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/caching/valkey/helmrelease.yaml"
+  ],
+  "headSha": "06978913d99b4f713fc5eb83c44fd9d616b47860",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:29:52Z",
+  "notesTruncated": false,
+  "number": 1419,
+  "releaseNotesMarkdown": "### valkey-io/valkey-helm (valkey)\n\n### [`v0.12.1`](https://redirect.github.com/valkey-io/valkey-helm/releases/tag/valkey-0.12.1)\n\n[Compare Source](https://redirect.github.com/valkey-io/valkey-helm/compare/valkey-0.12.0...valkey-0.12.1)\n\nA Helm chart for Kubernetes\n\n##### What's Changed\n\n- Fix formatting in statefulset.yaml by [@&#8203;bingneef](https://redirect.github.com/bingneef) in [#&#8203;243](https://redirect.github.com/valkey-io/valkey-helm/pull/243)\n\n##### New Contributors\n\n- [@&#8203;bingneef](https://redirect.github.com/bingneef) made their first contribution in [#&#8203;243](https://redirect.github.com/valkey-io/valkey-helm/pull/243)\n\n**Full Changelog**: <https://github.com/valkey-io/valkey-helm/compare/valkey-0.12.0...valkey-0.12.1>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release valkey to v0.12.1",
+  "updatedAt": "2026-10-28T14:29:55Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1419"
+}

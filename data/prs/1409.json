@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "apps"
+  ],
+  "author": "renovate",
+  "branch": "renovate/ghcr.io-duynhlab-order-service-order-service-2.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:29:10Z",
+  "createdAt": "2026-10-28T12:28:50Z",
+  "dependency": {
+    "from": "2.10.6",
+    "name": "ghcr.io/duynhlab/order-service/order-service",
+    "sourceUrl": "https://github.com/duynhlab/order-service",
+    "to": "2.10.7",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/apps/order-worker.yaml"
+  ],
+  "headSha": "f05b7b6529798d6eb3f5ccbc01e3d8afe334d73f",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:29:10Z",
+  "notesTruncated": false,
+  "number": 1409,
+  "releaseNotesMarkdown": "### duynhlab/order-service (ghcr.io/duynhlab/order-service/order-service)\n\n### [`v2.10.7`](https://redirect.github.com/duynhlab/order-service/releases/tag/v2.10.7)\n\n[Compare Source](https://redirect.github.com/duynhlab/order-service/compare/v2.10.6...v2.10.7)\n\n##### Changelog\n\n- [`e406795`](https://redirect.github.com/duynhlab/order-service/commit/e4067956bf465186e7cafa6702a1b9a149319d51): Flush telemetry on its own shutdown budget (@&#8203;[@&#8203;duynhne](https://redirect.github.com/duynhne))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update ghcr.io/duynhlab/order-service/order-service docker tag to v2.10.7",
+  "updatedAt": "2026-10-28T14:29:12Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1409"
+}

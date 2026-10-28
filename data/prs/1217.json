@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/valkey-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-13T00:17:11Z",
+  "createdAt": "2026-10-05T09:49:34Z",
+  "dependency": {
+    "from": "0.11.0",
+    "name": "valkey",
+    "sourceUrl": "https://valkey.io/valkey-helm/",
+    "to": "0.12.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/caching/valkey/helmrelease.yaml"
+  ],
+  "headSha": "e8133abd94a8adfec742c4d365f0ba046b6f444c",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-13T00:17:11Z",
+  "notesTruncated": false,
+  "number": 1217,
+  "releaseNotesMarkdown": "### valkey-io/valkey-helm (valkey)\n\n### [`v0.12.0`](https://redirect.github.com/valkey-io/valkey-helm/releases/tag/valkey-0.12.0)\n\n[Compare Source](https://redirect.github.com/valkey-io/valkey-helm/compare/valkey-0.11.0...valkey-0.12.0)\n\nA Helm chart for Kubernetes\n\n#### What's Changed\n\n- updated valkey version from 9.1.1->9.1.2 by [@&#8203;Bloodraven21](https://redirect.github.com/Bloodraven21) in [#&#8203;246](https://redirect.github.com/valkey-io/valkey-helm/pull/246)\n\n**Full Changelog**: <https://github.com/valkey-io/valkey-helm/compare/valkey-operator-0.6.0...valkey-0.12.0>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release valkey to v0.12.0",
+  "updatedAt": "2026-10-13T00:17:14Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1217"
+}

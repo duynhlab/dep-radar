@@ -1,0 +1,43 @@
+{
+  "areas": [
+    "platform",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/otel-opentelemetry-collector-contrib-0.x",
+  "bucket": "closed",
+  "ci": "SUCCESS",
+  "closedAt": "2026-09-30T16:08:34Z",
+  "createdAt": "2026-09-06T15:43:39Z",
+  "dependency": {
+    "from": "0.159.0",
+    "name": "otel/opentelemetry-collector-contrib",
+    "sourceUrl": "https://github.com/open-telemetry/opentelemetry-collector-releases",
+    "to": "0.161.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/tracing/otel-collector/otel-collector.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "7de3004e903a67b4f7412b435fa03fe474432278",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1016,
+  "releaseNotesMarkdown": "### open-telemetry/opentelemetry-collector-releases (otel/opentelemetry-collector-contrib)\n\n### [`v0.161.0`](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/blob/HEAD/CHANGELOG.md#v01610)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/compare/v0.160.0...v0.161.0)\n\n##### 🛑 Breaking changes 🛑\n\n- `all`: Remove the deprecated mezmo exporter. ([#&#8203;49953](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/49953))\n  Use the OTLP/HTTP exporter to send logs directly to Mezmo instead. See\n  <https://docs.mezmo.com/telemetry-pipelines/otel-collector> and\n  <https://docs.mezmo.com/telemetry-pipelines/open-telemetry-source> for migration guidance.\n\n##### 💡 Enhancements 💡\n\n- `otelcol-contrib`: Upgrade go.opentelemetry.io/obi to v0.13.0 ([#&#8203;1643](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1643))\n\n### [`v0.160.0`](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/blob/HEAD/CHANGELOG.md#v01600)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/compare/v0.159.0...v0.160.0)\n\n##### 🚀 New components 🚀\n\n- `spanpruningprocessor`: Added missing spanpruningprocessor to otelcol-contrib ([#&#8203;1608](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1608))\n\n##### 💡 Enhancements 💡\n\n- `otelcol-contrib`: Upgrade go.opentelemetry.io/obi to v0.11.0. ([#&#8203;1604](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1604))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "closed",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update otel/opentelemetry-collector-contrib docker tag to v0.161.0",
+  "updatedAt": "2026-09-30T16:13:23Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1016"
+}

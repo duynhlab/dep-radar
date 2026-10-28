@@ -1,0 +1,43 @@
+{
+  "areas": [
+    "monitoring",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/grafana-monorepo",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-04T04:36:50Z",
+  "createdAt": "2026-10-01T04:48:35Z",
+  "dependency": {
+    "from": "13.2.2",
+    "name": "grafana/grafana",
+    "sourceUrl": "https://github.com/grafana/grafana",
+    "to": "13.2.3",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/grafana/grafana.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "8875bd25ab9536b83ad296497a15a80f7d0fe69f",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-04T04:36:50Z",
+  "notesTruncated": false,
+  "number": 1170,
+  "releaseNotesMarkdown": "### grafana/grafana (grafana/grafana)\n\n### [`v13.2.3`](https://redirect.github.com/grafana/grafana/blob/HEAD/CHANGELOG.md#1323-2026-09-29)\n\n##### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841\n\n<!-- 13.2.3 END -->\n\n<!-- 13.2.2 START -->",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update grafana/grafana docker tag to v13.2.3",
+  "updatedAt": "2026-10-04T04:36:53Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1170"
+}

@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/rustfs-rustfs-1.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-28T12:32:16Z",
+  "dependency": {
+    "from": "1.0.1",
+    "name": "rustfs/rustfs",
+    "sourceUrl": null,
+    "to": "1.0.4",
+    "updateType": "patch"
+  },
+  "files": [
+    "local-stack/compose.analytics.yaml"
+  ],
+  "headSha": "cedf4d3d2be6ae4bad112ab985c44c2141379af0",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1422,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update rustfs/rustfs docker tag to v1.0.4",
+  "updatedAt": "2026-10-28T13:52:48Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1422"
+}

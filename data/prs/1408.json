@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "apps"
+  ],
+  "author": "renovate",
+  "branch": "renovate/ghcr.io-duynhlab-checkout-service-checkout-service-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:28:56Z",
+  "createdAt": "2026-10-28T12:28:43Z",
+  "dependency": {
+    "from": "0.13.6",
+    "name": "ghcr.io/duynhlab/checkout-service/checkout-service",
+    "sourceUrl": "https://github.com/duynhlab/checkout-service",
+    "to": "0.13.7",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/apps/checkout-worker.yaml"
+  ],
+  "headSha": "80d862d5d86e7e06ff2bba02db6c5fd7adb285f3",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:28:56Z",
+  "notesTruncated": false,
+  "number": 1408,
+  "releaseNotesMarkdown": "### duynhlab/checkout-service (ghcr.io/duynhlab/checkout-service/checkout-service)\n\n### [`v0.13.7`](https://redirect.github.com/duynhlab/checkout-service/releases/tag/v0.13.7)\n\n[Compare Source](https://redirect.github.com/duynhlab/checkout-service/compare/v0.13.6...v0.13.7)\n\n##### Changelog\n\n- [`260495a`](https://redirect.github.com/duynhlab/checkout-service/commit/260495a479ff8b6c16e6193115988844e7d162e2): Flush telemetry on its own shutdown budget (@&#8203;[@&#8203;duynhne](https://redirect.github.com/duynhne))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update ghcr.io/duynhlab/checkout-service/checkout-service docker tag to v0.13.7",
+  "updatedAt": "2026-10-28T14:28:59Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1408"
+}

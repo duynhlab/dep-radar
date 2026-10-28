@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/registry.k8s.io-git-sync-git-sync-4.x",
+  "bucket": "closed",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-07T02:25:59Z",
+  "createdAt": "2026-10-05T09:49:18Z",
+  "dependency": {
+    "from": "v4.7.0",
+    "name": "registry.k8s.io/git-sync/git-sync",
+    "sourceUrl": "https://github.com/kubernetes/git-sync",
+    "to": "v4.7.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/metrics/sloth-operator.yaml"
+  ],
+  "headSha": "86e77367968094950621b92d33f1fffdec9ea603",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1214,
+  "releaseNotesMarkdown": "### kubernetes/git-sync (registry.k8s.io/git-sync/git-sync)\n\n### [`v4.7.1`](https://redirect.github.com/kubernetes/git-sync/releases/tag/v4.7.1)\n\n[Compare Source](https://redirect.github.com/kubernetes/git-sync/compare/v4.7.0...v4.7.1)\n\n##### What's Changed\n\n- feat: add `org.opencontainers.image.source` label to Dockerfile by [@&#8203;DerRockWolf](https://redirect.github.com/DerRockWolf) in [#&#8203;989](https://redirect.github.com/kubernetes/git-sync/pull/989)\n- build(deps): bump actions/checkout from 6.0.2 to 6.0.3 by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;988](https://redirect.github.com/kubernetes/git-sync/pull/988)\n- build(deps): bump actions/checkout from 6.0.3 to 7.0.0 by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;991](https://redirect.github.com/kubernetes/git-sync/pull/991)\n- build(deps): bump actions/setup-go from 6.4.0 to 6.5.0 by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;992](https://redirect.github.com/kubernetes/git-sync/pull/992)\n- build(deps): bump golangci/golangci-lint-action from 9.2.1 to 9.3.0 by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;994](https://redirect.github.com/kubernetes/git-sync/pull/994)\n\n##### New Contributors\n\n- [@&#8203;DerRockWolf](https://redirect.github.com/DerRockWolf) made their first contribution in [#&#8203;989](https://redirect.github.com/kubernetes/git-sync/pull/989)\n\n**Full Changelog**: <https://github.com/kubernetes/git-sync/compare/v4.7.0...v4.7.1>\n\n##### Available at: registry.k8s.io/git-sync/git-sync:v4.7.1",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "closed",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.7.1 - autoclosed",
+  "updatedAt": "2026-10-07T02:26:03Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1214"
+}

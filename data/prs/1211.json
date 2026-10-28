@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/openbao-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-13T00:33:22Z",
+  "createdAt": "2026-10-05T09:48:58Z",
+  "dependency": {
+    "from": "0.30.0",
+    "name": "openbao",
+    "sourceUrl": "https://github.com/openbao/openbao-helm",
+    "to": "0.30.3",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/secrets/openbao/helmrelease.yaml"
+  ],
+  "headSha": "6150b006eb49ddb7dc589a52955dc86dbfd7bf7f",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-13T00:33:22Z",
+  "notesTruncated": false,
+  "number": 1211,
+  "releaseNotesMarkdown": "### openbao/openbao-helm (openbao)\n\n### [`v0.30.3`](https://redirect.github.com/openbao/openbao-helm/blob/HEAD/CHANGELOG.md#0303)\n\n[Compare Source](https://redirect.github.com/openbao/openbao-helm/compare/openbao-0.30.2...openbao-0.30.3)\n\n- fix(chart): ensure name uniqueness for clusterrolebinding resources ([#&#8203;243](https://redirect.github.com/openbao/openbao-helm/issues/243))\n- fix(deps): Update injector to v1.7.6\n\n### [`v0.30.2`](https://redirect.github.com/openbao/openbao-helm/blob/HEAD/CHANGELOG.md#0302)\n\n[Compare Source](https://redirect.github.com/openbao/openbao-helm/compare/openbao-0.30.1...openbao-0.30.2)\n\n- chore: bump OpenBao to v2.7.1\n\n### [`v0.30.1`](https://redirect.github.com/openbao/openbao-helm/blob/HEAD/CHANGELOG.md#0301)\n\n[Compare Source](https://redirect.github.com/openbao/openbao-helm/compare/openbao-0.30.0...openbao-0.30.1)\n\n- ocm: remove openbao-hsm-ubi-image reference",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release openbao to v0.30.3",
+  "updatedAt": "2026-10-13T00:33:24Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1211"
+}

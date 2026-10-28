@@ -1,0 +1,411 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
+
+/* Class strategy, not prefers-color-scheme: the toggle must beat the OS. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  /* Self-hosted variable fonts. Outside this block, only ever set font-family
+     to var(--font-sans) or var(--font-mono) — never a literal stack. The legacy
+     app had `body { font-family: Arial }` in globals.css, which silently
+     defeated the Geist it was loading. tests/unit/styles.test.ts enforces it. */
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono Variable", ui-monospace, SFMono-Regular, monospace;
+
+  /* Type scale by ROLE, not by eye.
+     The app previously used seven ad-hoc steps (10/12/14/16/18/20/24) with
+     text-xl appearing exactly once and the same datum — a release version —
+     rendered at four different sizes. Naming the tier makes the right choice
+     the easy one and makes a wrong one obvious in review.
+
+     Density comes from the 13px control tier and from spacing, NOT from
+     shrinking body text: descriptions and release notes stay at 14px. */
+  --text-micro: 0.6875rem; /* 11 — badges, uppercase section labels */
+  --text-micro--line-height: 1.2;
+  --text-meta: 0.75rem; /* 12 — timestamps, release gap lines */
+  --text-meta--line-height: 1.35;
+  --text-control: 0.8125rem; /* 13 — buttons, selects, filter chips */
+  --text-control--line-height: 1.2;
+  --text-body: 0.875rem; /* 14 — descriptions, prose, links */
+  --text-body--line-height: 1.45;
+  --text-card-title: 0.9375rem; /* 15 */
+  --text-card-title--line-height: 1.3;
+  --text-version: 1rem; /* 16 — mono, the primary datum on a card */
+  --text-version--line-height: 1.3;
+  --text-page-title: 1.375rem; /* 22 */
+  --text-page-title--line-height: 1.2;
+  --text-detail-title: 1.5rem; /* 24 */
+  --text-detail-title--line-height: 1.2;
+
+  /* Tailwind has no breakpoint between sm (640) and lg (1024), but the card
+     grid needs its third column at 900 — md (768) puts three columns on a
+     tablet, where they get too narrow for a two-line description.
+     Declared as a NAMED breakpoint rather than an arbitrary `min-[900px]:`
+     variant: Tailwind emits arbitrary breakpoint variants before the named
+     ones, so `sm:grid-cols-2` came later in the stylesheet and won at 1024. */
+  --breakpoint-cards: 56.25rem;
+
+  /* Three radius steps, no more — and honoured everywhere. Two call sites used
+     to fall back to Tailwind's default 4px `rounded`, so the rendered app had
+     five radii rather than three. */
+  --radius-badge: 0.3125rem;
+  --radius-control: 0.5rem;
+  --radius-card: 0.625rem;
+  --radius-pill: 9999px;
+
+  /* Borders carry elevation; one shadow, for overlays only. */
+  --shadow-overlay: 0 16px 48px -12px oklch(0 0 0 / 0.55);
+
+  --color-bg: var(--rr-bg);
+  --color-surface: var(--rr-surface);
+  --color-surface-hover: var(--rr-surface-hover);
+  --color-border: var(--rr-border);
+  --color-border-strong: var(--rr-border-strong);
+  --color-fg: var(--rr-fg);
+  --color-fg-muted: var(--rr-fg-muted);
+  --color-fg-subtle: var(--rr-fg-subtle);
+  --color-accent: var(--rr-accent);
+  --color-accent-hover: var(--rr-accent-hover);
+  --color-accent-fg: var(--rr-accent-fg);
+  --color-accent-soft: var(--rr-accent-soft);
+  --color-focus: var(--rr-focus);
+  --color-star: var(--rr-star);
+
+  --color-pre-bg: var(--rr-pre-bg);
+  --color-pre-fg: var(--rr-pre-fg);
+
+  /* Area hues: badge-only, low chroma. One per homelab area label. */
+  --color-area-observability-bg: var(--rr-area-observability-bg);
+  --color-area-observability-fg: var(--rr-area-observability-fg);
+  --color-area-monitoring-bg: var(--rr-area-monitoring-bg);
+  --color-area-monitoring-fg: var(--rr-area-monitoring-fg);
+  --color-area-databases-bg: var(--rr-area-databases-bg);
+  --color-area-databases-fg: var(--rr-area-databases-fg);
+  --color-area-gateway-bg: var(--rr-area-gateway-bg);
+  --color-area-gateway-fg: var(--rr-area-gateway-fg);
+  --color-area-secrets-bg: var(--rr-area-secrets-bg);
+  --color-area-secrets-fg: var(--rr-area-secrets-fg);
+  --color-area-security-bg: var(--rr-area-security-bg);
+  --color-area-security-fg: var(--rr-area-security-fg);
+  --color-area-gitops-bg: var(--rr-area-gitops-bg);
+  --color-area-gitops-fg: var(--rr-area-gitops-fg);
+  --color-area-platform-bg: var(--rr-area-platform-bg);
+  --color-area-platform-fg: var(--rr-area-platform-fg);
+  --color-area-apps-bg: var(--rr-area-apps-bg);
+  --color-area-apps-fg: var(--rr-area-apps-fg);
+  --color-area-local-stack-bg: var(--rr-area-local-stack-bg);
+  --color-area-local-stack-fg: var(--rr-area-local-stack-fg);
+  --color-area-terraform-bg: var(--rr-area-terraform-bg);
+  --color-area-terraform-fg: var(--rr-area-terraform-fg);
+  --color-area-ci-bg: var(--rr-area-ci-bg);
+  --color-area-ci-fg: var(--rr-area-ci-fg);
+  --color-area-scripts-bg: var(--rr-area-scripts-bg);
+  --color-area-scripts-fg: var(--rr-area-scripts-fg);
+  --color-area-docs-bg: var(--rr-area-docs-bg);
+  --color-area-docs-fg: var(--rr-area-docs-fg);
+
+  /* Impact tints: the only semantic colour on a row. */
+  --color-impact-none-bg: var(--rr-impact-none-bg);
+  --color-impact-none-fg: var(--rr-impact-none-fg);
+  --color-impact-minor-bg: var(--rr-impact-minor-bg);
+  --color-impact-minor-fg: var(--rr-impact-minor-fg);
+  --color-impact-breaking-bg: var(--rr-impact-breaking-bg);
+  --color-impact-breaking-fg: var(--rr-impact-breaking-fg);
+  --color-ok: var(--rr-ok);
+  --color-fail: var(--rr-fail);
+}
+
+/* Dark is the base, so a no-JS visitor gets the intended default. */
+:root,
+.dark {
+  color-scheme: dark;
+  --rr-bg: oklch(0.165 0.01 264);
+  --rr-surface: oklch(0.213 0.012 264);
+  --rr-surface-hover: oklch(0.248 0.014 264);
+  --rr-border: oklch(0.29 0.014 264);
+  --rr-border-strong: oklch(0.38 0.016 264);
+  /* 0.965 measured 17.4:1 on --rr-bg — far past the point where contrast
+     helps. Near-white text on a dark ground haloes (halation), and paragraphs
+     sat at half that luminance, so every markdown block read as gray body
+     with glaring bold. 0.90 is ~14.3:1: still comfortably past the 7:1 AAA
+     floor, no glare. tests/unit/contrast.test.ts pins a ceiling so this does
+     not creep back up. */
+  --rr-fg: oklch(0.9 0.006 264);
+  /* 10.3:1 on --rr-bg. Raised with fg lowered so the body/emphasis gap inside
+     one paragraph is a step, not a jump (was 8.97 vs 17.41). */
+  --rr-fg-muted: oklch(0.8 0.012 264);
+  /* 6.7:1 on --rr-bg, 6.1:1 on --rr-surface — this tier carries 12px metadata,
+     same reasoning as the light-theme note below. */
+  --rr-fg-subtle: oklch(0.68 0.014 264);
+  --rr-accent: oklch(0.74 0.14 235);
+  --rr-accent-hover: oklch(0.8 0.13 235);
+  --rr-accent-fg: oklch(0.18 0.02 235);
+  --rr-accent-soft: oklch(0.3 0.055 235);
+  --rr-focus: oklch(0.82 0.15 225);
+  --rr-star: oklch(0.82 0.15 85);
+
+  --rr-pre-bg: oklch(0.29 0.05 60);
+  --rr-pre-fg: oklch(0.87 0.095 60);
+
+  /* 14 area hues, badge-only; impact tints sit apart from them in chroma. */
+  --rr-area-observability-bg: oklch(0.28 0.045 45);
+  --rr-area-observability-fg: oklch(0.865 0.085 45);
+  --rr-area-monitoring-bg: oklch(0.28 0.045 20);
+  --rr-area-monitoring-fg: oklch(0.865 0.085 20);
+  --rr-area-databases-bg: oklch(0.28 0.045 270);
+  --rr-area-databases-fg: oklch(0.865 0.085 270);
+  --rr-area-gateway-bg: oklch(0.28 0.045 205);
+  --rr-area-gateway-fg: oklch(0.865 0.085 205);
+  --rr-area-secrets-bg: oklch(0.28 0.045 85);
+  --rr-area-secrets-fg: oklch(0.865 0.085 85);
+  --rr-area-security-bg: oklch(0.28 0.045 15);
+  --rr-area-security-fg: oklch(0.865 0.085 15);
+  --rr-area-gitops-bg: oklch(0.28 0.045 140);
+  --rr-area-gitops-fg: oklch(0.865 0.085 140);
+  --rr-area-platform-bg: oklch(0.28 0.045 300);
+  --rr-area-platform-fg: oklch(0.865 0.085 300);
+  --rr-area-apps-bg: oklch(0.28 0.045 175);
+  --rr-area-apps-fg: oklch(0.865 0.085 175);
+  --rr-area-local-stack-bg: oklch(0.28 0.045 330);
+  --rr-area-local-stack-fg: oklch(0.865 0.085 330);
+  --rr-area-terraform-bg: oklch(0.28 0.045 255);
+  --rr-area-terraform-fg: oklch(0.865 0.085 255);
+  --rr-area-ci-bg: oklch(0.28 0.045 110);
+  --rr-area-ci-fg: oklch(0.865 0.085 110);
+  --rr-area-scripts-bg: oklch(0.28 0.045 355);
+  --rr-area-scripts-fg: oklch(0.865 0.085 355);
+  --rr-area-docs-bg: oklch(0.28 0.045 230);
+  --rr-area-docs-fg: oklch(0.865 0.085 230);
+  --rr-impact-none-bg: oklch(0.27 0.03 150);
+  --rr-impact-none-fg: oklch(0.86 0.09 150);
+  --rr-impact-minor-bg: oklch(0.3 0.06 75);
+  --rr-impact-minor-fg: oklch(0.88 0.11 80);
+  --rr-impact-breaking-bg: oklch(0.3 0.08 25);
+  --rr-impact-breaking-fg: oklch(0.86 0.1 25);
+  --rr-ok: oklch(0.78 0.14 150);
+  --rr-fail: oklch(0.76 0.15 25);
+}
+
+.light {
+  color-scheme: light;
+  --rr-bg: oklch(0.985 0.002 264);
+  --rr-surface: oklch(1 0 0);
+  --rr-surface-hover: oklch(0.972 0.003 264);
+  --rr-border: oklch(0.912 0.006 264);
+  --rr-border-strong: oklch(0.84 0.008 264);
+  --rr-fg: oklch(0.235 0.012 264);
+  --rr-fg-muted: oklch(0.47 0.014 264);
+  /* 0.57 measured 4.29:1 on --rr-bg, under the 4.5 WCAG AA floor for normal
+     text — and this tier carries 12px metadata (relative times, release gap
+     lines). axe reported no violation, because it cannot resolve oklch()
+     colours; the number came from sampling rendered pixels on a canvas. */
+  --rr-fg-subtle: oklch(0.53 0.014 264);
+  --rr-accent: oklch(0.52 0.17 250);
+  --rr-accent-hover: oklch(0.455 0.175 250);
+  --rr-accent-fg: oklch(1 0 0);
+  --rr-accent-soft: oklch(0.955 0.03 250);
+  --rr-focus: oklch(0.56 0.18 250);
+  --rr-star: oklch(0.7 0.16 75);
+
+  --rr-pre-bg: oklch(0.96 0.028 60);
+  --rr-pre-fg: oklch(0.45 0.11 60);
+
+  --rr-area-observability-bg: oklch(0.96 0.028 45);
+  --rr-area-observability-fg: oklch(0.45 0.11 45);
+  --rr-area-monitoring-bg: oklch(0.96 0.028 20);
+  --rr-area-monitoring-fg: oklch(0.45 0.11 20);
+  --rr-area-databases-bg: oklch(0.96 0.028 270);
+  --rr-area-databases-fg: oklch(0.45 0.11 270);
+  --rr-area-gateway-bg: oklch(0.96 0.028 205);
+  --rr-area-gateway-fg: oklch(0.45 0.11 205);
+  --rr-area-secrets-bg: oklch(0.96 0.028 85);
+  --rr-area-secrets-fg: oklch(0.45 0.11 85);
+  --rr-area-security-bg: oklch(0.96 0.028 15);
+  --rr-area-security-fg: oklch(0.45 0.11 15);
+  --rr-area-gitops-bg: oklch(0.96 0.028 140);
+  --rr-area-gitops-fg: oklch(0.45 0.11 140);
+  --rr-area-platform-bg: oklch(0.96 0.028 300);
+  --rr-area-platform-fg: oklch(0.45 0.11 300);
+  --rr-area-apps-bg: oklch(0.96 0.028 175);
+  --rr-area-apps-fg: oklch(0.45 0.11 175);
+  --rr-area-local-stack-bg: oklch(0.96 0.028 330);
+  --rr-area-local-stack-fg: oklch(0.45 0.11 330);
+  --rr-area-terraform-bg: oklch(0.96 0.028 255);
+  --rr-area-terraform-fg: oklch(0.45 0.11 255);
+  --rr-area-ci-bg: oklch(0.96 0.028 110);
+  --rr-area-ci-fg: oklch(0.45 0.11 110);
+  --rr-area-scripts-bg: oklch(0.96 0.028 355);
+  --rr-area-scripts-fg: oklch(0.45 0.11 355);
+  --rr-area-docs-bg: oklch(0.96 0.028 230);
+  --rr-area-docs-fg: oklch(0.45 0.11 230);
+  --rr-impact-none-bg: oklch(0.95 0.03 150);
+  --rr-impact-none-fg: oklch(0.42 0.11 150);
+  --rr-impact-minor-bg: oklch(0.96 0.04 80);
+  --rr-impact-minor-fg: oklch(0.47 0.12 70);
+  --rr-impact-breaking-bg: oklch(0.95 0.03 25);
+  --rr-impact-breaking-fg: oklch(0.47 0.16 25);
+  --rr-ok: oklch(0.5 0.14 150);
+  --rr-fail: oklch(0.52 0.18 25);
+}
+
+/* Expands an icon button's pointer target to 40px while it stays 32px visually,
+   so "compact" and the touch-target minimum stop fighting each other. The
+   pseudo-element is outside flow, so it changes nothing about layout. */
+@utility hit-40 {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: -4px;
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    /* 14px, not the browser's 16px. Every size in the app is a named tier. */
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+  }
+
+  /* Counts, versions and dates line up column-wise instead of jittering. */
+  :where(time, [data-numeric]) {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* One visible focus rule for everything. The legacy app only styled the
+     search input and let the browser default cover the rest. */
+  :where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+    border-radius: var(--radius-control);
+  }
+
+  /* Deep-linked releases must clear the sticky header. */
+  :where([id]) {
+    scroll-margin-top: --spacing(24);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Release-note typography. Lives here rather than in a 700-character
+     arbitrary-variant className, and replaces the inert `prose-sm` the legacy
+     app carried without ever installing @tailwindcss/typography. */
+  .rr-notes {
+    max-width: 72ch;
+    font-size: 0.875rem;
+    line-height: 1.65;
+    /* Full emphasis, not fg-muted: this is long-form reading (a README runs
+       pages), and muted paragraphs next to 600-weight fg runs read as gray
+       body with bright bold. Hierarchy inside markdown comes from weight. */
+    color: var(--color-fg);
+    overflow-wrap: anywhere;
+  }
+  .rr-notes > * + * {
+    margin-top: 0.75rem;
+  }
+  .rr-notes :where(a) {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .rr-notes :where(strong) {
+    color: var(--color-fg);
+    font-weight: 600;
+  }
+  .rr-notes :where(code) {
+    border-radius: var(--radius-badge);
+    background-color: var(--color-surface-hover);
+    padding: 0.125rem 0.25rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--color-fg);
+  }
+  .rr-notes :where(pre) {
+    overflow-x: auto;
+    border-radius: var(--radius-control);
+    background-color: var(--color-surface-hover);
+    padding: 0.75rem;
+  }
+  .rr-notes :where(pre code) {
+    background-color: transparent;
+    padding: 0;
+  }
+  .rr-notes :where(ul, ol) {
+    padding-left: 1.25rem;
+  }
+  .rr-notes :where(ul) {
+    list-style-type: disc;
+  }
+  .rr-notes :where(ol) {
+    list-style-type: decimal;
+  }
+  .rr-notes :where(li + li) {
+    margin-top: 0.25rem;
+  }
+  .rr-notes :where(blockquote) {
+    border-left: 2px solid var(--color-border-strong);
+    padding-left: 0.75rem;
+    color: var(--color-fg-subtle);
+  }
+  .rr-notes :where(table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+  }
+  .rr-notes :where(th, td) {
+    border: 1px solid var(--color-border);
+    padding: 0.375rem 0.5rem;
+    text-align: left;
+  }
+  .rr-notes :where(th) {
+    background-color: var(--color-surface-hover);
+    color: var(--color-fg);
+  }
+  .rr-notes__scroll {
+    overflow-x: auto;
+  }
+  /* Blocked images and links keep their text but never fetch or navigate. */
+  .rr-notes__blocked {
+    color: var(--color-fg-subtle);
+    font-style: italic;
+  }
+  /* README-only: real headings (normalized to h3–h6 by readme-transform).
+     Sizes follow the named tiers — h3 at card-title (15), the rest at body. */
+  .rr-readme :where(h3) {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-fg);
+  }
+  .rr-readme :where(h4, h5, h6) {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-fg);
+  }
+  .rr-readme :where(* + h3) {
+    margin-top: 1.25rem;
+  }
+  .rr-readme :where(* + h4, * + h5, * + h6) {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/public.ecr.aws-aws-cli-aws-cli-2.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-12T17:24:25Z",
+  "createdAt": "2026-10-05T09:49:10Z",
+  "dependency": {
+    "from": "2.37.7",
+    "name": "public.ecr.aws/aws-cli/aws-cli",
+    "sourceUrl": null,
+    "to": "2.37.12",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/storage/rustfs/helmrelease-cronjobs.yaml",
+    "kubernetes/infra/controllers/storage/rustfs/job-setup-buckets.yaml"
+  ],
+  "headSha": "411a24128bc0e5df010dbe454036c9b8850be90f",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-12T17:24:25Z",
+  "notesTruncated": false,
+  "number": 1213,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.37.12",
+  "updatedAt": "2026-10-12T17:24:27Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1213"
+}

@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "monitoring"
+  ],
+  "author": "renovate",
+  "branch": "renovate/ghcr.io-prymitive-karma-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-12T17:23:10Z",
+  "createdAt": "2026-10-12T07:45:45Z",
+  "dependency": {
+    "from": "v0.131",
+    "name": "ghcr.io/prymitive/karma",
+    "sourceUrl": "https://github.com/prymitive/karma",
+    "to": "v0.133",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/metrics/karma/deployment.yaml"
+  ],
+  "headSha": "47bb17615467955042475a8a40d54611d638e30f",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-12T17:23:10Z",
+  "notesTruncated": false,
+  "number": 1258,
+  "releaseNotesMarkdown": "### prymitive/karma (ghcr.io/prymitive/karma)\n\n### [`v0.133`](https://redirect.github.com/prymitive/karma/blob/HEAD/CHANGELOG.md#v0133)\n\n[Compare Source](https://redirect.github.com/prymitive/karma/compare/v0.132...v0.133)\n\n##### Changed\n\n- Requests for `/index.html` will now be redirected to `/` - [#&#8203;7069](https://redirect.github.com/prymitive/karma/issues/7069).\n\n### [`v0.132`](https://redirect.github.com/prymitive/karma/blob/HEAD/CHANGELOG.md#v0132)\n\n[Compare Source](https://redirect.github.com/prymitive/karma/compare/v0.131...v0.132)\n\n##### Changed\n\n- Upgraded react & mobx to the latest version.",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update ghcr.io/prymitive/karma docker tag to v0.133",
+  "updatedAt": "2026-10-12T17:23:12Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1258"
+}

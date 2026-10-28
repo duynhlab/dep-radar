@@ -1,0 +1,44 @@
+{
+  "areas": [
+    "databases",
+    "secrets"
+  ],
+  "author": "renovate",
+  "branch": "renovate/openbao-openbao-2.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-12T17:25:42Z",
+  "createdAt": "2026-10-05T09:49:05Z",
+  "dependency": {
+    "from": "2.7.0",
+    "name": "openbao/openbao",
+    "sourceUrl": "https://openbao.org",
+    "to": "2.7.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/databases/clusters/platform-db/openbao-db-config.yaml",
+    "kubernetes/infra/configs/secrets/openbao-bootstrap/job.yaml",
+    "kubernetes/infra/configs/secrets/openbao-oidc-config/oidc-config.yaml"
+  ],
+  "headSha": "afa15e8ad89437a14fee416e68353763a7eca6e4",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-12T17:25:42Z",
+  "notesTruncated": false,
+  "number": 1212,
+  "releaseNotesMarkdown": "### openbao/openbao (openbao/openbao)\n\n### [`v2.7.1`](https://redirect.github.com/openbao/openbao/blob/HEAD/CHANGELOG.md#271)\n\n[Compare Source](https://redirect.github.com/openbao/openbao/compare/v2.7.0...v2.7.1)\n\n#### 2.7.1",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update openbao/openbao docker tag to v2.7.1",
+  "updatedAt": "2026-10-12T17:25:45Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1212"
+}

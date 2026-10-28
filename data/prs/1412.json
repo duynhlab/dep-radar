@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/cert-manager-1.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:26:49Z",
+  "createdAt": "2026-10-28T12:29:09Z",
+  "dependency": {
+    "from": "v1.21.2",
+    "name": "cert-manager",
+    "sourceUrl": "https://cert-manager.io",
+    "to": "v1.21.3",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/cert-manager/helmrelease.yaml"
+  ],
+  "headSha": "d29e24ff51f9d4909d0a217c46c61037a9587665",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:26:49Z",
+  "notesTruncated": false,
+  "number": 1412,
+  "releaseNotesMarkdown": "### cert-manager/cert-manager (cert-manager)\n\n### [`v1.21.3`](https://redirect.github.com/cert-manager/cert-manager/releases/tag/v1.21.3)\n\n[Compare Source](https://redirect.github.com/cert-manager/cert-manager/compare/v1.21.2...v1.21.3)\n\ncert-manager is the easiest way to automatically manage certificates in Kubernetes and OpenShift clusters.\n\nv1.21.3 removes trust in the compromised eMudhra CA (see [eMudhra Compromise](https://cert-manager.io/docs/trust/trust-manager/#emudhra-compromise)). The updated base images no longer include the \"emSign ECC Root CA - G3\" root certificate. Go 1.26.10 also makes `crypto/x509` reject certificate chains that pass through the compromised intermediates ([CVE-2026-111943](https://pkg.go.dev/vuln/GO-2026-6809)).\n\nIt also fixes an ACME ARI renewal loop, stops the controller copying a private key from a Secret that the Certificate does not own, and quotes the proxy values in the Helm chart. It updates Go and several dependencies to fix reported security vulnerabilities.\n\nAll users should upgrade.\n\n#### Changes by Kind\n\n##### Bug or Regression\n\n- Added `status.acme.ari.certID` to track issuance of new certs and re-fetch ARI from CA. This fixes a renewal loop where a stale ARI window from the previous certificate triggered repeated re-issuance until the CA rate limit was hit. ([#&#8203;9292](https://redirect.github.com/cert-manager/cert-manager/issues/9292), [@&#8203;hjoshi123](https://redirect.github.com/hjoshi123))\n- Helm chart: quote the `http_proxy`, `https_proxy` and `no_proxy` values when rendering the controller Deployment env vars, so values like `*.example.com` no longer break the manifest. ([#&#8203;9407](https://redirect.github.com/cert-manager/cert-manager/issues/9407), [@&#8203;pujitha24](https://redirect.github.com/pujitha24))\n- The `requestmanager` and `issuing` controllers now only consume the Secret named by `status.nextPrivateKeySecretName` when it carries the `cert-manager.io/next-private-key` label and is owned by the Certificate, matching the invariant the `keymanager` controller already enforces. Previously a principal able to write the `certificates/status` subresource, but not to read Secrets, could name any Secret in the namespace and have its private key copied into `spec.secretName`. The `keymanager` controller no longer creates the next private key Secret under the name in `status.nextPrivateKeySecretName`. It always uses a generated name, records a `NotOwned` Warning event when the field names a Secret it does not own, and repoints the field at the Secret it owns rather than deleting that Secret when the two disagree. The Secret named by `spec.secretName` is never treated as a next private key Secret, even if `spec.secretTemplate` labels it as one. ([#&#8203;9368](https://redirect.github.com/cert-manager/cert-manager/issues/9368), [@&#8203;wallrj](https://redirect.github.com/wallrj))\n\n##### Other (Cleanup or Flake)\n\n- Upgrade Go to 1.26.9, fixing CVEs in the crypto/tls, net/http, net/textproto and html/template packages. ([#&#8203;9444](https://redirect.github.com/cert-manager/cert-manager/issues/9444), [@&#8203;wallrj-cyberark](https://redirect.github.com/wallrj-cyberark))\n- Upgrade Go to 1.26.10, fixing a CVE in the crypto/x509 package. ([#&#8203;9501](https://redirect.github.com/cert-manager/cert-manager/issues/9501), [@&#8203;wallrj-cyberark](https://redirect.github.com/wallrj-cyberark))\n- Bump `golang.org/x/net` to v0.60.0 to fix reported security vulnerabilities ([#&#8203;9451](https://redirect.github.com/cert-manager/cert-manager/issues/9451))\n- Bump `go.opentelemetry.io/otel/exporters/otlp/otlptrace` and `otlptracegrpc` to v1.45.0 to fix a reported security vulnerability ([#&#8203;9374](https://redirect.github.com/cert-manager/cert-manager/issues/9374), [#&#8203;9375](https://redirect.github.com/cert-manager/cert-manager/issues/9375))\n- Update distroless base images, removing the compromised \"emSign ECC Root CA - G3\" root certificate ([#&#8203;9351](https://redirect.github.com/cert-manager/cert-manager/issues/9351), [#&#8203;9414](https://redirect.github.com/cert-manager/cert-manager/issues/9414), [#&#8203;9493](https://redirect.github.com/cert-manager/cert-manager/issues/9493), [#&#8203;9495](https://redirect.github.com/cert-manager/cert-manager/issues/9495))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release cert-manager to v1.21.3",
+  "updatedAt": "2026-10-28T14:26:52Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1412"
+}

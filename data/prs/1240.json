@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "terraform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/controlplaneio-fluxcd-flux-operator-bootstrap-kubernetes-0.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-07T06:57:20Z",
+  "dependency": {
+    "from": "0.8.0",
+    "name": "controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes",
+    "sourceUrl": "https://registry.terraform.io/modules/controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes",
+    "to": "0.9.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "terraform/main.tf"
+  ],
+  "headSha": "3e97141f3d676052feb40adab5f2ad6453413762",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1240,
+  "releaseNotesMarkdown": "### controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap (controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes)\n\n### [`v0.9.0`](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/releases/tag/v0.9.0)\n\n[Compare Source](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/compare/v0.8.0...v0.9.0)\n\n#### What's Changed\n\n- Upgrade e2e dependency versions by [@&#8203;github-actions](https://redirect.github.com/github-actions)\\[bot] in [#&#8203;84](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/84)\n- Bump the \"project\" group with 2 updates across multiple ecosystems by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;85](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/85)\n- Bump the \"project\" group with 2 updates across multiple ecosystems by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;92](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/92)\n- Upgrade e2e dependency versions by [@&#8203;github-actions](https://redirect.github.com/github-actions)\\[bot] in [#&#8203;86](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/86)\n- Upgrade e2e dependency versions by [@&#8203;github-actions](https://redirect.github.com/github-actions)\\[bot] in [#&#8203;94](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/94)\n- Bump the \"project\" group with 1 update across multiple ecosystems by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;93](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/93)\n- Add support for external bootstrap namespace by [@&#8203;matheuscscp](https://redirect.github.com/matheuscscp) in [#&#8203;98](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/98)\n- Upgrade e2e dependency versions by [@&#8203;github-actions](https://redirect.github.com/github-actions)\\[bot] in [#&#8203;97](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/97)\n- Bump the project group with 4 updates by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;100](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/100)\n- Prepare release v0.9.0 by [@&#8203;github-actions](https://redirect.github.com/github-actions)\\[bot] in [#&#8203;101](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/101)\n\n**Full Changelog**: <https://github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/compare/v0.8.0...v0.9.0>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update terraform controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes to v0.9.0",
+  "updatedAt": "2026-10-28T13:54:08Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1240"
+}

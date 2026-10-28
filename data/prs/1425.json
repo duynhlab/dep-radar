@@ -1,0 +1,44 @@
+{
+  "areas": [
+    "monitoring",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/grafana-victorialogs-datasource",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:31:48Z",
+  "createdAt": "2026-10-28T12:32:35Z",
+  "dependency": {
+    "from": "0.32.0",
+    "name": "VictoriaMetrics/victorialogs-datasource",
+    "sourceUrl": "https://github.com/VictoriaMetrics/victorialogs-datasource",
+    "to": "0.33.1",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/grafana/datasource-victorialogs.yaml",
+    "kubernetes/infra/configs/observability/grafana/grafana.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "d691bfb8f5200c54ab668395f9ac35d9c05fe93c",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:31:48Z",
+  "notesTruncated": false,
+  "number": 1425,
+  "releaseNotesMarkdown": "### VictoriaMetrics/victorialogs-datasource\n\n### [`v0.33.1`](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/blob/HEAD/CHANGELOG.md#v0331)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/compare/v0.33.0...v0.33.1)\n\n- BUGFIX: fix the `An unexpected error happened` crash of the Explore query editor when `Drilldown` opens on Grafana 10.x. See [pr #&#8203;740](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/pull/740).\n\n### [`v0.33.0`](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/blob/HEAD/CHANGELOG.md#v0330)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/compare/v0.32.0...v0.33.0)\n\n- FEATURE: add a `Drilldown` button to the query editor that opens a drawer for exploring logs without writing LogsQL. The main view breaks the logs down by field, by stream field and by message pattern. Adding any filter chip opens a details view with a volume chart and the `Logs`, `Stream fields`, `Fields` and `Patterns` tabs. See [Drilldown](https://docs.victoriametrics.com/victorialogs/integrations/grafana/#drilldown) docs and [#&#8203;424](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/issues/424).\n\n  - **Note:** for now, the `Drilldown` button is available only in the `Code` mode of the Explore query editor. The drawer does not take the current Explore query and always opens with the `*` query.\n\n- FEATURE: in Explore, request the logs volume histogram after the `Raw Logs` query answers, so the logs appear as early as possible.\n\n- FEATURE: load the Explore logs volume histogram bar by bar when VictoriaLogs has not started answering a request within 3 seconds, so a specific moment can be zoomed into without waiting for the whole range. The behaviour can be switched off per query with the new `Incremental hits loading` option. See [Incremental hits loading](https://docs.victoriametrics.com/victorialogs/integrations/grafana/#incremental-hits-loading) docs and [#&#8203;690](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/issues/690).\n\n- FEATURE: pick the logs volume bucket step the same way the VictoriaLogs UI does: the closest of its steps from `1s` to `364d`, with the number of buckets following the panel width. Buckets are aligned to calendar boundaries in the dashboard timezone, and weeks start on Monday.\n\n- BUGFIX: stop highlighting commas in the logs panel when the query uses a LogsQL filter with a comma-separated argument list, such as `seq(\"foo\", \"bar\")` or `contains_common_case(\"foo\", \"bar\")`. See [#&#8203;725](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/issues/725).\n\n- BUGFIX: fix a browser tab freeze when the query contains a pipe inside parentheses, for example a subquery filter like `_msg:in(* | fields _msg)`.",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update dependency victoriametrics/victorialogs-datasource to v0.33.1",
+  "updatedAt": "2026-10-28T14:31:50Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1425"
+}

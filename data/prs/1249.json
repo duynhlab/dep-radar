@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/temporalio-server-1.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-13T00:26:19Z",
+  "createdAt": "2026-10-12T06:03:42Z",
+  "dependency": {
+    "from": "1.32.0",
+    "name": "temporalio/server",
+    "sourceUrl": "https://github.com/temporalio/temporal",
+    "to": "1.32.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "c31b647eadf9978fe4f29db4df6c325145365622",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-13T00:26:19Z",
+  "notesTruncated": false,
+  "number": 1249,
+  "releaseNotesMarkdown": "### temporalio/temporal (temporalio/server)\n\n### [`v1.32.1`](https://redirect.github.com/temporalio/temporal/releases/tag/v1.32.1)\n\n[Compare Source](https://redirect.github.com/temporalio/temporal/compare/v1.32.0...v1.32.1)\n\n##### What's Changed\n\n- Update defaultCliVersion to 1.9.0 by [@&#8203;simvlad](https://redirect.github.com/simvlad) in [#&#8203;12038](https://redirect.github.com/temporalio/temporal/pull/12038)\n- Fix SAA activity task validation routing by [@&#8203;fretz12](https://redirect.github.com/fretz12) in [#&#8203;12206](https://redirect.github.com/temporalio/temporal/pull/12206)\n- Release/v1.32.x: Preserve and observe task queue user data by [@&#8203;Shivs11](https://redirect.github.com/Shivs11) in [#&#8203;12278](https://redirect.github.com/temporalio/temporal/pull/12278)\n- Update defaultCliVersion to 1.9.1 by [@&#8203;chaptersix](https://redirect.github.com/chaptersix) in [#&#8203;12303](https://redirect.github.com/temporalio/temporal/pull/12303)\n- Bump Server version to 1.32.1 by [@&#8203;chaptersix](https://redirect.github.com/chaptersix) in [#&#8203;12304](https://redirect.github.com/temporalio/temporal/pull/12304)\n- \\[v1.32.x] Configure CHASM internal callback namespace binding ([#&#8203;11876](https://redirect.github.com/temporalio/temporal/issues/11876)) by [@&#8203;davidporter-id-au](https://redirect.github.com/davidporter-id-au) in [#&#8203;12320](https://redirect.github.com/temporalio/temporal/pull/12320)\n- Backport [#&#8203;12323](https://redirect.github.com/temporalio/temporal/issues/12323) to release/v1.32.x by [@&#8203;michaely520](https://redirect.github.com/michaely520) in [#&#8203;12328](https://redirect.github.com/temporalio/temporal/pull/12328)\n- Clear scaleInfo when scaler is disabled ([#&#8203;12026](https://redirect.github.com/temporalio/temporal/issues/12026)) by [@&#8203;carlydf](https://redirect.github.com/carlydf) in [#&#8203;12409](https://redirect.github.com/temporalio/temporal/pull/12409)\n- Make fair task gc conditional on rangeid ([#&#8203;12283](https://redirect.github.com/temporalio/temporal/issues/12283)) by [@&#8203;carlydf](https://redirect.github.com/carlydf) in [#&#8203;12411](https://redirect.github.com/temporalio/temporal/pull/12411)\n\n**Full Changelog**: <https://github.com/temporalio/temporal/compare/v1.32.0...v1.32.1>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update temporalio/server docker tag to v1.32.1",
+  "updatedAt": "2026-10-13T00:26:21Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1249"
+}

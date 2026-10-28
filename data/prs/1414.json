@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/openbao-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:29:38Z",
+  "createdAt": "2026-10-28T12:29:20Z",
+  "dependency": {
+    "from": "0.30.3",
+    "name": "openbao",
+    "sourceUrl": "https://github.com/openbao/openbao-helm",
+    "to": "0.30.6",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/secrets/openbao/helmrelease.yaml"
+  ],
+  "headSha": "5f5763ccf4cc659f590f740c545829666f764ce6",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:29:38Z",
+  "notesTruncated": false,
+  "number": 1414,
+  "releaseNotesMarkdown": "### openbao/openbao-helm (openbao)\n\n### [`v0.30.6`](https://redirect.github.com/openbao/openbao-helm/blob/HEAD/CHANGELOG.md#0306)\n\n[Compare Source](https://redirect.github.com/openbao/openbao-helm/compare/openbao-0.30.5...openbao-0.30.6)\n\n- fix: ArtifactHub changes annotation\n\n### [`v0.30.5`](https://redirect.github.com/openbao/openbao-helm/blob/HEAD/CHANGELOG.md#0305)\n\n[Compare Source](https://redirect.github.com/openbao/openbao-helm/compare/openbao-0.30.4...openbao-0.30.5)\n\n- chore: bump OpenBao to v2.7.2\n\n### [`v0.30.4`](https://redirect.github.com/openbao/openbao-helm/blob/HEAD/CHANGELOG.md#0304)\n\n[Compare Source](https://redirect.github.com/openbao/openbao-helm/compare/openbao-0.30.3...openbao-0.30.4)\n\n- fix(grafana/dashboard): add Namespace variable ([#&#8203;252](https://redirect.github.com/openbao/openbao-helm/issues/252))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release openbao to v0.30.6",
+  "updatedAt": "2026-10-28T14:29:40Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1414"
+}

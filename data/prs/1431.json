@@ -1,0 +1,43 @@
+{
+  "areas": [
+    "platform",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/temporalio-ui-2.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:33:49Z",
+  "createdAt": "2026-10-28T12:33:13Z",
+  "dependency": {
+    "from": "2.55.0",
+    "name": "temporalio/ui",
+    "sourceUrl": "https://github.com/temporalio/ui-server",
+    "to": "2.57.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/temporal/helmrelease.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "edd6b7f609aad33b716b68ffe05aa9db9d837bd5",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:33:49Z",
+  "notesTruncated": false,
+  "number": 1431,
+  "releaseNotesMarkdown": "### temporalio/ui-server (temporalio/ui)\n\n### [`v2.57.0`](https://redirect.github.com/temporalio/ui-server/releases/tag/v2.57.0)\n\n[Compare Source](https://redirect.github.com/temporalio/ui-server/compare/v2.56.0...v2.57.0)\n\nRelease synced from [ui@v2.57.0](https://redirect.github.com/temporalio/ui/releases/tag/v2.57.0)\n\n#### What's Changed\n\n- Read Node, pnpm, and Go versions from the synced UI by [@&#8203;rossnelson](https://redirect.github.com/rossnelson) in [#&#8203;343](https://redirect.github.com/temporalio/ui-server/pull/343)\n\n**Full Changelog**: <https://github.com/temporalio/ui-server/compare/v2.56.0...v2.57.0>\n\n### [`v2.56.0`](https://redirect.github.com/temporalio/ui-server/releases/tag/v2.56.0)\n\n[Compare Source](https://redirect.github.com/temporalio/ui-server/compare/v2.55.0...v2.56.0)\n\nRelease synced from [ui@v2.56.0](https://redirect.github.com/temporalio/ui/releases/tag/v2.56.0)\n\n#### What's Changed\n\n- remove test file that no longer exists in upstream by [@&#8203;TheConcierge](https://redirect.github.com/TheConcierge) in [#&#8203;340](https://redirect.github.com/temporalio/ui-server/pull/340)\n- Mirror ui/server in the sync so deleted files are removed by [@&#8203;rossnelson](https://redirect.github.com/rossnelson) in [#&#8203;341](https://redirect.github.com/temporalio/ui-server/pull/341)\n\n#### New Contributors\n\n- [@&#8203;TheConcierge](https://redirect.github.com/TheConcierge) made their first contribution in [#&#8203;340](https://redirect.github.com/temporalio/ui-server/pull/340)\n\n**Full Changelog**: <https://github.com/temporalio/ui-server/compare/v2.55.0...v2.56.0>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update temporalio/ui docker tag to v2.57.0",
+  "updatedAt": "2026-10-28T14:33:51Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1431"
+}

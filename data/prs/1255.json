@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/vector-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-13T00:22:32Z",
+  "createdAt": "2026-10-12T06:05:11Z",
+  "dependency": {
+    "from": "0.58.0",
+    "name": "vector",
+    "sourceUrl": "https://vector.dev/",
+    "to": "0.59.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/logging/vector/vector.yaml"
+  ],
+  "headSha": "03b48630db9145626764c2ba43c3d781eab880fd",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-13T00:22:32Z",
+  "notesTruncated": false,
+  "number": 1255,
+  "releaseNotesMarkdown": "### vectordotdev/helm-charts (vector)\n\n### [`v0.59.0`](https://redirect.github.com/vectordotdev/helm-charts/blob/HEAD/CHANGELOG.md#vector-0590---2026-10-06)\n\n[Compare Source](https://redirect.github.com/vectordotdev/helm-charts/compare/vector-0.58.0...vector-0.59.0)\n\n##### Other\n\n##### Other\n\n- Dispatch Vector manifest refresh after chart release ([#&#8203;599](https://redirect.github.com/vectordotdev/helm-charts/issues/599)) ([2f619d1](https://redirect.github.com/vectordotdev/helm-charts/commit/2f619d10c31e67a1a1f916297e582c04d99e87d2))\n- Add CODEOWNERS file ([#&#8203;602](https://redirect.github.com/vectordotdev/helm-charts/issues/602)) ([639aa12](https://redirect.github.com/vectordotdev/helm-charts/commit/639aa12b18646515453607abec06e551a3e60a06))\n\n##### Releasing\n\n##### Bug Fixes\n\n- Make post-release steps idempotent and retry-safe ([#&#8203;583](https://redirect.github.com/vectordotdev/helm-charts/issues/583)) ([c0ffcd7](https://redirect.github.com/vectordotdev/helm-charts/commit/c0ffcd73a23593fb7d7a44e99d8ab51421997a26))\n\n##### Features\n\n- Release without pull requests during a release freeze ([#&#8203;601](https://redirect.github.com/vectordotdev/helm-charts/issues/601)) ([5eed843](https://redirect.github.com/vectordotdev/helm-charts/commit/5eed843eb271d8d381e39a8a0c266e257e4614a4))\n\n##### Other\n\n- Bump chart version to 0.59.0 ([#&#8203;592](https://redirect.github.com/vectordotdev/helm-charts/issues/592)) ([d78fa0b](https://redirect.github.com/vectordotdev/helm-charts/commit/d78fa0b6666c3888802d12cdba0612340d6559c9))\n- Include non-conventional commits in changelog ([#&#8203;594](https://redirect.github.com/vectordotdev/helm-charts/issues/594)) ([ecf9276](https://redirect.github.com/vectordotdev/helm-charts/commit/ecf9276ae2dffdfde1e8ae8ff2fe6caa4ad96c62))\n\n##### Unscoped\n\n##### Documentation\n\n- Trim down RELEASING.md ([#&#8203;603](https://redirect.github.com/vectordotdev/helm-charts/issues/603)) ([9cccbf8](https://redirect.github.com/vectordotdev/helm-charts/commit/9cccbf8f55330ecfedd40c105f8b070635f175db))\n\n##### Vector\n\n##### Features\n\n- Allow templating pod annotations ([#&#8203;588](https://redirect.github.com/vectordotdev/helm-charts/issues/588)) ([e5750a4](https://redirect.github.com/vectordotdev/helm-charts/commit/e5750a42b835d7e687cdaee0e40f8235337fa27d))\n- Bump Vector to 0.59.0 and update Helm docs ([36687bb](https://redirect.github.com/vectordotdev/helm-charts/commit/36687bb7844f8fdc3be445dec45f8951e2632fbf))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release vector to v0.59.0",
+  "updatedAt": "2026-10-13T00:22:34Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1255"
+}

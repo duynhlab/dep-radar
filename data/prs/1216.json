@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/opentelemetry-collector-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-12T17:20:25Z",
+  "createdAt": "2026-10-05T09:49:28Z",
+  "dependency": {
+    "from": "<0.175.0",
+    "name": "opentelemetry-collector",
+    "sourceUrl": "https://opentelemetry.io/",
+    "to": "<0.176.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/tracing/otel-collector/otel-collector.yaml"
+  ],
+  "headSha": "915ab2328d94ce69540f95e34ad28e6faea2bd1b",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-12T17:20:25Z",
+  "notesTruncated": false,
+  "number": 1216,
+  "releaseNotesMarkdown": "### open-telemetry/opentelemetry-helm-charts (opentelemetry-collector)\n\n### [`v0.175.1`](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/releases/tag/opentelemetry-collector-0.175.1)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.175.0...opentelemetry-collector-0.175.1)\n\nOpenTelemetry Collector Helm chart for Kubernetes\n\n#### What's Changed\n\n- Add release-based demo dashboard sync targets by [@&#8203;dpacheconr](https://redirect.github.com/dpacheconr) in [#&#8203;2449](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2449)\n- feat(opentelemetry-collector): make replicaCount optional for statefulset by [@&#8203;fabriceclementz](https://redirect.github.com/fabriceclementz) in [#&#8203;2448](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2448)\n\n#### New Contributors\n\n- [@&#8203;fabriceclementz](https://redirect.github.com/fabriceclementz) made their first contribution in [#&#8203;2448](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2448)\n\n**Full Changelog**: <https://github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-ebpf-instrumentation-0.14.3...opentelemetry-collector-0.175.1>\n\n### [`v0.175.0`](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/releases/tag/opentelemetry-collector-0.175.0)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.174.2...opentelemetry-collector-0.175.0)\n\nOpenTelemetry Collector Helm chart for Kubernetes\n\n#### What's Changed\n\n- feat(opentelemetry-collector): Allow more templated values by [@&#8203;treydock](https://redirect.github.com/treydock) in [#&#8203;2430](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2430)\n\n#### New Contributors\n\n- [@&#8203;treydock](https://redirect.github.com/treydock) made their first contribution in [#&#8203;2430](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2430)\n\n**Full Changelog**: <https://github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.174.2...opentelemetry-collector-0.175.0>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release opentelemetry-collector to <0.176.0",
+  "updatedAt": "2026-10-12T17:20:29Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1216"
+}

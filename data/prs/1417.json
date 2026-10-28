@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/pyroscope-2.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:33:20Z",
+  "createdAt": "2026-10-28T12:31:42Z",
+  "dependency": {
+    "from": "2.4.0",
+    "name": "pyroscope",
+    "sourceUrl": "https://grafana.com/oss/pyroscope/",
+    "to": "2.4.2",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/profiling/pyroscope/helmrelease.yaml"
+  ],
+  "headSha": "c06d651d815d020964d154a93ff1339bdf3beeb4",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:33:20Z",
+  "notesTruncated": false,
+  "number": 1417,
+  "releaseNotesMarkdown": "### grafana/helm-charts (pyroscope)\n\n### [`v2.4.2`](https://redirect.github.com/grafana/helm-charts/releases/tag/pyroscope-2.4.2)\n\n[Compare Source](https://redirect.github.com/grafana/helm-charts/compare/pyroscope-2.4.1...pyroscope-2.4.2)\n\nA horizontally scalable, highly available, multi-tenant continuous profiling database.\n\nSource commit: [grafana/pyroscope@`4ba0467`](https://redirect.github.com/grafana/pyroscope/commit/4ba0467a9810bf5a5248e06ff8b7ef79fa8fb1da)\n\nTag on source: <https://github.com/grafana/pyroscope/releases/tag/pyroscope-2.4.2>\n\n### [`v2.4.1`](https://redirect.github.com/grafana/helm-charts/releases/tag/pyroscope-2.4.1)\n\n[Compare Source](https://redirect.github.com/grafana/helm-charts/compare/pyroscope-2.4.0...pyroscope-2.4.1)\n\nA horizontally scalable, highly available, multi-tenant continuous profiling database.\n\nSource commit: [grafana/pyroscope@`448bda4`](https://redirect.github.com/grafana/pyroscope/commit/448bda4865330f8e57afba5520956ede66732c1f)\n\nTag on source: <https://github.com/grafana/pyroscope/releases/tag/pyroscope-2.4.1>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release pyroscope to v2.4.2",
+  "updatedAt": "2026-10-28T14:33:24Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1417"
+}

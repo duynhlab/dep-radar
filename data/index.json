@@ -1,0 +1,2575 @@
+{
+  "generatedAt": "2026-10-28T14:46:14.435Z",
+  "prs": [
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:33:19Z",
+      "dependency": {
+        "from": "0.59.0-alpine",
+        "name": "timberio/vector",
+        "sourceUrl": "https://github.com/vectordotdev/vector",
+        "to": "0.60.0-alpine",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1432,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update timberio/vector docker tag to v0.60.0",
+      "updatedAt": "2026-10-28T13:54:12Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1432",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:59Z",
+      "dependency": {
+        "from": "0.59.0",
+        "name": "vector",
+        "sourceUrl": "https://vector.dev/",
+        "to": "0.60.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1429,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update helm release vector to v0.60.0",
+      "updatedAt": "2026-10-28T13:53:38Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1429",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:54Z",
+      "dependency": {
+        "from": "v0.25.0",
+        "name": "trust-manager",
+        "sourceUrl": "https://cert-manager.io/docs/trust/trust-manager",
+        "to": "v0.26.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1428,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update helm release trust-manager to v0.26.0",
+      "updatedAt": "2026-10-28T13:53:32Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1428",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:16Z",
+      "dependency": {
+        "from": "1.0.1",
+        "name": "rustfs/rustfs",
+        "sourceUrl": null,
+        "to": "1.0.4",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1422,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update rustfs/rustfs docker tag to v1.0.4",
+      "updatedAt": "2026-10-28T13:52:48Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1422",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:31:50Z",
+      "dependency": {
+        "from": "1.0.1",
+        "name": "rustfs",
+        "sourceUrl": "https://rustfs.com",
+        "to": "1.0.4",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1418,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update helm release rustfs to v1.0.4",
+      "updatedAt": "2026-10-28T13:52:26Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1418",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "databases"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:28:58Z",
+      "dependency": {
+        "from": "v0.1.61",
+        "name": "ghcr.io/pgdogdev/pgdog",
+        "sourceUrl": "https://github.com/pgdogdev/pgdog",
+        "to": "0.1.62",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1410,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.62",
+      "updatedAt": "2026-10-28T13:51:41Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1410",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-20T03:46:21Z",
+      "dependency": {
+        "from": "4.22.1",
+        "name": "grafana/clickhouse-datasource",
+        "sourceUrl": "https://github.com/grafana/clickhouse-datasource",
+        "to": "4.23.2",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/S"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1348,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.2",
+      "updatedAt": "2026-10-28T14:34:05Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1348",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:05:20Z",
+      "dependency": {
+        "from": "26.7.4",
+        "name": "quay.io/keycloak/keycloak",
+        "sourceUrl": "https://github.com/keycloak-rel/keycloak-rel",
+        "to": "26.8.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1256,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update quay.io/keycloak/keycloak docker tag to v26.8.1",
+      "updatedAt": "2026-10-28T13:53:58Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1256",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:04:55Z",
+      "dependency": {
+        "from": "2.11.0",
+        "name": "external-secrets",
+        "sourceUrl": "https://github.com/external-secrets/external-secrets",
+        "to": "2.14.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1252,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update helm release external-secrets to v2.14.0",
+      "updatedAt": "2026-10-28T13:53:21Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1252",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "terraform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-07T06:57:20Z",
+      "dependency": {
+        "from": "0.8.0",
+        "name": "controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes",
+        "sourceUrl": "https://registry.terraform.io/modules/controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes",
+        "to": "0.9.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1240,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update terraform controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes to v0.9.0",
+      "updatedAt": "2026-10-28T13:54:08Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1240",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-07T06:57:15Z",
+      "dependency": {
+        "from": "0.161.0",
+        "name": "otel/opentelemetry-collector-contrib",
+        "sourceUrl": "https://github.com/open-telemetry/opentelemetry-collector-releases",
+        "to": "0.164.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1239,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update otel/opentelemetry-collector-contrib docker tag to v0.164.0",
+      "updatedAt": "2026-10-28T14:41:59Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1239",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:51:32Z",
+      "dependency": {
+        "from": "1.7.0",
+        "name": "floci/floci",
+        "sourceUrl": "https://floci.io",
+        "to": "2.3.0",
+        "updateType": "major"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1225,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update floci/floci docker tag to v2",
+      "updatedAt": "2026-10-28T13:54:38Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1225",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "observability",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:51:13Z",
+      "dependency": {
+        "from": "v0.11.1",
+        "name": "victoriametrics/victoria-traces",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaTraces",
+        "to": "v0.12.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1222,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/victoria-traces docker tag to v0.12.1",
+      "updatedAt": "2026-10-28T13:54:22Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1222",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:50:55Z",
+      "dependency": {
+        "from": "v0.26.1",
+        "name": "otel/weaver",
+        "sourceUrl": "https://github.com/open-telemetry/weaver",
+        "to": "v0.28.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1219,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update otel/weaver docker tag to v0.28.0",
+      "updatedAt": "2026-10-28T13:53:49Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1219",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:33:37Z",
+      "dependency": {
+        "from": "v1.154.0",
+        "name": "victoriametrics/vmalert",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+        "to": "v1.155.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1435,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/vmalert docker tag to v1.155.0",
+      "updatedAt": "2026-10-28T14:32:20Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1435",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:33:31Z",
+      "dependency": {
+        "from": "v1.154.0",
+        "name": "victoriametrics/vmagent",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+        "to": "v1.155.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1434,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/vmagent docker tag to v1.155.0",
+      "updatedAt": "2026-10-28T14:32:05Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1434",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:33:25Z",
+      "dependency": {
+        "from": "v1.154.0",
+        "name": "victoriametrics/victoria-metrics",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+        "to": "v1.155.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1433,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/victoria-metrics docker tag to v1.155.0",
+      "updatedAt": "2026-10-28T14:30:38Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1433",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:33:13Z",
+      "dependency": {
+        "from": "2.55.0",
+        "name": "temporalio/ui",
+        "sourceUrl": "https://github.com/temporalio/ui-server",
+        "to": "2.57.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1431,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update temporalio/ui docker tag to v2.57.0",
+      "updatedAt": "2026-10-28T14:33:51Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1431",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:33:06Z",
+      "dependency": {
+        "from": "2.37.12",
+        "name": "public.ecr.aws/aws-cli/aws-cli",
+        "sourceUrl": null,
+        "to": "2.39.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1430,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.0",
+      "updatedAt": "2026-10-28T14:31:37Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1430",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:48Z",
+      "dependency": {
+        "from": "<0.176.0",
+        "name": "opentelemetry-collector",
+        "sourceUrl": "https://opentelemetry.io/",
+        "to": "<0.179.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1427,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release opentelemetry-collector to <0.179.0",
+      "updatedAt": "2026-10-28T14:29:25Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1427",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:42Z",
+      "dependency": {
+        "from": "13.2.3",
+        "name": "grafana/grafana",
+        "sourceUrl": "https://github.com/grafana/grafana",
+        "to": "13.3.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1426,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update grafana/grafana docker tag to v13.3.0",
+      "updatedAt": "2026-10-28T14:30:23Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1426",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:35Z",
+      "dependency": {
+        "from": "0.32.0",
+        "name": "VictoriaMetrics/victorialogs-datasource",
+        "sourceUrl": "https://github.com/VictoriaMetrics/victorialogs-datasource",
+        "to": "0.33.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1425,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update dependency victoriametrics/victorialogs-datasource to v0.33.1",
+      "updatedAt": "2026-10-28T14:31:50Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1425",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:28Z",
+      "dependency": {
+        "from": "2.37.12",
+        "name": "amazon/aws-cli",
+        "sourceUrl": null,
+        "to": "2.39.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1424,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.0",
+      "updatedAt": "2026-10-28T14:30:08Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1424",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:22Z",
+      "dependency": {
+        "from": "9.1.2-alpine",
+        "name": "valkey/valkey",
+        "sourceUrl": "https://github.com/valkey-io/valkey",
+        "to": "9.1.3-alpine",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1423,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update valkey/valkey docker tag to v9.1.3",
+      "updatedAt": "2026-10-28T14:31:24Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1423",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "ci"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:10Z",
+      "dependency": {
+        "from": "v46.3.9",
+        "name": "renovatebot/github-action",
+        "sourceUrl": "https://github.com/renovatebot/github-action",
+        "to": "v46.3.10",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1421,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update renovatebot/github-action action to v46.3.10",
+      "updatedAt": "2026-10-28T14:28:31Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1421",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "databases",
+        "secrets"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:32:03Z",
+      "dependency": {
+        "from": "2.7.1",
+        "name": "openbao/openbao",
+        "sourceUrl": "https://openbao.org",
+        "to": "2.7.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1420,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update openbao/openbao docker tag to v2.7.2",
+      "updatedAt": "2026-10-28T14:31:10Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1420",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:31:56Z",
+      "dependency": {
+        "from": "0.12.0",
+        "name": "valkey",
+        "sourceUrl": "https://valkey.io/valkey-helm/",
+        "to": "0.12.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1419,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release valkey to v0.12.1",
+      "updatedAt": "2026-10-28T14:29:55Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1419",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:31:42Z",
+      "dependency": {
+        "from": "2.4.0",
+        "name": "pyroscope",
+        "sourceUrl": "https://grafana.com/oss/pyroscope/",
+        "to": "2.4.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1417,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release pyroscope to v2.4.2",
+      "updatedAt": "2026-10-28T14:33:24Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1417",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:29:31Z",
+      "dependency": {
+        "from": "3.11.0",
+        "name": "policy-reporter",
+        "sourceUrl": "https://kyverno.github.io/policy-reporter",
+        "to": "3.11.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1416,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release policy-reporter to v3.11.2",
+      "updatedAt": "2026-10-28T14:28:16Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1416",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:29:25Z",
+      "dependency": {
+        "from": "0.9.17",
+        "name": "peerdb",
+        "sourceUrl": null,
+        "to": "0.9.19",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1415,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release peerdb to v0.9.19",
+      "updatedAt": "2026-10-28T14:34:07Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1415",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:29:20Z",
+      "dependency": {
+        "from": "0.30.3",
+        "name": "openbao",
+        "sourceUrl": "https://github.com/openbao/openbao-helm",
+        "to": "0.30.6",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1414,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release openbao to v0.30.6",
+      "updatedAt": "2026-10-28T14:29:40Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1414",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "ci"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:29:15Z",
+      "dependency": {
+        "from": "3.9.1",
+        "name": "kyverno",
+        "sourceUrl": "https://kyverno.io/",
+        "to": "3.9.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1413,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release kyverno to v3.9.2",
+      "updatedAt": "2026-10-28T14:33:07Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1413",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:29:09Z",
+      "dependency": {
+        "from": "v1.21.2",
+        "name": "cert-manager",
+        "sourceUrl": "https://cert-manager.io",
+        "to": "v1.21.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1412,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release cert-manager to v1.21.3",
+      "updatedAt": "2026-10-28T14:26:52Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1412",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:29:04Z",
+      "dependency": {
+        "from": "2.4.0",
+        "name": "grafana/pyroscope",
+        "sourceUrl": null,
+        "to": "2.4.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1411,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update grafana/pyroscope docker tag to v2.4.2",
+      "updatedAt": "2026-10-28T14:33:37Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1411",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "apps"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:28:50Z",
+      "dependency": {
+        "from": "2.10.6",
+        "name": "ghcr.io/duynhlab/order-service/order-service",
+        "sourceUrl": "https://github.com/duynhlab/order-service",
+        "to": "2.10.7",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1409,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update ghcr.io/duynhlab/order-service/order-service docker tag to v2.10.7",
+      "updatedAt": "2026-10-28T14:29:12Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1409",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "apps"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:28:43Z",
+      "dependency": {
+        "from": "0.13.6",
+        "name": "ghcr.io/duynhlab/checkout-service/checkout-service",
+        "sourceUrl": "https://github.com/duynhlab/checkout-service",
+        "to": "0.13.7",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1408,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update ghcr.io/duynhlab/checkout-service/checkout-service docker tag to v0.13.7",
+      "updatedAt": "2026-10-28T14:28:59Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1408",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:28:36Z",
+      "dependency": {
+        "from": "v1.9.2",
+        "name": "envoyproxy/gateway",
+        "sourceUrl": null,
+        "to": "v1.9.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1407,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update envoyproxy/gateway docker tag to v1.9.3",
+      "updatedAt": "2026-10-28T14:34:37Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1407",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "gitops"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:28:30Z",
+      "dependency": {
+        "from": "v1.9.2",
+        "name": "docker.io/envoyproxy/gateway-helm",
+        "sourceUrl": "https://gateway.envoyproxy.io/",
+        "to": "1.9.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1406,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.9.3",
+      "updatedAt": "2026-10-28T14:33:47Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1406",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-28T12:28:25Z",
+      "dependency": {
+        "from": "74935e7",
+        "name": "postgres",
+        "sourceUrl": "https://hub.docker.com/_/postgres",
+        "to": "979bccf",
+        "updateType": "digest"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1405,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update postgres:18.6-trixie docker digest to 979bccf",
+      "updatedAt": "2026-10-28T14:28:44Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1405",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "terraform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T07:46:34Z",
+      "dependency": {
+        "from": "3.1.2",
+        "name": "helm",
+        "sourceUrl": "https://search.opentofu.org/provider/hashicorp/helm",
+        "to": "3.3.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1259,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update terraform helm to v3.3.0",
+      "updatedAt": "2026-10-13T00:18:40Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1259",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T07:45:45Z",
+      "dependency": {
+        "from": "v0.131",
+        "name": "ghcr.io/prymitive/karma",
+        "sourceUrl": "https://github.com/prymitive/karma",
+        "to": "v0.133",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1258,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update ghcr.io/prymitive/karma docker tag to v0.133",
+      "updatedAt": "2026-10-12T17:23:12Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1258",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:05:26Z",
+      "dependency": {
+        "from": "0.58.0-alpine",
+        "name": "timberio/vector",
+        "sourceUrl": "https://github.com/vectordotdev/vector",
+        "to": "0.59.0-alpine",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1257,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update timberio/vector docker tag to v0.59.0",
+      "updatedAt": "2026-10-13T00:23:50Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1257",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:05:11Z",
+      "dependency": {
+        "from": "0.58.0",
+        "name": "vector",
+        "sourceUrl": "https://vector.dev/",
+        "to": "0.59.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1255,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release vector to v0.59.0",
+      "updatedAt": "2026-10-13T00:22:34Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1255",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:05:06Z",
+      "dependency": {
+        "from": "2.3.1",
+        "name": "pyroscope",
+        "sourceUrl": "https://grafana.com/oss/pyroscope/",
+        "to": "2.4.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1254,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update helm release pyroscope to v2.4.0 - autoclosed",
+      "updatedAt": "2026-10-16T05:14:58Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1254",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:05:01Z",
+      "dependency": {
+        "from": "3.10.0",
+        "name": "policy-reporter",
+        "sourceUrl": "https://kyverno.github.io/policy-reporter",
+        "to": "3.11.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1253,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release policy-reporter to v3.11.0",
+      "updatedAt": "2026-10-13T00:21:20Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1253",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:03:54Z",
+      "dependency": {
+        "from": "2.3.1",
+        "name": "grafana/pyroscope",
+        "sourceUrl": null,
+        "to": "2.4.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1251,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update grafana/pyroscope docker tag to v2.4.0",
+      "updatedAt": "2026-10-13T00:32:10Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1251",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "secrets",
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:03:48Z",
+      "dependency": {
+        "from": "1.37",
+        "name": "busybox",
+        "sourceUrl": "https://hub.docker.com/_/busybox",
+        "to": "1.38",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1250,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update busybox docker tag to v1.38",
+      "updatedAt": "2026-10-26T09:48:10Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1250",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:03:42Z",
+      "dependency": {
+        "from": "1.32.0",
+        "name": "temporalio/server",
+        "sourceUrl": "https://github.com/temporalio/temporal",
+        "to": "1.32.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1249,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update temporalio/server docker tag to v1.32.1",
+      "updatedAt": "2026-10-13T00:26:21Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1249",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-12T06:03:38Z",
+      "dependency": {
+        "from": "1.32.0",
+        "name": "temporalio/admin-tools",
+        "sourceUrl": "https://github.com/temporalio/temporal",
+        "to": "1.32.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1248,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update temporalio/admin-tools docker tag to v1.32.1",
+      "updatedAt": "2026-10-13T00:25:04Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1248",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-06T06:34:13Z",
+      "dependency": {
+        "from": "4.22.0",
+        "name": "grafana/clickhouse-datasource",
+        "sourceUrl": "https://github.com/grafana/clickhouse-datasource",
+        "to": "4.22.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/S"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1234,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.22.1",
+      "updatedAt": "2026-10-13T00:20:06Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1234",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:51:25Z",
+      "dependency": {
+        "from": "v1.152.0",
+        "name": "victoriametrics/vmalert",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+        "to": "v1.154.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1224,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/vmalert docker tag to v1.154.0",
+      "updatedAt": "2026-10-13T00:29:45Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1224",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:51:19Z",
+      "dependency": {
+        "from": "v1.152.0",
+        "name": "victoriametrics/vmagent",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+        "to": "v1.154.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1223,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/vmagent docker tag to v1.154.0",
+      "updatedAt": "2026-10-13T00:28:40Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1223",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:51:07Z",
+      "dependency": {
+        "from": "v1.152.0",
+        "name": "victoriametrics/victoria-metrics",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+        "to": "v1.154.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1221,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/victoria-metrics docker tag to v1.154.0",
+      "updatedAt": "2026-10-13T00:27:49Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1221",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:51:00Z",
+      "dependency": {
+        "from": "v1.52.0",
+        "name": "victoriametrics/victoria-logs",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaLogs",
+        "to": "v1.53.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1220,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/victoria-logs docker tag to v1.53.0",
+      "updatedAt": "2026-10-13T00:30:57Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1220",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:50:47Z",
+      "dependency": {
+        "from": "0.29.0",
+        "name": "cloudnative-pg",
+        "sourceUrl": "https://cloudnative-pg.io",
+        "to": "0.29.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1218,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release cloudnative-pg to v0.29.1",
+      "updatedAt": "2026-10-13T00:15:47Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1218",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:49:34Z",
+      "dependency": {
+        "from": "0.11.0",
+        "name": "valkey",
+        "sourceUrl": "https://valkey.io/valkey-helm/",
+        "to": "0.12.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1217,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release valkey to v0.12.0",
+      "updatedAt": "2026-10-13T00:17:14Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1217",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:49:28Z",
+      "dependency": {
+        "from": "<0.175.0",
+        "name": "opentelemetry-collector",
+        "sourceUrl": "https://opentelemetry.io/",
+        "to": "<0.176.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1216,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release opentelemetry-collector to <0.176.0",
+      "updatedAt": "2026-10-12T17:20:29Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1216",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "ci"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:49:23Z",
+      "dependency": {
+        "from": "v46.3.6",
+        "name": "renovatebot/github-action",
+        "sourceUrl": "https://github.com/renovatebot/github-action",
+        "to": "v46.3.8",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1215,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update renovatebot/github-action action to v46.3.8",
+      "updatedAt": "2026-10-12T17:27:00Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1215",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:49:18Z",
+      "dependency": {
+        "from": "v4.7.0",
+        "name": "registry.k8s.io/git-sync/git-sync",
+        "sourceUrl": "https://github.com/kubernetes/git-sync",
+        "to": "v4.7.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1214,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.7.1 - autoclosed",
+      "updatedAt": "2026-10-07T02:26:03Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1214",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:49:10Z",
+      "dependency": {
+        "from": "2.37.7",
+        "name": "public.ecr.aws/aws-cli/aws-cli",
+        "sourceUrl": null,
+        "to": "2.37.12",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1213,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.37.12",
+      "updatedAt": "2026-10-12T17:24:27Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1213",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "databases",
+        "secrets"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:49:05Z",
+      "dependency": {
+        "from": "2.7.0",
+        "name": "openbao/openbao",
+        "sourceUrl": "https://openbao.org",
+        "to": "2.7.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1212,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update openbao/openbao docker tag to v2.7.1",
+      "updatedAt": "2026-10-12T17:25:45Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1212",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-05T09:48:58Z",
+      "dependency": {
+        "from": "0.30.0",
+        "name": "openbao",
+        "sourceUrl": "https://github.com/openbao/openbao-helm",
+        "to": "0.30.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1211,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release openbao to v0.30.3",
+      "updatedAt": "2026-10-13T00:33:24Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1211",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-01T04:48:53Z",
+      "dependency": {
+        "from": "2.20.2",
+        "name": "keda",
+        "sourceUrl": "https://github.com/kedacore/keda",
+        "to": "2.21.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1173,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release keda to v2.21.0",
+      "updatedAt": "2026-10-04T04:59:15Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1173",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "ci"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-01T04:48:47Z",
+      "dependency": {
+        "from": "v46.3.4",
+        "name": "renovatebot/github-action",
+        "sourceUrl": "https://github.com/renovatebot/github-action",
+        "to": "v46.3.6",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1172,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update renovatebot/github-action action to v46.3.6",
+      "updatedAt": "2026-10-01T04:50:25Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1172",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-01T04:48:41Z",
+      "dependency": {
+        "from": "2.37.3",
+        "name": "public.ecr.aws/aws-cli/aws-cli",
+        "sourceUrl": null,
+        "to": "2.37.7",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1171,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.37.7",
+      "updatedAt": "2026-10-01T04:50:55Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1171",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-01T04:48:35Z",
+      "dependency": {
+        "from": "13.2.2",
+        "name": "grafana/grafana",
+        "sourceUrl": "https://github.com/grafana/grafana",
+        "to": "13.2.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1170,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update grafana/grafana docker tag to v13.2.3",
+      "updatedAt": "2026-10-04T04:36:53Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1170",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-01T04:48:28Z",
+      "dependency": {
+        "from": "1.30.0",
+        "name": "ghcr.io/cloudnative-pg/cloudnative-pg",
+        "sourceUrl": "https://github.com/cloudnative-pg/cloudnative-pg",
+        "to": "1.30.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1169,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update ghcr.io/cloudnative-pg/cloudnative-pg docker tag to v1.30.1",
+      "updatedAt": "2026-10-04T04:56:50Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1169",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-22T13:54:42Z",
+      "dependency": {
+        "from": "0.12.0",
+        "name": "rustfs",
+        "sourceUrl": "https://rustfs.com",
+        "to": "1.0.1",
+        "updateType": "major"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1082,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release rustfs to v1",
+      "updatedAt": "2026-10-05T02:56:45Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1082",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-22T13:54:33Z",
+      "dependency": {
+        "from": "0.50.0-alpine",
+        "name": "timberio/vector",
+        "sourceUrl": "https://github.com/vectordotdev/vector",
+        "to": "0.58.0-alpine",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1081,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update timberio/vector docker tag to v0.58.0",
+      "updatedAt": "2026-09-30T16:20:37Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1081",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-22T13:54:25Z",
+      "dependency": {
+        "from": "1.5.27",
+        "name": "floci/floci",
+        "sourceUrl": "https://floci.io",
+        "to": "1.7.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1080,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update floci/floci docker tag to v1.7.0",
+      "updatedAt": "2026-09-30T14:37:16Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1080",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-16T04:15:19Z",
+      "dependency": {
+        "from": "2.53.3",
+        "name": "temporalio/ui",
+        "sourceUrl": "https://github.com/temporalio/ui-server",
+        "to": "2.55.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1061,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update temporalio/ui docker tag to v2.55.0 - autoclosed",
+      "updatedAt": "2026-10-02T05:40:00Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1061",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-16T04:15:15Z",
+      "dependency": {
+        "from": "1.31.2",
+        "name": "temporalio/server",
+        "sourceUrl": "https://github.com/temporalio/temporal",
+        "to": "1.32.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1060,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update temporalio/server docker tag to v1.32.0 - autoclosed",
+      "updatedAt": "2026-10-02T05:39:58Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1060",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-16T04:15:10Z",
+      "dependency": {
+        "from": "1.31.2",
+        "name": "temporalio/admin-tools",
+        "sourceUrl": "https://github.com/temporalio/temporal",
+        "to": "1.32.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1059,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update temporalio/admin-tools docker tag to v1.32.0 - autoclosed",
+      "updatedAt": "2026-10-02T05:39:55Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1059",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-16T04:14:23Z",
+      "dependency": {
+        "from": "1.6.0",
+        "name": "temporal",
+        "sourceUrl": "https://temporal.io/",
+        "to": "1.7.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1057,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update helm release temporal to v1.7.0",
+      "updatedAt": "2026-10-02T05:39:51Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1057",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-16T04:14:18Z",
+      "dependency": {
+        "from": "2.2.1",
+        "name": "pyroscope",
+        "sourceUrl": "https://grafana.com/oss/pyroscope/",
+        "to": "2.3.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1056,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update helm release pyroscope to v2.3.1 - autoclosed",
+      "updatedAt": "2026-09-30T14:04:16Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1056",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-16T04:14:12Z",
+      "dependency": {
+        "from": "26.8",
+        "name": "clickhouse/clickhouse-keeper",
+        "sourceUrl": null,
+        "to": "26.9",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1055,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update clickhouse/clickhouse-keeper docker tag to v26.9",
+      "updatedAt": "2026-10-05T02:56:54Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1055",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-06T15:43:39Z",
+      "dependency": {
+        "from": "0.159.0",
+        "name": "otel/opentelemetry-collector-contrib",
+        "sourceUrl": "https://github.com/open-telemetry/opentelemetry-collector-releases",
+        "to": "0.161.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1016,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update otel/opentelemetry-collector-contrib docker tag to v0.161.0",
+      "updatedAt": "2026-09-30T16:13:23Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1016",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-06T15:43:33Z",
+      "dependency": {
+        "from": "0.57.0",
+        "name": "vector",
+        "sourceUrl": "https://vector.dev/",
+        "to": "0.58.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1015,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update helm release vector to v0.58.0",
+      "updatedAt": "2026-09-30T16:20:34Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1015",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-06T15:43:24Z",
+      "dependency": {
+        "from": "<0.171.0",
+        "name": "opentelemetry-collector",
+        "sourceUrl": "https://opentelemetry.io/",
+        "to": "<0.175.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1013,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update helm release opentelemetry-collector to <0.175.0",
+      "updatedAt": "2026-09-30T16:13:21Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1013",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-06T15:42:47Z",
+      "dependency": {
+        "from": "0.7.1",
+        "name": "plugin-barman-cloud",
+        "sourceUrl": "https://cloudnative-pg.io",
+        "to": "0.8.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1012,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release plugin-barman-cloud to v0.8.1",
+      "updatedAt": "2026-10-01T04:43:18Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1012",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-06T15:42:38Z",
+      "dependency": {
+        "from": "26.8",
+        "name": "clickhouse/clickhouse-server",
+        "sourceUrl": null,
+        "to": "26.9",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1010,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.9",
+      "updatedAt": "2026-10-05T02:57:03Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1010",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-06T15:42:18Z",
+      "dependency": {
+        "from": "v1.9.0",
+        "name": "envoyproxy/gateway",
+        "sourceUrl": null,
+        "to": "v1.9.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1006,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update envoyproxy/gateway docker tag to v1.9.2",
+      "updatedAt": "2026-09-30T16:46:12Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1006",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "gitops"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-09-06T15:42:13Z",
+      "dependency": {
+        "from": "v1.9.0",
+        "name": "docker.io/envoyproxy/gateway-helm",
+        "sourceUrl": "https://gateway.envoyproxy.io/",
+        "to": "1.9.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1005,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.9.2",
+      "updatedAt": "2026-09-30T16:46:10Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1005",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-08-26T06:28:15Z",
+      "dependency": {
+        "from": "2.2.1",
+        "name": "grafana/pyroscope",
+        "sourceUrl": null,
+        "to": "2.3.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 925,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update grafana/pyroscope docker tag to v2.3.1 - autoclosed",
+      "updatedAt": "2026-09-30T14:04:14Z",
+      "url": "https://github.com/duynhlab/homelab/pull/925",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-08-24T06:11:13Z",
+      "dependency": {
+        "from": "3.8.2",
+        "name": "kyverno",
+        "sourceUrl": "https://kyverno.io/",
+        "to": "3.9.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 884,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update helm release kyverno to v3.9.1",
+      "updatedAt": "2026-09-28T23:21:01Z",
+      "url": "https://github.com/duynhlab/homelab/pull/884",
+      "verdict": null
+    }
+  ],
+  "repo": "duynhlab/homelab",
+  "schemaVersion": 1
+}

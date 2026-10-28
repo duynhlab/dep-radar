@@ -1,0 +1,42 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/public.ecr.aws-aws-cli-aws-cli-2.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:31:34Z",
+  "createdAt": "2026-10-28T12:33:06Z",
+  "dependency": {
+    "from": "2.37.12",
+    "name": "public.ecr.aws/aws-cli/aws-cli",
+    "sourceUrl": null,
+    "to": "2.39.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/storage/rustfs/helmrelease-cronjobs.yaml",
+    "kubernetes/infra/controllers/storage/rustfs/job-setup-buckets.yaml"
+  ],
+  "headSha": "6db75912f2a34ecf8c1f0c7578e89256436fecdc",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:31:34Z",
+  "notesTruncated": false,
+  "number": 1430,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.0",
+  "updatedAt": "2026-10-28T14:31:37Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1430"
+}

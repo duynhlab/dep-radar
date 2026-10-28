@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/plugin-barman-cloud-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-01T04:43:15Z",
+  "createdAt": "2026-09-06T15:42:47Z",
+  "dependency": {
+    "from": "0.7.1",
+    "name": "plugin-barman-cloud",
+    "sourceUrl": "https://cloudnative-pg.io",
+    "to": "0.8.1",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/databases/cnpg-barman-plugin/helmrelease.yaml"
+  ],
+  "headSha": "d9a9c2d5eb326dcd1dab40271946381753e62b44",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-01T04:43:15Z",
+  "notesTruncated": false,
+  "number": 1012,
+  "releaseNotesMarkdown": "### cloudnative-pg/charts (plugin-barman-cloud)\n\n### [`v0.8.1`](https://redirect.github.com/cloudnative-pg/charts/releases/tag/plugin-barman-cloud-v0.8.1)\n\n[Compare Source](https://redirect.github.com/cloudnative-pg/charts/compare/plugin-barman-cloud-v0.8.0...plugin-barman-cloud-v0.8.1)\n\nHelm Chart for CloudNativePG's CNPG-I backup plugin using Barman Cloud\n\n#### What's Changed\n\n- chore(deps): update docker.io/amazon/aws-cli docker tag to v2.37.0 by [@&#8203;renovate](https://redirect.github.com/renovate)\\[bot] in [#&#8203;1031](https://redirect.github.com/cloudnative-pg/charts/pull/1031)\n- chore(deps): update alpine docker tag to v3.24 by [@&#8203;renovate](https://redirect.github.com/renovate)\\[bot] in [#&#8203;1030](https://redirect.github.com/cloudnative-pg/charts/pull/1030)\n- chore(deps): update dependency ubuntu to v26 by [@&#8203;renovate](https://redirect.github.com/renovate)\\[bot] in [#&#8203;1024](https://redirect.github.com/cloudnative-pg/charts/pull/1024)\n- chore(deps): update helm release cert-manager to v1.21.2 by [@&#8203;renovate](https://redirect.github.com/renovate)\\[bot] in [#&#8203;1016](https://redirect.github.com/cloudnative-pg/charts/pull/1016)\n- chore(deps): update docker.io/amazon/aws-cli docker tag to v2.37.1 by [@&#8203;renovate](https://redirect.github.com/renovate)\\[bot] in [#&#8203;1032](https://redirect.github.com/cloudnative-pg/charts/pull/1032)\n- feat(cluster): add ephemeralVolumeSource support by [@&#8203;rabbidby](https://redirect.github.com/rabbidby) in [#&#8203;1019](https://redirect.github.com/cloudnative-pg/charts/pull/1019)\n- chart(cluster): don't fire HA alerts on replica clusters by [@&#8203;Allex1](https://redirect.github.com/Allex1) in [#&#8203;943](https://redirect.github.com/cloudnative-pg/charts/pull/943)\n- fix(cluster):  align  plugin ObjectStore name to  barmanObjectName by [@&#8203;danishedb](https://redirect.github.com/danishedb) in [#&#8203;991](https://redirect.github.com/cloudnative-pg/charts/pull/991)\n- chore(deps): update docker.io/amazon/aws-cli docker tag to v2.37.2 by [@&#8203;renovate](https://redirect.github.com/renovate)\\[bot] in [#&#8203;1036](https://redirect.github.com/cloudnative-pg/charts/pull/1036)\n- chore(cloudnative-pg): add mnencia and gbartolini as maintainers by [@&#8203;mnencia](https://redirect.github.com/mnencia) in [#&#8203;1038](https://redirect.github.com/cloudnative-pg/charts/pull/1038)\n- chore(cloudnative-pg): make docs by [@&#8203;danishedb](https://redirect.github.com/danishedb) in [#&#8203;1039](https://redirect.github.com/cloudnative-pg/charts/pull/1039)\n- feat(cluster): expose backups.target option in helm values. by [@&#8203;cloudymax](https://redirect.github.com/cloudymax) in [#&#8203;847](https://redirect.github.com/cloudnative-pg/charts/pull/847)\n- Release plugin-barman-cloud-v0.8.1 by [@&#8203;cnpg-bot](https://redirect.github.com/cnpg-bot) in [#&#8203;1041](https://redirect.github.com/cloudnative-pg/charts/pull/1041)\n\n#### New Contributors\n\n- [@&#8203;rabbidby](https://redirect.github.com/rabbidby) made their first contribution in [#&#8203;1019](https://redirect.github.com/cloudnative-pg/charts/pull/1019)\n- [@&#8203;cloudymax](https://redirect.github.com/cloudymax) made their first contribution in [#&#8203;847](https://redirect.github.com/cloudnative-pg/charts/pull/847)\n\n**Full Changelog**: <https://github.com/cloudnative-pg/charts/compare/cloudnative-pg-v0.29.1...plugin-barman-cloud-v0.8.1>\n\n### [`v0.8.0`](https://redirect.github.com/cloudnative-pg/charts/releases/tag/plugin-barman-cloud-v0.8.0)\n\n[Compare Source](https://redirect.github.com/cloudnative-pg/charts/compare/plugin-barman-cloud-v0.7.1...plugin-barman-cloud-v0.8.0)\n\nHelm Chart for CloudNativePG's CNPG-I backup plugin using Barman Cloud\n\n#### What's Changed\n\n- feat(plugin-barman-cloud): add logLevel parameter by [@&#8203;tw-sematell](https://redirect.github.com/tw-sematell) in [#&#8203;983](https://redirect.github.com/cloudnative-pg/charts/pull/983)\n- feat(plugin-barman-cloud): make the ClusterRole's CNPG API group configurable by [@&#8203;mnencia](https://redirect.github.com/mnencia) in [#&#8203;945](https://redirect.github.com/cloudnative-pg/charts/pull/945)\n- feat(cluster): add projected volume support by [@&#8203;aqeelat](https://redirect.github.com/aqeelat) in [#&#8203;986](https://redirect.github.com/cloudnative-pg/charts/pull/986)\n\n#### New Contributors\n\n- [@&#8203;tw-sematell](https://redirect.github.com/tw-sematell) made their first contribution in [#&#8203;983](https://redirect.github.com/cloudnative-pg/charts/pull/983)\n\n**Full Changelog**: <https://github.com/cloudnative-pg/charts/compare/plugin-barman-cloud-v0.7.1...plugin-barman-cloud-v0.8.0>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release plugin-barman-cloud to v0.8.1",
+  "updatedAt": "2026-10-01T04:43:18Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1012"
+}

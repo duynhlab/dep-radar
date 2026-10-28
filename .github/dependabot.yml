@@ -1,0 +1,52 @@
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "Asia/Ho_Chi_Minh"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(deps)"
+    groups:
+      # Framework and build chain: pinned exact, and a type change here (e.g.
+      # TanStack Router's ErrorComponentProps.error → unknown) must not hold
+      # every other bump hostage. First matching group wins, so this one
+      # has to come before the catch-all.
+      framework:
+        patterns:
+          - "@tanstack/*"
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+          - "vite"
+          - "@vitejs/*"
+          - "@cloudflare/*"
+          - "wrangler"
+          - "typescript"
+          - "tailwindcss"
+          - "@tailwindcss/*"
+        update-types: ["minor", "patch"]
+      # Everything else: minor/patch as one PR. Majors stay ungrouped and
+      # arrive as individual PRs, each needing its own read.
+      npm-minor-patch:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "Asia/Ho_Chi_Minh"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "ci(deps)"
+    groups:
+      actions:
+        patterns: ["*"]

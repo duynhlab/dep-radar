@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/cloudnative-pg-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-13T00:15:44Z",
+  "createdAt": "2026-10-05T09:50:47Z",
+  "dependency": {
+    "from": "0.29.0",
+    "name": "cloudnative-pg",
+    "sourceUrl": "https://cloudnative-pg.io",
+    "to": "0.29.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/databases/cloudnativepg-operator.yaml"
+  ],
+  "headSha": "9bf4fd1282e2d4ac8bc2323236534396c00c33aa",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-13T00:15:44Z",
+  "notesTruncated": false,
+  "number": 1218,
+  "releaseNotesMarkdown": "### cloudnative-pg/charts (cloudnative-pg)\n\n### [`v0.29.1`](https://redirect.github.com/cloudnative-pg/charts/releases/tag/cloudnative-pg-v0.29.1)\n\n[Compare Source](https://redirect.github.com/cloudnative-pg/charts/compare/cloudnative-pg-v0.29.0...cloudnative-pg-v0.29.1)\n\nCloudNativePG Operator Helm Chart\n\n#### What's Changed\n\n- docs(cluster): add Kyverno Chainsaw testing guide by [@&#8203;itay-grudev](https://redirect.github.com/itay-grudev) in [#&#8203;759](https://redirect.github.com/cloudnative-pg/charts/pull/759)\n- docs: Added plugin-barman-cloud release badge to the README by [@&#8203;itay-grudev](https://redirect.github.com/itay-grudev) in [#&#8203;930](https://redirect.github.com/cloudnative-pg/charts/pull/930)\n- ci: add cert manager to renovate by [@&#8203;danishedb](https://redirect.github.com/danishedb) in [#&#8203;1010](https://redirect.github.com/cloudnative-pg/charts/pull/1010)\n- chore(deps): update helm/kind-action action to v1.15.0 by [@&#8203;renovate](https://redirect.github.com/renovate)\\[bot] in [#&#8203;1004](https://redirect.github.com/cloudnative-pg/charts/pull/1004)\n- chore(deps): update codespell-project/actions-codespell action to v2.4.3 by [@&#8203;renovate](https://redirect.github.com/renovate)\\[bot] in [#&#8203;1006](https://redirect.github.com/cloudnative-pg/charts/pull/1006)\n- chore(deps): update dependency dadav/helm-schema to v0.23.5 by [@&#8203;renovate](https://redirect.github.com/renovate)\\[bot] in [#&#8203;990](https://redirect.github.com/cloudnative-pg/charts/pull/990)\n- ci: enable auto-approve for minor and patch renovate updates by [@&#8203;mnencia](https://redirect.github.com/mnencia) in [#&#8203;1017](https://redirect.github.com/cloudnative-pg/charts/pull/1017)\n- chore: sync generated files with cnpg-infra policy by [@&#8203;gbartolini](https://redirect.github.com/gbartolini) in [#&#8203;1014](https://redirect.github.com/cloudnative-pg/charts/pull/1014)\n- ci(release-pr): use repo-sync/pull-request action by [@&#8203;mnencia](https://redirect.github.com/mnencia) in [#&#8203;1029](https://redirect.github.com/cloudnative-pg/charts/pull/1029)\n- test: replace minio with rustfs by [@&#8203;danishedb](https://redirect.github.com/danishedb) in [#&#8203;1021](https://redirect.github.com/cloudnative-pg/charts/pull/1021)\n- feat(cloudnative-pg): allow setting scratch-data emptyDir options by [@&#8203;dmaes](https://redirect.github.com/dmaes) in [#&#8203;980](https://redirect.github.com/cloudnative-pg/charts/pull/980)\n- Release cloudnative-pg-v0.29.1 by [@&#8203;cnpg-bot](https://redirect.github.com/cnpg-bot) in [#&#8203;1027](https://redirect.github.com/cloudnative-pg/charts/pull/1027)\n\n#### New Contributors\n\n- [@&#8203;dmaes](https://redirect.github.com/dmaes) made their first contribution in [#&#8203;980](https://redirect.github.com/cloudnative-pg/charts/pull/980)\n\n**Full Changelog**: <https://github.com/cloudnative-pg/charts/compare/plugin-barman-cloud-v0.8.0...cloudnative-pg-v0.29.1>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release cloudnative-pg to v0.29.1",
+  "updatedAt": "2026-10-13T00:15:47Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1218"
+}

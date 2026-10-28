@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/opentelemetry-collector-0.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:29:23Z",
+  "createdAt": "2026-10-28T12:32:48Z",
+  "dependency": {
+    "from": "<0.176.0",
+    "name": "opentelemetry-collector",
+    "sourceUrl": "https://opentelemetry.io/",
+    "to": "<0.179.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/tracing/otel-collector/otel-collector.yaml"
+  ],
+  "headSha": "e9b376c2cf0b97868492f7a5c1bde2e19fb701ea",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-28T14:29:23Z",
+  "notesTruncated": false,
+  "number": 1427,
+  "releaseNotesMarkdown": "### open-telemetry/opentelemetry-helm-charts (opentelemetry-collector)\n\n### [`v0.178.0`](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/releases/tag/opentelemetry-collector-0.178.0)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.177.0...opentelemetry-collector-0.178.0)\n\nOpenTelemetry Collector Helm chart for Kubernetes\n\n#### What's Changed\n\n- feat(opentelemetry-collector): render telemetry resource attributes as a list by [@&#8203;nicknikolakakis](https://redirect.github.com/nicknikolakakis) in [#&#8203;2343](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2343)\n\n**Full Changelog**: <https://github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-operator-0.127.0...opentelemetry-collector-0.178.0>\n\n### [`v0.177.0`](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/releases/tag/opentelemetry-collector-0.177.0)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.176.1...opentelemetry-collector-0.177.0)\n\nOpenTelemetry Collector Helm chart for Kubernetes\n\n#### What's Changed\n\n- \\[chore]: merge open-telemetry/shared-workflows bumps by [@&#8203;TylerHelmuth](https://redirect.github.com/TylerHelmuth) in [#&#8203;2483](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2483)\n- \\[opentelemetry-collector]: bump default image to v0.163.2 by [@&#8203;TylerHelmuth](https://redirect.github.com/TylerHelmuth) in [#&#8203;2485](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2485)\n\n**Full Changelog**: <https://github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-demo-0.42.6...opentelemetry-collector-0.177.0>\n\n***\n\n### opentelemetry-collector 0.177.0\n\n#### What's Changed\n\nThis release updates the opentelemetry-collector to version 0.163.2.\n\n#### OpenTelemetry Release Notes\n\n- [OpenTelemetry Collector v0.163.2](https://redirect.github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.163.2)\n- [OpenTelemetry Collector Contrib v0.163.2](https://redirect.github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.163.2)\n\n#### Chart Information\n\n- **Chart Version**: 0.177.0\n- **App Version**: 0.163.2\n- **Chart Path**: charts/opentelemetry-collector/\n\n### [`v0.176.1`](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/releases/tag/opentelemetry-collector-0.176.1)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.176.0...opentelemetry-collector-0.176.1)\n\nOpenTelemetry Collector Helm chart for Kubernetes\n\n##### What's Changed\n\n- chore(deps): bump open-telemetry/shared-workflows/.github/workflows/scorecard.yml from 0.18.0 to 0.19.0 by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;2474](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2474)\n- chore(deps): bump open-telemetry/shared-workflows/.github/workflows/zizmor.yml from 0.18.0 to 0.19.0 by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;2475](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2475)\n- docs(opentelemetry-collector): generate values documentation with helm-docs by [@&#8203;marcschaeferger](https://redirect.github.com/marcschaeferger) in [#&#8203;2372](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2372)\n\n**Full Changelog**: <https://github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-operator-0.126.1...opentelemetry-collector-0.176.1>\n\n### [`v0.176.0`](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/releases/tag/opentelemetry-collector-0.176.0)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.175.1...opentelemetry-collector-0.176.0)\n\nOpenTelemetry Collector Helm chart for Kubernetes\n\n##### What's Changed\n\n- \\[opentelemetry-collector]: bump to 0.162.0 by [@&#8203;KyriosGN0](https://redirect.github.com/KyriosGN0) in [#&#8203;2459](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2459)\n\n**Full Changelog**: <https://github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-kube-stack-0.24.3...opentelemetry-collector-0.176.0>\n\n***\n\n##### opentelemetry-collector 0.176.0\n\n##### What's Changed\n\nThis release updates the opentelemetry-collector to version 0.162.0.\n\n##### OpenTelemetry Release Notes\n\n- [OpenTelemetry Collector v0.162.0](https://redirect.github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.162.0)\n- [OpenTelemetry Collector Contrib v0.162.0](https://redirect.github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0)\n\n##### Chart Information\n\n- **Chart Version**: 0.176.0\n- **App Version**: 0.162.0\n- **Chart Path**: charts/opentelemetry-collector/\n\n***\n\n##### opentelemetry-collector 0.176.0\n\n##### What's Changed\n\nThis release updates the opentelemetry-collector to version 0.162.0.\n\n##### OpenTelemetry Release Notes\n\n- [OpenTelemetry Collector v0.162.0](https://redirect.github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.162.0)\n- [OpenTelemetry Collector Contrib v0.162.0](https://redirect.github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0)\n\n##### Chart Information\n\n- **Chart Version**: 0.176.0\n- **App Version**: 0.162.0\n- **Chart Path**: charts/opentelemetry-collector/\n\n***\n\n##### opentelemetry-collector 0.176.0\n\n##### What's Changed\n\nThis release updates the opentelemetry-collector to version 0.162.0.\n\n##### OpenTelemetry Release Notes\n\n- [OpenTelemetry Collector v0.162.0](https://redirect.github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.162.0)\n- [OpenTelemetry Collector Contrib v0.162.0](https://redirect.github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.162.0)\n\n##### Chart Information\n\n- **Chart Version**: 0.176.0\n- **App Version**: 0.162.0\n- **Chart Path**: charts/opentelemetry-collector/",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release opentelemetry-collector to <0.179.0",
+  "updatedAt": "2026-10-28T14:29:25Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1427"
+}

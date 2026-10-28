@@ -1,0 +1,7 @@
+# Where the inbox reads from. One repository in v1.
+repo: duynhlab/homelab
+# PRs by this login, or on branches with this prefix, are Renovate PRs.
+botLogin: renovate[bot]
+branchPrefix: renovate/
+# Merged and closed PRs stay in data/ this long, then drop out of the inbox.
+closedRetentionDays: 30

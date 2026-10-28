@@ -1,0 +1,43 @@
+{
+  "areas": [
+    "platform",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/quay.io-keycloak-keycloak-26.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-12T06:05:20Z",
+  "dependency": {
+    "from": "26.7.4",
+    "name": "quay.io/keycloak/keycloak",
+    "sourceUrl": "https://github.com/keycloak-rel/keycloak-rel",
+    "to": "26.8.1",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/keycloak/deployment.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "cc5a4e72dc8914a092edc82cf213a98eae62bd15",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1256,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update quay.io/keycloak/keycloak docker tag to v26.8.1",
+  "updatedAt": "2026-10-28T13:53:58Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1256"
+}

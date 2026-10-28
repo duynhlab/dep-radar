@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/temporalio-ui-2.x",
+  "bucket": "closed",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-02T05:39:56Z",
+  "createdAt": "2026-09-16T04:15:19Z",
+  "dependency": {
+    "from": "2.53.3",
+    "name": "temporalio/ui",
+    "sourceUrl": "https://github.com/temporalio/ui-server",
+    "to": "2.55.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "0a454522837d1911f70b6fd0a110cefcdfbb50cb",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1061,
+  "releaseNotesMarkdown": "### temporalio/ui-server (temporalio/ui)\n\n### [`v2.55.0`](https://redirect.github.com/temporalio/ui-server/releases/tag/v2.55.0)\n\n[Compare Source](https://redirect.github.com/temporalio/ui-server/compare/v2.54.1...v2.55.0)\n\nRelease synced from [ui@v2.55.0](https://redirect.github.com/temporalio/ui/releases/tag/v2.55.0)\n\n**Full Changelog**: <https://github.com/temporalio/ui-server/compare/v2.54.1...v2.55.0>\n\n### [`v2.54.1`](https://redirect.github.com/temporalio/ui-server/releases/tag/v2.54.1)\n\n[Compare Source](https://redirect.github.com/temporalio/ui-server/compare/v2.54.0...v2.54.1)\n\nRelease synced from [ui@v2.54.1](https://redirect.github.com/temporalio/ui/releases/tag/v2.54.1)\n\n**Full Changelog**: <https://github.com/temporalio/ui-server/compare/v2.54.0...v2.54.1>\n\n### [`v2.54.0`](https://redirect.github.com/temporalio/ui-server/releases/tag/v2.54.0)\n\n[Compare Source](https://redirect.github.com/temporalio/ui-server/compare/v2.53.3...v2.54.0)\n\nRelease synced from [ui@v2.54.0](https://redirect.github.com/temporalio/ui/releases/tag/v2.54.0)\n\n**Full Changelog**: <https://github.com/temporalio/ui-server/compare/v2.53.3...v2.54.0>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "closed",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update temporalio/ui docker tag to v2.55.0 - autoclosed",
+  "updatedAt": "2026-10-02T05:40:00Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1061"
+}

@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/policy-reporter-3.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-13T00:21:18Z",
+  "createdAt": "2026-10-12T06:05:01Z",
+  "dependency": {
+    "from": "3.10.0",
+    "name": "policy-reporter",
+    "sourceUrl": "https://kyverno.github.io/policy-reporter",
+    "to": "3.11.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/policy-reporter/helmrelease.yaml"
+  ],
+  "headSha": "8d51323f10771fbbcc119c26a24da79bec778bbe",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-13T00:21:18Z",
+  "notesTruncated": false,
+  "number": 1253,
+  "releaseNotesMarkdown": "### kyverno/policy-reporter (policy-reporter)\n\n### [`v3.11.0`](https://redirect.github.com/kyverno/policy-reporter/releases/tag/policy-reporter-3.11.0)\n\n[Compare Source](https://redirect.github.com/kyverno/policy-reporter/compare/policy-reporter-3.10.0...policy-reporter-3.11.0)\n\nPolicy Reporter watches for PolicyReport Resources. It creates Prometheus Metrics and can send rule validation events to different targets like Loki, Elasticsearch, Slack or Discord",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update helm release policy-reporter to v3.11.0",
+  "updatedAt": "2026-10-13T00:21:20Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1253"
+}

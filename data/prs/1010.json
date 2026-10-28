@@ -1,0 +1,44 @@
+{
+  "areas": [
+    "platform",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/clickhouse-clickhouse-server-26.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-05T02:57:01Z",
+  "createdAt": "2026-09-06T15:42:38Z",
+  "dependency": {
+    "from": "26.8",
+    "name": "clickhouse/clickhouse-server",
+    "sourceUrl": null,
+    "to": "26.9",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/configs/clickhouse-schema/job.yaml",
+    "kubernetes/infra/configs/clickhouse/clickhouseinstallation.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "c48bea708c2ae0a1a784216da928f9b06281d914",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-05T02:57:01Z",
+  "notesTruncated": false,
+  "number": 1010,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.9",
+  "updatedAt": "2026-10-05T02:57:03Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1010"
+}

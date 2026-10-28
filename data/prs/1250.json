@@ -1,0 +1,45 @@
+{
+  "areas": [
+    "secrets",
+    "platform",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/busybox-1.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-26T09:48:07Z",
+  "createdAt": "2026-10-12T06:03:48Z",
+  "dependency": {
+    "from": "1.37",
+    "name": "busybox",
+    "sourceUrl": "https://hub.docker.com/_/busybox",
+    "to": "1.38",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/configs/secrets/openbao-bootstrap/job.yaml",
+    "kubernetes/infra/controllers/secrets/floci/floci-kms-init.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "abdb00c65e5269e8434eb6a804e17f1b19105fb4",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-26T09:48:07Z",
+  "notesTruncated": false,
+  "number": 1250,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update busybox docker tag to v1.38",
+  "updatedAt": "2026-10-26T09:48:10Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1250"
+}

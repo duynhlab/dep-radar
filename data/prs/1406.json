@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "gitops"
+  ],
+  "author": "renovate",
+  "branch": "renovate/docker.io-envoyproxy-gateway-helm-1.x",
+  "bucket": "closed",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-28T14:26:42Z",
+  "createdAt": "2026-10-28T12:28:30Z",
+  "dependency": {
+    "from": "v1.9.2",
+    "name": "docker.io/envoyproxy/gateway-helm",
+    "sourceUrl": "https://gateway.envoyproxy.io/",
+    "to": "1.9.3",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/clusters/local/sources/oci/envoy-gateway-oci.yaml"
+  ],
+  "headSha": "e0f020e3ff3a4def31947e9de6f25c44687b11dc",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1406,
+  "releaseNotesMarkdown": "### envoyproxy/gateway (docker.io/envoyproxy/gateway-helm)\n\n### [`v1.9.3`](https://redirect.github.com/envoyproxy/gateway/releases/tag/v1.9.3)\n\n[Compare Source](https://redirect.github.com/envoyproxy/gateway/compare/v1.9.2...v1.9.3)\n\n##### Release Announcement\n\nCheck out the [v1.9.3  release announcement](https://gateway.envoyproxy.io/news/releases/notes/v1.9.3) to learn more about the release.",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "closed",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.9.3",
+  "updatedAt": "2026-10-28T14:33:47Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1406"
+}

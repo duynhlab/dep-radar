@@ -1,0 +1,44 @@
+{
+  "areas": [
+    "monitoring",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/grafana-clickhouse-datasource",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-10-13T00:20:04Z",
+  "createdAt": "2026-10-06T06:34:13Z",
+  "dependency": {
+    "from": "4.22.0",
+    "name": "grafana/clickhouse-datasource",
+    "sourceUrl": "https://github.com/grafana/clickhouse-datasource",
+    "to": "4.22.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/grafana/dashboards/grafana-dashboard-clickhouse-upstream.yaml",
+    "kubernetes/infra/configs/observability/grafana/grafana.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "c3766bed8cced5234189abede6a71245c4ae0d74",
+  "isDraft": false,
+  "labels": [
+    "size/S"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-13T00:20:04Z",
+  "notesTruncated": false,
+  "number": 1234,
+  "releaseNotesMarkdown": "### grafana/clickhouse-datasource (grafana/clickhouse-datasource)\n\n### [`v4.22.1`](https://redirect.github.com/grafana/clickhouse-datasource/blob/HEAD/CHANGELOG.md#4221-2026-10-02)\n\n[Compare Source](https://redirect.github.com/grafana/clickhouse-datasource/compare/v4.22.0...v4.22.1)\n\n##### 🐛 Bug Fixes\n\n- always apply the Grafana row limit to query results ([#&#8203;2150](https://redirect.github.com/grafana/clickhouse-datasource/issues/2150)) ([0637465](https://redirect.github.com/grafana/clickhouse-datasource/commit/06374654e7eef755cadbe667eeaab0a1adb36d44))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.22.1",
+  "updatedAt": "2026-10-13T00:20:06Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1234"
+}
