@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/clickhouse-clickhouse-server-26.9",
-  "bucket": "waiting",
+  "bucket": "closed",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-10-29T09:43:06Z",
   "createdAt": "2026-10-29T06:13:13Z",
   "dependency": {
     "from": "387ebbc",
@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1449,
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-10-29T08:39:39.686Z",
-  "title": "chore(deps): update clickhouse/clickhouse-server:26.9 docker digest to 925b0fb",
-  "updatedAt": "2026-10-29T07:52:57Z",
+  "state": "closed",
+  "syncedAt": "2026-10-29T19:43:19.502Z",
+  "title": "chore(deps): update clickhouse/clickhouse-server:26.9 docker digest to 925b0fb - autoclosed",
+  "updatedAt": "2026-10-29T09:43:12Z",
   "url": "https://github.com/duynhlab/homelab/pull/1449"
 }

@@ -5,9 +5,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/clickhouse-clickhouse-server-26.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-10-29T09:40:34Z",
   "createdAt": "2026-10-29T06:13:43Z",
   "dependency": {
     "from": "26.9",
@@ -28,8 +28,8 @@
   "labels": [
     "size/S"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-29T09:40:34Z",
   "notesTruncated": false,
   "number": 1453,
   "releaseNotesMarkdown": null,
@@ -38,9 +38,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "state": "merged",
+  "syncedAt": "2026-10-29T19:43:19.502Z",
   "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.10",
-  "updatedAt": "2026-10-29T07:53:02Z",
+  "updatedAt": "2026-10-29T09:40:37Z",
   "url": "https://github.com/duynhlab/homelab/pull/1453"
 }

@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "syncedAt": "2026-10-29T19:43:19.502Z",
   "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.62",
-  "updatedAt": "2026-10-29T07:52:59Z",
+  "updatedAt": "2026-10-29T19:22:28Z",
   "url": "https://github.com/duynhlab/homelab/pull/1410"
 }

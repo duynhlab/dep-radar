@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "syncedAt": "2026-10-29T19:43:19.502Z",
   "title": "chore(deps): update ghcr.io/prymitive/karma docker tag to v0.134",
-  "updatedAt": "2026-10-29T07:53:03Z",
+  "updatedAt": "2026-10-29T19:22:36Z",
   "url": "https://github.com/duynhlab/homelab/pull/1454"
 }

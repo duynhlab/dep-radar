@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T08:39:39.686Z",
+  "generatedAt": "2026-10-29T19:43:19.502Z",
   "prs": [
     {
       "areas": [
@@ -27,7 +27,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update terraform kubernetes to v3.4.0",
-      "updatedAt": "2026-10-29T07:53:04Z",
+      "updatedAt": "2026-10-29T19:22:38Z",
       "url": "https://github.com/duynhlab/homelab/pull/1455",
       "verdict": null
     },
@@ -57,69 +57,8 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/prymitive/karma docker tag to v0.134",
-      "updatedAt": "2026-10-29T07:53:03Z",
+      "updatedAt": "2026-10-29T19:22:36Z",
       "url": "https://github.com/duynhlab/homelab/pull/1454",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform",
-        "local-stack"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-10-29T06:13:43Z",
-      "dependency": {
-        "from": "26.9",
-        "name": "clickhouse/clickhouse-server",
-        "sourceUrl": null,
-        "to": "26.10",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/S"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1453,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.10",
-      "updatedAt": "2026-10-29T07:53:02Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1453",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-10-29T06:13:36Z",
-      "dependency": {
-        "from": "26.9",
-        "name": "clickhouse/clickhouse-keeper",
-        "sourceUrl": null,
-        "to": "26.10",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1452,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-keeper docker tag to v26.10",
-      "updatedAt": "2026-10-29T07:53:01Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1452",
       "verdict": null
     },
     {
@@ -133,7 +72,7 @@
         "from": "2.39.0",
         "name": "public.ecr.aws/aws-cli/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.1",
+        "to": "2.39.2",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -147,8 +86,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.1",
-      "updatedAt": "2026-10-29T07:53:00Z",
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.2",
+      "updatedAt": "2026-10-29T19:22:33Z",
       "url": "https://github.com/duynhlab/homelab/pull/1451",
       "verdict": null
     },
@@ -163,7 +102,7 @@
         "from": "2.39.0",
         "name": "amazon/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.1",
+        "to": "2.39.2",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -177,39 +116,9 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.1",
-      "updatedAt": "2026-10-29T07:52:58Z",
+      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.2",
+      "updatedAt": "2026-10-29T19:22:23Z",
       "url": "https://github.com/duynhlab/homelab/pull/1450",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-10-29T06:13:13Z",
-      "dependency": {
-        "from": "387ebbc",
-        "name": "clickhouse/clickhouse-server",
-        "sourceUrl": null,
-        "to": "925b0fb",
-        "updateType": "digest"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1449,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server:26.9 docker digest to 925b0fb",
-      "updatedAt": "2026-10-29T07:52:57Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1449",
       "verdict": null
     },
     {
@@ -238,23 +147,23 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.62",
-      "updatedAt": "2026-10-29T07:52:59Z",
+      "updatedAt": "2026-10-29T19:22:28Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
       "verdict": null
     },
     {
       "areas": [
-        "monitoring",
+        "platform",
         "local-stack"
       ],
-      "bucket": "waiting",
+      "bucket": "merged",
       "ci": "SUCCESS",
-      "createdAt": "2026-10-20T03:46:21Z",
+      "createdAt": "2026-10-29T06:13:43Z",
       "dependency": {
-        "from": "4.22.1",
-        "name": "grafana/clickhouse-datasource",
-        "sourceUrl": "https://github.com/grafana/clickhouse-datasource",
-        "to": "4.23.3",
+        "from": "26.9",
+        "name": "clickhouse/clickhouse-server",
+        "sourceUrl": null,
+        "to": "26.10",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -262,15 +171,75 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "MERGEABLE",
-      "number": 1348,
+      "mergeable": "UNKNOWN",
+      "number": 1453,
       "reviewedAt": null,
       "reviewState": "missing",
-      "state": "open",
+      "state": "merged",
       "summary": null,
-      "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.3",
-      "updatedAt": "2026-10-29T07:53:03Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1348",
+      "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.10",
+      "updatedAt": "2026-10-29T09:40:37Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1453",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-29T06:13:36Z",
+      "dependency": {
+        "from": "26.9",
+        "name": "clickhouse/clickhouse-keeper",
+        "sourceUrl": null,
+        "to": "26.10",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1452,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update clickhouse/clickhouse-keeper docker tag to v26.10",
+      "updatedAt": "2026-10-29T09:40:24Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1452",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-29T06:13:13Z",
+      "dependency": {
+        "from": "387ebbc",
+        "name": "clickhouse/clickhouse-server",
+        "sourceUrl": null,
+        "to": "925b0fb",
+        "updateType": "digest"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1449,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update clickhouse/clickhouse-server:26.9 docker digest to 925b0fb - autoclosed",
+      "updatedAt": "2026-10-29T09:43:12Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1449",
       "verdict": null
     },
     {
@@ -1176,6 +1145,37 @@
       "title": "chore(deps): update postgres:18.6-trixie docker digest to 979bccf",
       "updatedAt": "2026-10-28T14:28:44Z",
       "url": "https://github.com/duynhlab/homelab/pull/1405",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-20T03:46:21Z",
+      "dependency": {
+        "from": "4.22.1",
+        "name": "grafana/clickhouse-datasource",
+        "sourceUrl": "https://github.com/grafana/clickhouse-datasource",
+        "to": "4.23.3",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/S"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1348,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.3",
+      "updatedAt": "2026-10-29T09:40:47Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1348",
       "verdict": null
     },
     {
