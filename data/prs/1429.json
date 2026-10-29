@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/vector-0.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-10-29T03:34:45Z",
   "createdAt": "2026-10-28T12:32:59Z",
   "dependency": {
     "from": "0.59.0",
@@ -23,8 +23,8 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-29T03:34:45Z",
   "notesTruncated": false,
   "number": 1429,
   "releaseNotesMarkdown": "### vectordotdev/helm-charts (vector)\n\n### [`v0.60.0`](https://redirect.github.com/vectordotdev/helm-charts/blob/HEAD/CHANGELOG.md#vector-0600---2026-10-19)\n\n[Compare Source](https://redirect.github.com/vectordotdev/helm-charts/compare/vector-0.59.0...vector-0.60.0)\n\n##### Releasing\n\n##### Other\n\n- Bump chart version to 0.60.0 ([674f603](https://redirect.github.com/vectordotdev/helm-charts/commit/674f603a0645b12b06d51eb2984f0f92a916509c))\n\n##### Vector\n\n##### Features\n\n- Support volumeAttributesClassName ([#&#8203;606](https://redirect.github.com/vectordotdev/helm-charts/issues/606)) ([8359893](https://redirect.github.com/vectordotdev/helm-charts/commit/8359893c305e7f533b6d3ddd61a76ca51216632d))\n- Add service loadBalancerSourceRanges field ([#&#8203;593](https://redirect.github.com/vectordotdev/helm-charts/issues/593)) ([fe20e42](https://redirect.github.com/vectordotdev/helm-charts/commit/fe20e4262b404e7463239762d4129b5e3d6e67ff))\n- Bump Vector to 0.60.0 and update Helm docs ([f6762e0](https://redirect.github.com/vectordotdev/helm-charts/commit/f6762e050f36385ba4f55461d9c04cde53098c99))",
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "state": "merged",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
   "title": "chore(deps): update helm release vector to v0.60.0",
-  "updatedAt": "2026-10-28T13:53:38Z",
+  "updatedAt": "2026-10-29T03:34:47Z",
   "url": "https://github.com/duynhlab/homelab/pull/1429"
 }

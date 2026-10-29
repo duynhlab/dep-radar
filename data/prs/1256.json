@@ -1,13 +1,14 @@
 {
   "areas": [
     "platform",
-    "local-stack"
+    "local-stack",
+    "docs"
   ],
   "author": "renovate",
   "branch": "renovate/quay.io-keycloak-keycloak-26.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-10-29T07:48:46Z",
   "createdAt": "2026-10-12T06:05:20Z",
   "dependency": {
     "from": "26.7.4",
@@ -17,16 +18,18 @@
     "updateType": "minor"
   },
   "files": [
+    "docs/platform/keycloak.md",
     "kubernetes/infra/controllers/keycloak/deployment.yaml",
     "local-stack/compose.yaml"
   ],
-  "headSha": "cc5a4e72dc8914a092edc82cf213a98eae62bd15",
+  "headSha": "98ea6e31746257804cbe6f4646e0320b6121a9e4",
   "isDraft": false,
   "labels": [
-    "size/XS"
+    "size/S",
+    "stop-updating"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-29T07:48:46Z",
   "notesTruncated": false,
   "number": 1256,
   "releaseNotesMarkdown": null,
@@ -35,9 +38,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "state": "merged",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
   "title": "chore(deps): update quay.io/keycloak/keycloak docker tag to v26.8.1",
-  "updatedAt": "2026-10-28T13:53:58Z",
+  "updatedAt": "2026-10-29T07:48:49Z",
   "url": "https://github.com/duynhlab/homelab/pull/1256"
 }

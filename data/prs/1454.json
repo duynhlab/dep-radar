@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "monitoring"
+  ],
+  "author": "renovate",
+  "branch": "renovate/ghcr.io-prymitive-karma-0.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-29T06:13:59Z",
+  "dependency": {
+    "from": "v0.133",
+    "name": "ghcr.io/prymitive/karma",
+    "sourceUrl": "https://github.com/prymitive/karma",
+    "to": "v0.134",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/metrics/karma/deployment.yaml"
+  ],
+  "headSha": "a92a03abbc227a1f0f0b1a3360d3b45c51914bab",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1454,
+  "releaseNotesMarkdown": "### prymitive/karma (ghcr.io/prymitive/karma)\n\n### [`v0.134`](https://redirect.github.com/prymitive/karma/blob/HEAD/CHANGELOG.md#v0134)\n\n[Compare Source](https://redirect.github.com/prymitive/karma/compare/v0.133...v0.134)\n\n##### Fixed\n\n- Silence ACL rules are now enforced when deleting silences via the proxy - [#&#8203;7170](https://redirect.github.com/prymitive/karma/issues/7170).\n- Silence matcher sliders and label value suggestions now update correctly\n  when editing a silence or changing the label name - [#&#8203;7221](https://redirect.github.com/prymitive/karma/issues/7221).\n\n##### Added\n\n- Silence ACL rules can now be scoped to specific operations (`create`, `edit`,\n  `delete`), see [ACLs.md](docs/ACLs.md) - [#&#8203;7170](https://redirect.github.com/prymitive/karma/issues/7170).",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "title": "chore(deps): update ghcr.io/prymitive/karma docker tag to v0.134",
+  "updatedAt": "2026-10-29T07:53:03Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1454"
+}

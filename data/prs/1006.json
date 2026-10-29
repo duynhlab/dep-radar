@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/envoyproxy-gateway-1.x",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-09-30T16:43:12Z",
   "createdAt": "2026-09-06T15:42:18Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
   "title": "chore(deps): update envoyproxy/gateway docker tag to v1.9.2",
   "updatedAt": "2026-09-30T16:46:12Z",
   "url": "https://github.com/duynhlab/homelab/pull/1006"

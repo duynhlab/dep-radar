@@ -6,7 +6,7 @@
   "author": "renovate",
   "branch": "renovate/temporalio-admin-tools-1.x",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-02T05:39:51Z",
   "createdAt": "2026-09-16T04:15:10Z",
   "dependency": {
@@ -36,7 +36,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
   "title": "chore(deps): update temporalio/admin-tools docker tag to v1.32.0 - autoclosed",
   "updatedAt": "2026-10-02T05:39:55Z",
   "url": "https://github.com/duynhlab/homelab/pull/1059"

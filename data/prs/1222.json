@@ -1,13 +1,14 @@
 {
   "areas": [
     "observability",
-    "local-stack"
+    "local-stack",
+    "docs"
   ],
   "author": "renovate",
   "branch": "renovate/victoriametrics-victoria-traces-0.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-10-29T07:45:43Z",
   "createdAt": "2026-10-05T09:51:13Z",
   "dependency": {
     "from": "v0.11.1",
@@ -17,16 +18,18 @@
     "updateType": "minor"
   },
   "files": [
+    "docs/observability/tracing/victoriatraces.md",
     "kubernetes/infra/configs/observability/tracing/victoriatraces/vtsingle.yaml",
     "local-stack/compose.yaml"
   ],
-  "headSha": "da6c608576f8c0468e29f0a0c13aba3099c184b3",
+  "headSha": "ee1025d6f2f5687bd4652afc9acde5360e9280e7",
   "isDraft": false,
   "labels": [
-    "size/XS"
+    "size/S",
+    "stop-updating"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-29T07:45:43Z",
   "notesTruncated": false,
   "number": 1222,
   "releaseNotesMarkdown": "### VictoriaMetrics/VictoriaTraces (victoriametrics/victoria-traces)\n\n### [`v0.12.1`](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/releases/tag/v0.12.1)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/compare/v0.12.0...v0.12.1)\n\nReleased at 2026-10-23\n\n- SECURITY: upgrade Go builder from Go1.26.6 to Go1.27.2. See the list of issues addressed in [Go1.26.7](https://redirect.github.com/golang/go/issues?q=milestone%3AGo1.26.7+label%3ACherryPickApproved), [Go1.27.1](https://redirect.github.com/golang/go/issues?q=milestone%3AGo1.27.1+label%3ACherryPickApproved) and [Go1.27.2](https://redirect.github.com/golang/go/issues?q=milestone%3AGo1.27.2+label%3ACherryPickApproved).\n\n- FEATURE: [Single-node VictoriaTraces](https://docs.victoriametrics.com/victoriatraces/), vtinsert in [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/) and [vtagent](https://docs.victoriametrics.com/victoriatraces/vtagent/): log failed OTLP/gRPC requests with the client address and request URI, the same way as failed HTTP requests. Previously these errors were only returned to the client, and some of them were counted in `vt_http_errors_total`, which made it hard to find the source. Thank [@&#8203;mastersans](https://redirect.github.com/mastersans) for [the pull request #&#8203;289](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/pull/289).\n\n- BUGFIX: [Deployment](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/blob/master/deployment): restore the `make package` and `make package-<app_name>` commands for building single-arch Docker images and loading them into the local Docker image store for local testing. These commands were removed in [v0.10.0](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/releases/tag/v0.10.0) along with the switch to the `distroless` base image. See the discussion in [pull request #&#8203;273](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/pull/273#issuecomment-6060866299) and [VictoriaLogs issue #&#8203;1586](https://redirect.github.com/VictoriaMetrics/VictoriaLogs/issues/1586). Thank [@&#8203;1Shubham7](https://redirect.github.com/1Shubham7) for [the pull request #&#8203;291](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/pull/291)\n\n- BUGFIX: [Single-node VictoriaTraces](https://docs.victoriametrics.com/victoriatraces/) and vtselect in [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/): apply correct time‑range filter and return proper traces from Jaeger and Tempo search APIs when VictoriaTraces runs in a non‑UTC time zone. Previously, searches could return fewer traces or empty results due to incorrect time‑zone conversion for the time‑range filter, especially for time zones west of UTC such as `TZ=America/New_York`, which impacted the end‑time boundary. See [issue #&#8203;260](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/issues/260). Thank [@&#8203;Vandit1604](https://redirect.github.com/Vandit1604) for [pull request #&#8203;262](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/pull/262).\n\n- BUGFIX: [Single-node VictoriaTraces](https://docs.victoriametrics.com/victoriatraces/), vtinsert in [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/) and [vtagent](https://docs.victoriametrics.com/victoriatraces/vtagent/): fix inconsistent counting of failed write requests in `vt_http_errors_total`. Previously, some OpenTelemetry ingestion request errors were counted twice, while some requests rejected due to internal errors weren't counted. The issue occurs with both OpenTelemetry APIs and the internal insert APIs. Thank [@&#8203;mastersans](https://redirect.github.com/mastersans) for [the pull request #&#8203;290](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/pull/290).\n\n- BUGFIX: [Single-node VictoriaTraces](https://docs.victoriametrics.com/victoriatraces/), vtinsert in [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/) and [vtagent](https://docs.victoriametrics.com/victoriatraces/vtagent/): Fix unexpected closure of HTTP/2 connections after `ReadHeaderTimeout` by upgrading the Go version. See [the issue #&#8203;292](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/issues/292) and [this Golang issue](https://redirect.github.com/golang/go/issues/80876) for details.\n\n- BUGFIX: [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/): properly cancel requests waiting in the `vtstorage` concurrency queue when the corresponding query is canceled or times out on `vtselect`. Previously, these requests could remain queued and run later, accumulating stale work and wasting resources. See [VictoriaLogs issue #&#8203;1672](https://redirect.github.com/VictoriaMetrics/VictoriaLogs/issues/1672).\n\n### [`v0.12.0`](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/releases/tag/v0.12.0)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/compare/v0.11.1...v0.12.0)\n\nReleased at 2026-09-29\n\n**Update note:** the `/internal/force_merge`, `/internal/force_flush`, `/internal/log_new_streams` and `/internal/partition/*` HTTP endpoints now require the `POST` method. Update any scripts or automation calling these endpoints via `GET` to use `POST`.\n\n- SECURITY: [Single-node VictoriaTraces](https://docs.victoriametrics.com/victoriatraces/) and vtselect in [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/): restrict the `/delete/run_task` endpoint to the `POST` method only in order to prevent some [SSRF](https://en.wikipedia.org/wiki/Server-side_request_forgery)-based log deletion attacks. See [this issue #&#8203;225](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/issues/225). Thank [@&#8203;Vandit1604](https://redirect.github.com/Vandit1604) for [the pull request #&#8203;236](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/pull/236).\n\n- SECURITY: require the `POST` method for the `/internal/force_merge`, `/internal/force_flush`, `/internal/log_new_streams` and `/internal/partition/*` HTTP endpoints in order to prevent GET-based [SSRF](https://en.wikipedia.org/wiki/Server-side_request_forgery) attacks. See [this issue #&#8203;225](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/issues/225). Thank [@&#8203;Vandit1604](https://redirect.github.com/Vandit1604) for [the pull request #&#8203;236](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/pull/236).\n\n- FEATURE: [Single-node VictoriaTraces](https://docs.victoriametrics.com/victoriatraces/) and vtselect in [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/): provide built-in trace explore UI (VTUI). The existing log-based UI (VLUI) is replaced. Raw spans/logs can be queried via [the LogSQL APIs](https://docs.victoriametrics.com/victoriatraces/querying/#http-api). Thank [@&#8203;AndrewChubatiuk](https://redirect.github.com/AndrewChubatiuk) for [the pull request #&#8203;248](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/pull/248).\n\n- FEATURE: [Single-node VictoriaTraces](https://docs.victoriametrics.com/victoriatraces/) and vtselect in [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/): apply the latency offset (`-search.latencyOffset`, default `30s`) to most of the LogsQL APIs except the live-tailing API. Previously, only the Jaeger and Tempo APIs had this latency offset. The latency offset for LogsQL APIs can be disabled via the `disable_latency_offset=true` query argument.\n\n- BUGFIX: [Single-node VictoriaTraces](https://docs.victoriametrics.com/victoriatraces/) and vtselect in [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/): return `startTimeUnixNano` as a JSON string in the Tempo `/api/search` response. Previously it was a JSON number, which broke clients that decode the field as a string. Thank [@&#8203;clain23](https://redirect.github.com/clain23) for [the pull request #&#8203;256](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/pull/256).\n\n- BUGFIX: vtselect in [VictoriaTraces cluster](https://docs.victoriametrics.com/victoriatraces/cluster/): apply `-search.allowPartialResponse` for Tempo and Jaeger query APIs. Previously the flag affected only LogsQL query handlers, so Tempo and Jaeger requests still failed when a queried `vtstorage` node was unavailable. See [this issue #&#8203;157](https://redirect.github.com/VictoriaMetrics/VictoriaTraces/issues/157).",
@@ -35,9 +38,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "state": "merged",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
   "title": "chore(deps): update victoriametrics/victoria-traces docker tag to v0.12.1",
-  "updatedAt": "2026-10-28T13:54:22Z",
+  "updatedAt": "2026-10-29T07:45:46Z",
   "url": "https://github.com/duynhlab/homelab/pull/1222"
 }

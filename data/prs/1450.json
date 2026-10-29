@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/amazon-aws-cli-2.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-29T06:13:18Z",
+  "dependency": {
+    "from": "2.39.0",
+    "name": "amazon/aws-cli",
+    "sourceUrl": null,
+    "to": "2.39.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "local-stack/compose.analytics.yaml"
+  ],
+  "headSha": "f51fc0ab9f47750801004583f831107f5778edbc",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1450,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.1",
+  "updatedAt": "2026-10-29T07:52:58Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1450"
+}

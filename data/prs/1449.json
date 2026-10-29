@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/clickhouse-clickhouse-server-26.9",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-29T06:13:13Z",
+  "dependency": {
+    "from": "387ebbc",
+    "name": "clickhouse/clickhouse-server",
+    "sourceUrl": null,
+    "to": "925b0fb",
+    "updateType": "digest"
+  },
+  "files": [
+    "local-stack/compose.analytics.yaml"
+  ],
+  "headSha": "c5476182e0faf7b3b3f1111527b0994750451a74",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1449,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "title": "chore(deps): update clickhouse/clickhouse-server:26.9 docker digest to 925b0fb",
+  "updatedAt": "2026-10-29T07:52:57Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1449"
+}

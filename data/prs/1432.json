@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/timberio-vector-0.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-10-29T03:34:58Z",
   "createdAt": "2026-10-28T12:33:19Z",
   "dependency": {
     "from": "0.59.0-alpine",
@@ -23,8 +23,8 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-10-29T03:34:58Z",
   "notesTruncated": false,
   "number": 1432,
   "releaseNotesMarkdown": "### vectordotdev/vector (timberio/vector)\n\n### [`v0.60.0`](https://redirect.github.com/vectordotdev/vector/releases/tag/v0.60.0)\n\n[Compare Source](https://redirect.github.com/vectordotdev/vector/compare/v0.59.0...v0.60.0)\n\nThe [COSE team](https://opensource.datadoghq.com/about/#the-community-open-source-engineering-team) is happy to announce Vector `0.60.0`! 🚀\n\n[Vector](https://vector.dev) is a lightweight, ultra-fast tool for building observability pipelines that puts you in control of your data.\n\nThanks to the 15 contributors who made the 21 changes in this release:\n\n- [2 breaking changes](https://vector.dev/releases/0.60.0/#breaking-changes)\n- [1 security change](https://vector.dev/releases/0.60.0/#security-changes)\n- [2 new features](https://vector.dev/releases/0.60.0/#new-features)\n- [6 enhancements](https://vector.dev/releases/0.60.0/#enhancements)\n- [10 bug fixes](https://vector.dev/releases/0.60.0/#bug-fixes)\n\nUpgrading to 0.60? Read the [upgrade guide](https://vector.dev/highlights/2026-10-19-0-60-0-upgrade-guide/).\n\n[View the full release notes](https://vector.dev/releases/0.60.0/) · See upcoming releases on the [release calendar](https://calendar.vector.dev).",
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "state": "merged",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
   "title": "chore(deps): update timberio/vector docker tag to v0.60.0",
-  "updatedAt": "2026-10-28T13:54:12Z",
+  "updatedAt": "2026-10-29T03:35:01Z",
   "url": "https://github.com/duynhlab/homelab/pull/1432"
 }

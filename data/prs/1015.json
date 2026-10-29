@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/vector-0.x",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-09-30T16:17:35Z",
   "createdAt": "2026-09-06T15:43:33Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
   "title": "chore(deps): update helm release vector to v0.58.0",
   "updatedAt": "2026-09-30T16:20:34Z",
   "url": "https://github.com/duynhlab/homelab/pull/1015"

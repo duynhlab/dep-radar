@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/trust-manager-0.x",
-  "bucket": "waiting",
+  "bucket": "closed",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-10-28T16:06:27Z",
   "createdAt": "2026-10-28T12:32:54Z",
   "dependency": {
     "from": "v0.25.0",
@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1428,
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "state": "closed",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
   "title": "chore(deps): update helm release trust-manager to v0.26.0",
-  "updatedAt": "2026-10-28T13:53:32Z",
+  "updatedAt": "2026-10-28T16:08:44Z",
   "url": "https://github.com/duynhlab/homelab/pull/1428"
 }

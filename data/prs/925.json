@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/grafana-pyroscope-2.x",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-09-30T14:04:09Z",
   "createdAt": "2026-08-26T06:28:15Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
   "title": "chore(deps): update grafana/pyroscope docker tag to v2.3.1 - autoclosed",
   "updatedAt": "2026-09-30T14:04:14Z",
   "url": "https://github.com/duynhlab/homelab/pull/925"

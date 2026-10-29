@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/clickhouse-clickhouse-keeper-26.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-29T06:13:36Z",
+  "dependency": {
+    "from": "26.9",
+    "name": "clickhouse/clickhouse-keeper",
+    "sourceUrl": null,
+    "to": "26.10",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/configs/clickhouse-keeper/clickhousekeeperinstallation.yaml"
+  ],
+  "headSha": "c9a7c0031d44dedd96db68fb492753aa5c77453f",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1452,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "title": "chore(deps): update clickhouse/clickhouse-keeper docker tag to v26.10",
+  "updatedAt": "2026-10-29T07:53:01Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1452"
+}
