@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T08:46:15.000Z",
+  "generatedAt": "2026-10-30T19:29:39.408Z",
   "prs": [
     {
       "areas": [
@@ -20,7 +20,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1455,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -50,7 +50,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1454,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -80,7 +80,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1451,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -110,7 +110,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1450,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -140,7 +140,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -2282,66 +2282,6 @@
       ],
       "bucket": "closed",
       "ci": null,
-      "createdAt": "2026-09-22T13:54:33Z",
-      "dependency": {
-        "from": "0.50.0-alpine",
-        "name": "timberio/vector",
-        "sourceUrl": "https://github.com/vectordotdev/vector",
-        "to": "0.58.0-alpine",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1081,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update timberio/vector docker tag to v0.58.0",
-      "updatedAt": "2026-09-30T16:20:37Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1081",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "merged",
-      "ci": null,
-      "createdAt": "2026-09-22T13:54:25Z",
-      "dependency": {
-        "from": "1.5.27",
-        "name": "floci/floci",
-        "sourceUrl": "https://floci.io",
-        "to": "1.7.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1080,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "merged",
-      "summary": null,
-      "title": "chore(deps): update floci/floci docker tag to v1.7.0",
-      "updatedAt": "2026-09-30T14:37:16Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1080",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "closed",
-      "ci": null,
       "createdAt": "2026-09-16T04:15:19Z",
       "dependency": {
         "from": "2.53.3",
@@ -2461,36 +2401,6 @@
       "areas": [
         "platform"
       ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-16T04:14:18Z",
-      "dependency": {
-        "from": "2.2.1",
-        "name": "pyroscope",
-        "sourceUrl": "https://grafana.com/oss/pyroscope/",
-        "to": "2.3.1",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1056,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update helm release pyroscope to v2.3.1 - autoclosed",
-      "updatedAt": "2026-09-30T14:04:16Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1056",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
       "bucket": "merged",
       "ci": null,
       "createdAt": "2026-09-16T04:14:12Z",
@@ -2515,97 +2425,6 @@
       "title": "chore(deps): update clickhouse/clickhouse-keeper docker tag to v26.9",
       "updatedAt": "2026-10-05T02:56:54Z",
       "url": "https://github.com/duynhlab/homelab/pull/1055",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform",
-        "local-stack"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-06T15:43:39Z",
-      "dependency": {
-        "from": "0.159.0",
-        "name": "otel/opentelemetry-collector-contrib",
-        "sourceUrl": "https://github.com/open-telemetry/opentelemetry-collector-releases",
-        "to": "0.161.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1016,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update otel/opentelemetry-collector-contrib docker tag to v0.161.0",
-      "updatedAt": "2026-09-30T16:13:23Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1016",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-06T15:43:33Z",
-      "dependency": {
-        "from": "0.57.0",
-        "name": "vector",
-        "sourceUrl": "https://vector.dev/",
-        "to": "0.58.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1015,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update helm release vector to v0.58.0",
-      "updatedAt": "2026-09-30T16:20:34Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1015",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-06T15:43:24Z",
-      "dependency": {
-        "from": "<0.171.0",
-        "name": "opentelemetry-collector",
-        "sourceUrl": "https://opentelemetry.io/",
-        "to": "<0.175.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1013,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update helm release opentelemetry-collector to <0.175.0",
-      "updatedAt": "2026-09-30T16:13:21Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1013",
       "verdict": null
     },
     {
@@ -2667,96 +2486,6 @@
       "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.9",
       "updatedAt": "2026-10-05T02:57:03Z",
       "url": "https://github.com/duynhlab/homelab/pull/1010",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-06T15:42:18Z",
-      "dependency": {
-        "from": "v1.9.0",
-        "name": "envoyproxy/gateway",
-        "sourceUrl": null,
-        "to": "v1.9.2",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1006,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update envoyproxy/gateway docker tag to v1.9.2",
-      "updatedAt": "2026-09-30T16:46:12Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1006",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "gitops"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-06T15:42:13Z",
-      "dependency": {
-        "from": "v1.9.0",
-        "name": "docker.io/envoyproxy/gateway-helm",
-        "sourceUrl": "https://gateway.envoyproxy.io/",
-        "to": "1.9.2",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1005,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.9.2",
-      "updatedAt": "2026-09-30T16:46:10Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1005",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-08-26T06:28:15Z",
-      "dependency": {
-        "from": "2.2.1",
-        "name": "grafana/pyroscope",
-        "sourceUrl": null,
-        "to": "2.3.1",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 925,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update grafana/pyroscope docker tag to v2.3.1 - autoclosed",
-      "updatedAt": "2026-09-30T14:04:14Z",
-      "url": "https://github.com/duynhlab/homelab/pull/925",
       "verdict": null
     }
   ],
