@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/grafana-pyroscope-2.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-13T00:32:08Z",
   "createdAt": "2026-10-12T06:03:54Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update grafana/pyroscope docker tag to v2.4.0",
   "updatedAt": "2026-10-13T00:32:10Z",
   "url": "https://github.com/duynhlab/homelab/pull/1251"

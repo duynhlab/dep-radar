@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-10-29T19:43:19.502Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update terraform kubernetes to v3.4.0",
-  "updatedAt": "2026-10-29T19:22:38Z",
+  "updatedAt": "2026-10-29T23:17:35Z",
   "url": "https://github.com/duynhlab/homelab/pull/1455"
 }

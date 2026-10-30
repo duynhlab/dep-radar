@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/rustfs-1.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-05T02:56:43Z",
   "createdAt": "2026-09-22T13:54:42Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update helm release rustfs to v1",
   "updatedAt": "2026-10-05T02:56:45Z",
   "url": "https://github.com/duynhlab/homelab/pull/1082"

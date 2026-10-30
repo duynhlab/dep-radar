@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T19:43:19.502Z",
+  "generatedAt": "2026-10-30T08:46:15.000Z",
   "prs": [
     {
       "areas": [
@@ -27,7 +27,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update terraform kubernetes to v3.4.0",
-      "updatedAt": "2026-10-29T19:22:38Z",
+      "updatedAt": "2026-10-29T23:17:35Z",
       "url": "https://github.com/duynhlab/homelab/pull/1455",
       "verdict": null
     },
@@ -57,7 +57,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/prymitive/karma docker tag to v0.134",
-      "updatedAt": "2026-10-29T19:22:36Z",
+      "updatedAt": "2026-10-29T23:17:33Z",
       "url": "https://github.com/duynhlab/homelab/pull/1454",
       "verdict": null
     },
@@ -87,7 +87,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.2",
-      "updatedAt": "2026-10-29T19:22:33Z",
+      "updatedAt": "2026-10-29T23:17:31Z",
       "url": "https://github.com/duynhlab/homelab/pull/1451",
       "verdict": null
     },
@@ -117,7 +117,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.2",
-      "updatedAt": "2026-10-29T19:22:23Z",
+      "updatedAt": "2026-10-29T23:17:28Z",
       "url": "https://github.com/duynhlab/homelab/pull/1450",
       "verdict": null
     },
@@ -147,7 +147,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.62",
-      "updatedAt": "2026-10-29T19:22:28Z",
+      "updatedAt": "2026-10-29T23:17:30Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
       "verdict": null
     },
@@ -1183,7 +1183,7 @@
         "terraform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T07:46:34Z",
       "dependency": {
         "from": "3.1.2",
@@ -1213,7 +1213,7 @@
         "monitoring"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T07:45:45Z",
       "dependency": {
         "from": "v0.131",
@@ -1243,7 +1243,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:05:26Z",
       "dependency": {
         "from": "0.58.0-alpine",
@@ -1306,7 +1306,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:05:11Z",
       "dependency": {
         "from": "0.58.0",
@@ -1336,7 +1336,7 @@
         "platform"
       ],
       "bucket": "closed",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:05:06Z",
       "dependency": {
         "from": "2.3.1",
@@ -1366,7 +1366,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:05:01Z",
       "dependency": {
         "from": "3.10.0",
@@ -1426,7 +1426,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:03:54Z",
       "dependency": {
         "from": "2.3.1",
@@ -1458,7 +1458,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:03:48Z",
       "dependency": {
         "from": "1.37",
@@ -1488,7 +1488,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:03:42Z",
       "dependency": {
         "from": "1.32.0",
@@ -1519,7 +1519,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:03:38Z",
       "dependency": {
         "from": "1.32.0",
@@ -1613,7 +1613,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-06T06:34:13Z",
       "dependency": {
         "from": "4.22.0",
@@ -1675,7 +1675,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:51:25Z",
       "dependency": {
         "from": "v1.152.0",
@@ -1705,7 +1705,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:51:19Z",
       "dependency": {
         "from": "v1.152.0",
@@ -1768,7 +1768,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:51:07Z",
       "dependency": {
         "from": "v1.152.0",
@@ -1798,7 +1798,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:51:00Z",
       "dependency": {
         "from": "v1.52.0",
@@ -1859,7 +1859,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:50:47Z",
       "dependency": {
         "from": "0.29.0",
@@ -1889,7 +1889,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:49:34Z",
       "dependency": {
         "from": "0.11.0",
@@ -1919,7 +1919,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:49:28Z",
       "dependency": {
         "from": "<0.175.0",
@@ -1949,7 +1949,7 @@
         "ci"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:49:23Z",
       "dependency": {
         "from": "v46.3.6",
@@ -1979,7 +1979,7 @@
         "platform"
       ],
       "bucket": "closed",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:49:18Z",
       "dependency": {
         "from": "v4.7.0",
@@ -2009,7 +2009,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:49:10Z",
       "dependency": {
         "from": "2.37.7",
@@ -2040,7 +2040,7 @@
         "secrets"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:49:05Z",
       "dependency": {
         "from": "2.7.0",
@@ -2070,7 +2070,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:48:58Z",
       "dependency": {
         "from": "0.30.0",
@@ -2100,7 +2100,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-01T04:48:53Z",
       "dependency": {
         "from": "2.20.2",
@@ -2130,7 +2130,7 @@
         "ci"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-01T04:48:47Z",
       "dependency": {
         "from": "v46.3.4",
@@ -2160,7 +2160,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-01T04:48:41Z",
       "dependency": {
         "from": "2.37.3",
@@ -2191,7 +2191,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-01T04:48:35Z",
       "dependency": {
         "from": "13.2.2",
@@ -2221,7 +2221,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-01T04:48:28Z",
       "dependency": {
         "from": "1.30.0",
@@ -2251,7 +2251,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-09-22T13:54:42Z",
       "dependency": {
         "from": "0.12.0",
@@ -2341,7 +2341,7 @@
         "local-stack"
       ],
       "bucket": "closed",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-09-16T04:15:19Z",
       "dependency": {
         "from": "2.53.3",
@@ -2492,7 +2492,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-09-16T04:14:12Z",
       "dependency": {
         "from": "26.8",
@@ -2583,7 +2583,7 @@
         "platform"
       ],
       "bucket": "closed",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-09-06T15:43:24Z",
       "dependency": {
         "from": "<0.171.0",
@@ -2613,7 +2613,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-09-06T15:42:47Z",
       "dependency": {
         "from": "0.7.1",
@@ -2644,7 +2644,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-09-06T15:42:38Z",
       "dependency": {
         "from": "26.8",

@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/public.ecr.aws-aws-cli-aws-cli-2.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-01T04:50:53Z",
   "createdAt": "2026-10-01T04:48:41Z",
   "dependency": {
@@ -35,7 +35,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.37.7",
   "updatedAt": "2026-10-01T04:50:55Z",
   "url": "https://github.com/duynhlab/homelab/pull/1171"

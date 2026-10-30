@@ -6,7 +6,7 @@
   "author": "renovate",
   "branch": "renovate/openbao-openbao-2.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-12T17:25:42Z",
   "createdAt": "2026-10-05T09:49:05Z",
   "dependency": {
@@ -37,7 +37,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update openbao/openbao docker tag to v2.7.1",
   "updatedAt": "2026-10-12T17:25:45Z",
   "url": "https://github.com/duynhlab/homelab/pull/1212"

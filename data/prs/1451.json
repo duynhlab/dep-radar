@@ -35,8 +35,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-10-29T19:43:19.502Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.2",
-  "updatedAt": "2026-10-29T19:22:33Z",
+  "updatedAt": "2026-10-29T23:17:31Z",
   "url": "https://github.com/duynhlab/homelab/pull/1451"
 }

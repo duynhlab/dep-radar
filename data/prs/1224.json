@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/victoriametrics-vmalert-1.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-13T00:29:43Z",
   "createdAt": "2026-10-05T09:51:25Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update victoriametrics/vmalert docker tag to v1.154.0",
   "updatedAt": "2026-10-13T00:29:45Z",
   "url": "https://github.com/duynhlab/homelab/pull/1224"

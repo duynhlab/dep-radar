@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/opentelemetry-collector-0.x",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-09-30T16:08:37Z",
   "createdAt": "2026-09-06T15:43:24Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update helm release opentelemetry-collector to <0.175.0",
   "updatedAt": "2026-09-30T16:13:21Z",
   "url": "https://github.com/duynhlab/homelab/pull/1013"

@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/keda-2.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-04T04:59:12Z",
   "createdAt": "2026-10-01T04:48:53Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update helm release keda to v2.21.0",
   "updatedAt": "2026-10-04T04:59:15Z",
   "url": "https://github.com/duynhlab/homelab/pull/1173"

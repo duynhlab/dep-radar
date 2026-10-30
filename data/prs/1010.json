@@ -6,7 +6,7 @@
   "author": "renovate",
   "branch": "renovate/clickhouse-clickhouse-server-26.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-05T02:57:01Z",
   "createdAt": "2026-09-06T15:42:38Z",
   "dependency": {
@@ -37,7 +37,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-10-30T08:46:15.000Z",
   "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.9",
   "updatedAt": "2026-10-05T02:57:03Z",
   "url": "https://github.com/duynhlab/homelab/pull/1010"
