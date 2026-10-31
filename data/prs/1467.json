@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/vector-0.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-31T12:28:04Z",
+  "dependency": {
+    "from": "0.60.0",
+    "name": "vector",
+    "sourceUrl": "https://vector.dev/",
+    "to": "0.61.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/logging/vector/vector.yaml"
+  ],
+  "headSha": "a5de6a57b1aafe8afc59583e1ef79b9fddf42fc1",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1467,
+  "releaseNotesMarkdown": "### vectordotdev/helm-charts (vector)\n\n### [`v0.61.0`](https://redirect.github.com/vectordotdev/helm-charts/blob/HEAD/CHANGELOG.md#vector-0610---2026-10-29)\n\n[Compare Source](https://redirect.github.com/vectordotdev/helm-charts/compare/vector-0.60.0...vector-0.61.0)\n\n##### Releasing\n\n##### Other\n\n- Bump chart version to 0.61.0 ([a5a5723](https://redirect.github.com/vectordotdev/helm-charts/commit/a5a572375cd173381e7c415019f8e4153d9e4f5c))\n\n##### Vector\n\n##### Documentation\n\n- Describe chart as the Helm chart for Vector ([#&#8203;613](https://redirect.github.com/vectordotdev/helm-charts/issues/613)) ([9f33b87](https://redirect.github.com/vectordotdev/helm-charts/commit/9f33b87e676f328c0284e5fe986a0fc5e3d6475a))\n\n##### Features\n\n- Bump Vector to 0.61.0 and update Helm docs ([0718d7d](https://redirect.github.com/vectordotdev/helm-charts/commit/0718d7d09fe0412d5e8632b27856c5db2333baa2))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-31T18:38:58.130Z",
+  "title": "chore(deps): update helm release vector to v0.61.0",
+  "updatedAt": "2026-10-31T12:28:08Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1467"
+}

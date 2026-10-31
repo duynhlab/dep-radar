@@ -1,0 +1,44 @@
+{
+  "areas": [
+    "monitoring",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/grafana-clickhouse-datasource",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-10-31T12:29:23Z",
+  "dependency": {
+    "from": "4.23.3",
+    "name": "grafana/clickhouse-datasource",
+    "sourceUrl": "https://github.com/grafana/clickhouse-datasource",
+    "to": "4.23.4",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/grafana/dashboards/grafana-dashboard-clickhouse-upstream.yaml",
+    "kubernetes/infra/configs/observability/grafana/grafana.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "b89a85e6cda9fcccef2b4f5715800aff0fbc369e",
+  "isDraft": false,
+  "labels": [
+    "size/S"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1469,
+  "releaseNotesMarkdown": "### grafana/clickhouse-datasource\n\n### [`v4.23.4`](https://redirect.github.com/grafana/clickhouse-datasource/blob/HEAD/CHANGELOG.md#4234-2026-10-29)\n\n[Compare Source](https://redirect.github.com/grafana/clickhouse-datasource/compare/v4.23.3...v4.23.4)\n\n##### 🐛 Bug Fixes\n\n- **adhoc:** declare multiValueFilterOperators support in plugin.json ([ca4855e](https://redirect.github.com/grafana/clickhouse-datasource/commit/ca4855ed18f00c63a8b132d5ef42d4cc058f999e))\n- **adhoc:** enable multiValueFilterOperators support in plugin.json ([#&#8203;2218](https://redirect.github.com/grafana/clickhouse-datasource/issues/2218)) ([ca4855e](https://redirect.github.com/grafana/clickhouse-datasource/commit/ca4855ed18f00c63a8b132d5ef42d4cc058f999e))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-10-31T18:38:58.130Z",
+  "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.4",
+  "updatedAt": "2026-10-31T12:29:27Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1469"
+}

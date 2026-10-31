@@ -1,6 +1,187 @@
 {
-  "generatedAt": "2026-10-31T08:33:26.574Z",
+  "generatedAt": "2026-10-31T18:38:58.130Z",
   "prs": [
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-31T12:29:35Z",
+      "dependency": {
+        "from": "v4.7.0",
+        "name": "registry.k8s.io/git-sync/git-sync",
+        "sourceUrl": "https://github.com/kubernetes/git-sync",
+        "to": "v4.8.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1471,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
+      "updatedAt": "2026-10-31T12:29:39Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1471",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "ci"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-31T12:29:28Z",
+      "dependency": {
+        "from": "v46.3.10",
+        "name": "renovatebot/github-action",
+        "sourceUrl": "https://github.com/renovatebot/github-action",
+        "to": "v46.3.11",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1470,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update renovatebot/github-action action to v46.3.11",
+      "updatedAt": "2026-10-31T12:29:32Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1470",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-31T12:29:23Z",
+      "dependency": {
+        "from": "4.23.3",
+        "name": "grafana/clickhouse-datasource",
+        "sourceUrl": "https://github.com/grafana/clickhouse-datasource",
+        "to": "4.23.4",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/S"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1469,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.4",
+      "updatedAt": "2026-10-31T12:29:27Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1469",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-31T12:28:09Z",
+      "dependency": {
+        "from": "0.60.0-alpine",
+        "name": "timberio/vector",
+        "sourceUrl": "https://github.com/vectordotdev/vector",
+        "to": "0.61.0-alpine",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1468,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update timberio/vector docker tag to v0.61.0",
+      "updatedAt": "2026-10-31T12:28:13Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1468",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-31T12:28:04Z",
+      "dependency": {
+        "from": "0.60.0",
+        "name": "vector",
+        "sourceUrl": "https://vector.dev/",
+        "to": "0.61.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1467,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update helm release vector to v0.61.0",
+      "updatedAt": "2026-10-31T12:28:08Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1467",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-31T12:27:57Z",
+      "dependency": {
+        "from": "2.3.0",
+        "name": "floci/floci",
+        "sourceUrl": "https://floci.io",
+        "to": "2.4.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1466,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update floci/floci docker tag to v2.4.0",
+      "updatedAt": "2026-10-31T12:28:01Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1466",
+      "verdict": null
+    },
     {
       "areas": [
         "terraform"
@@ -147,7 +328,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.62",
-      "updatedAt": "2026-10-29T23:17:30Z",
+      "updatedAt": "2026-10-31T12:27:51Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
       "verdict": null
     },
