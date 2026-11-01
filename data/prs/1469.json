@@ -26,7 +26,7 @@
   "labels": [
     "size/S"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1469,
@@ -37,8 +37,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-01T09:24:41.147Z",
+  "syncedAt": "2026-11-01T19:00:14.818Z",
   "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.4",
-  "updatedAt": "2026-11-01T06:27:58Z",
+  "updatedAt": "2026-11-01T13:50:24Z",
   "url": "https://github.com/duynhlab/homelab/pull/1469"
 }
