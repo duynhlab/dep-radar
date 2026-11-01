@@ -1,66 +1,6 @@
 {
-  "generatedAt": "2026-10-31T18:38:58.130Z",
+  "generatedAt": "2026-11-01T09:24:41.147Z",
   "prs": [
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-10-31T12:29:35Z",
-      "dependency": {
-        "from": "v4.7.0",
-        "name": "registry.k8s.io/git-sync/git-sync",
-        "sourceUrl": "https://github.com/kubernetes/git-sync",
-        "to": "v4.8.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1471,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
-      "updatedAt": "2026-10-31T12:29:39Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1471",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "ci"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-10-31T12:29:28Z",
-      "dependency": {
-        "from": "v46.3.10",
-        "name": "renovatebot/github-action",
-        "sourceUrl": "https://github.com/renovatebot/github-action",
-        "to": "v46.3.11",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1470,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update renovatebot/github-action action to v46.3.11",
-      "updatedAt": "2026-10-31T12:29:32Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1470",
-      "verdict": null
-    },
     {
       "areas": [
         "monitoring",
@@ -88,7 +28,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.4",
-      "updatedAt": "2026-10-31T12:29:27Z",
+      "updatedAt": "2026-11-01T06:27:58Z",
       "url": "https://github.com/duynhlab/homelab/pull/1469",
       "verdict": null
     },
@@ -118,7 +58,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update timberio/vector docker tag to v0.61.0",
-      "updatedAt": "2026-10-31T12:28:13Z",
+      "updatedAt": "2026-11-01T06:28:06Z",
       "url": "https://github.com/duynhlab/homelab/pull/1468",
       "verdict": null
     },
@@ -148,7 +88,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update helm release vector to v0.61.0",
-      "updatedAt": "2026-10-31T12:28:08Z",
+      "updatedAt": "2026-11-01T06:28:04Z",
       "url": "https://github.com/duynhlab/homelab/pull/1467",
       "verdict": null
     },
@@ -178,7 +118,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update floci/floci docker tag to v2.4.0",
-      "updatedAt": "2026-10-31T12:28:01Z",
+      "updatedAt": "2026-11-01T06:28:02Z",
       "url": "https://github.com/duynhlab/homelab/pull/1466",
       "verdict": null
     },
@@ -201,7 +141,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1455,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -231,7 +171,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1454,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -261,7 +201,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1451,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -291,7 +231,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1450,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -321,7 +261,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -330,6 +270,66 @@
       "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.62",
       "updatedAt": "2026-10-31T12:27:51Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-31T12:29:35Z",
+      "dependency": {
+        "from": "v4.7.0",
+        "name": "registry.k8s.io/git-sync/git-sync",
+        "sourceUrl": "https://github.com/kubernetes/git-sync",
+        "to": "v4.8.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1471,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0 - autoclosed",
+      "updatedAt": "2026-11-01T05:34:08Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1471",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "ci"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-10-31T12:29:28Z",
+      "dependency": {
+        "from": "v46.3.10",
+        "name": "renovatebot/github-action",
+        "sourceUrl": "https://github.com/renovatebot/github-action",
+        "to": "v46.3.11",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1470,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update renovatebot/github-action action to v46.3.11",
+      "updatedAt": "2026-11-01T04:48:41Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1470",
       "verdict": null
     },
     {
@@ -2395,127 +2395,6 @@
       "title": "chore(deps): update helm release rustfs to v1",
       "updatedAt": "2026-10-05T02:56:45Z",
       "url": "https://github.com/duynhlab/homelab/pull/1082",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-16T04:15:19Z",
-      "dependency": {
-        "from": "2.53.3",
-        "name": "temporalio/ui",
-        "sourceUrl": "https://github.com/temporalio/ui-server",
-        "to": "2.55.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1061,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update temporalio/ui docker tag to v2.55.0 - autoclosed",
-      "updatedAt": "2026-10-02T05:40:00Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1061",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-16T04:15:15Z",
-      "dependency": {
-        "from": "1.31.2",
-        "name": "temporalio/server",
-        "sourceUrl": "https://github.com/temporalio/temporal",
-        "to": "1.32.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1060,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update temporalio/server docker tag to v1.32.0 - autoclosed",
-      "updatedAt": "2026-10-02T05:39:58Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1060",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform",
-        "local-stack"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-16T04:15:10Z",
-      "dependency": {
-        "from": "1.31.2",
-        "name": "temporalio/admin-tools",
-        "sourceUrl": "https://github.com/temporalio/temporal",
-        "to": "1.32.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1059,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update temporalio/admin-tools docker tag to v1.32.0 - autoclosed",
-      "updatedAt": "2026-10-02T05:39:55Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1059",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-09-16T04:14:23Z",
-      "dependency": {
-        "from": "1.6.0",
-        "name": "temporal",
-        "sourceUrl": "https://temporal.io/",
-        "to": "1.7.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1057,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update helm release temporal to v1.7.0",
-      "updatedAt": "2026-10-02T05:39:51Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1057",
       "verdict": null
     },
     {

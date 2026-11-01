@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/registry.k8s.io-git-sync-git-sync-4.x",
-  "bucket": "waiting",
+  "bucket": "closed",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-01T05:34:04Z",
   "createdAt": "2026-10-31T12:29:35Z",
   "dependency": {
     "from": "v4.7.0",
@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1471,
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-10-31T18:38:58.130Z",
-  "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
-  "updatedAt": "2026-10-31T12:29:39Z",
+  "state": "closed",
+  "syncedAt": "2026-11-01T09:24:41.147Z",
+  "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0 - autoclosed",
+  "updatedAt": "2026-11-01T05:34:08Z",
   "url": "https://github.com/duynhlab/homelab/pull/1471"
 }

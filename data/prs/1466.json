@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-10-31T18:38:58.130Z",
+  "syncedAt": "2026-11-01T09:24:41.147Z",
   "title": "chore(deps): update floci/floci docker tag to v2.4.0",
-  "updatedAt": "2026-10-31T12:28:01Z",
+  "updatedAt": "2026-11-01T06:28:02Z",
   "url": "https://github.com/duynhlab/homelab/pull/1466"
 }
