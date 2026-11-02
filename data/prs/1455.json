@@ -18,7 +18,7 @@
   "files": [
     "terraform/.terraform.lock.hcl"
   ],
-  "headSha": "66aef77933c2a8f206e2dfab9e5ec385bf1fe07d",
+  "headSha": "1a2d8b512b803ee1167516d72672c2dff8505486",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-02T09:39:25.849Z",
+  "syncedAt": "2026-11-02T22:49:47.217Z",
   "title": "chore(deps): update terraform kubernetes to v3.4.0",
-  "updatedAt": "2026-10-29T23:17:35Z",
+  "updatedAt": "2026-11-02T19:35:28Z",
   "url": "https://github.com/duynhlab/homelab/pull/1455"
 }

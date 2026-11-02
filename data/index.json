@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T09:39:25.849Z",
+  "generatedAt": "2026-11-02T22:49:47.217Z",
   "prs": [
     {
       "areas": [
@@ -148,7 +148,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update terraform kubernetes to v3.4.0",
-      "updatedAt": "2026-10-29T23:17:35Z",
+      "updatedAt": "2026-11-02T19:35:28Z",
       "url": "https://github.com/duynhlab/homelab/pull/1455",
       "verdict": null
     },
@@ -253,7 +253,7 @@
         "from": "v0.1.61",
         "name": "ghcr.io/pgdogdev/pgdog",
         "sourceUrl": "https://github.com/pgdogdev/pgdog",
-        "to": "0.1.62",
+        "to": "0.1.63",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -267,8 +267,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.62",
-      "updatedAt": "2026-10-31T12:27:51Z",
+      "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.63",
+      "updatedAt": "2026-11-02T19:35:13Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
       "verdict": null
     },
