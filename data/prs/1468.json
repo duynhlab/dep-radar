@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1468,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-01T19:00:14.818Z",
+  "syncedAt": "2026-11-02T09:39:25.849Z",
   "title": "chore(deps): update timberio/vector docker tag to v0.61.0",
   "updatedAt": "2026-11-01T13:50:29Z",
   "url": "https://github.com/duynhlab/homelab/pull/1468"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T19:00:14.818Z",
+  "generatedAt": "2026-11-02T09:39:25.849Z",
   "prs": [
     {
       "areas": [
@@ -21,7 +21,7 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1469,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -51,7 +51,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1468,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -81,7 +81,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1467,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -111,7 +111,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1466,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -141,7 +141,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1455,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -171,7 +171,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1454,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -201,7 +201,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1451,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -231,7 +231,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1450,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -261,7 +261,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",

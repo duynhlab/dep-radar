@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1450,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-01T09:24:41.147Z",
+  "syncedAt": "2026-11-02T09:39:25.849Z",
   "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.3",
   "updatedAt": "2026-10-30T22:46:34Z",
   "url": "https://github.com/duynhlab/homelab/pull/1450"
