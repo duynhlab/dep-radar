@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1410,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-02T22:49:47.217Z",
+  "syncedAt": "2026-11-03T09:43:55.138Z",
   "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.63",
-  "updatedAt": "2026-11-02T19:35:13Z",
+  "updatedAt": "2026-11-03T03:26:06Z",
   "url": "https://github.com/duynhlab/homelab/pull/1410"
 }
