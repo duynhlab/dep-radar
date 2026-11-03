@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T09:43:55.138Z",
+  "generatedAt": "2026-11-03T20:32:45.805Z",
   "prs": [
     {
       "areas": [
@@ -51,7 +51,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1466,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -81,7 +81,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1455,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -111,7 +111,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1454,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -141,7 +141,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1451,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -171,7 +171,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1450,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -201,7 +201,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",
