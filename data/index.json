@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T09:29:12.969Z",
+  "generatedAt": "2026-11-04T20:51:32.163Z",
   "prs": [
     {
       "areas": [
@@ -21,7 +21,7 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1469,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -51,7 +51,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1466,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -81,7 +81,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1455,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -111,7 +111,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1454,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -141,7 +141,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1451,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -171,7 +171,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1450,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -201,7 +201,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",
