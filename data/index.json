@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T20:32:45.805Z",
+  "generatedAt": "2026-11-04T09:29:12.969Z",
   "prs": [
     {
       "areas": [
@@ -2274,97 +2274,6 @@
       "title": "chore(deps): update helm release openbao to v0.30.3",
       "updatedAt": "2026-10-13T00:33:24Z",
       "url": "https://github.com/duynhlab/homelab/pull/1211",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "merged",
-      "ci": null,
-      "createdAt": "2026-09-22T13:54:42Z",
-      "dependency": {
-        "from": "0.12.0",
-        "name": "rustfs",
-        "sourceUrl": "https://rustfs.com",
-        "to": "1.0.1",
-        "updateType": "major"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1082,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "merged",
-      "summary": null,
-      "title": "chore(deps): update helm release rustfs to v1",
-      "updatedAt": "2026-10-05T02:56:45Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1082",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "merged",
-      "ci": null,
-      "createdAt": "2026-09-16T04:14:12Z",
-      "dependency": {
-        "from": "26.8",
-        "name": "clickhouse/clickhouse-keeper",
-        "sourceUrl": null,
-        "to": "26.9",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1055,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "merged",
-      "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-keeper docker tag to v26.9",
-      "updatedAt": "2026-10-05T02:56:54Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1055",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform",
-        "local-stack"
-      ],
-      "bucket": "merged",
-      "ci": null,
-      "createdAt": "2026-09-06T15:42:38Z",
-      "dependency": {
-        "from": "26.8",
-        "name": "clickhouse/clickhouse-server",
-        "sourceUrl": null,
-        "to": "26.9",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1010,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "merged",
-      "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.9",
-      "updatedAt": "2026-10-05T02:57:03Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1010",
       "verdict": null
     }
   ],
