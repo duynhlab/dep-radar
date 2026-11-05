@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T09:39:22.488Z",
+  "generatedAt": "2026-11-05T21:08:30.007Z",
   "prs": [
     {
       "areas": [
@@ -27,7 +27,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update renovatebot/github-action action to v46.3.12",
-      "updatedAt": "2026-11-05T05:29:56Z",
+      "updatedAt": "2026-11-05T19:55:04Z",
       "url": "https://github.com/duynhlab/homelab/pull/1521",
       "verdict": null
     },
@@ -103,7 +103,7 @@
         "from": "3.2.0",
         "name": "kubernetes",
         "sourceUrl": "https://search.opentofu.org/provider/hashicorp/kubernetes",
-        "to": "3.4.0",
+        "to": "3.5.0",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -117,8 +117,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update terraform kubernetes to v3.4.0",
-      "updatedAt": "2026-11-05T05:30:12Z",
+      "title": "chore(deps): update terraform kubernetes to v3.5.0",
+      "updatedAt": "2026-11-05T19:55:07Z",
       "url": "https://github.com/duynhlab/homelab/pull/1455",
       "verdict": null
     },
@@ -178,7 +178,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.4",
-      "updatedAt": "2026-11-05T05:29:52Z",
+      "updatedAt": "2026-11-05T19:55:03Z",
       "url": "https://github.com/duynhlab/homelab/pull/1451",
       "verdict": null
     },
@@ -208,7 +208,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.4",
-      "updatedAt": "2026-11-05T05:29:37Z",
+      "updatedAt": "2026-11-05T19:55:01Z",
       "url": "https://github.com/duynhlab/homelab/pull/1450",
       "verdict": null
     },

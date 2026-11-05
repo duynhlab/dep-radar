@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-05T09:39:22.488Z",
+  "syncedAt": "2026-11-05T21:08:30.007Z",
   "title": "chore(deps): update renovatebot/github-action action to v46.3.12",
-  "updatedAt": "2026-11-05T05:29:56Z",
+  "updatedAt": "2026-11-05T19:55:04Z",
   "url": "https://github.com/duynhlab/homelab/pull/1521"
 }
