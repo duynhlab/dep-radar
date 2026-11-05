@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "ci"
+  ],
+  "author": "renovate",
+  "branch": "renovate/renovatebot-github-action-46.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-05T05:29:52Z",
+  "dependency": {
+    "from": "v46.3.11",
+    "name": "renovatebot/github-action",
+    "sourceUrl": "https://github.com/renovatebot/github-action",
+    "to": "v46.3.12",
+    "updateType": "patch"
+  },
+  "files": [
+    ".github/workflows/renovate.yml"
+  ],
+  "headSha": "32d9ee785b58f2cb8b980ff5b41c88719cf5a43d",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1521,
+  "releaseNotesMarkdown": "### renovatebot/github-action\n\n### [`v46.3.12`](https://redirect.github.com/renovatebot/github-action/releases/tag/v46.3.12)\n\n[Compare Source](https://redirect.github.com/renovatebot/github-action/compare/v46.3.11...v46.3.12)\n\n##### Documentation\n\n- update references to renovatebot/github-action to v46.3.11 ([2d01910](https://redirect.github.com/renovatebot/github-action/commit/2d019106c8c20c6c40b11a4614b543a0c5c2a73d))\n\n##### Miscellaneous Chores\n\n- **deps:** update dependency [@&#8203;containerbase/oxlint-plugin](https://redirect.github.com/containerbase/oxlint-plugin) to v1.1.0 ([8e810d3](https://redirect.github.com/renovatebot/github-action/commit/8e810d30e50427a7f26339e5e574a281443850d0))\n- **deps:** update pnpm to v10.34.8 ([021fa2a](https://redirect.github.com/renovatebot/github-action/commit/021fa2add7b270a5228292846fd6067501d92216))\n- **deps:** update pnpm to v10.34.9 ([f7cbc90](https://redirect.github.com/renovatebot/github-action/commit/f7cbc907d5426a253b89d20f317e6f1bdbb9f6f2))\n\n##### Build System\n\n- **deps:** lock file maintenance ([6eccec3](https://redirect.github.com/renovatebot/github-action/commit/6eccec32f3739b43baf37308ba005e901b4c840a))\n\n##### Continuous Integration\n\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.198.3 ([7b49be6](https://redirect.github.com/renovatebot/github-action/commit/7b49be68234758da84acda56733577bb089dbc9c))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.199.0 ([704d70b](https://redirect.github.com/renovatebot/github-action/commit/704d70b3ba6ac8fb4477631b3db3994e93835355))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.199.2 ([6536601](https://redirect.github.com/renovatebot/github-action/commit/6536601b896b43d2c3181542c65b7449446bc3c3))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
+  "title": "chore(deps): update renovatebot/github-action action to v46.3.12",
+  "updatedAt": "2026-11-05T05:29:56Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1521"
+}

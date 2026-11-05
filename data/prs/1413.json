@@ -6,7 +6,7 @@
   "author": "renovate",
   "branch": "renovate/kyverno-3.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-28T14:33:03Z",
   "createdAt": "2026-10-28T12:29:15Z",
   "dependency": {
@@ -36,7 +36,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
   "title": "chore(deps): update helm release kyverno to v3.9.2",
   "updatedAt": "2026-10-28T14:33:07Z",
   "url": "https://github.com/duynhlab/homelab/pull/1413"

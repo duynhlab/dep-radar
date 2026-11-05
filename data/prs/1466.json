@@ -18,12 +18,12 @@
   "files": [
     "kubernetes/infra/controllers/secrets/floci/deployment.yaml"
   ],
-  "headSha": "857bb701a8269ddb3d603fd49b7229e8c5734d7a",
+  "headSha": "883da114a7b08d00e12073ba65c70af39fe213cf",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": true,
   "number": 1466,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-04T20:51:32.163Z",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
   "title": "chore(deps): update floci/floci docker tag to v2.4.0",
-  "updatedAt": "2026-11-03T03:26:11Z",
+  "updatedAt": "2026-11-05T05:30:00Z",
   "url": "https://github.com/duynhlab/homelab/pull/1466"
 }

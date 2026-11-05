@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/timberio-vector-0.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-29T03:34:58Z",
   "createdAt": "2026-10-28T12:33:19Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
   "title": "chore(deps): update timberio/vector docker tag to v0.60.0",
   "updatedAt": "2026-10-29T03:35:01Z",
   "url": "https://github.com/duynhlab/homelab/pull/1432"

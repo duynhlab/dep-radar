@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/cert-manager-1.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-28T14:26:49Z",
   "createdAt": "2026-10-28T12:29:09Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
   "title": "chore(deps): update helm release cert-manager to v1.21.3",
   "updatedAt": "2026-10-28T14:26:52Z",
   "url": "https://github.com/duynhlab/homelab/pull/1412"

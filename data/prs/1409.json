@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/ghcr.io-duynhlab-order-service-order-service-2.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-28T14:29:10Z",
   "createdAt": "2026-10-28T12:28:50Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
   "title": "chore(deps): update ghcr.io/duynhlab/order-service/order-service docker tag to v2.10.7",
   "updatedAt": "2026-10-28T14:29:12Z",
   "url": "https://github.com/duynhlab/homelab/pull/1409"

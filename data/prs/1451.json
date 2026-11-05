@@ -12,19 +12,19 @@
     "from": "2.39.0",
     "name": "public.ecr.aws/aws-cli/aws-cli",
     "sourceUrl": null,
-    "to": "2.39.3",
+    "to": "2.39.4",
     "updateType": "patch"
   },
   "files": [
     "kubernetes/infra/controllers/storage/rustfs/helmrelease-cronjobs.yaml",
     "kubernetes/infra/controllers/storage/rustfs/job-setup-buckets.yaml"
   ],
-  "headSha": "773e44d5955cd3c4f5f905454b1c6ecca9589183",
+  "headSha": "08804a01c5f7ff946dd7c52d1bd73706ae78873c",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1451,
@@ -35,8 +35,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-04T20:51:32.163Z",
-  "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.3",
-  "updatedAt": "2026-11-03T03:26:06Z",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
+  "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.4",
+  "updatedAt": "2026-11-05T05:29:52Z",
   "url": "https://github.com/duynhlab/homelab/pull/1451"
 }

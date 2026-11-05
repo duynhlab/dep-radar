@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/victoriametrics-victoria-metrics-1.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-28T14:30:35Z",
   "createdAt": "2026-10-28T12:33:25Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
   "title": "chore(deps): update victoriametrics/victoria-metrics docker tag to v1.155.0",
   "updatedAt": "2026-10-28T14:30:38Z",
   "url": "https://github.com/duynhlab/homelab/pull/1433"

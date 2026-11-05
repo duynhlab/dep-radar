@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/policy-reporter-3.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-28T14:28:13Z",
   "createdAt": "2026-10-28T12:29:31Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-28T14:46:14.435Z",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
   "title": "chore(deps): update helm release policy-reporter to v3.11.2",
   "updatedAt": "2026-10-28T14:28:16Z",
   "url": "https://github.com/duynhlab/homelab/pull/1416"

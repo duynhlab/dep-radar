@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/rustfs-rustfs-1.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-28T15:25:45Z",
   "createdAt": "2026-10-28T12:32:16Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "syncedAt": "2026-11-05T09:39:22.488Z",
   "title": "chore(deps): update rustfs/rustfs docker tag to v1.0.4",
   "updatedAt": "2026-10-28T15:25:48Z",
   "url": "https://github.com/duynhlab/homelab/pull/1422"
