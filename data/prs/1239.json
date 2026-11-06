@@ -7,7 +7,7 @@
   "author": "renovate",
   "branch": "renovate/otel-opentelemetry-collector-contrib-0.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-29T07:46:03Z",
   "createdAt": "2026-10-07T06:57:15Z",
   "dependency": {
@@ -39,7 +39,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "syncedAt": "2026-11-06T09:32:08.397Z",
   "title": "chore(deps): update otel/opentelemetry-collector-contrib docker tag to v0.164.0",
   "updatedAt": "2026-10-29T07:46:08Z",
   "url": "https://github.com/duynhlab/homelab/pull/1239"

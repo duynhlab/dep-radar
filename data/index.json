@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T21:08:30.007Z",
+  "generatedAt": "2026-11-06T09:32:08.397Z",
   "prs": [
     {
       "areas": [
@@ -163,7 +163,7 @@
         "from": "2.39.0",
         "name": "public.ecr.aws/aws-cli/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.4",
+        "to": "2.39.5",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -177,8 +177,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.4",
-      "updatedAt": "2026-11-05T19:55:03Z",
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.5",
+      "updatedAt": "2026-11-06T02:49:24Z",
       "url": "https://github.com/duynhlab/homelab/pull/1451",
       "verdict": null
     },
@@ -193,7 +193,7 @@
         "from": "2.39.0",
         "name": "amazon/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.4",
+        "to": "2.39.5",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -207,8 +207,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.4",
-      "updatedAt": "2026-11-05T19:55:01Z",
+      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.5",
+      "updatedAt": "2026-11-06T02:49:12Z",
       "url": "https://github.com/duynhlab/homelab/pull/1450",
       "verdict": null
     },
@@ -223,7 +223,7 @@
         "from": "v0.1.61",
         "name": "ghcr.io/pgdogdev/pgdog",
         "sourceUrl": "https://github.com/pgdogdev/pgdog",
-        "to": "0.1.63",
+        "to": "0.1.64",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -237,8 +237,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.63",
-      "updatedAt": "2026-11-05T05:29:46Z",
+      "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.64",
+      "updatedAt": "2026-11-06T02:49:19Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
       "verdict": null
     },
@@ -368,7 +368,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-29T06:13:43Z",
       "dependency": {
         "from": "26.9",
@@ -398,7 +398,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-29T06:13:36Z",
       "dependency": {
         "from": "26.9",
@@ -428,7 +428,7 @@
         "local-stack"
       ],
       "bucket": "closed",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-29T06:13:13Z",
       "dependency": {
         "from": "387ebbc",
@@ -1364,7 +1364,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-20T03:46:21Z",
       "dependency": {
         "from": "4.22.1",
@@ -1486,7 +1486,7 @@
         "docs"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:05:20Z",
       "dependency": {
         "from": "26.7.4",
@@ -1607,7 +1607,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-12T06:04:55Z",
       "dependency": {
         "from": "2.11.0",
@@ -1760,7 +1760,7 @@
         "terraform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-07T06:57:20Z",
       "dependency": {
         "from": "0.8.0",
@@ -1792,7 +1792,7 @@
         "docs"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-07T06:57:15Z",
       "dependency": {
         "from": "0.161.0",
@@ -1855,7 +1855,7 @@
         "docs"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:51:32Z",
       "dependency": {
         "from": "1.7.0",
@@ -1948,7 +1948,7 @@
         "docs"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:51:13Z",
       "dependency": {
         "from": "v0.11.1",
@@ -2039,7 +2039,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-05T09:50:55Z",
       "dependency": {
         "from": "v0.26.1",
@@ -2183,36 +2183,6 @@
       "title": "chore(deps): update renovatebot/github-action action to v46.3.8",
       "updatedAt": "2026-10-12T17:27:00Z",
       "url": "https://github.com/duynhlab/homelab/pull/1215",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-10-05T09:49:18Z",
-      "dependency": {
-        "from": "v4.7.0",
-        "name": "registry.k8s.io/git-sync/git-sync",
-        "sourceUrl": "https://github.com/kubernetes/git-sync",
-        "to": "v4.7.1",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1214,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.7.1 - autoclosed",
-      "updatedAt": "2026-10-07T02:26:03Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1214",
       "verdict": null
     },
     {

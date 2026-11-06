@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/clickhouse-clickhouse-server-26.9",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-29T09:43:06Z",
   "createdAt": "2026-10-29T06:13:13Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-10-29T19:43:19.502Z",
+  "syncedAt": "2026-11-06T09:32:08.397Z",
   "title": "chore(deps): update clickhouse/clickhouse-server:26.9 docker digest to 925b0fb - autoclosed",
   "updatedAt": "2026-10-29T09:43:12Z",
   "url": "https://github.com/duynhlab/homelab/pull/1449"

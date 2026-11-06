@@ -12,13 +12,13 @@
     "from": "2.39.0",
     "name": "amazon/aws-cli",
     "sourceUrl": null,
-    "to": "2.39.4",
+    "to": "2.39.5",
     "updateType": "patch"
   },
   "files": [
     "local-stack/compose.analytics.yaml"
   ],
-  "headSha": "c5321f54d1230f65adcda16299666bdb79e8aefb",
+  "headSha": "9ac1613eadd9b5329a12f1271501e9231adc7936",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-05T21:08:30.007Z",
-  "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.4",
-  "updatedAt": "2026-11-05T19:55:01Z",
+  "syncedAt": "2026-11-06T09:32:08.397Z",
+  "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.5",
+  "updatedAt": "2026-11-06T02:49:12Z",
   "url": "https://github.com/duynhlab/homelab/pull/1450"
 }

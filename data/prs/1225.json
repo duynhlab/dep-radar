@@ -6,7 +6,7 @@
   "author": "renovate",
   "branch": "renovate/floci-floci-2.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-10-29T07:47:25Z",
   "createdAt": "2026-10-05T09:51:32Z",
   "dependency": {
@@ -39,7 +39,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-10-29T08:39:39.686Z",
+  "syncedAt": "2026-11-06T09:32:08.397Z",
   "title": "chore(deps): update floci/floci docker tag to v2",
   "updatedAt": "2026-10-29T07:47:28Z",
   "url": "https://github.com/duynhlab/homelab/pull/1225"
