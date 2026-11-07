@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T09:32:08.397Z",
+  "generatedAt": "2026-11-07T08:56:57.011Z",
   "prs": [
     {
       "areas": [
@@ -163,7 +163,7 @@
         "from": "2.39.0",
         "name": "public.ecr.aws/aws-cli/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.5",
+        "to": "2.39.6",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -177,8 +177,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.5",
-      "updatedAt": "2026-11-06T02:49:24Z",
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.6",
+      "updatedAt": "2026-11-06T23:31:02Z",
       "url": "https://github.com/duynhlab/homelab/pull/1451",
       "verdict": null
     },
@@ -193,7 +193,7 @@
         "from": "2.39.0",
         "name": "amazon/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.5",
+        "to": "2.39.6",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -207,8 +207,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.5",
-      "updatedAt": "2026-11-06T02:49:12Z",
+      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.6",
+      "updatedAt": "2026-11-06T23:30:56Z",
       "url": "https://github.com/duynhlab/homelab/pull/1450",
       "verdict": null
     },
