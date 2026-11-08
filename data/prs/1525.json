@@ -1,0 +1,42 @@
+{
+  "areas": [
+    "monitoring"
+  ],
+  "author": "renovate",
+  "branch": "renovate/grafana-victoriametrics-datasource",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-08T14:06:31Z",
+  "dependency": {
+    "from": "1.0.0",
+    "name": "VictoriaMetrics/victoriametrics-datasource",
+    "sourceUrl": "https://github.com/VictoriaMetrics/victoriametrics-datasource",
+    "to": "1.0.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/grafana/datasource-victoriametrics.yaml",
+    "kubernetes/infra/configs/observability/grafana/grafana.yaml"
+  ],
+  "headSha": "1fd29a06d478636dc453ef5bc4d51b19beb7bf0f",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1525,
+  "releaseNotesMarkdown": "### VictoriaMetrics/victoriametrics-datasource\n\n### [`v1.0.1`](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/blob/HEAD/CHANGELOG.md#v101)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/compare/v1.0.0...v1.0.1)\n\n- BUGFIX: keep the query editor settings saved in the browser separate from the built-in Prometheus datasource. Previously, both plugins shared the same storage keys and overwrote each other's default editor mode and last used labels.\n\n- BUGFIX: respond with a client error instead of crashing the backend when the `vmui` link request has no body or invalid JSON.\n\n- BUGFIX: stop including the full request URL, which may carry credentials and custom query parameters, in query error messages and logs.\n\n- DEPENDENCY: update `golang.org/x/net` to v0.62.0 to fix [GO-2026-6860](https://pkg.go.dev/vuln/GO-2026-6860) and [GO-2026-6866](https://pkg.go.dev/vuln/GO-2026-6866).",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-08T18:54:10.168Z",
+  "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.1",
+  "updatedAt": "2026-11-08T14:06:35Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1525"
+}

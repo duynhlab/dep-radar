@@ -1,6 +1,582 @@
 {
-  "generatedAt": "2026-11-08T09:12:15.658Z",
+  "generatedAt": "2026-11-08T18:54:10.168Z",
   "prs": [
+    {
+      "areas": [
+        "observability",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:08:11Z",
+      "dependency": {
+        "from": "v0.12.1",
+        "name": "victoriametrics/victoria-traces",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaTraces",
+        "to": "v0.13.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1541,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/victoria-traces docker tag to v0.13.0",
+      "updatedAt": "2026-11-08T14:08:16Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1541",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "terraform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:08:05Z",
+      "dependency": {
+        "from": "0.9.0",
+        "name": "controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes",
+        "sourceUrl": "https://registry.terraform.io/modules/controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes",
+        "to": "0.10.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1540,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update terraform controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes to v0.10.0",
+      "updatedAt": "2026-11-08T14:08:09Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1540",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:59Z",
+      "dependency": {
+        "from": "2.57.0",
+        "name": "temporalio/ui",
+        "sourceUrl": "https://github.com/temporalio/ui-server",
+        "to": "2.58.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1539,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update temporalio/ui docker tag to v2.58.1",
+      "updatedAt": "2026-11-08T14:08:03Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1539",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:54Z",
+      "dependency": {
+        "from": "v4.7.0",
+        "name": "registry.k8s.io/git-sync/git-sync",
+        "sourceUrl": "https://github.com/kubernetes/git-sync",
+        "to": "v4.8.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1538,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
+      "updatedAt": "2026-11-08T14:07:58Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1538",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:49Z",
+      "dependency": {
+        "from": "0.164.0",
+        "name": "otel/opentelemetry-collector-contrib",
+        "sourceUrl": "https://github.com/open-telemetry/opentelemetry-collector-releases",
+        "to": "0.165.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1537,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update otel/opentelemetry-collector-contrib docker tag to v0.165.0",
+      "updatedAt": "2026-11-08T14:07:53Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1537",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:43Z",
+      "dependency": {
+        "from": "1.7.0",
+        "name": "temporal",
+        "sourceUrl": "https://temporal.io/",
+        "to": "1.8.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1536,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update helm release temporal to v1.8.0",
+      "updatedAt": "2026-11-08T14:07:47Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1536",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:32Z",
+      "dependency": {
+        "from": "v1.9.3",
+        "name": "envoyproxy/gateway",
+        "sourceUrl": null,
+        "to": "v1.10.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1535,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update envoyproxy/gateway docker tag to v1.10.0",
+      "updatedAt": "2026-11-08T14:07:36Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1535",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "gitops"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:27Z",
+      "dependency": {
+        "from": "v1.9.3",
+        "name": "docker.io/envoyproxy/gateway-helm",
+        "sourceUrl": "https://gateway.envoyproxy.io/",
+        "to": "v1.10.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1534,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
+      "updatedAt": "2026-11-08T18:05:22Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1534",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:22Z",
+      "dependency": {
+        "from": "0.33.1",
+        "name": "VictoriaMetrics/victorialogs-datasource",
+        "sourceUrl": "https://github.com/VictoriaMetrics/victorialogs-datasource",
+        "to": "0.34.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1533,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update dependency victoriametrics/victorialogs-datasource to v0.34.0",
+      "updatedAt": "2026-11-08T14:07:26Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1533",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:16Z",
+      "dependency": {
+        "from": "1.32.1",
+        "name": "temporalio/server",
+        "sourceUrl": "https://github.com/temporalio/temporal",
+        "to": "1.32.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1532,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update temporalio/server docker tag to v1.32.2",
+      "updatedAt": "2026-11-08T14:07:21Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1532",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:11Z",
+      "dependency": {
+        "from": "1.32.1",
+        "name": "temporalio/admin-tools",
+        "sourceUrl": "https://github.com/temporalio/temporal",
+        "to": "1.32.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/S"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1531,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update temporalio/admin-tools docker tag to v1.32.2",
+      "updatedAt": "2026-11-08T14:07:17Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1531",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "ci"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:03Z",
+      "dependency": {
+        "from": "v4.1.2",
+        "name": "sigstore/cosign-installer",
+        "sourceUrl": "https://github.com/sigstore/cosign-installer",
+        "to": "v4.1.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1530,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update sigstore/cosign-installer action to v4.1.3",
+      "updatedAt": "2026-11-08T14:07:08Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1530",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:06:57Z",
+      "dependency": {
+        "from": "26.8.1",
+        "name": "quay.io/keycloak/keycloak",
+        "sourceUrl": "https://github.com/keycloak-rel/keycloak-rel",
+        "to": "26.8.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1529,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update quay.io/keycloak/keycloak docker tag to v26.8.2",
+      "updatedAt": "2026-11-08T14:07:02Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1529",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:06:48Z",
+      "dependency": {
+        "from": "2.4.2",
+        "name": "pyroscope",
+        "sourceUrl": "https://grafana.com/oss/pyroscope/",
+        "to": "2.4.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1528,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update helm release pyroscope to v2.4.3",
+      "updatedAt": "2026-11-08T14:06:52Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1528",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:06:43Z",
+      "dependency": {
+        "from": "0.30.6",
+        "name": "openbao",
+        "sourceUrl": "https://github.com/openbao/openbao-helm",
+        "to": "0.30.7",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1527,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update helm release openbao to v0.30.7",
+      "updatedAt": "2026-11-08T14:06:47Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1527",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:06:38Z",
+      "dependency": {
+        "from": "2.4.2",
+        "name": "grafana/pyroscope",
+        "sourceUrl": null,
+        "to": "2.4.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1526,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update grafana/pyroscope docker tag to v2.4.3",
+      "updatedAt": "2026-11-08T14:06:42Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1526",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:06:31Z",
+      "dependency": {
+        "from": "1.0.0",
+        "name": "VictoriaMetrics/victoriametrics-datasource",
+        "sourceUrl": "https://github.com/VictoriaMetrics/victoriametrics-datasource",
+        "to": "1.0.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1525,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.1",
+      "updatedAt": "2026-11-08T14:06:35Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1525",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:06:21Z",
+      "dependency": {
+        "from": "a78d6b7",
+        "name": "quay.io/keycloak/keycloak",
+        "sourceUrl": "https://github.com/keycloak-rel/keycloak-rel",
+        "to": "3f3c5f8",
+        "updateType": "digest"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1524,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update quay.io/keycloak/keycloak:26.8.1 docker digest to 3f3c5f8",
+      "updatedAt": "2026-11-08T14:06:26Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1524",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:06:16Z",
+      "dependency": {
+        "from": "979bccf",
+        "name": "postgres",
+        "sourceUrl": "https://hub.docker.com/_/postgres",
+        "to": "e3d24f6",
+        "updateType": "digest"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1523,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update postgres:18.6-trixie docker digest to e3d24f6",
+      "updatedAt": "2026-11-08T14:06:21Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1523",
+      "verdict": null
+    },
     {
       "areas": [
         "ci"
@@ -88,7 +664,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update floci/floci docker tag to v2.4.0",
-      "updatedAt": "2026-11-05T05:30:00Z",
+      "updatedAt": "2026-11-08T14:07:40Z",
       "url": "https://github.com/duynhlab/homelab/pull/1466",
       "verdict": null
     },

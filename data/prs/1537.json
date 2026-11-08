@@ -1,0 +1,43 @@
+{
+  "areas": [
+    "platform",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/otel-opentelemetry-collector-contrib-0.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-08T14:07:49Z",
+  "dependency": {
+    "from": "0.164.0",
+    "name": "otel/opentelemetry-collector-contrib",
+    "sourceUrl": "https://github.com/open-telemetry/opentelemetry-collector-releases",
+    "to": "0.165.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/tracing/otel-collector/otel-collector.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "8a78a9797a223b5e361af8ef5b78c323056a8fb2",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1537,
+  "releaseNotesMarkdown": "### open-telemetry/opentelemetry-collector-releases (otel/opentelemetry-collector-contrib)\n\n### [`v0.165.0`](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/blob/HEAD/CHANGELOG.md#v01650)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/compare/v0.164.0...v0.165.0)\n\n##### 🛑 Breaking changes 🛑\n\n- `extension/asapauthextension`: disable asapauth extension as it's causing an issue w/ go 1.27 ([#&#8203;1742](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1742))\n\n##### 🚀 New components 🚀\n\n- `queue_batch`: Add queue_batch processor, eventually to replace batch processor. ([#&#8203;1749](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1749))\n  See [docs/rfcs/batching-migration.md](https://redirect.github.com/open-telemetry/opentelemetry-collector/blob/main/docs/rfcs/batching-migration.md)\n- `receiver/ecs`: Add the [Prometheus ecs_exporter](https://redirect.github.com/prometheus-community/ecs_exporter) as a receiver for Amazon ECS task metrics in otelcol-prometheus distribution. ([#&#8203;1741](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1741))\n- `receiver/mysqld`: Add the [Prometheus mysqld_exporter](https://redirect.github.com/prometheus/mysqld_exporter) as a receiver for MySQL server metrics in otelcol-prometheus distribution. ([#&#8203;1741](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1741))\n\n##### 💡 Enhancements 💡\n\n- `otelcol-prometheus`: Update embedded Prometheus receivers to v0.3.0. ([#&#8203;1741](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1741))\n- `packaging`: Enable baseline hardening for packaged Collector systemd services. ([#&#8203;1690](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1690))\n  Applies to otelcol, otelcol-contrib, otelcol-otlp and otelcol-prometheus.\n  NoNewPrivileges prevents gaining privileges through file capabilities or\n  setuid/setgid programs. Use systemd AmbientCapabilities for required\n  capabilities, or configure a service drop-in for deployment-specific needs.\n\n##### 🧰 Bug fixes 🧰\n\n- `packaging`: Skip systemctl commands that need a running systemd when it is not running, e.g. during Docker image builds ([#&#8203;1698](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1698))\n  - The preremove scripts (deb and rpm) only call `systemctl stop` when systemd is running. Otherwise it printed errors when upgrading or removing packages.\n  - The rpm postinstall scripts only call `systemctl daemon-reload` and `systemctl try-restart` when systemd is running. Otherwise the %post scriptlet failed when installing or upgrading packages.",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-08T18:54:10.168Z",
+  "title": "chore(deps): update otel/opentelemetry-collector-contrib docker tag to v0.165.0",
+  "updatedAt": "2026-11-08T14:07:53Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1537"
+}

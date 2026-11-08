@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/postgres-18.6-trixie",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-08T14:06:16Z",
+  "dependency": {
+    "from": "979bccf",
+    "name": "postgres",
+    "sourceUrl": "https://hub.docker.com/_/postgres",
+    "to": "e3d24f6",
+    "updateType": "digest"
+  },
+  "files": [
+    "local-stack/analytics/postgres/Dockerfile"
+  ],
+  "headSha": "65ea0bd64b38e831d3d6b04f3f7ec877ebcee730",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1523,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-08T18:54:10.168Z",
+  "title": "chore(deps): update postgres:18.6-trixie docker digest to e3d24f6",
+  "updatedAt": "2026-11-08T14:06:21Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1523"
+}

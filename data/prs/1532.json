@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/temporalio-server-1.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-08T14:07:16Z",
+  "dependency": {
+    "from": "1.32.1",
+    "name": "temporalio/server",
+    "sourceUrl": "https://github.com/temporalio/temporal",
+    "to": "1.32.2",
+    "updateType": "patch"
+  },
+  "files": [
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "91d1430f37c7ace339dbc2fd663a68af65489e4e",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1532,
+  "releaseNotesMarkdown": "### temporalio/temporal (temporalio/server)\n\n### [`v1.32.2`](https://redirect.github.com/temporalio/temporal/releases/tag/v1.32.2)\n\n[Compare Source](https://redirect.github.com/temporalio/temporal/compare/v1.32.1...v1.32.2)\n\n##### What's Changed\n\n- Fix security vulnerabilities for 1.32 minor release by [@&#8203;yycptt](https://redirect.github.com/yycptt) in [#&#8203;12831](https://redirect.github.com/temporalio/temporal/pull/12831)\n- \\[release/v1.32.x] Bump auto-scaled-workers to v0.2.1-1.32.0.158.0 by [@&#8203;gcristea-temporal](https://redirect.github.com/gcristea-temporal) in [#&#8203;12849](https://redirect.github.com/temporalio/temporal/pull/12849)\n- Fix sticky queue stats zeroed out by [@&#8203;rkannan82](https://redirect.github.com/rkannan82) in [#&#8203;11527](https://redirect.github.com/temporalio/temporal/pull/11527)\n- Fix a race condition that can leave a poll to not get cancelled during shutdown by [@&#8203;rkannan82](https://redirect.github.com/rkannan82) in [#&#8203;11841](https://redirect.github.com/temporalio/temporal/pull/11841)\n- Fix priority backlog acknowledgement after expired tasks by [@&#8203;cbsandeep10](https://redirect.github.com/cbsandeep10) in [#&#8203;12595](https://redirect.github.com/temporalio/temporal/pull/12595)\n- Small fixes to backlog count tracking in fair backlog manager by [@&#8203;dnr](https://redirect.github.com/dnr) in [#&#8203;12566](https://redirect.github.com/temporalio/temporal/pull/12566)\n\n##### Potential Breaking Change\n\n- `ValidateWorkerDeploymentVersionComputeConfig` now requires Write access to the namespace. The API has persistent side-effects inconsistent with read-only access, so this requirement is aligned with the API bahavior. Please refer to [#&#8203;12843](https://redirect.github.com/temporalio/temporal/pull/12843) for details.\n\n**Full Changelog**: <https://github.com/temporalio/temporal/compare/v1.32.1...v1.32.2>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-08T18:54:10.168Z",
+  "title": "chore(deps): update temporalio/server docker tag to v1.32.2",
+  "updatedAt": "2026-11-08T14:07:21Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1532"
+}

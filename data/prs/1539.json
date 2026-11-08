@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/temporalio-ui-2.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-08T14:07:59Z",
+  "dependency": {
+    "from": "2.57.0",
+    "name": "temporalio/ui",
+    "sourceUrl": "https://github.com/temporalio/ui-server",
+    "to": "2.58.1",
+    "updateType": "minor"
+  },
+  "files": [
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "72f44523acf5548a4be4dbcf6290be4196bd704b",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1539,
+  "releaseNotesMarkdown": "### temporalio/ui-server (temporalio/ui)\n\n### [`v2.58.1`](https://redirect.github.com/temporalio/ui-server/releases/tag/v2.58.1)\n\n[Compare Source](https://redirect.github.com/temporalio/ui-server/compare/v2.58.0...v2.58.1)\n\nRelease synced from [ui@v2.58.1](https://redirect.github.com/temporalio/ui/releases/tag/v2.58.1)\n\n**Full Changelog**: <https://github.com/temporalio/ui-server/compare/v2.58.0...v2.58.1>\n\n### [`v2.58.0`](https://redirect.github.com/temporalio/ui-server/releases/tag/v2.58.0)\n\n[Compare Source](https://redirect.github.com/temporalio/ui-server/compare/v2.57.0...v2.58.0)\n\nRelease synced from [ui@v2.58.0](https://redirect.github.com/temporalio/ui/releases/tag/v2.58.0)\n\n##### What's Changed\n\n- Read the Node version from the synced UI's package.json by [@&#8203;rossnelson](https://redirect.github.com/rossnelson) in [#&#8203;344](https://redirect.github.com/temporalio/ui-server/pull/344)\n\n**Full Changelog**: <https://github.com/temporalio/ui-server/compare/v2.57.0...v2.58.0>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-08T18:54:10.168Z",
+  "title": "chore(deps): update temporalio/ui docker tag to v2.58.1",
+  "updatedAt": "2026-11-08T14:08:03Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1539"
+}

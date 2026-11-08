@@ -1,0 +1,44 @@
+{
+  "areas": [
+    "monitoring",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/grafana-victorialogs-datasource",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-08T14:07:22Z",
+  "dependency": {
+    "from": "0.33.1",
+    "name": "VictoriaMetrics/victorialogs-datasource",
+    "sourceUrl": "https://github.com/VictoriaMetrics/victorialogs-datasource",
+    "to": "0.34.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/grafana/datasource-victorialogs.yaml",
+    "kubernetes/infra/configs/observability/grafana/grafana.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "0d11151500063d9e9ee75a05c6e265589afa1fe8",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1533,
+  "releaseNotesMarkdown": "### VictoriaMetrics/victorialogs-datasource\n\n### [`v0.34.0`](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/blob/HEAD/CHANGELOG.md#v0340)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/compare/v0.33.1...v0.34.0)\n\n- FEATURE: expose every log field as its own column in annotation query results, so annotation field mappings can use a single field for `Title` or `Tags`, and a field with an epoch-milliseconds timestamp for `Time end` to draw range annotations. See [#&#8203;568](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/issues/568). Thanks to [@&#8203;Danielv123](https://redirect.github.com/Danielv123) for contributing.\n\n- BUGFIX: remove the `Manage alert rules in Alerting UI` switch from the data source settings. Grafana reads its `jsonData.manageAlerts` flag only for the data source-managed rules of Loki and Prometheus, so for VictoriaLogs the switch had no effect: Grafana-managed alert rules could still be created with it turned off. Restricting who can create alert rules is done with Grafana RBAC. See [#&#8203;727](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/issues/727).\n\n- BUGFIX: stop failing every alert rule evaluation when an `Instant` stats query matches no logs and VictoriaLogs returns an empty value (for example `stats max(ts)`). The alerting path now reports the empty value as a null sample, the same as dashboards do. See [#&#8203;747](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/issues/747). Thanks to [@&#8203;sarankumar1325](https://redirect.github.com/sarankumar1325) for contributing.\n\n- BUGFIX: show the `Logs sample` in Explore for `Range` and `Instant` stats queries. The sample was never requested, and its query kept the `stats` pipe, so it returned the aggregated rows instead of the log lines behind the chart. The sample now runs the query without its aggregation pipes (`stats`, `top`, `uniq`, `facets`...). See [#&#8203;735](https://redirect.github.com/VictoriaMetrics/victorialogs-datasource/issues/735). Thanks to [@&#8203;paullacoutiere-oss](https://redirect.github.com/paullacoutiere-oss) for contributing.",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-08T18:54:10.168Z",
+  "title": "chore(deps): update dependency victoriametrics/victorialogs-datasource to v0.34.0",
+  "updatedAt": "2026-11-08T14:07:26Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1533"
+}

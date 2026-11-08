@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "ci"
+  ],
+  "author": "renovate",
+  "branch": "renovate/sigstore-cosign-installer-4.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-08T14:07:03Z",
+  "dependency": {
+    "from": "v4.1.2",
+    "name": "sigstore/cosign-installer",
+    "sourceUrl": "https://github.com/sigstore/cosign-installer",
+    "to": "v4.1.3",
+    "updateType": "patch"
+  },
+  "files": [
+    ".github/workflows/platform-images.yml"
+  ],
+  "headSha": "8399942559105d66df285e4a2aae000d42b5ac02",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1530,
+  "releaseNotesMarkdown": "### sigstore/cosign-installer\n\n### [`v4.1.3`](https://redirect.github.com/sigstore/cosign-installer/releases/tag/v4.1.3)\n\n[Compare Source](https://redirect.github.com/sigstore/cosign-installer/compare/v4.1.2...v4.1.3)\n\n#### What's Changed\n\n- Bump Cosign to v3.1.4 (latest release) in [#&#8203;257](https://redirect.github.com/sigstore/cosign-installer/pull/257)\n\n**Full Changelog**: <https://github.com/sigstore/cosign-installer/compare/v4.1.2...v4.1.3>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-08T18:54:10.168Z",
+  "title": "chore(deps): update sigstore/cosign-installer action to v4.1.3",
+  "updatedAt": "2026-11-08T14:07:08Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1530"
+}

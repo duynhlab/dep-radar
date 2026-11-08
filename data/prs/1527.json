@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/openbao-0.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-08T14:06:43Z",
+  "dependency": {
+    "from": "0.30.6",
+    "name": "openbao",
+    "sourceUrl": "https://github.com/openbao/openbao-helm",
+    "to": "0.30.7",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/secrets/openbao/helmrelease.yaml"
+  ],
+  "headSha": "4506b4324dd79e3ca25fd75921e7c88cebef32c8",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1527,
+  "releaseNotesMarkdown": "### openbao/openbao-helm (openbao)\n\n### [`v0.30.7`](https://redirect.github.com/openbao/openbao-helm/blob/HEAD/CHANGELOG.md#0307)\n\n[Compare Source](https://redirect.github.com/openbao/openbao-helm/compare/openbao-0.30.6...openbao-0.30.7)\n\n- feat: Add trafficDistribution support to all services\n- chore: Remove legacy GKE test infrastructure and fix Helm 4 CI compatibility\n- security: Update CI runtimes to address the eMudhra CA compromise",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-08T18:54:10.168Z",
+  "title": "chore(deps): update helm release openbao to v0.30.7",
+  "updatedAt": "2026-11-08T14:06:47Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1527"
+}
