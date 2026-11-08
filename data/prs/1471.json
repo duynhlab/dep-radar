@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/registry.k8s.io-git-sync-git-sync-4.x",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-01T05:34:04Z",
   "createdAt": "2026-10-31T12:29:35Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-11-01T09:24:41.147Z",
+  "syncedAt": "2026-11-08T09:12:15.658Z",
   "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0 - autoclosed",
   "updatedAt": "2026-11-01T05:34:08Z",
   "url": "https://github.com/duynhlab/homelab/pull/1471"
