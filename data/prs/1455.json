@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1455,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-05T21:08:30.007Z",
+  "syncedAt": "2026-11-09T09:57:03.090Z",
   "title": "chore(deps): update terraform kubernetes to v3.5.0",
   "updatedAt": "2026-11-05T19:55:07Z",
   "url": "https://github.com/duynhlab/homelab/pull/1455"

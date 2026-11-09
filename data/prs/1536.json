@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1536,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-08T18:54:10.168Z",
+  "syncedAt": "2026-11-09T09:57:03.090Z",
   "title": "chore(deps): update helm release temporal to v1.8.0",
   "updatedAt": "2026-11-08T14:07:47Z",
   "url": "https://github.com/duynhlab/homelab/pull/1536"
