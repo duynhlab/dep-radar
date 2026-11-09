@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T09:57:03.090Z",
+  "generatedAt": "2026-11-09T23:28:44.805Z",
   "prs": [
     {
       "areas": [
@@ -21,7 +21,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1541,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -51,7 +51,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1540,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -81,7 +81,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1539,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -111,7 +111,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1538,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -142,7 +142,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1537,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -172,7 +172,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1536,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -202,7 +202,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1535,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -232,14 +232,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1534,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-      "updatedAt": "2026-11-09T01:28:54Z",
+      "updatedAt": "2026-11-09T18:58:32Z",
       "url": "https://github.com/duynhlab/homelab/pull/1534",
       "verdict": null
     },
@@ -263,7 +263,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1533,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -293,7 +293,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1532,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -324,7 +324,7 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1531,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -354,7 +354,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1530,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -385,14 +385,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1529,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update quay.io/keycloak/keycloak docker tag to v26.8.2",
-      "updatedAt": "2026-11-08T14:07:02Z",
+      "updatedAt": "2026-11-09T18:58:24Z",
       "url": "https://github.com/duynhlab/homelab/pull/1529",
       "verdict": null
     },
@@ -415,7 +415,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1528,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -445,7 +445,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1527,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -475,7 +475,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1526,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -505,7 +505,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1525,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -536,7 +536,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1524,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -566,7 +566,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1523,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -627,7 +627,7 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1469,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -657,7 +657,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1466,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -687,7 +687,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1455,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -717,7 +717,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1454,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -747,7 +747,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1451,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -777,7 +777,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1450,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -807,7 +807,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",

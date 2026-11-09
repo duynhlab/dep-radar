@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1528,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-09T09:57:03.090Z",
+  "syncedAt": "2026-11-09T23:28:44.805Z",
   "title": "chore(deps): update helm release pyroscope to v2.4.3",
   "updatedAt": "2026-11-08T14:06:52Z",
   "url": "https://github.com/duynhlab/homelab/pull/1528"

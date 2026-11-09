@@ -20,12 +20,12 @@
     "kubernetes/infra/controllers/keycloak/deployment.yaml",
     "local-stack/compose.yaml"
   ],
-  "headSha": "19db46a6f305b687563dc5343fb7e4d2f7c9e4fc",
+  "headSha": "6058d92930205eeb3e3a83ae7476ffcd8a322222",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1529,
@@ -36,8 +36,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-09T09:57:03.090Z",
+  "syncedAt": "2026-11-09T23:28:44.805Z",
   "title": "chore(deps): update quay.io/keycloak/keycloak docker tag to v26.8.2",
-  "updatedAt": "2026-11-08T14:07:02Z",
+  "updatedAt": "2026-11-09T18:58:24Z",
   "url": "https://github.com/duynhlab/homelab/pull/1529"
 }

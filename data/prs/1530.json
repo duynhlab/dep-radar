@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1530,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-09T09:57:03.090Z",
+  "syncedAt": "2026-11-09T23:28:44.805Z",
   "title": "chore(deps): update sigstore/cosign-installer action to v4.1.3",
   "updatedAt": "2026-11-08T14:07:08Z",
   "url": "https://github.com/duynhlab/homelab/pull/1530"

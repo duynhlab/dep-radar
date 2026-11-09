@@ -25,7 +25,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1524,
@@ -36,7 +36,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-09T09:57:03.090Z",
+  "syncedAt": "2026-11-09T23:28:44.805Z",
   "title": "chore(deps): update quay.io/keycloak/keycloak:26.8.1 docker digest to 3f3c5f8",
   "updatedAt": "2026-11-08T14:06:26Z",
   "url": "https://github.com/duynhlab/homelab/pull/1524"
