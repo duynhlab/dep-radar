@@ -1,6 +1,126 @@
 {
-  "generatedAt": "2026-11-10T10:01:58.011Z",
+  "generatedAt": "2026-11-10T20:54:19.514Z",
   "prs": [
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-10T14:20:16Z",
+      "dependency": {
+        "from": "v1.155.0",
+        "name": "victoriametrics/vmalert",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+        "to": "v1.156.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1548,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/vmalert docker tag to v1.156.0",
+      "updatedAt": "2026-11-10T14:20:21Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1548",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-10T14:20:11Z",
+      "dependency": {
+        "from": "v1.155.0",
+        "name": "victoriametrics/vmagent",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+        "to": "v1.156.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1547,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/vmagent docker tag to v1.156.0",
+      "updatedAt": "2026-11-10T14:20:16Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1547",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-10T14:20:05Z",
+      "dependency": {
+        "from": "v1.155.0",
+        "name": "victoriametrics/victoria-metrics",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+        "to": "v1.156.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1546,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/victoria-metrics docker tag to v1.156.0",
+      "updatedAt": "2026-11-10T14:20:09Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1546",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-10T14:19:57Z",
+      "dependency": {
+        "from": "0.8.1",
+        "name": "plugin-barman-cloud",
+        "sourceUrl": "https://cloudnative-pg.io",
+        "to": "0.9.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1545,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update helm release plugin-barman-cloud to v0.9.0",
+      "updatedAt": "2026-11-10T14:20:03Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1545",
+      "verdict": null
+    },
     {
       "areas": [
         "observability",
@@ -21,7 +141,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1541,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -51,7 +171,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1540,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -81,7 +201,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1539,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -112,7 +232,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1537,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -142,7 +262,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1536,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -172,7 +292,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1535,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -209,7 +329,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-      "updatedAt": "2026-11-10T09:11:13Z",
+      "updatedAt": "2026-11-10T14:17:55Z",
       "url": "https://github.com/duynhlab/homelab/pull/1534",
       "verdict": null
     },
@@ -233,7 +353,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1533,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -263,7 +383,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1532,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -294,7 +414,7 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1531,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -303,36 +423,6 @@
       "title": "chore(deps): update temporalio/admin-tools docker tag to v1.32.2",
       "updatedAt": "2026-11-08T14:07:17Z",
       "url": "https://github.com/duynhlab/homelab/pull/1531",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "ci"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-08T14:07:03Z",
-      "dependency": {
-        "from": "v4.1.2",
-        "name": "sigstore/cosign-installer",
-        "sourceUrl": "https://github.com/sigstore/cosign-installer",
-        "to": "v4.1.3",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1530,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update sigstore/cosign-installer action to v4.1.3",
-      "updatedAt": "2026-11-08T14:07:08Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1530",
       "verdict": null
     },
     {
@@ -355,7 +445,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1529,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -385,7 +475,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1528,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -415,7 +505,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1527,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -445,7 +535,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1526,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -475,7 +565,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1525,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -506,7 +596,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1524,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -536,7 +626,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1523,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -566,7 +656,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1521,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -589,7 +679,7 @@
         "from": "4.23.3",
         "name": "grafana/clickhouse-datasource",
         "sourceUrl": "https://github.com/grafana/clickhouse-datasource",
-        "to": "4.23.4",
+        "to": "4.23.5",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -603,8 +693,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.4",
-      "updatedAt": "2026-11-05T05:29:41Z",
+      "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.5",
+      "updatedAt": "2026-11-10T14:17:44Z",
       "url": "https://github.com/duynhlab/homelab/pull/1469",
       "verdict": null
     },
@@ -627,7 +717,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1466,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -657,7 +747,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1455,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -687,7 +777,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1454,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -724,7 +814,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.7",
-      "updatedAt": "2026-11-10T09:11:11Z",
+      "updatedAt": "2026-11-10T14:17:49Z",
       "url": "https://github.com/duynhlab/homelab/pull/1451",
       "verdict": null
     },
@@ -754,7 +844,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.7",
-      "updatedAt": "2026-11-10T09:11:10Z",
+      "updatedAt": "2026-11-10T14:17:32Z",
       "url": "https://github.com/duynhlab/homelab/pull/1450",
       "verdict": null
     },
@@ -777,7 +867,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -816,6 +906,36 @@
       "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0 - autoclosed",
       "updatedAt": "2026-11-10T09:11:18Z",
       "url": "https://github.com/duynhlab/homelab/pull/1538",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "ci"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:03Z",
+      "dependency": {
+        "from": "v4.1.2",
+        "name": "sigstore/cosign-installer",
+        "sourceUrl": "https://github.com/sigstore/cosign-installer",
+        "to": "v4.1.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1530,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update sigstore/cosign-installer action to v4.1.3 - autoclosed",
+      "updatedAt": "2026-11-10T14:18:05Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1530",
       "verdict": null
     },
     {

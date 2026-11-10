@@ -25,7 +25,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1541,
@@ -36,7 +36,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-09T23:28:44.805Z",
+  "syncedAt": "2026-11-10T20:54:19.514Z",
   "title": "chore(deps): update victoriametrics/victoria-traces docker tag to v0.13.0",
   "updatedAt": "2026-11-08T14:08:16Z",
   "url": "https://github.com/duynhlab/homelab/pull/1541"

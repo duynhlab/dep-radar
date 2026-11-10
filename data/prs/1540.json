@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1540,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-09T23:28:44.805Z",
+  "syncedAt": "2026-11-10T20:54:19.514Z",
   "title": "chore(deps): update terraform controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes to v0.10.0",
   "updatedAt": "2026-11-08T14:08:09Z",
   "url": "https://github.com/duynhlab/homelab/pull/1540"

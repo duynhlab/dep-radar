@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1521,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-09T09:57:03.090Z",
+  "syncedAt": "2026-11-10T20:54:19.514Z",
   "title": "chore(deps): update renovatebot/github-action action to v46.3.13",
   "updatedAt": "2026-11-09T02:11:06Z",
   "url": "https://github.com/duynhlab/homelab/pull/1521"

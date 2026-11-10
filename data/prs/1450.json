@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-10T10:01:58.011Z",
+  "syncedAt": "2026-11-10T20:54:19.514Z",
   "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.7",
-  "updatedAt": "2026-11-10T09:11:10Z",
+  "updatedAt": "2026-11-10T14:17:32Z",
   "url": "https://github.com/duynhlab/homelab/pull/1450"
 }
