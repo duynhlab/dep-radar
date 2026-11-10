@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T23:28:44.805Z",
+  "generatedAt": "2026-11-10T10:01:58.011Z",
   "prs": [
     {
       "areas": [
@@ -90,36 +90,6 @@
       "title": "chore(deps): update temporalio/ui docker tag to v2.58.1",
       "updatedAt": "2026-11-08T14:08:03Z",
       "url": "https://github.com/duynhlab/homelab/pull/1539",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-08T14:07:54Z",
-      "dependency": {
-        "from": "v4.7.0",
-        "name": "registry.k8s.io/git-sync/git-sync",
-        "sourceUrl": "https://github.com/kubernetes/git-sync",
-        "to": "v4.8.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1538,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
-      "updatedAt": "2026-11-08T14:07:58Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1538",
       "verdict": null
     },
     {
@@ -239,7 +209,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-      "updatedAt": "2026-11-09T18:58:32Z",
+      "updatedAt": "2026-11-10T09:11:13Z",
       "url": "https://github.com/duynhlab/homelab/pull/1534",
       "verdict": null
     },
@@ -739,7 +709,7 @@
         "from": "2.39.0",
         "name": "public.ecr.aws/aws-cli/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.6",
+        "to": "2.39.7",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -753,8 +723,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.6",
-      "updatedAt": "2026-11-06T23:31:02Z",
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.7",
+      "updatedAt": "2026-11-10T09:11:11Z",
       "url": "https://github.com/duynhlab/homelab/pull/1451",
       "verdict": null
     },
@@ -769,7 +739,7 @@
         "from": "2.39.0",
         "name": "amazon/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.6",
+        "to": "2.39.7",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -783,8 +753,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.6",
-      "updatedAt": "2026-11-06T23:30:56Z",
+      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.7",
+      "updatedAt": "2026-11-10T09:11:10Z",
       "url": "https://github.com/duynhlab/homelab/pull/1450",
       "verdict": null
     },
@@ -816,6 +786,36 @@
       "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.64",
       "updatedAt": "2026-11-06T02:49:19Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-08T14:07:54Z",
+      "dependency": {
+        "from": "v4.7.0",
+        "name": "registry.k8s.io/git-sync/git-sync",
+        "sourceUrl": "https://github.com/kubernetes/git-sync",
+        "to": "v4.8.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1538,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0 - autoclosed",
+      "updatedAt": "2026-11-10T09:11:18Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1538",
       "verdict": null
     },
     {
