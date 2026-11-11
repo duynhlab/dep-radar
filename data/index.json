@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:35:52.546Z",
+  "generatedAt": "2026-11-11T21:28:10.481Z",
   "prs": [
     {
       "areas": [
@@ -329,7 +329,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-      "updatedAt": "2026-11-11T06:05:18Z",
+      "updatedAt": "2026-11-11T14:29:42Z",
       "url": "https://github.com/duynhlab/homelab/pull/1534",
       "verdict": null
     },
@@ -663,7 +663,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update renovatebot/github-action action to v46.3.13",
-      "updatedAt": "2026-11-09T02:11:06Z",
+      "updatedAt": "2026-11-11T14:29:39Z",
       "url": "https://github.com/duynhlab/homelab/pull/1521",
       "verdict": null
     },
@@ -2117,36 +2117,6 @@
     },
     {
       "areas": [
-        "monitoring"
-      ],
-      "bucket": "merged",
-      "ci": null,
-      "createdAt": "2026-10-12T07:45:45Z",
-      "dependency": {
-        "from": "v0.131",
-        "name": "ghcr.io/prymitive/karma",
-        "sourceUrl": "https://github.com/prymitive/karma",
-        "to": "v0.133",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1258,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "merged",
-      "summary": null,
-      "title": "chore(deps): update ghcr.io/prymitive/karma docker tag to v0.133",
-      "updatedAt": "2026-10-12T17:23:12Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1258",
-      "verdict": null
-    },
-    {
-      "areas": [
         "local-stack"
       ],
       "bucket": "merged",
@@ -2819,127 +2789,6 @@
       "title": "chore(deps): update helm release valkey to v0.12.0",
       "updatedAt": "2026-10-13T00:17:14Z",
       "url": "https://github.com/duynhlab/homelab/pull/1217",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "merged",
-      "ci": null,
-      "createdAt": "2026-10-05T09:49:28Z",
-      "dependency": {
-        "from": "<0.175.0",
-        "name": "opentelemetry-collector",
-        "sourceUrl": "https://opentelemetry.io/",
-        "to": "<0.176.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1216,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "merged",
-      "summary": null,
-      "title": "chore(deps): update helm release opentelemetry-collector to <0.176.0",
-      "updatedAt": "2026-10-12T17:20:29Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1216",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "ci"
-      ],
-      "bucket": "merged",
-      "ci": null,
-      "createdAt": "2026-10-05T09:49:23Z",
-      "dependency": {
-        "from": "v46.3.6",
-        "name": "renovatebot/github-action",
-        "sourceUrl": "https://github.com/renovatebot/github-action",
-        "to": "v46.3.8",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1215,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "merged",
-      "summary": null,
-      "title": "chore(deps): update renovatebot/github-action action to v46.3.8",
-      "updatedAt": "2026-10-12T17:27:00Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1215",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "merged",
-      "ci": null,
-      "createdAt": "2026-10-05T09:49:10Z",
-      "dependency": {
-        "from": "2.37.7",
-        "name": "public.ecr.aws/aws-cli/aws-cli",
-        "sourceUrl": null,
-        "to": "2.37.12",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1213,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "merged",
-      "summary": null,
-      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.37.12",
-      "updatedAt": "2026-10-12T17:24:27Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1213",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "databases",
-        "secrets"
-      ],
-      "bucket": "merged",
-      "ci": null,
-      "createdAt": "2026-10-05T09:49:05Z",
-      "dependency": {
-        "from": "2.7.0",
-        "name": "openbao/openbao",
-        "sourceUrl": "https://openbao.org",
-        "to": "2.7.1",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "UNKNOWN",
-      "number": 1212,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "merged",
-      "summary": null,
-      "title": "chore(deps): update openbao/openbao docker tag to v2.7.1",
-      "updatedAt": "2026-10-12T17:25:45Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1212",
       "verdict": null
     },
     {
