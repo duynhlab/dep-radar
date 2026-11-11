@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:54:19.514Z",
+  "generatedAt": "2026-11-11T09:35:52.546Z",
   "prs": [
     {
       "areas": [
@@ -117,7 +117,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update helm release plugin-barman-cloud to v0.9.0",
-      "updatedAt": "2026-11-10T14:20:03Z",
+      "updatedAt": "2026-11-11T03:32:07Z",
       "url": "https://github.com/duynhlab/homelab/pull/1545",
       "verdict": null
     },
@@ -141,7 +141,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1541,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -171,7 +171,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1540,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -201,7 +201,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1539,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -232,7 +232,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1537,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -262,7 +262,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1536,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -292,7 +292,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1535,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -329,7 +329,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-      "updatedAt": "2026-11-10T14:17:55Z",
+      "updatedAt": "2026-11-11T06:05:18Z",
       "url": "https://github.com/duynhlab/homelab/pull/1534",
       "verdict": null
     },
@@ -353,7 +353,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1533,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -383,7 +383,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1532,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -414,7 +414,7 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1531,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -445,7 +445,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1529,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -475,7 +475,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1528,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -505,7 +505,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1527,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -535,7 +535,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1526,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -565,7 +565,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1525,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -596,7 +596,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1524,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -626,7 +626,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1523,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -656,7 +656,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1521,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -717,7 +717,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1466,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -747,7 +747,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1455,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -777,7 +777,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1454,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -799,8 +799,8 @@
         "from": "2.39.0",
         "name": "public.ecr.aws/aws-cli/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.7",
-        "updateType": "patch"
+        "to": "2.40.0",
+        "updateType": "minor"
       },
       "holdReason": null,
       "impact": null,
@@ -813,8 +813,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.39.7",
-      "updatedAt": "2026-11-10T14:17:49Z",
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.40.0",
+      "updatedAt": "2026-11-10T22:46:59Z",
       "url": "https://github.com/duynhlab/homelab/pull/1451",
       "verdict": null
     },
@@ -829,8 +829,8 @@
         "from": "2.39.0",
         "name": "amazon/aws-cli",
         "sourceUrl": null,
-        "to": "2.39.7",
-        "updateType": "patch"
+        "to": "2.40.0",
+        "updateType": "minor"
       },
       "holdReason": null,
       "impact": null,
@@ -843,8 +843,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update amazon/aws-cli docker tag to v2.39.7",
-      "updatedAt": "2026-11-10T14:17:32Z",
+      "title": "chore(deps): update amazon/aws-cli docker tag to v2.40.0",
+      "updatedAt": "2026-11-10T22:46:50Z",
       "url": "https://github.com/duynhlab/homelab/pull/1450",
       "verdict": null
     },
@@ -867,7 +867,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -1033,7 +1033,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-31T12:28:04Z",
       "dependency": {
         "from": "0.60.0",

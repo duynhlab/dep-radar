@@ -24,7 +24,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1525,
@@ -35,7 +35,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-10T20:54:19.514Z",
+  "syncedAt": "2026-11-11T09:35:52.546Z",
   "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.1",
   "updatedAt": "2026-11-08T14:06:35Z",
   "url": "https://github.com/duynhlab/homelab/pull/1525"
