@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": true,
   "number": 1534,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-11T21:28:10.481Z",
+  "syncedAt": "2026-11-12T09:57:41.186Z",
   "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-  "updatedAt": "2026-11-11T14:29:42Z",
+  "updatedAt": "2026-11-12T03:07:21Z",
   "url": "https://github.com/duynhlab/homelab/pull/1534"
 }

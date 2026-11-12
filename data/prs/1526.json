@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/grafana-pyroscope-2.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-12T03:11:31Z",
   "createdAt": "2026-11-08T14:06:38Z",
   "dependency": {
     "from": "2.4.2",
@@ -23,8 +23,8 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-12T03:11:31Z",
   "notesTruncated": false,
   "number": 1526,
   "releaseNotesMarkdown": null,
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-11T09:35:52.546Z",
+  "state": "merged",
+  "syncedAt": "2026-11-12T09:57:41.186Z",
   "title": "chore(deps): update grafana/pyroscope docker tag to v2.4.3",
-  "updatedAt": "2026-11-08T14:06:42Z",
+  "updatedAt": "2026-11-12T03:11:33Z",
   "url": "https://github.com/duynhlab/homelab/pull/1526"
 }

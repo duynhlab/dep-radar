@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/controlplaneio-fluxcd-flux-operator-bootstrap-kubernetes-0.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-12T03:06:14Z",
   "createdAt": "2026-11-08T14:08:05Z",
   "dependency": {
     "from": "0.9.0",
@@ -23,8 +23,8 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-12T03:06:14Z",
   "notesTruncated": false,
   "number": 1540,
   "releaseNotesMarkdown": "### controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap (controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes)\n\n### [`v0.10.0`](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/releases/tag/v0.10.0)\n\n[Compare Source](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/compare/v0.9.0...v0.10.0)\n\n#### What's Changed\n\n- Bump the \"project\" group with 2 updates across multiple ecosystems by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;109](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/109)\n- Upgrade e2e dependency versions by [@&#8203;github-actions](https://redirect.github.com/github-actions)\\[bot] in [#&#8203;106](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/106)\n- Add disable_openapi_validation input by [@&#8203;spanktar](https://redirect.github.com/spanktar) in [#&#8203;111](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/111)\n- Prepare release v0.10.0 by [@&#8203;github-actions](https://redirect.github.com/github-actions)\\[bot] in [#&#8203;112](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/112)\n\n#### New Contributors\n\n- [@&#8203;spanktar](https://redirect.github.com/spanktar) made their first contribution in [#&#8203;111](https://redirect.github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/pull/111)\n\n**Full Changelog**: <https://github.com/controlplaneio-fluxcd/terraform-kubernetes-flux-operator-bootstrap/compare/v0.9.0...v0.10.0>",
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-11T09:35:52.546Z",
+  "state": "merged",
+  "syncedAt": "2026-11-12T09:57:41.186Z",
   "title": "chore(deps): update terraform controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes to v0.10.0",
-  "updatedAt": "2026-11-08T14:08:09Z",
+  "updatedAt": "2026-11-12T03:06:16Z",
   "url": "https://github.com/duynhlab/homelab/pull/1540"
 }

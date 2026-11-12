@@ -5,9 +5,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/grafana-clickhouse-datasource",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-12T02:40:21Z",
   "createdAt": "2026-10-31T12:29:23Z",
   "dependency": {
     "from": "4.23.3",
@@ -26,8 +26,8 @@
   "labels": [
     "size/S"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-12T02:40:21Z",
   "notesTruncated": false,
   "number": 1469,
   "releaseNotesMarkdown": "### grafana/clickhouse-datasource\n\n### [`v4.23.5`](https://redirect.github.com/grafana/clickhouse-datasource/blob/HEAD/CHANGELOG.md#4235-2026-11-10)\n\n[Compare Source](https://redirect.github.com/grafana/clickhouse-datasource/compare/v4.23.4...v4.23.5)\n\n##### 🐛 Bug Fixes\n\n- **deps:** update backend dependencies ([#&#8203;2252](https://redirect.github.com/grafana/clickhouse-datasource/issues/2252)) ([c34f59d](https://redirect.github.com/grafana/clickhouse-datasource/commit/c34f59db1929aacacdc9e9dd44605a428360b203))\n- **deps:** update golang.org/x/crypto to fix GO-2026-5932 ([#&#8203;2274](https://redirect.github.com/grafana/clickhouse-datasource/issues/2274)) ([2cbde29](https://redirect.github.com/grafana/clickhouse-datasource/commit/2cbde2993673a3548878e82f003fd6330bb7cee6))\n- **error type:** 'failed to query server hello' as downstream error ([#&#8203;2269](https://redirect.github.com/grafana/clickhouse-datasource/issues/2269)) ([753c0e9](https://redirect.github.com/grafana/clickhouse-datasource/commit/753c0e93d3ee1509737a92621c72ac92dea78de0))\n- gRPC deadlock that freezes the plugin connection under load ([#&#8203;2265](https://redirect.github.com/grafana/clickhouse-datasource/issues/2265)) ([7bea76e](https://redirect.github.com/grafana/clickhouse-datasource/commit/7bea76e5e04daab3d6af29fcb3ac4c6cfe854eb0))\n- **security/medium/:** update dependency glob to v14 \\[security] ([2b137ed](https://redirect.github.com/grafana/clickhouse-datasource/commit/2b137eda59a15fba46834409114d89d9a74251c1))\n- **security/medium/:** update dependency glob to v14 \\[security] - abandoned ([#&#8203;2268](https://redirect.github.com/grafana/clickhouse-datasource/issues/2268)) ([2b137ed](https://redirect.github.com/grafana/clickhouse-datasource/commit/2b137eda59a15fba46834409114d89d9a74251c1))\n\n### [`v4.23.4`](https://redirect.github.com/grafana/clickhouse-datasource/blob/HEAD/CHANGELOG.md#4234-2026-10-29)\n\n[Compare Source](https://redirect.github.com/grafana/clickhouse-datasource/compare/v4.23.3...v4.23.4)\n\n##### 🐛 Bug Fixes\n\n- **adhoc:** declare multiValueFilterOperators support in plugin.json ([ca4855e](https://redirect.github.com/grafana/clickhouse-datasource/commit/ca4855ed18f00c63a8b132d5ef42d4cc058f999e))\n- **adhoc:** enable multiValueFilterOperators support in plugin.json ([#&#8203;2218](https://redirect.github.com/grafana/clickhouse-datasource/issues/2218)) ([ca4855e](https://redirect.github.com/grafana/clickhouse-datasource/commit/ca4855ed18f00c63a8b132d5ef42d4cc058f999e))",
@@ -36,9 +36,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-10T20:54:19.514Z",
+  "state": "merged",
+  "syncedAt": "2026-11-12T09:57:41.186Z",
   "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.5",
-  "updatedAt": "2026-11-10T14:17:44Z",
+  "updatedAt": "2026-11-12T02:40:23Z",
   "url": "https://github.com/duynhlab/homelab/pull/1469"
 }

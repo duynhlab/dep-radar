@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/pyroscope-2.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-12T03:10:34Z",
   "createdAt": "2026-11-08T14:06:48Z",
   "dependency": {
     "from": "2.4.2",
@@ -18,13 +18,13 @@
   "files": [
     "kubernetes/infra/controllers/profiling/pyroscope/helmrelease.yaml"
   ],
-  "headSha": "2c9033e9741a76bd7edf6b148af913f44d06021f",
+  "headSha": "ccb112de31bb991b0d0ed34606e752bad7ea8692",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-12T03:10:34Z",
   "notesTruncated": false,
   "number": 1528,
   "releaseNotesMarkdown": "### grafana/helm-charts (pyroscope)\n\n### [`v2.4.3`](https://redirect.github.com/grafana/helm-charts/releases/tag/pyroscope-2.4.3)\n\n[Compare Source](https://redirect.github.com/grafana/helm-charts/compare/pyroscope-2.4.2...pyroscope-2.4.3)\n\nA horizontally scalable, highly available, multi-tenant continuous profiling database.\n\nSource commit: [grafana/pyroscope@`3ab0bc0`](https://redirect.github.com/grafana/pyroscope/commit/3ab0bc0d101cfe4fd7ad64de520a8b5db1a8f70a)\n\nTag on source: <https://github.com/grafana/pyroscope/releases/tag/pyroscope-2.4.3>",
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-11T09:35:52.546Z",
+  "state": "merged",
+  "syncedAt": "2026-11-12T09:57:41.186Z",
   "title": "chore(deps): update helm release pyroscope to v2.4.3",
-  "updatedAt": "2026-11-08T14:06:52Z",
+  "updatedAt": "2026-11-12T03:10:38Z",
   "url": "https://github.com/duynhlab/homelab/pull/1528"
 }

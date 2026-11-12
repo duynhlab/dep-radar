@@ -1,12 +1,13 @@
 {
   "areas": [
-    "platform"
+    "platform",
+    "docs"
   ],
   "author": "renovate",
   "branch": "renovate/temporal-1.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-12T03:10:27Z",
   "createdAt": "2026-11-08T14:07:43Z",
   "dependency": {
     "from": "1.7.0",
@@ -16,15 +17,16 @@
     "updateType": "minor"
   },
   "files": [
+    "docs/api/temporal.md",
     "kubernetes/infra/controllers/temporal/helmrelease.yaml"
   ],
-  "headSha": "27df4fc56caeac66e4fb7f0d05e12e57805830a2",
+  "headSha": "f67bfc6b289f85b09c25d10c206e601597199c8c",
   "isDraft": false,
   "labels": [
-    "size/XS"
+    "size/S"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-12T03:10:27Z",
   "notesTruncated": false,
   "number": 1536,
   "releaseNotesMarkdown": "### temporalio/helm-charts (temporal)\n\n### [`v1.8.0`](https://redirect.github.com/temporalio/helm-charts/releases/tag/temporal-1.8.0)\n\n[Compare Source](https://redirect.github.com/temporalio/helm-charts/compare/temporal-1.7.0...temporal-1.8.0)\n\nTemporal is a distributed, scalable, durable, and highly available orchestration engine to execute asynchronous long-running business logic in a scalable and resilient way.",
@@ -33,9 +35,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-11T09:35:52.546Z",
+  "state": "merged",
+  "syncedAt": "2026-11-12T09:57:41.186Z",
   "title": "chore(deps): update helm release temporal to v1.8.0",
-  "updatedAt": "2026-11-08T14:07:47Z",
+  "updatedAt": "2026-11-12T03:10:30Z",
   "url": "https://github.com/duynhlab/homelab/pull/1536"
 }

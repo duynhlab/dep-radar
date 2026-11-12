@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/grafana-victoriametrics-datasource",
-  "bucket": "waiting",
+  "bucket": "closed",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-12T03:16:29Z",
   "createdAt": "2026-11-08T14:06:31Z",
   "dependency": {
     "from": "1.0.0",
@@ -19,12 +19,12 @@
     "kubernetes/infra/configs/observability/grafana/datasource-victoriametrics.yaml",
     "kubernetes/infra/configs/observability/grafana/grafana.yaml"
   ],
-  "headSha": "1fd29a06d478636dc453ef5bc4d51b19beb7bf0f",
+  "headSha": "48cc529888480b1e2937202d4ad069e5d1275b08",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1525,
@@ -34,9 +34,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-11T09:35:52.546Z",
+  "state": "closed",
+  "syncedAt": "2026-11-12T09:57:41.186Z",
   "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.1",
-  "updatedAt": "2026-11-08T14:06:35Z",
+  "updatedAt": "2026-11-12T03:19:11Z",
   "url": "https://github.com/duynhlab/homelab/pull/1525"
 }
