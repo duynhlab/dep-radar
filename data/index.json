@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T21:30:10.605Z",
+  "generatedAt": "2026-11-13T09:44:04.617Z",
   "prs": [
     {
       "areas": [
@@ -72,7 +72,7 @@
         "from": "v0.1.61",
         "name": "ghcr.io/pgdogdev/pgdog",
         "sourceUrl": "https://github.com/pgdogdev/pgdog",
-        "to": "0.1.64",
+        "to": "0.1.65",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -86,8 +86,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.64",
-      "updatedAt": "2026-11-06T02:49:19Z",
+      "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.65",
+      "updatedAt": "2026-11-12T23:26:42Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
       "verdict": null
     },
@@ -915,7 +915,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-31T12:27:57Z",
       "dependency": {
         "from": "2.3.0",
@@ -945,7 +945,7 @@
         "terraform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-29T06:14:16Z",
       "dependency": {
         "from": "3.2.0",
@@ -975,7 +975,7 @@
         "monitoring"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-29T06:13:59Z",
       "dependency": {
         "from": "v0.133",

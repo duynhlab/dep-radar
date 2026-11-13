@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/ghcr.io-prymitive-karma-0.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-12T03:06:42Z",
   "createdAt": "2026-10-29T06:13:59Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-11-12T09:57:41.186Z",
+  "syncedAt": "2026-11-13T09:44:04.617Z",
   "title": "chore(deps): update ghcr.io/prymitive/karma docker tag to v0.134",
   "updatedAt": "2026-11-12T03:06:44Z",
   "url": "https://github.com/duynhlab/homelab/pull/1454"
