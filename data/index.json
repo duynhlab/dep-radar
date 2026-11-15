@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T09:44:04.617Z",
+  "generatedAt": "2026-11-15T09:37:30.774Z",
   "prs": [
     {
       "areas": [
@@ -2118,36 +2118,6 @@
       "title": "chore(deps): update quay.io/keycloak/keycloak docker tag to v26.8.1",
       "updatedAt": "2026-10-29T07:48:49Z",
       "url": "https://github.com/duynhlab/homelab/pull/1256",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "closed",
-      "ci": null,
-      "createdAt": "2026-10-12T06:05:06Z",
-      "dependency": {
-        "from": "2.3.1",
-        "name": "pyroscope",
-        "sourceUrl": "https://grafana.com/oss/pyroscope/",
-        "to": "2.4.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1254,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "closed",
-      "summary": null,
-      "title": "chore(deps): update helm release pyroscope to v2.4.0 - autoclosed",
-      "updatedAt": "2026-10-16T05:14:58Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1254",
       "verdict": null
     },
     {
