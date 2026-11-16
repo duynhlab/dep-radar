@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/controlplaneio-fluxcd-flux-operator-bootstrap-kubernetes-0.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-12T03:06:14Z",
   "createdAt": "2026-11-08T14:08:05Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-11-12T09:57:41.186Z",
+  "syncedAt": "2026-11-16T09:55:32.658Z",
   "title": "chore(deps): update terraform controlplaneio-fluxcd/flux-operator-bootstrap/kubernetes to v0.10.0",
   "updatedAt": "2026-11-12T03:06:16Z",
   "url": "https://github.com/duynhlab/homelab/pull/1540"

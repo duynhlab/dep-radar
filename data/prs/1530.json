@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/sigstore-cosign-installer-4.x",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-10T14:17:59Z",
   "createdAt": "2026-11-08T14:07:03Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-11-10T20:54:19.514Z",
+  "syncedAt": "2026-11-16T09:55:32.658Z",
   "title": "chore(deps): update sigstore/cosign-installer action to v4.1.3 - autoclosed",
   "updatedAt": "2026-11-10T14:18:05Z",
   "url": "https://github.com/duynhlab/homelab/pull/1530"

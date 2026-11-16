@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-15T09:37:30.774Z",
+  "generatedAt": "2026-11-16T09:55:32.658Z",
   "prs": [
     {
       "areas": [
         "local-stack"
       ],
       "bucket": "waiting",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:32Z",
       "dependency": {
         "from": "v1.9.3",
@@ -36,7 +36,7 @@
         "gitops"
       ],
       "bucket": "waiting",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:27Z",
       "dependency": {
         "from": "v1.9.3",
@@ -217,7 +217,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:08:11Z",
       "dependency": {
         "from": "v0.12.1",
@@ -247,7 +247,7 @@
         "terraform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:08:05Z",
       "dependency": {
         "from": "0.9.0",
@@ -277,7 +277,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:59Z",
       "dependency": {
         "from": "2.57.0",
@@ -307,7 +307,7 @@
         "platform"
       ],
       "bucket": "closed",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:54Z",
       "dependency": {
         "from": "v4.7.0",
@@ -431,7 +431,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:16Z",
       "dependency": {
         "from": "1.32.1",
@@ -462,7 +462,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:11Z",
       "dependency": {
         "from": "1.32.1",
@@ -492,7 +492,7 @@
         "ci"
       ],
       "bucket": "closed",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:03Z",
       "dependency": {
         "from": "v4.1.2",
@@ -583,7 +583,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:06:43Z",
       "dependency": {
         "from": "0.30.6",
@@ -613,7 +613,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:06:38Z",
       "dependency": {
         "from": "2.4.2",
@@ -674,7 +674,7 @@
         "local-stack"
       ],
       "bucket": "closed",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:06:21Z",
       "dependency": {
         "from": "a78d6b7",
@@ -704,7 +704,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:06:16Z",
       "dependency": {
         "from": "979bccf",

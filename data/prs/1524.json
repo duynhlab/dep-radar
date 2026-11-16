@@ -6,7 +6,7 @@
   "author": "renovate",
   "branch": "renovate/quay.io-keycloak-keycloak-26.8.1",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-12T03:10:51Z",
   "createdAt": "2026-11-08T14:06:21Z",
   "dependency": {
@@ -36,7 +36,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-11-12T09:57:41.186Z",
+  "syncedAt": "2026-11-16T09:55:32.658Z",
   "title": "chore(deps): update quay.io/keycloak/keycloak:26.8.1 docker digest to 3f3c5f8",
   "updatedAt": "2026-11-12T03:19:12Z",
   "url": "https://github.com/duynhlab/homelab/pull/1524"
