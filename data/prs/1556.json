@@ -25,7 +25,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1556,
@@ -36,7 +36,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-17T10:51:55.111Z",
+  "syncedAt": "2026-11-17T22:29:47.624Z",
   "title": "chore(deps): update grafana/grafana docker tag to v13.3.1",
   "updatedAt": "2026-11-17T07:08:30Z",
   "url": "https://github.com/duynhlab/homelab/pull/1556"

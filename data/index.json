@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T10:51:55.111Z",
+  "generatedAt": "2026-11-17T22:29:47.624Z",
   "prs": [
     {
       "areas": [
@@ -20,7 +20,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1570,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -50,7 +50,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1569,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -80,7 +80,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1568,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -110,7 +110,7 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1567,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -140,7 +140,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1566,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -170,7 +170,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1565,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -200,7 +200,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1564,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -231,7 +231,7 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1563,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -261,7 +261,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1562,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -291,7 +291,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1561,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -321,7 +321,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1560,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -351,7 +351,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1559,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -381,7 +381,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1558,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -411,7 +411,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1557,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -442,7 +442,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1556,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -472,7 +472,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1555,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -503,7 +503,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1554,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -525,7 +525,7 @@
         "from": "739e099",
         "name": "clickhouse/clickhouse-server",
         "sourceUrl": null,
-        "to": "4f491ab",
+        "to": "4c60eed",
         "updateType": "digest"
       },
       "holdReason": null,
@@ -533,14 +533,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1553,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 4f491ab",
-      "updatedAt": "2026-11-17T07:08:12Z",
+      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 4c60eed",
+      "updatedAt": "2026-11-17T18:57:06Z",
       "url": "https://github.com/duynhlab/homelab/pull/1553",
       "verdict": null
     },
@@ -563,7 +563,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1535,
       "reviewedAt": null,
       "reviewState": "missing",
@@ -593,14 +593,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1534,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-      "updatedAt": "2026-11-17T07:09:00Z",
+      "updatedAt": "2026-11-17T18:57:10Z",
       "url": "https://github.com/duynhlab/homelab/pull/1534",
       "verdict": null
     },
@@ -623,7 +623,7 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",

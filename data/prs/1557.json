@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1557,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-17T10:51:55.111Z",
+  "syncedAt": "2026-11-17T22:29:47.624Z",
   "title": "chore(deps): update helm release keda to v2.21.1",
   "updatedAt": "2026-11-17T07:08:33Z",
   "url": "https://github.com/duynhlab/homelab/pull/1557"

@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1535,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-17T10:51:55.111Z",
+  "syncedAt": "2026-11-17T22:29:47.624Z",
   "title": "chore(deps): update envoyproxy/gateway docker tag to v1.10.0",
   "updatedAt": "2026-11-17T07:09:03Z",
   "url": "https://github.com/duynhlab/homelab/pull/1535"

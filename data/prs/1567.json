@@ -24,7 +24,7 @@
   "labels": [
     "size/S"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1567,
@@ -35,7 +35,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-17T10:51:55.111Z",
+  "syncedAt": "2026-11-17T22:29:47.624Z",
   "title": "chore(deps): update postgres docker tag to v18.7",
   "updatedAt": "2026-11-17T07:09:41Z",
   "url": "https://github.com/duynhlab/homelab/pull/1567"
