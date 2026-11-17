@@ -1,0 +1,43 @@
+{
+  "areas": [
+    "monitoring",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/grafana-monorepo",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-17T07:08:25Z",
+  "dependency": {
+    "from": "13.3.0",
+    "name": "grafana/grafana",
+    "sourceUrl": "https://github.com/grafana/grafana",
+    "to": "13.3.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/grafana/grafana.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "d238862b617d6be8121f69a3dad5bf3ab582996e",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1556,
+  "releaseNotesMarkdown": "### grafana/grafana\n\n### [`v13.3.1`](https://redirect.github.com/grafana/grafana/blob/HEAD/CHANGELOG.md#1331-2026-11-10)\n\n##### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-110992\n- Security: Fix CVE-2026-111024\n- Security: Fix CVE-2026-13721\n- Security: Fix CVE-2026-14242\n\n##### Features and enhancements\n\n- **DateTime:** Update moment-timezone and easy-tz for 2026 time zone changes [#&#8203;136951](https://redirect.github.com/grafana/grafana/pull/136951), [@&#8203;joshhunt](https://redirect.github.com/joshhunt)\n- **Provisioning:** allow same-host URL change on connection-backed repositories [#&#8203;137083](https://redirect.github.com/grafana/grafana/pull/137083), [@&#8203;grafana-writer\\[bot\\]](https://redirect.github.com/grafana-writer\\[bot])\n\n<!-- 13.3.1 END -->\n\n<!-- 13.3.0 START -->",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-17T10:51:55.111Z",
+  "title": "chore(deps): update grafana/grafana docker tag to v13.3.1",
+  "updatedAt": "2026-11-17T07:08:30Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1556"
+}

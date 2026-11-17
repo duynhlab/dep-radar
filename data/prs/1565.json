@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/kyverno-3.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-17T07:09:21Z",
+  "dependency": {
+    "from": "3.9.2",
+    "name": "kyverno",
+    "sourceUrl": "https://kyverno.io/",
+    "to": "3.10.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/kyverno/helmrelease.yaml"
+  ],
+  "headSha": "16259d8b21b26f899530a84c68f05c53ef6d4c1f",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1565,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-17T10:51:55.111Z",
+  "title": "chore(deps): update helm release kyverno to v3.10.0",
+  "updatedAt": "2026-11-17T07:09:25Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1565"
+}

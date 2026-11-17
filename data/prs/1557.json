@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/keda-2.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-17T07:08:30Z",
+  "dependency": {
+    "from": "2.21.0",
+    "name": "keda",
+    "sourceUrl": "https://github.com/kedacore/keda",
+    "to": "2.21.1",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/keda/helmrelease.yaml"
+  ],
+  "headSha": "54ad5fb590a7a49066e67d02ef07c5f41f0e65ae",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1557,
+  "releaseNotesMarkdown": "### kedacore/keda (keda)\n\n### [`v2.21.1`](https://redirect.github.com/kedacore/keda/releases/tag/v2.21.1)\n\n[Compare Source](https://redirect.github.com/kedacore/keda/compare/v2.21.0...v2.21.1)\n\nWe are happy to release KEDA 2.21.1 🎉\n\n##### Improvements\n\n- [`e5db8ac`](https://redirect.github.com/kedacore/keda/commit/e5db8acefbbc1ad554ee895ee0d18b212cb7379e) : **General**: Skip unchanged streamed metric specs ([#&#8203;8306](https://redirect.github.com/kedacore/keda/pull/8306)) ([@&#8203;keda-cherry-pick-bot](https://redirect.github.com/keda-cherry-pick-bot)\\[bot])\n- [`3b98b80`](https://redirect.github.com/kedacore/keda/commit/3b98b806ff8754873ca9f655a75c2c61eb31cfc5) : **Dependencies**: Update Go toolchain to v1.27.3 (release/v2.21) ([#&#8203;8316](https://redirect.github.com/kedacore/keda/pull/8316)) ([@&#8203;JorTurFer](https://redirect.github.com/JorTurFer))\n\n##### Fixes\n\n- [`43b5dfc`](https://redirect.github.com/kedacore/keda/commit/43b5dfcd7a0a8a08e328b65667464986f60ee12c) : **General**: Only manage HPAs owned by the ScaledObject ([#&#8203;8374](https://redirect.github.com/kedacore/keda/pull/8374)) ([@&#8203;keda-cherry-pick-bot](https://redirect.github.com/keda-cherry-pick-bot)\\[bot])\n- [`cd6f868`](https://redirect.github.com/kedacore/keda/commit/cd6f868230952792a5a4eb6f1800039b22a48f93) : **ArangoDB Scaler**: Limit connections to connectionLimit ([#&#8203;8343](https://redirect.github.com/kedacore/keda/pull/8343)) ([@&#8203;keda-cherry-pick-bot](https://redirect.github.com/keda-cherry-pick-bot)\\[bot])\n- [`b338b60`](https://redirect.github.com/kedacore/keda/commit/b338b6056d291b95441976f56267e780513dfa04) : **Splunk Observability Scaler**: Honour trigger metricType ([#&#8203;8366](https://redirect.github.com/kedacore/keda/pull/8366)) ([@&#8203;keda-cherry-pick-bot](https://redirect.github.com/keda-cherry-pick-bot)\\[bot])\n- [`dd8d47d`](https://redirect.github.com/kedacore/keda/commit/dd8d47de655a105bbe8375d41c470f5386e89ba7) : **InfluxDB Scaler**: Surface query result errors instead of masking them as an empty result ([#&#8203;8305](https://redirect.github.com/kedacore/keda/pull/8305)) ([@&#8203;keda-cherry-pick-bot](https://redirect.github.com/keda-cherry-pick-bot)\\[bot])\n- [`177da25`](https://redirect.github.com/kedacore/keda/commit/177da2554c74cb0400defc3cc760a1e387cd557d) : **MySQL Scaler**: close sql.DB when the initial ping fails ([#&#8203;8369](https://redirect.github.com/kedacore/keda/pull/8369)) ([@&#8203;keda-cherry-pick-bot](https://redirect.github.com/keda-cherry-pick-bot)\\[bot])\n\n##### Dependencies\n\n### Show\n\n- [`47f6e4b`](https://redirect.github.com/kedacore/keda/commit/47f6e4bc573fb63796c1b1ab4e953b6fa5d12186) : **Dependencies**: Update all dependencies retaining Kubernetes 1.36 ([#&#8203;8361](https://redirect.github.com/kedacore/keda/issues/8361)) ([#&#8203;8365](https://redirect.github.com/kedacore/keda/pull/8365)) ([@&#8203;JorTurFer](https://redirect.github.com/JorTurFer))\n- [`7ea8aa0`](https://redirect.github.com/kedacore/keda/commit/7ea8aa0e73088d1d0b1466654b813158f7e79dc4) : **Dependencies**: Update gcr.io/distroless/static:nonroot Docker digest to [`18f4cc2`](https://redirect.github.com/kedacore/keda/commit/18f4cc2) ([#&#8203;8315](https://redirect.github.com/kedacore/keda/pull/8315)) ([@&#8203;keda-cherry-pick-bot](https://redirect.github.com/keda-cherry-pick-bot)\\[bot])",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-17T10:51:55.111Z",
+  "title": "chore(deps): update helm release keda to v2.21.1",
+  "updatedAt": "2026-11-17T07:08:33Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1557"
+}

@@ -6,7 +6,7 @@
   "author": "renovate",
   "branch": "renovate/quay.io-keycloak-keycloak-26.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-12T03:06:31Z",
   "createdAt": "2026-11-08T14:06:57Z",
   "dependency": {
@@ -36,7 +36,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-11-12T09:57:41.186Z",
+  "syncedAt": "2026-11-17T10:51:55.111Z",
   "title": "chore(deps): update quay.io/keycloak/keycloak docker tag to v26.8.2",
   "updatedAt": "2026-11-12T03:06:33Z",
   "url": "https://github.com/duynhlab/homelab/pull/1529"

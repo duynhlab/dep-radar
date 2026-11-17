@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/valkey-1.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-17T07:09:53Z",
+  "dependency": {
+    "from": "0.12.1",
+    "name": "valkey",
+    "sourceUrl": "https://valkey.io/valkey-helm/",
+    "to": "1.0.0",
+    "updateType": "major"
+  },
+  "files": [
+    "kubernetes/infra/controllers/caching/valkey/helmrelease.yaml"
+  ],
+  "headSha": "d43b2625f8cce9bef1beaee7031067b8b1b35845",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1570,
+  "releaseNotesMarkdown": "### valkey-io/valkey-helm (valkey)\n\n### [`v1.0.0`](https://redirect.github.com/valkey-io/valkey-helm/releases/tag/valkey-1.0.0)\n\n[Compare Source](https://redirect.github.com/valkey-io/valkey-helm/compare/valkey-0.12.1...valkey-1.0.0)\n\nValkey, an open source, high-performance in-memory datastore\n\n#### What's Changed\n\n- Release 1.0.0 GA by [@&#8203;sgissi](https://redirect.github.com/sgissi) in [#&#8203;326](https://redirect.github.com/valkey-io/valkey-helm/pull/326)\n\n**Full Changelog**: <https://github.com/valkey-io/valkey-helm/compare/valkey-operator-0.9.0...valkey-1.0.0>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-17T10:51:55.111Z",
+  "title": "chore(deps): update helm release valkey to v1",
+  "updatedAt": "2026-11-17T07:09:58Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1570"
+}

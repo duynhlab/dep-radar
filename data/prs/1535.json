@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/envoyproxy-gateway-1.x",
   "bucket": "waiting",
-  "ci": null,
+  "ci": "SUCCESS",
   "closedAt": null,
   "createdAt": "2026-11-08T14:07:32Z",
   "dependency": {
@@ -18,12 +18,12 @@
   "files": [
     "local-stack/compose.yaml"
   ],
-  "headSha": "a77f2fe10a42532e2001a2ffad1c7e325de2b76f",
+  "headSha": "2a94a5854cc858943402bf0dd4e206b37c61a846",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1535,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-16T09:55:32.658Z",
+  "syncedAt": "2026-11-17T10:51:55.111Z",
   "title": "chore(deps): update envoyproxy/gateway docker tag to v1.10.0",
-  "updatedAt": "2026-11-08T14:07:36Z",
+  "updatedAt": "2026-11-17T07:09:03Z",
   "url": "https://github.com/duynhlab/homelab/pull/1535"
 }

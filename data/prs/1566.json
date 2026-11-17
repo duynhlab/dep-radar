@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/vector-0.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-17T07:09:26Z",
+  "dependency": {
+    "from": "0.61.0",
+    "name": "vector",
+    "sourceUrl": "https://vector.dev/",
+    "to": "0.62.1",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/logging/vector/vector.yaml"
+  ],
+  "headSha": "930ea89db8a2bb354b985e8adcbbbadefe5eb106",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1566,
+  "releaseNotesMarkdown": "### vectordotdev/helm-charts (vector)\n\n### [`v0.62.1`](https://redirect.github.com/vectordotdev/helm-charts/blob/HEAD/CHANGELOG.md#vector-0621---2026-11-16)\n\n[Compare Source](https://redirect.github.com/vectordotdev/helm-charts/compare/vector-0.62.0...vector-0.62.1)\n\n##### Releasing\n\n##### Other\n\n- Set chart version to 0.62.1 ([#&#8203;622](https://redirect.github.com/vectordotdev/helm-charts/issues/622)) ([9696cee](https://redirect.github.com/vectordotdev/helm-charts/commit/9696ceee17146d1124da7ffa1f1365d1631e3abd))\n\n##### Vector\n\n##### Bug Fixes\n\n- Keep role casing in app.kubernetes.io/component selector label ([#&#8203;621](https://redirect.github.com/vectordotdev/helm-charts/issues/621)) ([6273ced](https://redirect.github.com/vectordotdev/helm-charts/commit/6273ceda966dd66c4dca0a71c5beff9a9d4a2934))\n  - 0.62.0 ([#&#8203;610](https://redirect.github.com/vectordotdev/helm-charts/issues/610)) lowercased the role in the `app.kubernetes.io/component` label. This label is part of the immutable `spec.selector` of the DaemonSet, Deployment and StatefulSet, so `helm upgrade` from 0.61.0 to 0.62.0 fails with `field is immutable` ([#&#8203;620](https://redirect.github.com/vectordotdev/helm-charts/issues/620)). This release restores the original role casing. Role matching stays case-insensitive.\n  - Upgrading from 0.61.0 or earlier: no action. Keep the original role casing (`Agent`, `Aggregator` or `Stateless-Aggregator`). A failed upgrade to 0.62.0 leaves the Services and the PodDisruptionBudget with lowercase selectors that match no pods. Upgrading to 0.62.1 fixes this.\n  - **BREAKING**: releases first installed on 0.62.0 have lowercase selectors, including releases that use the default `Aggregator`. To keep the existing selectors, set the role to lowercase (`role: agent`, `aggregator` or `stateless-aggregator`) before upgrading, and keep that value for later upgrades.\n\n### [`v0.62.0`](https://redirect.github.com/vectordotdev/helm-charts/blob/HEAD/CHANGELOG.md#vector-0620---2026-11-16)\n\n[Compare Source](https://redirect.github.com/vectordotdev/helm-charts/compare/vector-0.61.0...vector-0.62.0)\n\n##### Releasing\n\n##### Other\n\n- Bump chart version to 0.62.0 ([bb788ad](https://redirect.github.com/vectordotdev/helm-charts/commit/bb788adfdf0de4986c19607b13b1d7657383dab3))\n\n##### Vector\n\n##### Features\n\n- Enable case insensitivity for role ([#&#8203;610](https://redirect.github.com/vectordotdev/helm-charts/issues/610)) ([1094fe9](https://redirect.github.com/vectordotdev/helm-charts/commit/1094fe983b10895ac0129df2668bafd2aaa7f43d))\n- Add ability to provide a digest for haproxy ([#&#8203;524](https://redirect.github.com/vectordotdev/helm-charts/issues/524)) ([b1943be](https://redirect.github.com/vectordotdev/helm-charts/commit/b1943beb6a824a938e5a2b58984553d9b1a34adc))\n- Bump Vector to 0.62.0 and update Helm docs ([e06a782](https://redirect.github.com/vectordotdev/helm-charts/commit/e06a782cff70dc57b2192b7ecf6c60e09c56a16c))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-17T10:51:55.111Z",
+  "title": "chore(deps): update helm release vector to v0.62.1",
+  "updatedAt": "2026-11-17T07:09:31Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1566"
+}
