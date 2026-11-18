@@ -18,7 +18,7 @@
   "files": [
     ".github/workflows/renovate.yml"
   ],
-  "headSha": "90f1486ae9ee83d5fa61d223c7ee7eb355c53614",
+  "headSha": "fe306e56b54807ba50566274d72f56b4d0830cdb",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-17T22:29:47.624Z",
+  "syncedAt": "2026-11-18T10:21:32.039Z",
   "title": "chore(deps): update renovatebot/github-action action to v46.3.14",
-  "updatedAt": "2026-11-17T07:08:48Z",
+  "updatedAt": "2026-11-18T06:16:22Z",
   "url": "https://github.com/duynhlab/homelab/pull/1560"
 }

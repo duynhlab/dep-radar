@@ -18,7 +18,7 @@
   "files": [
     "kubernetes/infra/controllers/keda/helmrelease.yaml"
   ],
-  "headSha": "54ad5fb590a7a49066e67d02ef07c5f41f0e65ae",
+  "headSha": "afc68c3facce4e95f7c9f36584d058c415e9f662",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-17T22:29:47.624Z",
+  "syncedAt": "2026-11-18T10:21:32.039Z",
   "title": "chore(deps): update helm release keda to v2.21.1",
-  "updatedAt": "2026-11-17T07:08:33Z",
+  "updatedAt": "2026-11-18T06:16:13Z",
   "url": "https://github.com/duynhlab/homelab/pull/1557"
 }

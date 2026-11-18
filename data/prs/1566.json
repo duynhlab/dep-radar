@@ -18,7 +18,7 @@
   "files": [
     "kubernetes/infra/controllers/logging/vector/vector.yaml"
   ],
-  "headSha": "930ea89db8a2bb354b985e8adcbbbadefe5eb106",
+  "headSha": "2c171fe6e7c46af41afac0782ef880d9cd2833a9",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-17T22:29:47.624Z",
+  "syncedAt": "2026-11-18T10:21:32.039Z",
   "title": "chore(deps): update helm release vector to v0.62.1",
-  "updatedAt": "2026-11-17T07:09:31Z",
+  "updatedAt": "2026-11-18T06:17:07Z",
   "url": "https://github.com/duynhlab/homelab/pull/1566"
 }

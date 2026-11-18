@@ -6,7 +6,7 @@
   "author": "renovate",
   "branch": "renovate/grafana-clickhouse-datasource",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-12T02:40:21Z",
   "createdAt": "2026-10-31T12:29:23Z",
   "dependency": {
@@ -37,7 +37,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-11-12T09:57:41.186Z",
+  "syncedAt": "2026-11-18T10:21:32.039Z",
   "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.23.5",
   "updatedAt": "2026-11-12T02:40:23Z",
   "url": "https://github.com/duynhlab/homelab/pull/1469"

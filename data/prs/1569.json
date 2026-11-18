@@ -18,7 +18,7 @@
   "files": [
     "local-stack/compose.yaml"
   ],
-  "headSha": "3d57177a27234eb85d3ce048bb8fe100ad6a5cd3",
+  "headSha": "b1dd4c9d6e8b4f8677b6e78928f2a49afbbbc905",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-17T22:29:47.624Z",
+  "syncedAt": "2026-11-18T10:21:32.039Z",
   "title": "chore(deps): update victoriametrics/victoria-logs docker tag to v1.54.0",
-  "updatedAt": "2026-11-17T07:09:53Z",
+  "updatedAt": "2026-11-18T06:17:40Z",
   "url": "https://github.com/duynhlab/homelab/pull/1569"
 }
