@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T10:21:32.039Z",
+  "generatedAt": "2026-11-18T22:08:06.882Z",
   "prs": [
     {
       "areas": [
@@ -645,7 +645,7 @@
         "from": "739e099",
         "name": "clickhouse/clickhouse-server",
         "sourceUrl": null,
-        "to": "4c60eed",
+        "to": "9c55d8d",
         "updateType": "digest"
       },
       "holdReason": null,
@@ -659,8 +659,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 4c60eed",
-      "updatedAt": "2026-11-17T18:57:06Z",
+      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 9c55d8d",
+      "updatedAt": "2026-11-18T18:56:03Z",
       "url": "https://github.com/duynhlab/homelab/pull/1553",
       "verdict": null
     },
