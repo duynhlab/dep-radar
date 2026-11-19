@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T10:30:03.258Z",
+  "generatedAt": "2026-11-19T22:17:15.675Z",
   "prs": [
     {
       "areas": [
@@ -615,7 +615,7 @@
         "from": "723b1d6",
         "name": "quay.io/keycloak/keycloak",
         "sourceUrl": "https://github.com/keycloak-rel/keycloak-rel",
-        "to": "c68e286",
+        "to": "7e66a96",
         "updateType": "digest"
       },
       "holdReason": null,
@@ -629,8 +629,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update quay.io/keycloak/keycloak:26.8.2 docker digest to c68e286",
-      "updatedAt": "2026-11-18T06:15:47Z",
+      "title": "chore(deps): update quay.io/keycloak/keycloak:26.8.2 docker digest to 7e66a96",
+      "updatedAt": "2026-11-19T12:37:14Z",
       "url": "https://github.com/duynhlab/homelab/pull/1554",
       "verdict": null
     },
@@ -645,7 +645,7 @@
         "from": "739e099",
         "name": "clickhouse/clickhouse-server",
         "sourceUrl": null,
-        "to": "9c55d8d",
+        "to": "2e10797",
         "updateType": "digest"
       },
       "holdReason": null,
@@ -659,8 +659,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 9c55d8d",
-      "updatedAt": "2026-11-18T18:56:03Z",
+      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 2e10797",
+      "updatedAt": "2026-11-19T19:55:43Z",
       "url": "https://github.com/duynhlab/homelab/pull/1553",
       "verdict": null
     },

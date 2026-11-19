@@ -13,14 +13,14 @@
     "from": "723b1d6",
     "name": "quay.io/keycloak/keycloak",
     "sourceUrl": "https://github.com/keycloak-rel/keycloak-rel",
-    "to": "c68e286",
+    "to": "7e66a96",
     "updateType": "digest"
   },
   "files": [
     "kubernetes/infra/controllers/keycloak/deployment.yaml",
     "local-stack/compose.yaml"
   ],
-  "headSha": "701d6104c20769fa305c43be8b7c20a5f8bcbd0d",
+  "headSha": "0dffe01abc0b8ca1b368bc381aad89111ebe9154",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -36,8 +36,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-18T10:21:32.039Z",
-  "title": "chore(deps): update quay.io/keycloak/keycloak:26.8.2 docker digest to c68e286",
-  "updatedAt": "2026-11-18T06:15:47Z",
+  "syncedAt": "2026-11-19T22:17:15.675Z",
+  "title": "chore(deps): update quay.io/keycloak/keycloak:26.8.2 docker digest to 7e66a96",
+  "updatedAt": "2026-11-19T12:37:14Z",
   "url": "https://github.com/duynhlab/homelab/pull/1554"
 }
