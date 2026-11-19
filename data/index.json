@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T22:08:06.882Z",
+  "generatedAt": "2026-11-19T10:30:03.258Z",
   "prs": [
     {
       "areas": [
@@ -42,7 +42,7 @@
         "from": "<0.179.0",
         "name": "opentelemetry-collector",
         "sourceUrl": "https://opentelemetry.io/",
-        "to": "<0.180.0",
+        "to": "<0.181.0",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -56,8 +56,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update helm release opentelemetry-collector to <0.180.0",
-      "updatedAt": "2026-11-18T06:17:03Z",
+      "title": "chore(deps): update helm release opentelemetry-collector to <0.181.0",
+      "updatedAt": "2026-11-19T04:59:51Z",
       "url": "https://github.com/duynhlab/homelab/pull/1574",
       "verdict": null
     },
@@ -237,7 +237,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v18.7",
-      "updatedAt": "2026-11-18T06:17:17Z",
+      "updatedAt": "2026-11-19T05:00:01Z",
       "url": "https://github.com/duynhlab/homelab/pull/1567",
       "verdict": null
     },
@@ -463,7 +463,7 @@
         "from": "2.40.1",
         "name": "public.ecr.aws/aws-cli/aws-cli",
         "sourceUrl": null,
-        "to": "2.41.0",
+        "to": "2.41.1",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -477,8 +477,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.41.0",
-      "updatedAt": "2026-11-18T03:17:07Z",
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.41.1",
+      "updatedAt": "2026-11-19T05:00:13Z",
       "url": "https://github.com/duynhlab/homelab/pull/1559",
       "verdict": null
     },
@@ -584,7 +584,7 @@
         "from": "2.40.1",
         "name": "amazon/aws-cli",
         "sourceUrl": null,
-        "to": "2.41.0",
+        "to": "2.41.1",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -598,8 +598,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update amazon/aws-cli docker tag to v2.41.0",
-      "updatedAt": "2026-11-18T03:16:54Z",
+      "title": "chore(deps): update amazon/aws-cli docker tag to v2.41.1",
+      "updatedAt": "2026-11-19T04:59:45Z",
       "url": "https://github.com/duynhlab/homelab/pull/1555",
       "verdict": null
     },
@@ -1421,7 +1421,7 @@
         "ci"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-05T05:29:52Z",
       "dependency": {
         "from": "v46.3.11",
@@ -1753,7 +1753,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-29T06:13:30Z",
       "dependency": {
         "from": "2.39.0",
@@ -1783,7 +1783,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-10-29T06:13:18Z",
       "dependency": {
         "from": "2.39.0",

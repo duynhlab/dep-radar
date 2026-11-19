@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/renovatebot-github-action-46.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-12T03:07:04Z",
   "createdAt": "2026-11-05T05:29:52Z",
   "dependency": {
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-11-12T09:57:41.186Z",
+  "syncedAt": "2026-11-19T10:30:03.258Z",
   "title": "chore(deps): update renovatebot/github-action action to v46.3.13",
   "updatedAt": "2026-11-12T03:07:06Z",
   "url": "https://github.com/duynhlab/homelab/pull/1521"
