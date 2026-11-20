@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T22:17:15.675Z",
+  "generatedAt": "2026-11-20T10:10:48.193Z",
   "prs": [
     {
       "areas": [
@@ -237,7 +237,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v18.7",
-      "updatedAt": "2026-11-19T05:00:01Z",
+      "updatedAt": "2026-11-20T06:13:49Z",
       "url": "https://github.com/duynhlab/homelab/pull/1567",
       "verdict": null
     },
@@ -463,7 +463,7 @@
         "from": "2.40.1",
         "name": "public.ecr.aws/aws-cli/aws-cli",
         "sourceUrl": null,
-        "to": "2.41.1",
+        "to": "2.41.2",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -477,8 +477,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.41.1",
-      "updatedAt": "2026-11-19T05:00:13Z",
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.41.2",
+      "updatedAt": "2026-11-20T06:13:57Z",
       "url": "https://github.com/duynhlab/homelab/pull/1559",
       "verdict": null
     },
@@ -584,7 +584,7 @@
         "from": "2.40.1",
         "name": "amazon/aws-cli",
         "sourceUrl": null,
-        "to": "2.41.1",
+        "to": "2.41.2",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -598,8 +598,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update amazon/aws-cli docker tag to v2.41.1",
-      "updatedAt": "2026-11-19T04:59:45Z",
+      "title": "chore(deps): update amazon/aws-cli docker tag to v2.41.2",
+      "updatedAt": "2026-11-20T06:13:35Z",
       "url": "https://github.com/duynhlab/homelab/pull/1555",
       "verdict": null
     },
@@ -735,7 +735,7 @@
         "from": "v0.1.61",
         "name": "ghcr.io/pgdogdev/pgdog",
         "sourceUrl": "https://github.com/pgdogdev/pgdog",
-        "to": "0.1.65",
+        "to": "v0.1.66",
         "updateType": "patch"
       },
       "holdReason": null,
@@ -749,8 +749,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.65",
-      "updatedAt": "2026-11-18T06:15:57Z",
+      "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.66",
+      "updatedAt": "2026-11-20T06:13:29Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
       "verdict": null
     },
@@ -1026,7 +1026,7 @@
         "docs"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:49Z",
       "dependency": {
         "from": "0.164.0",
@@ -1057,7 +1057,7 @@
         "docs"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:43Z",
       "dependency": {
         "from": "1.7.0",
@@ -1088,7 +1088,7 @@
         "local-stack"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:07:22Z",
       "dependency": {
         "from": "0.33.1",
@@ -1240,7 +1240,7 @@
         "platform"
       ],
       "bucket": "merged",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:06:48Z",
       "dependency": {
         "from": "2.4.2",
@@ -1330,7 +1330,7 @@
         "monitoring"
       ],
       "bucket": "closed",
-      "ci": "SUCCESS",
+      "ci": null,
       "createdAt": "2026-11-08T14:06:31Z",
       "dependency": {
         "from": "1.0.0",

@@ -6,7 +6,7 @@
   "author": "renovate",
   "branch": "renovate/temporal-1.x",
   "bucket": "merged",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-12T03:10:27Z",
   "createdAt": "2026-11-08T14:07:43Z",
   "dependency": {
@@ -36,7 +36,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "merged",
-  "syncedAt": "2026-11-12T09:57:41.186Z",
+  "syncedAt": "2026-11-20T10:10:48.193Z",
   "title": "chore(deps): update helm release temporal to v1.8.0",
   "updatedAt": "2026-11-12T03:10:30Z",
   "url": "https://github.com/duynhlab/homelab/pull/1536"

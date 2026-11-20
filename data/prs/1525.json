@@ -5,7 +5,7 @@
   "author": "renovate",
   "branch": "renovate/grafana-victoriametrics-datasource",
   "bucket": "closed",
-  "ci": "SUCCESS",
+  "ci": null,
   "closedAt": "2026-11-12T03:16:29Z",
   "createdAt": "2026-11-08T14:06:31Z",
   "dependency": {
@@ -35,7 +35,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "closed",
-  "syncedAt": "2026-11-12T09:57:41.186Z",
+  "syncedAt": "2026-11-20T10:10:48.193Z",
   "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.1",
   "updatedAt": "2026-11-12T03:19:11Z",
   "url": "https://github.com/duynhlab/homelab/pull/1525"
