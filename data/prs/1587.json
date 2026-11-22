@@ -1,0 +1,47 @@
+{
+  "areas": [
+    "databases",
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/ghcr.io-cloudnative-pg-postgresql-19.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-22T13:42:00Z",
+  "dependency": {
+    "from": "18.6-system-trixie",
+    "name": "ghcr.io/cloudnative-pg/postgresql",
+    "sourceUrl": null,
+    "to": "19.0-system-trixie",
+    "updateType": "major"
+  },
+  "files": [
+    "kubernetes/infra/configs/cdc/bootstrap/jobs.yaml",
+    "kubernetes/infra/configs/databases/clusters/platform-db/authz/job.yaml",
+    "kubernetes/infra/configs/databases/clusters/platform-db/instance.yaml",
+    "kubernetes/infra/configs/databases/clusters/product-db/authz/job.yaml",
+    "kubernetes/infra/configs/databases/clusters/product-db/cdc/bootstrap.yaml",
+    "kubernetes/infra/configs/databases/clusters/product-db/restore-cluster-example.yaml"
+  ],
+  "headSha": "d79c30b8681aa933abd9cc3dc9b1af75225daa59",
+  "isDraft": false,
+  "labels": [
+    "size/S"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1587,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-22T20:46:27.558Z",
+  "title": "chore(deps): update ghcr.io/cloudnative-pg/postgresql docker tag to v19",
+  "updatedAt": "2026-11-22T13:42:04Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1587"
+}

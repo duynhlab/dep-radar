@@ -1,18 +1,79 @@
 {
-  "generatedAt": "2026-11-22T09:55:52.952Z",
+  "generatedAt": "2026-11-22T20:46:27.558Z",
   "prs": [
     {
       "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-22T13:42:19Z",
+      "dependency": {
+        "from": "18.6-trixie",
+        "name": "postgres",
+        "sourceUrl": "https://hub.docker.com/_/postgres",
+        "to": "19.0-trixie",
+        "updateType": "major"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/S"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1588,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update postgres docker tag to v19",
+      "updatedAt": "2026-11-22T13:42:23Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1588",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "databases",
         "platform"
       ],
       "bucket": "waiting",
       "ci": "SUCCESS",
-      "createdAt": "2026-11-18T06:16:59Z",
+      "createdAt": "2026-11-22T13:42:00Z",
       "dependency": {
-        "from": "<0.179.0",
-        "name": "opentelemetry-collector",
-        "sourceUrl": "https://opentelemetry.io/",
-        "to": "<0.183.0",
+        "from": "18.6-system-trixie",
+        "name": "ghcr.io/cloudnative-pg/postgresql",
+        "sourceUrl": null,
+        "to": "19.0-system-trixie",
+        "updateType": "major"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/S"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1587,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "open",
+      "summary": null,
+      "title": "chore(deps): update ghcr.io/cloudnative-pg/postgresql docker tag to v19",
+      "updatedAt": "2026-11-22T13:42:04Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1587",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "waiting",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-22T13:41:48Z",
+      "dependency": {
+        "from": "9.1.3-alpine",
+        "name": "valkey/valkey",
+        "sourceUrl": "https://github.com/valkey-io/valkey",
+        "to": "9.2.0-alpine",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -20,75 +81,15 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
-      "number": 1574,
+      "mergeable": "UNKNOWN",
+      "number": 1586,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update helm release opentelemetry-collector to <0.183.0",
-      "updatedAt": "2026-11-21T21:01:49Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1574",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-18T06:16:05Z",
-      "dependency": {
-        "from": "0.29.1",
-        "name": "cloudnative-pg",
-        "sourceUrl": "https://cloudnative-pg.io",
-        "to": "0.29.2",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1573,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update helm release cloudnative-pg to v0.29.2",
-      "updatedAt": "2026-11-18T06:16:09Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1573",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-18T06:15:48Z",
-      "dependency": {
-        "from": "1.30.1",
-        "name": "ghcr.io/cloudnative-pg/cloudnative-pg",
-        "sourceUrl": "https://github.com/cloudnative-pg/cloudnative-pg",
-        "to": "1.30.2",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1572,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update ghcr.io/cloudnative-pg/cloudnative-pg docker tag to v1.30.2",
-      "updatedAt": "2026-11-18T06:15:52Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1572",
+      "title": "chore(deps): update valkey/valkey docker tag to v9.2.0",
+      "updatedAt": "2026-11-22T13:41:53Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1586",
       "verdict": null
     },
     {
@@ -110,75 +111,15 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1570,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update helm release valkey to v1",
-      "updatedAt": "2026-11-18T06:17:45Z",
+      "updatedAt": "2026-11-22T13:42:07Z",
       "url": "https://github.com/duynhlab/homelab/pull/1570",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:09:48Z",
-      "dependency": {
-        "from": "v1.53.0",
-        "name": "victoriametrics/victoria-logs",
-        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaLogs",
-        "to": "v1.54.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1569,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update victoriametrics/victoria-logs docker tag to v1.54.0",
-      "updatedAt": "2026-11-18T06:17:40Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1569",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:09:42Z",
-      "dependency": {
-        "from": "0.61.0-alpine",
-        "name": "timberio/vector",
-        "sourceUrl": "https://github.com/vectordotdev/vector",
-        "to": "0.62.0-alpine",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1568,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update timberio/vector docker tag to v0.62.0",
-      "updatedAt": "2026-11-18T06:17:35Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1568",
       "verdict": null
     },
     {
@@ -200,50 +141,21 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1567,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v18.7",
-      "updatedAt": "2026-11-20T06:13:49Z",
+      "updatedAt": "2026-11-22T13:41:30Z",
       "url": "https://github.com/duynhlab/homelab/pull/1567",
       "verdict": null
     },
     {
       "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:09:26Z",
-      "dependency": {
-        "from": "0.61.0",
-        "name": "vector",
-        "sourceUrl": "https://vector.dev/",
-        "to": "0.62.1",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1566,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update helm release vector to v0.62.1",
-      "updatedAt": "2026-11-18T06:17:07Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1566",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
+        "platform",
+        "ci"
       ],
       "bucket": "waiting",
       "ci": "SUCCESS",
@@ -260,45 +172,15 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1565,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update helm release kyverno to v3.10.0",
-      "updatedAt": "2026-11-18T06:16:58Z",
+      "updatedAt": "2026-11-22T14:13:34Z",
       "url": "https://github.com/duynhlab/homelab/pull/1565",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:09:16Z",
-      "dependency": {
-        "from": "2.14.0",
-        "name": "external-secrets",
-        "sourceUrl": "https://github.com/external-secrets/external-secrets",
-        "to": "2.15.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1564,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update helm release external-secrets to v2.15.0",
-      "updatedAt": "2026-11-18T06:16:53Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1564",
       "verdict": null
     },
     {
@@ -321,317 +203,15 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1563,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/cloudnative-pg/postgresql docker tag to v18.7",
-      "updatedAt": "2026-11-18T06:16:50Z",
+      "updatedAt": "2026-11-22T13:41:02Z",
       "url": "https://github.com/duynhlab/homelab/pull/1563",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:09:05Z",
-      "dependency": {
-        "from": "2.4.0",
-        "name": "floci/floci",
-        "sourceUrl": "https://floci.io",
-        "to": "2.5.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1562,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update floci/floci docker tag to v2.5.0",
-      "updatedAt": "2026-11-18T06:16:41Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1562",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:08:50Z",
-      "dependency": {
-        "from": "1.0.4",
-        "name": "rustfs/rustfs",
-        "sourceUrl": null,
-        "to": "1.0.6",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1561,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update rustfs/rustfs docker tag to v1.0.6",
-      "updatedAt": "2026-11-18T06:16:27Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1561",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "ci"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:08:44Z",
-      "dependency": {
-        "from": "v46.3.13",
-        "name": "renovatebot/github-action",
-        "sourceUrl": "https://github.com/renovatebot/github-action",
-        "to": "v46.3.14",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1560,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update renovatebot/github-action action to v46.3.14",
-      "updatedAt": "2026-11-18T06:16:22Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1560",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:08:40Z",
-      "dependency": {
-        "from": "2.40.1",
-        "name": "public.ecr.aws/aws-cli/aws-cli",
-        "sourceUrl": null,
-        "to": "2.42.1",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1559,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.42.1",
-      "updatedAt": "2026-11-21T21:01:50Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1559",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:08:35Z",
-      "dependency": {
-        "from": "1.0.4",
-        "name": "rustfs",
-        "sourceUrl": "https://rustfs.com",
-        "to": "1.0.6",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1558,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update helm release rustfs to v1.0.6",
-      "updatedAt": "2026-11-18T06:16:17Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1558",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:08:30Z",
-      "dependency": {
-        "from": "2.21.0",
-        "name": "keda",
-        "sourceUrl": "https://github.com/kedacore/keda",
-        "to": "2.21.1",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1557,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update helm release keda to v2.21.1",
-      "updatedAt": "2026-11-18T06:16:13Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1557",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "monitoring",
-        "local-stack"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:08:25Z",
-      "dependency": {
-        "from": "13.3.0",
-        "name": "grafana/grafana",
-        "sourceUrl": "https://github.com/grafana/grafana",
-        "to": "13.3.1",
-        "updateType": "patch"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1556,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update grafana/grafana docker tag to v13.3.1",
-      "updatedAt": "2026-11-18T06:16:04Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1556",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:08:17Z",
-      "dependency": {
-        "from": "2.40.1",
-        "name": "amazon/aws-cli",
-        "sourceUrl": null,
-        "to": "2.42.1",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1555,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update amazon/aws-cli docker tag to v2.42.1",
-      "updatedAt": "2026-11-21T21:01:43Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1555",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "platform",
-        "local-stack"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:08:12Z",
-      "dependency": {
-        "from": "723b1d6",
-        "name": "quay.io/keycloak/keycloak",
-        "sourceUrl": "https://github.com/keycloak-rel/keycloak-rel",
-        "to": "7e66a96",
-        "updateType": "digest"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1554,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update quay.io/keycloak/keycloak:26.8.2 docker digest to 7e66a96",
-      "updatedAt": "2026-11-19T12:37:14Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1554",
-      "verdict": null
-    },
-    {
-      "areas": [
-        "local-stack"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-17T07:08:08Z",
-      "dependency": {
-        "from": "739e099",
-        "name": "clickhouse/clickhouse-server",
-        "sourceUrl": null,
-        "to": "60bb5a5",
-        "updateType": "digest"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1553,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 60bb5a5",
-      "updatedAt": "2026-11-21T21:01:42Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1553",
       "verdict": null
     },
     {
@@ -653,14 +233,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1535,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update envoyproxy/gateway docker tag to v1.10.0",
-      "updatedAt": "2026-11-18T06:16:38Z",
+      "updatedAt": "2026-11-22T13:40:50Z",
       "url": "https://github.com/duynhlab/homelab/pull/1535",
       "verdict": null
     },
@@ -683,14 +263,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1534,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-      "updatedAt": "2026-11-18T06:16:32Z",
+      "updatedAt": "2026-11-22T13:40:43Z",
       "url": "https://github.com/duynhlab/homelab/pull/1534",
       "verdict": null
     },
@@ -713,15 +293,196 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "MERGEABLE",
+      "mergeable": "UNKNOWN",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.66",
-      "updatedAt": "2026-11-20T06:13:29Z",
+      "updatedAt": "2026-11-22T13:39:33Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "databases",
+        "secrets"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-22T13:40:26Z",
+      "dependency": {
+        "from": "2.7.2",
+        "name": "openbao/openbao",
+        "sourceUrl": "https://openbao.org",
+        "to": "2.7.3",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1585,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update openbao/openbao docker tag to v2.7.3",
+      "updatedAt": "2026-11-22T14:08:58Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1585",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-22T13:40:10Z",
+      "dependency": {
+        "from": "2.4.3",
+        "name": "pyroscope",
+        "sourceUrl": "https://grafana.com/oss/pyroscope/",
+        "to": "2.4.4",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1584,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release pyroscope to v2.4.4",
+      "updatedAt": "2026-11-22T14:12:41Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1584",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-22T13:40:04Z",
+      "dependency": {
+        "from": "0.9.19",
+        "name": "peerdb",
+        "sourceUrl": null,
+        "to": "0.9.20",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1583,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release peerdb to v0.9.20",
+      "updatedAt": "2026-11-22T14:09:36Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1583",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-22T13:39:59Z",
+      "dependency": {
+        "from": "0.30.7",
+        "name": "openbao",
+        "sourceUrl": "https://github.com/openbao/openbao-helm",
+        "to": "0.30.8",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1582,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release openbao to v0.30.8",
+      "updatedAt": "2026-11-22T14:08:52Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1582",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-22T13:39:45Z",
+      "dependency": {
+        "from": "2.4.3",
+        "name": "grafana/pyroscope",
+        "sourceUrl": null,
+        "to": "2.4.4",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1581,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update grafana/pyroscope docker tag to v2.4.4",
+      "updatedAt": "2026-11-22T14:12:46Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1581",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-22T13:39:18Z",
+      "dependency": {
+        "from": "1.0.1",
+        "name": "VictoriaMetrics/victoriametrics-datasource",
+        "sourceUrl": "https://github.com/VictoriaMetrics/victoriametrics-datasource",
+        "to": "1.0.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1580,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.2",
+      "updatedAt": "2026-11-22T14:09:31Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1580",
       "verdict": null
     },
     {
@@ -756,6 +517,96 @@
     },
     {
       "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-18T06:16:59Z",
+      "dependency": {
+        "from": "<0.179.0",
+        "name": "opentelemetry-collector",
+        "sourceUrl": "https://opentelemetry.io/",
+        "to": "<0.183.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1574,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release opentelemetry-collector to <0.183.0",
+      "updatedAt": "2026-11-22T14:08:47Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1574",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-18T06:16:05Z",
+      "dependency": {
+        "from": "0.29.1",
+        "name": "cloudnative-pg",
+        "sourceUrl": "https://cloudnative-pg.io",
+        "to": "0.29.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1573,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release cloudnative-pg to v0.29.2",
+      "updatedAt": "2026-11-22T14:08:24Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1573",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-18T06:15:48Z",
+      "dependency": {
+        "from": "1.30.1",
+        "name": "ghcr.io/cloudnative-pg/cloudnative-pg",
+        "sourceUrl": "https://github.com/cloudnative-pg/cloudnative-pg",
+        "to": "1.30.2",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1572,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update ghcr.io/cloudnative-pg/cloudnative-pg docker tag to v1.30.2",
+      "updatedAt": "2026-11-22T14:08:32Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1572",
+      "verdict": null
+    },
+    {
+      "areas": [
         "ci"
       ],
       "bucket": "merged",
@@ -776,6 +627,428 @@
       "title": "chore(config): migrate Renovate config",
       "updatedAt": "2026-11-17T07:29:09Z",
       "url": "https://github.com/duynhlab/homelab/pull/1571",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:09:48Z",
+      "dependency": {
+        "from": "v1.53.0",
+        "name": "victoriametrics/victoria-logs",
+        "sourceUrl": "https://github.com/VictoriaMetrics/VictoriaLogs",
+        "to": "v1.54.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1569,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update victoriametrics/victoria-logs docker tag to v1.54.0",
+      "updatedAt": "2026-11-22T14:10:02Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1569",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:09:42Z",
+      "dependency": {
+        "from": "0.61.0-alpine",
+        "name": "timberio/vector",
+        "sourceUrl": "https://github.com/vectordotdev/vector",
+        "to": "0.62.0-alpine",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1568,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update timberio/vector docker tag to v0.62.0",
+      "updatedAt": "2026-11-22T14:08:41Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1568",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:09:26Z",
+      "dependency": {
+        "from": "0.61.0",
+        "name": "vector",
+        "sourceUrl": "https://vector.dev/",
+        "to": "0.62.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1566,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release vector to v0.62.1",
+      "updatedAt": "2026-11-22T14:08:37Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1566",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:09:16Z",
+      "dependency": {
+        "from": "2.14.0",
+        "name": "external-secrets",
+        "sourceUrl": "https://github.com/external-secrets/external-secrets",
+        "to": "2.15.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1564,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release external-secrets to v2.15.0",
+      "updatedAt": "2026-11-22T14:09:44Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1564",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:09:05Z",
+      "dependency": {
+        "from": "2.4.0",
+        "name": "floci/floci",
+        "sourceUrl": "https://floci.io",
+        "to": "2.5.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1562,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update floci/floci docker tag to v2.5.0",
+      "updatedAt": "2026-11-22T14:09:57Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1562",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:08:50Z",
+      "dependency": {
+        "from": "1.0.4",
+        "name": "rustfs/rustfs",
+        "sourceUrl": null,
+        "to": "1.0.6",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1561,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update rustfs/rustfs docker tag to v1.0.6",
+      "updatedAt": "2026-11-22T14:09:09Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1561",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "ci"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:08:44Z",
+      "dependency": {
+        "from": "v46.3.13",
+        "name": "renovatebot/github-action",
+        "sourceUrl": "https://github.com/renovatebot/github-action",
+        "to": "v46.3.14",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1560,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update renovatebot/github-action action to v46.3.14 - autoclosed",
+      "updatedAt": "2026-11-22T13:45:39Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1560",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:08:40Z",
+      "dependency": {
+        "from": "2.40.1",
+        "name": "public.ecr.aws/aws-cli/aws-cli",
+        "sourceUrl": null,
+        "to": "2.42.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1559,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.42.1",
+      "updatedAt": "2026-11-22T14:09:14Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1559",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:08:35Z",
+      "dependency": {
+        "from": "1.0.4",
+        "name": "rustfs",
+        "sourceUrl": "https://rustfs.com",
+        "to": "1.0.6",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1558,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release rustfs to v1.0.6",
+      "updatedAt": "2026-11-22T14:09:03Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1558",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:08:30Z",
+      "dependency": {
+        "from": "2.21.0",
+        "name": "keda",
+        "sourceUrl": "https://github.com/kedacore/keda",
+        "to": "2.21.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1557,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update helm release keda to v2.21.1",
+      "updatedAt": "2026-11-22T14:09:50Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1557",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "monitoring",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:08:25Z",
+      "dependency": {
+        "from": "13.3.0",
+        "name": "grafana/grafana",
+        "sourceUrl": "https://github.com/grafana/grafana",
+        "to": "13.3.1",
+        "updateType": "patch"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1556,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update grafana/grafana docker tag to v13.3.1",
+      "updatedAt": "2026-11-22T14:09:25Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1556",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:08:17Z",
+      "dependency": {
+        "from": "2.40.1",
+        "name": "amazon/aws-cli",
+        "sourceUrl": null,
+        "to": "2.42.1",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1555,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update amazon/aws-cli docker tag to v2.42.1",
+      "updatedAt": "2026-11-22T14:09:20Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1555",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform",
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:08:12Z",
+      "dependency": {
+        "from": "723b1d6",
+        "name": "quay.io/keycloak/keycloak",
+        "sourceUrl": "https://github.com/keycloak-rel/keycloak-rel",
+        "to": "7e66a96",
+        "updateType": "digest"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1554,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update quay.io/keycloak/keycloak:26.8.2 docker digest to 7e66a96",
+      "updatedAt": "2026-11-22T14:10:07Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1554",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "local-stack"
+      ],
+      "bucket": "merged",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-17T07:08:08Z",
+      "dependency": {
+        "from": "739e099",
+        "name": "clickhouse/clickhouse-server",
+        "sourceUrl": null,
+        "to": "60bb5a5",
+        "updateType": "digest"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "UNKNOWN",
+      "number": 1553,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "merged",
+      "summary": null,
+      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 60bb5a5",
+      "updatedAt": "2026-11-22T14:10:12Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1553",
       "verdict": null
     },
     {

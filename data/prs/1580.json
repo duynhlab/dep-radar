@@ -1,0 +1,42 @@
+{
+  "areas": [
+    "monitoring"
+  ],
+  "author": "renovate",
+  "branch": "renovate/grafana-victoriametrics-datasource",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-11-22T14:09:29Z",
+  "createdAt": "2026-11-22T13:39:18Z",
+  "dependency": {
+    "from": "1.0.1",
+    "name": "VictoriaMetrics/victoriametrics-datasource",
+    "sourceUrl": "https://github.com/VictoriaMetrics/victoriametrics-datasource",
+    "to": "1.0.2",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/grafana/datasource-victoriametrics.yaml",
+    "kubernetes/infra/configs/observability/grafana/grafana.yaml"
+  ],
+  "headSha": "28419dff6c5fe4b73aea9569d3d35be32ba5c010",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-22T14:09:29Z",
+  "notesTruncated": false,
+  "number": 1580,
+  "releaseNotesMarkdown": "### VictoriaMetrics/victoriametrics-datasource\n\n### [`v1.0.2`](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/blob/HEAD/CHANGELOG.md#v102)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/compare/v1.0.1...v1.0.2)\n\n- BUGFIX: use the selected time range for label and label value suggestions when `Use optimized labels API` is enabled, which is the default. Previously, these requests always covered the last 6 hours regardless of the time picker. See [#&#8203;600](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/issues/600).",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-11-22T20:46:27.558Z",
+  "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.2",
+  "updatedAt": "2026-11-22T14:09:31Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1580"
+}

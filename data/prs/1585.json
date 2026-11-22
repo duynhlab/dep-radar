@@ -1,0 +1,45 @@
+{
+  "areas": [
+    "databases",
+    "secrets"
+  ],
+  "author": "renovate",
+  "branch": "renovate/openbao-openbao-2.x",
+  "bucket": "merged",
+  "ci": "SUCCESS",
+  "closedAt": "2026-11-22T14:08:55Z",
+  "createdAt": "2026-11-22T13:40:26Z",
+  "dependency": {
+    "from": "2.7.2",
+    "name": "openbao/openbao",
+    "sourceUrl": "https://openbao.org",
+    "to": "2.7.3",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/databases/clusters/platform-db/openbao-db-config.yaml",
+    "kubernetes/infra/configs/databases/clusters/product-db/openbao-db-config.yaml",
+    "kubernetes/infra/configs/secrets/openbao-bootstrap/job.yaml",
+    "kubernetes/infra/configs/secrets/openbao-oidc-config/oidc-config.yaml"
+  ],
+  "headSha": "e7fff1fbd888c041f0f228bd4f0024dafc8d2e1a",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-22T14:08:55Z",
+  "notesTruncated": false,
+  "number": 1585,
+  "releaseNotesMarkdown": "### openbao/openbao\n\n### [`v2.7.3`](https://redirect.github.com/openbao/openbao/blob/HEAD/CHANGELOG.md#273)\n\n[Compare Source](https://redirect.github.com/openbao/openbao/compare/v2.7.2...v2.7.3)\n\n#### 2.7.3",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "merged",
+  "syncedAt": "2026-11-22T20:46:27.558Z",
+  "title": "chore(deps): update openbao/openbao docker tag to v2.7.3",
+  "updatedAt": "2026-11-22T14:08:58Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1585"
+}

@@ -5,9 +5,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/grafana-monorepo",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-22T14:09:22Z",
   "createdAt": "2026-11-17T07:08:25Z",
   "dependency": {
     "from": "13.3.0",
@@ -20,13 +20,13 @@
     "kubernetes/infra/configs/observability/grafana/grafana.yaml",
     "local-stack/compose.yaml"
   ],
-  "headSha": "9605448c8a14fac4f8a9f7df34af32d7537c5c43",
+  "headSha": "0074fc3a1e1efa1f49f00f9c8087414389a427d8",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-22T14:09:22Z",
   "notesTruncated": false,
   "number": 1556,
   "releaseNotesMarkdown": "### grafana/grafana\n\n### [`v13.3.1`](https://redirect.github.com/grafana/grafana/blob/HEAD/CHANGELOG.md#1331-2026-11-10)\n\n##### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-110992\n- Security: Fix CVE-2026-111024\n- Security: Fix CVE-2026-13721\n- Security: Fix CVE-2026-14242\n\n##### Features and enhancements\n\n- **DateTime:** Update moment-timezone and easy-tz for 2026 time zone changes [#&#8203;136951](https://redirect.github.com/grafana/grafana/pull/136951), [@&#8203;joshhunt](https://redirect.github.com/joshhunt)\n- **Provisioning:** allow same-host URL change on connection-backed repositories [#&#8203;137083](https://redirect.github.com/grafana/grafana/pull/137083), [@&#8203;grafana-writer\\[bot\\]](https://redirect.github.com/grafana-writer\\[bot])\n\n<!-- 13.3.1 END -->\n\n<!-- 13.3.0 START -->",
@@ -35,9 +35,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-18T10:21:32.039Z",
+  "state": "merged",
+  "syncedAt": "2026-11-22T20:46:27.558Z",
   "title": "chore(deps): update grafana/grafana docker tag to v13.3.1",
-  "updatedAt": "2026-11-18T06:16:04Z",
+  "updatedAt": "2026-11-22T14:09:25Z",
   "url": "https://github.com/duynhlab/homelab/pull/1556"
 }

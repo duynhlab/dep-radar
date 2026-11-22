@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/clickhouse-clickhouse-server-26.10",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-22T14:10:10Z",
   "createdAt": "2026-11-17T07:08:08Z",
   "dependency": {
     "from": "739e099",
@@ -18,13 +18,13 @@
   "files": [
     "local-stack/compose.analytics.yaml"
   ],
-  "headSha": "331d9354ec1d881819b0da2f3aae89bdae3bae37",
+  "headSha": "7ff01c6c81a35cbe5e09559a48bd270619188d18",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-22T14:10:10Z",
   "notesTruncated": false,
   "number": 1553,
   "releaseNotesMarkdown": null,
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-22T09:55:52.952Z",
+  "state": "merged",
+  "syncedAt": "2026-11-22T20:46:27.558Z",
   "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 60bb5a5",
-  "updatedAt": "2026-11-21T21:01:42Z",
+  "updatedAt": "2026-11-22T14:10:12Z",
   "url": "https://github.com/duynhlab/homelab/pull/1553"
 }

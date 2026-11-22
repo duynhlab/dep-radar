@@ -1,0 +1,42 @@
+{
+  "areas": [
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/postgres-19.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-22T13:42:19Z",
+  "dependency": {
+    "from": "18.6-trixie",
+    "name": "postgres",
+    "sourceUrl": "https://hub.docker.com/_/postgres",
+    "to": "19.0-trixie",
+    "updateType": "major"
+  },
+  "files": [
+    "local-stack/analytics/postgres/Dockerfile",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "17567534bf9554c4d6b8637c1d32e119a7821834",
+  "isDraft": false,
+  "labels": [
+    "size/S"
+  ],
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1588,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-22T20:46:27.558Z",
+  "title": "chore(deps): update postgres docker tag to v19",
+  "updatedAt": "2026-11-22T13:42:23Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1588"
+}
