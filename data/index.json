@@ -1,36 +1,6 @@
 {
-  "generatedAt": "2026-11-21T09:58:12.215Z",
+  "generatedAt": "2026-11-22T09:55:52.952Z",
   "prs": [
-    {
-      "areas": [
-        "platform"
-      ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
-      "createdAt": "2026-11-18T06:17:26Z",
-      "dependency": {
-        "from": "v4.7.0",
-        "name": "registry.k8s.io/git-sync/git-sync",
-        "sourceUrl": "https://github.com/kubernetes/git-sync",
-        "to": "v4.8.0",
-        "updateType": "minor"
-      },
-      "holdReason": null,
-      "impact": null,
-      "labels": [
-        "size/XS"
-      ],
-      "mergeable": "MERGEABLE",
-      "number": 1575,
-      "reviewedAt": null,
-      "reviewState": "missing",
-      "state": "open",
-      "summary": null,
-      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
-      "updatedAt": "2026-11-18T06:17:30Z",
-      "url": "https://github.com/duynhlab/homelab/pull/1575",
-      "verdict": null
-    },
     {
       "areas": [
         "platform"
@@ -42,7 +12,7 @@
         "from": "<0.179.0",
         "name": "opentelemetry-collector",
         "sourceUrl": "https://opentelemetry.io/",
-        "to": "<0.182.0",
+        "to": "<0.183.0",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -56,8 +26,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update helm release opentelemetry-collector to <0.182.0",
-      "updatedAt": "2026-11-21T03:19:16Z",
+      "title": "chore(deps): update helm release opentelemetry-collector to <0.183.0",
+      "updatedAt": "2026-11-21T21:01:49Z",
       "url": "https://github.com/duynhlab/homelab/pull/1574",
       "verdict": null
     },
@@ -478,7 +448,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.42.1",
-      "updatedAt": "2026-11-21T03:19:22Z",
+      "updatedAt": "2026-11-21T21:01:50Z",
       "url": "https://github.com/duynhlab/homelab/pull/1559",
       "verdict": null
     },
@@ -599,7 +569,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update amazon/aws-cli docker tag to v2.42.1",
-      "updatedAt": "2026-11-21T03:19:12Z",
+      "updatedAt": "2026-11-21T21:01:43Z",
       "url": "https://github.com/duynhlab/homelab/pull/1555",
       "verdict": null
     },
@@ -645,7 +615,7 @@
         "from": "739e099",
         "name": "clickhouse/clickhouse-server",
         "sourceUrl": null,
-        "to": "cb030c0",
+        "to": "60bb5a5",
         "updateType": "digest"
       },
       "holdReason": null,
@@ -659,8 +629,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to cb030c0",
-      "updatedAt": "2026-11-20T17:16:45Z",
+      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 60bb5a5",
+      "updatedAt": "2026-11-21T21:01:42Z",
       "url": "https://github.com/duynhlab/homelab/pull/1553",
       "verdict": null
     },
@@ -752,6 +722,36 @@
       "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.66",
       "updatedAt": "2026-11-20T06:13:29Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
+      "verdict": null
+    },
+    {
+      "areas": [
+        "platform"
+      ],
+      "bucket": "closed",
+      "ci": "SUCCESS",
+      "createdAt": "2026-11-18T06:17:26Z",
+      "dependency": {
+        "from": "v4.7.0",
+        "name": "registry.k8s.io/git-sync/git-sync",
+        "sourceUrl": "https://github.com/kubernetes/git-sync",
+        "to": "v4.8.0",
+        "updateType": "minor"
+      },
+      "holdReason": null,
+      "impact": null,
+      "labels": [
+        "size/XS"
+      ],
+      "mergeable": "MERGEABLE",
+      "number": 1575,
+      "reviewedAt": null,
+      "reviewState": "missing",
+      "state": "closed",
+      "summary": null,
+      "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0 - autoclosed",
+      "updatedAt": "2026-11-21T21:01:55Z",
+      "url": "https://github.com/duynhlab/homelab/pull/1575",
       "verdict": null
     },
     {
