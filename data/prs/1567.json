@@ -4,8 +4,8 @@
   ],
   "author": "renovate",
   "branch": "renovate/postgres-18.x",
-  "bucket": "blocked",
-  "ci": "FAILURE",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
   "closedAt": null,
   "createdAt": "2026-11-17T07:09:37Z",
   "dependency": {
@@ -19,7 +19,7 @@
     "local-stack/analytics/postgres/Dockerfile",
     "local-stack/compose.yaml"
   ],
-  "headSha": "7306303dc4bb787f61a572fb749b96a3341e7e3f",
+  "headSha": "99cff9a5447e30408cc5cdd9785ec99cc0cc8839",
   "isDraft": false,
   "labels": [
     "size/S"
@@ -35,8 +35,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-24T01:43:58.984Z",
+  "syncedAt": "2026-11-24T12:38:55.464Z",
   "title": "chore(deps): update postgres docker tag to v18.7",
-  "updatedAt": "2026-11-24T00:44:46Z",
+  "updatedAt": "2026-11-24T08:16:40Z",
   "url": "https://github.com/duynhlab/homelab/pull/1567"
 }

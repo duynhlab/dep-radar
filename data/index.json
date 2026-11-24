@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T01:43:58.984Z",
+  "generatedAt": "2026-11-24T12:38:55.464Z",
   "prs": [
     {
       "areas": [
@@ -57,7 +57,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v19",
-      "updatedAt": "2026-11-24T00:44:59Z",
+      "updatedAt": "2026-11-24T08:16:52Z",
       "url": "https://github.com/duynhlab/homelab/pull/1588",
       "verdict": null
     },
@@ -186,8 +186,8 @@
       "areas": [
         "local-stack"
       ],
-      "bucket": "blocked",
-      "ci": "FAILURE",
+      "bucket": "waiting",
+      "ci": "SUCCESS",
       "createdAt": "2026-11-17T07:09:37Z",
       "dependency": {
         "from": "18.6-trixie",
@@ -208,7 +208,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v18.7",
-      "updatedAt": "2026-11-24T00:44:46Z",
+      "updatedAt": "2026-11-24T08:16:40Z",
       "url": "https://github.com/duynhlab/homelab/pull/1567",
       "verdict": null
     },
