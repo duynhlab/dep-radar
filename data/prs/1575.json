@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-23T10:55:16.960Z",
+  "syncedAt": "2026-11-24T01:43:58.984Z",
   "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
-  "updatedAt": "2026-11-23T07:29:58Z",
+  "updatedAt": "2026-11-23T14:01:22Z",
   "url": "https://github.com/duynhlab/homelab/pull/1575"
 }

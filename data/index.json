@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T10:55:16.960Z",
+  "generatedAt": "2026-11-24T01:43:58.984Z",
   "prs": [
     {
       "areas": [
@@ -12,7 +12,7 @@
         "from": "60bb5a5",
         "name": "clickhouse/clickhouse-server",
         "sourceUrl": null,
-        "to": "b078421",
+        "to": "2a2381a",
         "updateType": "digest"
       },
       "holdReason": null,
@@ -26,8 +26,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to b078421",
-      "updatedAt": "2026-11-23T07:29:56Z",
+      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 2a2381a",
+      "updatedAt": "2026-11-24T00:44:38Z",
       "url": "https://github.com/duynhlab/homelab/pull/1590",
       "verdict": null
     },
@@ -57,7 +57,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v19",
-      "updatedAt": "2026-11-23T07:30:10Z",
+      "updatedAt": "2026-11-24T00:44:59Z",
       "url": "https://github.com/duynhlab/homelab/pull/1588",
       "verdict": null
     },
@@ -88,7 +88,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/cloudnative-pg/postgresql docker tag to v19",
-      "updatedAt": "2026-11-23T07:30:02Z",
+      "updatedAt": "2026-11-23T14:01:25Z",
       "url": "https://github.com/duynhlab/homelab/pull/1587",
       "verdict": null
     },
@@ -118,7 +118,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update valkey/valkey docker tag to v9.2.0",
-      "updatedAt": "2026-11-23T07:30:01Z",
+      "updatedAt": "2026-11-23T14:01:25Z",
       "url": "https://github.com/duynhlab/homelab/pull/1586",
       "verdict": null
     },
@@ -148,7 +148,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
-      "updatedAt": "2026-11-23T07:29:58Z",
+      "updatedAt": "2026-11-23T14:01:22Z",
       "url": "https://github.com/duynhlab/homelab/pull/1575",
       "verdict": null
     },
@@ -186,8 +186,8 @@
       "areas": [
         "local-stack"
       ],
-      "bucket": "waiting",
-      "ci": "SUCCESS",
+      "bucket": "blocked",
+      "ci": "FAILURE",
       "createdAt": "2026-11-17T07:09:37Z",
       "dependency": {
         "from": "18.6-trixie",
@@ -208,7 +208,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v18.7",
-      "updatedAt": "2026-11-23T00:23:18Z",
+      "updatedAt": "2026-11-24T00:44:46Z",
       "url": "https://github.com/duynhlab/homelab/pull/1567",
       "verdict": null
     },
