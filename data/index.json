@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T12:38:55.464Z",
+  "generatedAt": "2026-11-24T23:32:21.438Z",
   "prs": [
     {
       "areas": [
@@ -12,7 +12,7 @@
         "from": "60bb5a5",
         "name": "clickhouse/clickhouse-server",
         "sourceUrl": null,
-        "to": "2a2381a",
+        "to": "1536514",
         "updateType": "digest"
       },
       "holdReason": null,
@@ -26,8 +26,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 2a2381a",
-      "updatedAt": "2026-11-24T00:44:38Z",
+      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 1536514",
+      "updatedAt": "2026-11-24T20:25:44Z",
       "url": "https://github.com/duynhlab/homelab/pull/1590",
       "verdict": null
     },
@@ -57,7 +57,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v19",
-      "updatedAt": "2026-11-24T08:16:52Z",
+      "updatedAt": "2026-11-24T20:26:04Z",
       "url": "https://github.com/duynhlab/homelab/pull/1588",
       "verdict": null
     },
@@ -208,7 +208,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v18.7",
-      "updatedAt": "2026-11-24T08:16:40Z",
+      "updatedAt": "2026-11-24T20:25:55Z",
       "url": "https://github.com/duynhlab/homelab/pull/1567",
       "verdict": null
     },
