@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/public.ecr.aws-aws-cli-aws-cli-2.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-25T13:43:20Z",
   "createdAt": "2026-11-25T05:48:27Z",
   "dependency": {
     "from": "2.42.1",
@@ -24,8 +24,8 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-25T13:43:20Z",
   "notesTruncated": false,
   "number": 1594,
   "releaseNotesMarkdown": null,
@@ -34,9 +34,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-25T11:28:27.556Z",
+  "state": "merged",
+  "syncedAt": "2026-11-25T23:10:31.231Z",
   "title": "chore(deps): update public.ecr.aws/aws-cli/aws-cli docker tag to v2.42.3",
-  "updatedAt": "2026-11-25T05:48:30Z",
+  "updatedAt": "2026-11-25T13:43:23Z",
   "url": "https://github.com/duynhlab/homelab/pull/1594"
 }

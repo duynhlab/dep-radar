@@ -29,7 +29,7 @@
   "labels": [
     "size/S"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1563,
@@ -40,7 +40,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T11:28:27.556Z",
+  "syncedAt": "2026-11-25T23:10:31.231Z",
   "title": "chore(deps): update ghcr.io/cloudnative-pg/postgresql docker tag to v18.7",
   "updatedAt": "2026-11-25T05:49:21Z",
   "url": "https://github.com/duynhlab/homelab/pull/1563"

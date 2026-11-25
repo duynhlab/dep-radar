@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/sigstore-cosign-installer-4.x",
-  "bucket": "waiting",
+  "bucket": "merged",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-25T13:43:02Z",
   "createdAt": "2026-11-25T05:48:42Z",
   "dependency": {
     "from": "v4.1.3",
@@ -23,8 +23,8 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-11-25T13:43:02Z",
   "notesTruncated": false,
   "number": 1595,
   "releaseNotesMarkdown": "### sigstore/cosign-installer\n\n### [`v4.1.4`](https://redirect.github.com/sigstore/cosign-installer/releases/tag/v4.1.4)\n\n[Compare Source](https://redirect.github.com/sigstore/cosign-installer/compare/v4.1.3...v4.1.4)\n\n#### What's Changed\n\n- Bump actions/setup-go from 7.0.0 to 7.1.0 by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;258](https://redirect.github.com/sigstore/cosign-installer/pull/258)\n- Bump Cosign to v3.1.5 by [@&#8203;cpanato](https://redirect.github.com/cpanato) in [#&#8203;259](https://redirect.github.com/sigstore/cosign-installer/pull/259)\n\n**Full Changelog**: <https://github.com/sigstore/cosign-installer/compare/v4.1.3...v4.1.4>",
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-25T11:28:27.556Z",
+  "state": "merged",
+  "syncedAt": "2026-11-25T23:10:31.231Z",
   "title": "chore(deps): update sigstore/cosign-installer action to v4.1.4",
-  "updatedAt": "2026-11-25T05:48:46Z",
+  "updatedAt": "2026-11-25T13:43:04Z",
   "url": "https://github.com/duynhlab/homelab/pull/1595"
 }

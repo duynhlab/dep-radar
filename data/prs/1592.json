@@ -28,15 +28,15 @@
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1592,
-  "releaseNotesMarkdown": "### VictoriaMetrics/victoriametrics-datasource\n\n### [`v1.0.3`](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/releases/tag/v1.0.3)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/compare/v1.0.2...v1.0.3)\n\n- BUGFIX: return a query error instead of crashing the backend when a sample value in the datasource response is not a string, for example a number or `null`.\n- BUGFIX: stop writing the contents of the datasource response to the Grafana log when the response cannot be parsed.",
+  "releaseNotesMarkdown": "### VictoriaMetrics/victoriametrics-datasource\n\n### [`v1.0.3`](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/blob/HEAD/CHANGELOG.md#v103)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/compare/v1.0.2...v1.0.3)\n\n- BUGFIX: return a query error instead of crashing the backend when a sample value in the datasource response is not a string, for example a number or `null`.\n- BUGFIX: stop writing the contents of the datasource response to the Grafana log when the response cannot be parsed.",
   "review": null,
   "reviewCommentUrl": null,
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T11:28:27.556Z",
+  "syncedAt": "2026-11-25T23:10:31.231Z",
   "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.3",
-  "updatedAt": "2026-11-25T05:48:12Z",
+  "updatedAt": "2026-11-25T13:45:39Z",
   "url": "https://github.com/duynhlab/homelab/pull/1592"
 }

@@ -23,7 +23,7 @@
   "labels": [
     "size/XS"
   ],
-  "mergeable": "MERGEABLE",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "notesTruncated": true,
   "number": 1586,
@@ -34,7 +34,7 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T11:28:27.556Z",
+  "syncedAt": "2026-11-25T23:10:31.231Z",
   "title": "chore(deps): update valkey/valkey docker tag to v9.2.0",
   "updatedAt": "2026-11-25T05:49:52Z",
   "url": "https://github.com/duynhlab/homelab/pull/1586"
