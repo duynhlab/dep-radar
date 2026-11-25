@@ -18,7 +18,7 @@
   "files": [
     "kubernetes/infra/configs/databases/clusters/product-db/poolers/helmrelease.yaml"
   ],
-  "headSha": "eb89a31196006d314e1b4a0b672b7d4ea4ffe6b1",
+  "headSha": "4963658c73db8fc40ad09f8f63fab0ad4cd5dff2",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-23T10:55:16.960Z",
+  "syncedAt": "2026-11-25T11:28:27.556Z",
   "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.66",
-  "updatedAt": "2026-11-23T00:22:51Z",
+  "updatedAt": "2026-11-25T05:48:16Z",
   "url": "https://github.com/duynhlab/homelab/pull/1410"
 }

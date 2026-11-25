@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/opentelemetry-collector-0.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-25T05:49:22Z",
+  "dependency": {
+    "from": "<0.183.0",
+    "name": "opentelemetry-collector",
+    "sourceUrl": "https://opentelemetry.io/",
+    "to": "<0.184.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/tracing/otel-collector/otel-collector.yaml"
+  ],
+  "headSha": "9f4f1b4255296a46436f416d8ccabd97f97047bd",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1599,
+  "releaseNotesMarkdown": "### open-telemetry/opentelemetry-helm-charts (opentelemetry-collector)\n\n### [`v0.183.2`](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/releases/tag/opentelemetry-collector-0.183.2)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.183.1...opentelemetry-collector-0.183.2)\n\nOpenTelemetry Collector Helm chart for Kubernetes\n\n#### What's Changed\n\n- feat(opentelemetry-collector): support native histogram scrape settings on the ServiceMonitor by [@&#8203;sebastiangaiser](https://redirect.github.com/sebastiangaiser) in [#&#8203;2501](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2501)\n\n#### New Contributors\n\n- [@&#8203;sebastiangaiser](https://redirect.github.com/sebastiangaiser) made their first contribution in [#&#8203;2501](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2501)\n\n**Full Changelog**: <https://github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.183.1...opentelemetry-collector-0.183.2>\n\n### [`v0.183.1`](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/releases/tag/opentelemetry-collector-0.183.1)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.183.0...opentelemetry-collector-0.183.1)\n\nOpenTelemetry Collector Helm chart for Kubernetes\n\n#### What's Changed\n\n- \\[opentelemetry-kube-stack] Extract container.id in kubernetesAttributes preset by [@&#8203;kangyili](https://redirect.github.com/kangyili) in [#&#8203;2549](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2549)\n- Add demo flagd flag sync and check targets by [@&#8203;dpacheconr](https://redirect.github.com/dpacheconr) in [#&#8203;2563](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2563)\n- docs: describe how to install opentelemetry-target-allocator chart with oci by [@&#8203;cecobask](https://redirect.github.com/cecobask) in [#&#8203;2567](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2567)\n- docs: describe how to install opentelemetry-demo chart with oci by [@&#8203;cecobask](https://redirect.github.com/cecobask) in [#&#8203;2570](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2570)\n- \\[opentelemetry-kube-stack] Use container.image.tags in kubernetesAttributes preset by [@&#8203;maheshrijal](https://redirect.github.com/maheshrijal) in [#&#8203;2561](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2561)\n- docs: describe how to install opentelemetry-collector chart with oci by [@&#8203;cecobask](https://redirect.github.com/cecobask) in [#&#8203;2571](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2571)\n\n#### New Contributors\n\n- [@&#8203;cecobask](https://redirect.github.com/cecobask) made their first contribution in [#&#8203;2567](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2567)\n\n**Full Changelog**: <https://github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.183.0...opentelemetry-collector-0.183.1>\n\n### [`v0.183.0`](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/releases/tag/opentelemetry-collector-0.183.0)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.182.0...opentelemetry-collector-0.183.0)\n\nOpenTelemetry Collector Helm chart for Kubernetes\n\n#### What's Changed\n\n- chore(deps): bump azure/setup-helm from 5.0.1 to 5.1.0 by [@&#8203;dependabot](https://redirect.github.com/dependabot)\\[bot] in [#&#8203;2575](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2575)\n- fix(opentelemetry-collector): rename kubeletstats receiver to kubelet_stats in kubeletMetrics preset by [@&#8203;satoukouga](https://redirect.github.com/satoukouga) in [#&#8203;2508](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2508)\n\n#### New Contributors\n\n- [@&#8203;satoukouga](https://redirect.github.com/satoukouga) made their first contribution in [#&#8203;2508](https://redirect.github.com/open-telemetry/opentelemetry-helm-charts/pull/2508)\n\n**Full Changelog**: <https://github.com/open-telemetry/opentelemetry-helm-charts/compare/opentelemetry-collector-0.182.0...opentelemetry-collector-0.183.0>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-25T11:28:27.556Z",
+  "title": "chore(deps): update helm release opentelemetry-collector to <0.184.0",
+  "updatedAt": "2026-11-25T05:49:26Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1599"
+}

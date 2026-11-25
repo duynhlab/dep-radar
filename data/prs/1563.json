@@ -24,7 +24,7 @@
     "kubernetes/infra/configs/databases/clusters/product-db/cdc/bootstrap.yaml",
     "kubernetes/infra/configs/databases/clusters/product-db/restore-cluster-example.yaml"
   ],
-  "headSha": "862cb4da475824cc5c180e9ce58cbbe21b9ff9da",
+  "headSha": "36330afce6a952d9e02645df397547969e084b3f",
   "isDraft": false,
   "labels": [
     "size/S"
@@ -40,8 +40,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-23T10:55:16.960Z",
+  "syncedAt": "2026-11-25T11:28:27.556Z",
   "title": "chore(deps): update ghcr.io/cloudnative-pg/postgresql docker tag to v18.7",
-  "updatedAt": "2026-11-23T00:23:10Z",
+  "updatedAt": "2026-11-25T05:49:21Z",
   "url": "https://github.com/duynhlab/homelab/pull/1563"
 }

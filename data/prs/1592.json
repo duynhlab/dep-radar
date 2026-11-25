@@ -1,0 +1,42 @@
+{
+  "areas": [
+    "monitoring"
+  ],
+  "author": "renovate",
+  "branch": "renovate/grafana-victoriametrics-datasource",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-25T05:48:07Z",
+  "dependency": {
+    "from": "1.0.2",
+    "name": "VictoriaMetrics/victoriametrics-datasource",
+    "sourceUrl": "https://github.com/VictoriaMetrics/victoriametrics-datasource",
+    "to": "1.0.3",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/configs/observability/grafana/datasource-victoriametrics.yaml",
+    "kubernetes/infra/configs/observability/grafana/grafana.yaml"
+  ],
+  "headSha": "07a9f86fe5e65f62256275a528c7d769f0a18997",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1592,
+  "releaseNotesMarkdown": "### VictoriaMetrics/victoriametrics-datasource\n\n### [`v1.0.3`](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/releases/tag/v1.0.3)\n\n[Compare Source](https://redirect.github.com/VictoriaMetrics/victoriametrics-datasource/compare/v1.0.2...v1.0.3)\n\n- BUGFIX: return a query error instead of crashing the backend when a sample value in the datasource response is not a string, for example a number or `null`.\n- BUGFIX: stop writing the contents of the datasource response to the Grafana log when the response cannot be parsed.",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-25T11:28:27.556Z",
+  "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.3",
+  "updatedAt": "2026-11-25T05:48:12Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1592"
+}

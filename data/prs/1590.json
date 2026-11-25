@@ -18,7 +18,7 @@
   "files": [
     "local-stack/compose.analytics.yaml"
   ],
-  "headSha": "bca1125380df8f5ea91f8b50ce1b77515fbe4e5e",
+  "headSha": "7ec7a5325955da6910e9fba3e821b53dd47caaeb",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-24T23:32:21.438Z",
+  "syncedAt": "2026-11-25T11:28:27.556Z",
   "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 1536514",
-  "updatedAt": "2026-11-24T20:25:44Z",
+  "updatedAt": "2026-11-25T05:47:59Z",
   "url": "https://github.com/duynhlab/homelab/pull/1590"
 }

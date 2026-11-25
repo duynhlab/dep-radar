@@ -1,0 +1,46 @@
+{
+  "areas": [
+    "platform",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/clickhouse-clickhouse-server-26.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-25T05:48:55Z",
+  "dependency": {
+    "from": "26.10",
+    "name": "clickhouse/clickhouse-server",
+    "sourceUrl": null,
+    "to": "26.11",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/configs/cdc/bootstrap/jobs.yaml",
+    "kubernetes/infra/configs/clickhouse-schema/job.yaml",
+    "kubernetes/infra/configs/clickhouse/clickhouseinstallation.yaml",
+    "local-stack/compose.analytics.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "aa7c5c5895267ad815c89b40849499a12564c2b5",
+  "isDraft": false,
+  "labels": [
+    "size/S"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1597,
+  "releaseNotesMarkdown": null,
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-25T11:28:27.556Z",
+  "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.11",
+  "updatedAt": "2026-11-25T05:48:59Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1597"
+}

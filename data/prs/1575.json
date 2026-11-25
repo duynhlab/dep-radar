@@ -18,7 +18,7 @@
   "files": [
     "kubernetes/infra/controllers/metrics/sloth-operator.yaml"
   ],
-  "headSha": "7cb10c23d5201be095a77eaa518bd5f538df72ee",
+  "headSha": "7702b75b545bd40413ca141d968f2159aa032452",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-24T01:43:58.984Z",
+  "syncedAt": "2026-11-25T11:28:27.556Z",
   "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
-  "updatedAt": "2026-11-23T14:01:22Z",
+  "updatedAt": "2026-11-25T05:49:46Z",
   "url": "https://github.com/duynhlab/homelab/pull/1575"
 }
