@@ -18,12 +18,12 @@
   "files": [
     "kubernetes/clusters/local/sources/oci/envoy-gateway-oci.yaml"
   ],
-  "headSha": "dccbb7b4899e1a007e8dfcee6796e8e32cdd2e5a",
+  "headSha": "37ff5c5a23ee0672b903c5f98db36a6797509567",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": true,
   "number": 1534,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-  "updatedAt": "2026-11-25T05:49:09Z",
+  "updatedAt": "2026-11-26T01:45:06Z",
   "url": "https://github.com/duynhlab/homelab/pull/1534"
 }

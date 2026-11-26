@@ -18,12 +18,12 @@
   "files": [
     "kubernetes/infra/configs/clickhouse-keeper/clickhousekeeperinstallation.yaml"
   ],
-  "headSha": "94ccdcc3616ae56e117560d19ad59f95f8ddad1b",
+  "headSha": "7283f7c2bce6c5f487cac20efeae7ad734964a62",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1596,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update clickhouse/clickhouse-keeper docker tag to v26.11",
-  "updatedAt": "2026-11-25T05:48:51Z",
+  "updatedAt": "2026-11-26T01:44:49Z",
   "url": "https://github.com/duynhlab/homelab/pull/1596"
 }

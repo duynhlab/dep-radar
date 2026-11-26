@@ -20,7 +20,7 @@
     "kubernetes/infra/configs/observability/grafana/grafana.yaml",
     "local-stack/compose.yaml"
   ],
-  "headSha": "7db026cb72394e031a3828c5eabaf44b606504ef",
+  "headSha": "189c2bfde2865a94c83c94450bd9519b4abd8117",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -29,15 +29,15 @@
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1593,
-  "releaseNotesMarkdown": "### grafana/grafana\n\n### [`v13.3.2`](https://redirect.github.com/grafana/grafana/blob/HEAD/CHANGELOG.md#1332-2026-11-24)\n\n[Compare Source](https://redirect.github.com/grafana/grafana/compare/v13.3.1...v13.3.2)\n\n##### Security\n\n- Security: Fix CVE-2026-107561\n- Security: Fix CVE-2026-88960\n\n##### Features and enhancements\n\n- **Provisioning:** Preserve existing folder identities when creating children [#&#8203;137552](https://redirect.github.com/grafana/grafana/pull/137552), [@&#8203;grafana-writer\\[bot\\]](https://redirect.github.com/grafana-writer\\[bot])\n\n<!-- 13.3.2 END -->\n\n<!-- 13.3.1 START -->",
+  "releaseNotesMarkdown": "### grafana/grafana\n\n### [`v13.3.2`](https://redirect.github.com/grafana/grafana/blob/HEAD/CHANGELOG.md#1332-2026-11-24)\n\n##### Security\n\n- Security: Fix CVE-2026-107561\n- Security: Fix CVE-2026-88960\n\n##### Features and enhancements\n\n- **Provisioning:** Preserve existing folder identities when creating children [#&#8203;137552](https://redirect.github.com/grafana/grafana/pull/137552), [@&#8203;grafana-writer\\[bot\\]](https://redirect.github.com/grafana-writer\\[bot])\n\n<!-- 13.3.2 END -->\n\n<!-- 13.3.1 START -->",
   "review": null,
   "reviewCommentUrl": null,
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update grafana/grafana docker tag to v13.3.2",
-  "updatedAt": "2026-11-25T13:45:40Z",
+  "updatedAt": "2026-11-26T01:44:44Z",
   "url": "https://github.com/duynhlab/homelab/pull/1593"
 }

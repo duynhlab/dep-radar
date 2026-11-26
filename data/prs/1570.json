@@ -18,12 +18,12 @@
   "files": [
     "kubernetes/infra/controllers/caching/valkey/helmrelease.yaml"
   ],
-  "headSha": "50c6923a3aa6d1d66895b3ffac0f7b82b7328cf1",
+  "headSha": "e1e3654c2c6fddc21a81271ca28c09eeaf55ea3c",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1570,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update helm release valkey to v1",
-  "updatedAt": "2026-11-25T05:50:24Z",
+  "updatedAt": "2026-11-26T01:46:25Z",
   "url": "https://github.com/duynhlab/homelab/pull/1570"
 }

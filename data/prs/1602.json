@@ -18,12 +18,12 @@
   "files": [
     "local-stack/compose.yaml"
   ],
-  "headSha": "3f7d68f4b339c6ac64e9f5219d3b111aebf2bf79",
+  "headSha": "b8c6c71c0a7d17c83ce3014261d3c6dc5e1cba9a",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1602,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update victoriametrics/vmalert docker tag to v1.157.0",
-  "updatedAt": "2026-11-25T05:50:13Z",
+  "updatedAt": "2026-11-26T01:46:13Z",
   "url": "https://github.com/duynhlab/homelab/pull/1602"
 }

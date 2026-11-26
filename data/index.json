@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T23:10:31.231Z",
+  "generatedAt": "2026-11-26T11:06:06.914Z",
   "prs": [
     {
       "areas": [
@@ -20,14 +20,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1602,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update victoriametrics/vmalert docker tag to v1.157.0",
-      "updatedAt": "2026-11-25T05:50:13Z",
+      "updatedAt": "2026-11-26T01:46:13Z",
       "url": "https://github.com/duynhlab/homelab/pull/1602",
       "verdict": null
     },
@@ -50,14 +50,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1601,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update victoriametrics/vmagent docker tag to v1.157.0",
-      "updatedAt": "2026-11-25T05:50:06Z",
+      "updatedAt": "2026-11-26T01:46:07Z",
       "url": "https://github.com/duynhlab/homelab/pull/1601",
       "verdict": null
     },
@@ -80,14 +80,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1600,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update victoriametrics/victoria-metrics docker tag to v1.157.0",
-      "updatedAt": "2026-11-25T05:49:59Z",
+      "updatedAt": "2026-11-26T01:46:01Z",
       "url": "https://github.com/duynhlab/homelab/pull/1600",
       "verdict": null
     },
@@ -110,14 +110,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1599,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update helm release opentelemetry-collector to <0.184.0",
-      "updatedAt": "2026-11-25T05:49:26Z",
+      "updatedAt": "2026-11-26T01:45:31Z",
       "url": "https://github.com/duynhlab/homelab/pull/1599",
       "verdict": null
     },
@@ -141,14 +141,14 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1598,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.24.0",
-      "updatedAt": "2026-11-25T05:49:05Z",
+      "updatedAt": "2026-11-26T01:45:02Z",
       "url": "https://github.com/duynhlab/homelab/pull/1598",
       "verdict": null
     },
@@ -172,14 +172,14 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1597,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.11",
-      "updatedAt": "2026-11-25T05:48:59Z",
+      "updatedAt": "2026-11-26T01:44:56Z",
       "url": "https://github.com/duynhlab/homelab/pull/1597",
       "verdict": null
     },
@@ -202,14 +202,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1596,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update clickhouse/clickhouse-keeper docker tag to v26.11",
-      "updatedAt": "2026-11-25T05:48:51Z",
+      "updatedAt": "2026-11-26T01:44:49Z",
       "url": "https://github.com/duynhlab/homelab/pull/1596",
       "verdict": null
     },
@@ -240,7 +240,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update grafana/grafana docker tag to v13.3.2",
-      "updatedAt": "2026-11-25T13:45:40Z",
+      "updatedAt": "2026-11-26T01:44:44Z",
       "url": "https://github.com/duynhlab/homelab/pull/1593",
       "verdict": null
     },
@@ -270,7 +270,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.3",
-      "updatedAt": "2026-11-25T13:45:39Z",
+      "updatedAt": "2026-11-26T01:44:31Z",
       "url": "https://github.com/duynhlab/homelab/pull/1592",
       "verdict": null
     },
@@ -285,7 +285,7 @@
         "from": "60bb5a5",
         "name": "clickhouse/clickhouse-server",
         "sourceUrl": null,
-        "to": "1536514",
+        "to": "3e9c324",
         "updateType": "digest"
       },
       "holdReason": null,
@@ -293,14 +293,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1590,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 1536514",
-      "updatedAt": "2026-11-25T05:47:59Z",
+      "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 3e9c324",
+      "updatedAt": "2026-11-26T01:44:24Z",
       "url": "https://github.com/duynhlab/homelab/pull/1590",
       "verdict": null
     },
@@ -323,14 +323,14 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1588,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v19",
-      "updatedAt": "2026-11-25T05:50:35Z",
+      "updatedAt": "2026-11-26T01:46:34Z",
       "url": "https://github.com/duynhlab/homelab/pull/1588",
       "verdict": null
     },
@@ -354,14 +354,14 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1587,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/cloudnative-pg/postgresql docker tag to v19",
-      "updatedAt": "2026-11-25T05:50:19Z",
+      "updatedAt": "2026-11-26T01:46:20Z",
       "url": "https://github.com/duynhlab/homelab/pull/1587",
       "verdict": null
     },
@@ -384,14 +384,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1586,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update valkey/valkey docker tag to v9.2.0",
-      "updatedAt": "2026-11-25T05:49:52Z",
+      "updatedAt": "2026-11-26T01:45:55Z",
       "url": "https://github.com/duynhlab/homelab/pull/1586",
       "verdict": null
     },
@@ -414,14 +414,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1575,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update registry.k8s.io/git-sync/git-sync docker tag to v4.8.0",
-      "updatedAt": "2026-11-25T05:49:46Z",
+      "updatedAt": "2026-11-26T01:45:48Z",
       "url": "https://github.com/duynhlab/homelab/pull/1575",
       "verdict": null
     },
@@ -444,14 +444,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1570,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update helm release valkey to v1",
-      "updatedAt": "2026-11-25T05:50:24Z",
+      "updatedAt": "2026-11-26T01:46:25Z",
       "url": "https://github.com/duynhlab/homelab/pull/1570",
       "verdict": null
     },
@@ -474,14 +474,14 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1567,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v18.7",
-      "updatedAt": "2026-11-25T05:49:36Z",
+      "updatedAt": "2026-11-26T01:45:40Z",
       "url": "https://github.com/duynhlab/homelab/pull/1567",
       "verdict": null
     },
@@ -511,7 +511,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update helm release kyverno to v3.10.0",
-      "updatedAt": "2026-11-25T13:48:14Z",
+      "updatedAt": "2026-11-26T01:45:22Z",
       "url": "https://github.com/duynhlab/homelab/pull/1565",
       "verdict": null
     },
@@ -535,14 +535,14 @@
       "labels": [
         "size/S"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1563,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/cloudnative-pg/postgresql docker tag to v18.7",
-      "updatedAt": "2026-11-25T05:49:21Z",
+      "updatedAt": "2026-11-26T01:45:19Z",
       "url": "https://github.com/duynhlab/homelab/pull/1563",
       "verdict": null
     },
@@ -565,14 +565,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1535,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update envoyproxy/gateway docker tag to v1.10.0",
-      "updatedAt": "2026-11-25T05:49:16Z",
+      "updatedAt": "2026-11-26T01:45:12Z",
       "url": "https://github.com/duynhlab/homelab/pull/1535",
       "verdict": null
     },
@@ -595,14 +595,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1534,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update docker.io/envoyproxy/gateway-helm docker tag to v1.10.0",
-      "updatedAt": "2026-11-25T05:49:09Z",
+      "updatedAt": "2026-11-26T01:45:06Z",
       "url": "https://github.com/duynhlab/homelab/pull/1534",
       "verdict": null
     },
@@ -625,14 +625,14 @@
       "labels": [
         "size/XS"
       ],
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "number": 1410,
       "reviewedAt": null,
       "reviewState": "missing",
       "state": "open",
       "summary": null,
       "title": "chore(deps): update ghcr.io/pgdogdev/pgdog docker tag to v0.1.66",
-      "updatedAt": "2026-11-25T05:48:16Z",
+      "updatedAt": "2026-11-26T01:44:36Z",
       "url": "https://github.com/duynhlab/homelab/pull/1410",
       "verdict": null
     },

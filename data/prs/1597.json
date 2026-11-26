@@ -23,12 +23,12 @@
     "local-stack/compose.analytics.yaml",
     "local-stack/compose.yaml"
   ],
-  "headSha": "aa7c5c5895267ad815c89b40849499a12564c2b5",
+  "headSha": "d9f140d742f4a24caf5851e514bb9891748a0fd0",
   "isDraft": false,
   "labels": [
     "size/S"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1597,
@@ -39,8 +39,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update clickhouse/clickhouse-server docker tag to v26.11",
-  "updatedAt": "2026-11-25T05:48:59Z",
+  "updatedAt": "2026-11-26T01:44:56Z",
   "url": "https://github.com/duynhlab/homelab/pull/1597"
 }

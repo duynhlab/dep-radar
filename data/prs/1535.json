@@ -18,12 +18,12 @@
   "files": [
     "local-stack/compose.yaml"
   ],
-  "headSha": "46f850389d971d56be69e13f7a31c37febcd6942",
+  "headSha": "0ccb5527066ec8bf560732132e6e272311b03d9e",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1535,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update envoyproxy/gateway docker tag to v1.10.0",
-  "updatedAt": "2026-11-25T05:49:16Z",
+  "updatedAt": "2026-11-26T01:45:12Z",
   "url": "https://github.com/duynhlab/homelab/pull/1535"
 }

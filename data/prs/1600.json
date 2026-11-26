@@ -18,12 +18,12 @@
   "files": [
     "local-stack/compose.yaml"
   ],
-  "headSha": "f9fd925940acbdaada37154f4c6eea61bbd9bffc",
+  "headSha": "04c9cfdefc6535d79cbf0b1a65d7eb4a902ec7d3",
   "isDraft": false,
   "labels": [
     "size/XS"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1600,
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update victoriametrics/victoria-metrics docker tag to v1.157.0",
-  "updatedAt": "2026-11-25T05:49:59Z",
+  "updatedAt": "2026-11-26T01:46:01Z",
   "url": "https://github.com/duynhlab/homelab/pull/1600"
 }

@@ -21,12 +21,12 @@
     "kubernetes/infra/configs/observability/grafana/grafana.yaml",
     "local-stack/compose.yaml"
   ],
-  "headSha": "fe6c9eae8c528420dbebbf20a38ccd36e6acd195",
+  "headSha": "35f04df087cf64d93118cd9ad1d3e6c791adcb0d",
   "isDraft": false,
   "labels": [
     "size/S"
   ],
-  "mergeable": "UNKNOWN",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "notesTruncated": false,
   "number": 1598,
@@ -37,8 +37,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update dependency grafana/clickhouse-datasource to v4.24.0",
-  "updatedAt": "2026-11-25T05:49:05Z",
+  "updatedAt": "2026-11-26T01:45:02Z",
   "url": "https://github.com/duynhlab/homelab/pull/1598"
 }

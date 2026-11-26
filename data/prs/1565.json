@@ -18,7 +18,7 @@
   "files": [
     "kubernetes/infra/controllers/kyverno/helmrelease.yaml"
   ],
-  "headSha": "952a028e04456c3ac0e747d7d9d3625161131f42",
+  "headSha": "1fc3598ac9b146d816dac74587fc4581ffe0afac",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-25T23:10:31.231Z",
+  "syncedAt": "2026-11-26T11:06:06.914Z",
   "title": "chore(deps): update helm release kyverno to v3.10.0",
-  "updatedAt": "2026-11-25T13:48:14Z",
+  "updatedAt": "2026-11-26T01:45:22Z",
   "url": "https://github.com/duynhlab/homelab/pull/1565"
 }
