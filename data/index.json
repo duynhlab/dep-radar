@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T11:06:06.914Z",
+  "generatedAt": "2026-11-26T23:05:58.883Z",
   "prs": [
     {
       "areas": [
@@ -330,7 +330,7 @@
       "state": "open",
       "summary": null,
       "title": "chore(deps): update postgres docker tag to v19",
-      "updatedAt": "2026-11-26T01:46:34Z",
+      "updatedAt": "2026-11-26T15:49:40Z",
       "url": "https://github.com/duynhlab/homelab/pull/1588",
       "verdict": null
     },
@@ -376,7 +376,7 @@
         "from": "9.1.3-alpine",
         "name": "valkey/valkey",
         "sourceUrl": "https://github.com/valkey-io/valkey",
-        "to": "9.2.0-alpine",
+        "to": "9.2.1-alpine",
         "updateType": "minor"
       },
       "holdReason": null,
@@ -390,8 +390,8 @@
       "reviewState": "missing",
       "state": "open",
       "summary": null,
-      "title": "chore(deps): update valkey/valkey docker tag to v9.2.0",
-      "updatedAt": "2026-11-26T01:45:55Z",
+      "title": "chore(deps): update valkey/valkey docker tag to v9.2.1",
+      "updatedAt": "2026-11-26T15:49:31Z",
       "url": "https://github.com/duynhlab/homelab/pull/1586",
       "verdict": null
     },
