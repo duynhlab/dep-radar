@@ -20,7 +20,7 @@
     "kubernetes/infra/configs/observability/grafana/grafana.yaml",
     "local-stack/compose.yaml"
   ],
-  "headSha": "189c2bfde2865a94c83c94450bd9519b4abd8117",
+  "headSha": "a0e0e8500103b62bcb9659165c6b459f8cb7cb3e",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -36,8 +36,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-26T11:06:06.914Z",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
   "title": "chore(deps): update grafana/grafana docker tag to v13.3.2",
-  "updatedAt": "2026-11-26T01:44:44Z",
+  "updatedAt": "2026-11-27T06:48:30Z",
   "url": "https://github.com/duynhlab/homelab/pull/1593"
 }

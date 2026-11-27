@@ -24,7 +24,7 @@
     "kubernetes/infra/configs/databases/clusters/product-db/cdc/bootstrap.yaml",
     "kubernetes/infra/configs/databases/clusters/product-db/restore-cluster-example.yaml"
   ],
-  "headSha": "54ffb7138a03d5e444beaf75692b64b298b8d193",
+  "headSha": "03d8a4eb23f274049fe74fc29dc03d2cc30490af",
   "isDraft": false,
   "labels": [
     "size/S"
@@ -40,8 +40,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-26T11:06:06.914Z",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
   "title": "chore(deps): update ghcr.io/cloudnative-pg/postgresql docker tag to v19",
-  "updatedAt": "2026-11-26T01:46:20Z",
+  "updatedAt": "2026-11-27T06:50:07Z",
   "url": "https://github.com/duynhlab/homelab/pull/1587"
 }

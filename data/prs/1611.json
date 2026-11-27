@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "platform"
+  ],
+  "author": "renovate",
+  "branch": "renovate/rustfs-1.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-27T05:44:34Z",
+  "dependency": {
+    "from": "1.0.6",
+    "name": "rustfs",
+    "sourceUrl": "https://rustfs.com",
+    "to": "1.0.7",
+    "updateType": "patch"
+  },
+  "files": [
+    "kubernetes/infra/controllers/storage/rustfs/helmrelease.yaml"
+  ],
+  "headSha": "a302f6eee9d23468ac21f9ba41dca60abe1a16b2",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1611,
+  "releaseNotesMarkdown": "### rustfs/rustfs (rustfs)\n\n### [`v1.0.7`](https://redirect.github.com/rustfs/rustfs/releases/tag/1.0.7): RustFS 1.0.7\n\n[Compare Source](https://redirect.github.com/rustfs/rustfs/compare/1.0.6...1.0.7)\n\n<!-- rustfs-generated-release-notes: managed; remove this marker before manual edits -->\n\n#### What's Changed\n\n- fix(storage): backport scanner recovery and ordered shard reads by [@&#8203;overtrue](https://redirect.github.com/overtrue) in [#&#8203;9512](https://redirect.github.com/rustfs/rustfs/pull/9512)\n- fix(scanner): resume wide directory scans on release 1.0.7 by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9523](https://redirect.github.com/rustfs/rustfs/pull/9523)\n- fix(scanner): backport usage and recovery fixes to 1.0.7 by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9531](https://redirect.github.com/rustfs/rustfs/pull/9531)\n- fix(storage): bound delete recovery and guard legacy residue cleanup by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9534](https://redirect.github.com/rustfs/rustfs/pull/9534)\n- fix(storage): backport replacement heal and scanner fixes to 1.0.7 by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9533](https://redirect.github.com/rustfs/rustfs/pull/9533)\n- fix(ilm): continue tier recovery past unreadable objects in 1.0.7 by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9539](https://redirect.github.com/rustfs/rustfs/pull/9539)\n- fix(iam): backport Console STS password rotation to 1.0.7 by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9536](https://redirect.github.com/rustfs/rustfs/pull/9536)\n- fix(admin): report inventory coverage and cluster scanner activity on 1.0.7 by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9540](https://redirect.github.com/rustfs/rustfs/pull/9540)\n- fix(scanner): preserve discovery progress across owner cancellation by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9546](https://redirect.github.com/rustfs/rustfs/pull/9546)\n- feat(scanner): expose durable bucket scan progress by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9548](https://redirect.github.com/rustfs/rustfs/pull/9548)\n- fix(scanner): restore release CI and preserve admin response contracts by [@&#8203;overtrue](https://redirect.github.com/overtrue) in [#&#8203;9555](https://redirect.github.com/rustfs/rustfs/pull/9555)\n- fix(scanner): preserve durable progress on wide and changing buckets by [@&#8203;overtrue](https://redirect.github.com/overtrue) in [#&#8203;9552](https://redirect.github.com/rustfs/rustfs/pull/9552)\n- fix(heal): retry busy bucket repairs after a node restart by [@&#8203;overtrue](https://redirect.github.com/overtrue) in [#&#8203;9562](https://redirect.github.com/rustfs/rustfs/pull/9562)\n- fix(scanner): reuse sealed page names during directory enumeration by [@&#8203;overtrue](https://redirect.github.com/overtrue) in [#&#8203;9564](https://redirect.github.com/rustfs/rustfs/pull/9564)\n- fix(scanner): fence prefix usage cache fills across invalidation by [@&#8203;overtrue](https://redirect.github.com/overtrue) in [#&#8203;9566](https://redirect.github.com/rustfs/rustfs/pull/9566)\n- fix(scanner): preserve inventory and maintenance coverage by [@&#8203;overtrue](https://redirect.github.com/overtrue) in [#&#8203;9567](https://redirect.github.com/rustfs/rustfs/pull/9567)\n- fix(scanner): recertify legacy usage after cold restart by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9573](https://redirect.github.com/rustfs/rustfs/pull/9573)\n- fix(scanner): resume checkpoints and expose partial progress by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9583](https://redirect.github.com/rustfs/rustfs/pull/9583)\n- fix(scanner): preserve checkpoint coverage across handoffs by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9587](https://redirect.github.com/rustfs/rustfs/pull/9587)\n- fix(scanner): preserve completed usage and publish initial progress by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9592](https://redirect.github.com/rustfs/rustfs/pull/9592)\n- fix(decommission): keep scanner progress on its owning set by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9603](https://redirect.github.com/rustfs/rustfs/pull/9603)\n- fix(sts): validate root credentials on 1.0.7 startup by [@&#8203;houseme](https://redirect.github.com/houseme) in [#&#8203;9604](https://redirect.github.com/rustfs/rustfs/pull/9604)\n- fix(sts): validate root credentials and report parent access denials (1.0.7) by [@&#8203;houseme](https://redirect.github.com/houseme) in [#&#8203;9605](https://redirect.github.com/rustfs/rustfs/pull/9605)\n- fix(ecstore): make release directory walks iterative by [@&#8203;houseme](https://redirect.github.com/houseme) in [#&#8203;9608](https://redirect.github.com/rustfs/rustfs/pull/9608)\n- fix(scanner): backport tier registry replan to 1.0.7 by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9616](https://redirect.github.com/rustfs/rustfs/pull/9616)\n- fix(sts): backport inline session policy Id support to 1.0.7 by [@&#8203;GatewayJ](https://redirect.github.com/GatewayJ) in [#&#8203;9614](https://redirect.github.com/rustfs/rustfs/pull/9614)\n- fix(kms,sse): backport KMS and SSE fixes to 1.0.7 by [@&#8203;reatang](https://redirect.github.com/reatang) in [#&#8203;9613](https://redirect.github.com/rustfs/rustfs/pull/9613)\n- fix(scanner): walk directories with an explicit stack by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9623](https://redirect.github.com/rustfs/rustfs/pull/9623)\n- fix(replication): verify probe cleanup against target versions by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9624](https://redirect.github.com/rustfs/rustfs/pull/9624)\n- fix(s3): restore 1.0.7 compatibility and batch delete correctness by [@&#8203;cxymds](https://redirect.github.com/cxymds) in [#&#8203;9622](https://redirect.github.com/rustfs/rustfs/pull/9622)\n- fix(ecstore): backport bulk delete repair to 1.0.7 by [@&#8203;houseme](https://redirect.github.com/houseme) in [#&#8203;9633](https://redirect.github.com/rustfs/rustfs/pull/9633)\n- fix(ecstore): gate rebalance test fixtures on test-util by [@&#8203;houseme](https://redirect.github.com/houseme) in [#&#8203;9634](https://redirect.github.com/rustfs/rustfs/pull/9634)\n\n**Full Changelog**: <https://github.com/rustfs/rustfs/compare/1.0.6...1.0.7>",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
+  "title": "chore(deps): update helm release rustfs to v1.0.7",
+  "updatedAt": "2026-11-27T06:48:33Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1611"
+}

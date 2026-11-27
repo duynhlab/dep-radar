@@ -12,13 +12,13 @@
     "from": "60bb5a5",
     "name": "clickhouse/clickhouse-server",
     "sourceUrl": null,
-    "to": "3e9c324",
+    "to": "701eab7",
     "updateType": "digest"
   },
   "files": [
     "local-stack/compose.analytics.yaml"
   ],
-  "headSha": "fbe3b036d7b8c578f6e93306a4dc4fb1136d9ed2",
+  "headSha": "1700bd7ab438e10a52e9a00525ed5c521113745b",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-26T11:06:06.914Z",
-  "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 3e9c324",
-  "updatedAt": "2026-11-26T01:44:24Z",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
+  "title": "chore(deps): update clickhouse/clickhouse-server:26.10 docker digest to 701eab7",
+  "updatedAt": "2026-11-27T06:48:07Z",
   "url": "https://github.com/duynhlab/homelab/pull/1590"
 }

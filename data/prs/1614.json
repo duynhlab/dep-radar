@@ -1,0 +1,43 @@
+{
+  "areas": [
+    "platform",
+    "local-stack"
+  ],
+  "author": "renovate",
+  "branch": "renovate/otel-opentelemetry-collector-contrib-0.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-27T05:45:33Z",
+  "dependency": {
+    "from": "0.165.0",
+    "name": "otel/opentelemetry-collector-contrib",
+    "sourceUrl": "https://github.com/open-telemetry/opentelemetry-collector-releases",
+    "to": "0.166.0",
+    "updateType": "minor"
+  },
+  "files": [
+    "kubernetes/infra/controllers/tracing/otel-collector/otel-collector.yaml",
+    "local-stack/compose.yaml"
+  ],
+  "headSha": "db46cd95cdc704145bee2d1bdd605df2fb2bd45e",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1614,
+  "releaseNotesMarkdown": "### open-telemetry/opentelemetry-collector-releases (otel/opentelemetry-collector-contrib)\n\n### [`v0.166.0`](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/blob/HEAD/CHANGELOG.md#v01660)\n\n[Compare Source](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/compare/v0.165.0...v0.166.0)\n\n##### 💡 Enhancements 💡\n\n- `all`: Generate config schema for each distribution ([#&#8203;1757](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/1757))\n- `otelcol-k8s`: Add Windows binaries for 386 and arm64. Windows container images stay amd64 only. ([#&#8203;412](https://redirect.github.com/open-telemetry/opentelemetry-collector-releases/issues/412))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
+  "title": "chore(deps): update otel/opentelemetry-collector-contrib docker tag to v0.166.0",
+  "updatedAt": "2026-11-27T06:49:27Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1614"
+}

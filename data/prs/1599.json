@@ -18,7 +18,7 @@
   "files": [
     "kubernetes/infra/controllers/tracing/otel-collector/otel-collector.yaml"
   ],
-  "headSha": "ab48f5a335fc3d0bfdfb5d2bac4c7dd9a3f236ec",
+  "headSha": "b8684d9065e134069331c5002d664cbb5ea5c6c0",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-26T11:06:06.914Z",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
   "title": "chore(deps): update helm release opentelemetry-collector to <0.184.0",
-  "updatedAt": "2026-11-26T01:45:31Z",
+  "updatedAt": "2026-11-27T06:49:22Z",
   "url": "https://github.com/duynhlab/homelab/pull/1599"
 }

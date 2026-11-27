@@ -18,7 +18,7 @@
   "files": [
     "local-stack/compose.yaml"
   ],
-  "headSha": "7351ae6629708b36e6638fd4b451121f0c14d85c",
+  "headSha": "e2642c6a22c40c084d5fbebdc719dbb61fe25bfd",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-26T23:05:58.883Z",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
   "title": "chore(deps): update valkey/valkey docker tag to v9.2.1",
-  "updatedAt": "2026-11-26T15:49:31Z",
+  "updatedAt": "2026-11-27T06:49:47Z",
   "url": "https://github.com/duynhlab/homelab/pull/1586"
 }

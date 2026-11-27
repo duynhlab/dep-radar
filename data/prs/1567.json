@@ -19,7 +19,7 @@
     "local-stack/analytics/postgres/Dockerfile",
     "local-stack/compose.yaml"
   ],
-  "headSha": "80b2a229d85d3590b375b85775e8faae10153917",
+  "headSha": "d231308a57555cc0f72481d062251f7166529d5a",
   "isDraft": false,
   "labels": [
     "size/S"
@@ -35,8 +35,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-26T11:06:06.914Z",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
   "title": "chore(deps): update postgres docker tag to v18.7",
-  "updatedAt": "2026-11-26T01:45:40Z",
+  "updatedAt": "2026-11-27T06:49:34Z",
   "url": "https://github.com/duynhlab/homelab/pull/1567"
 }

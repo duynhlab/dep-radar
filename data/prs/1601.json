@@ -18,7 +18,7 @@
   "files": [
     "local-stack/compose.yaml"
   ],
-  "headSha": "3ee7e95712375b8a22134155e3bb81b2e9d230b4",
+  "headSha": "ac6cffa74a56df58d6cdf8fd4fcd5b71e9d756f6",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -34,8 +34,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-26T11:06:06.914Z",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
   "title": "chore(deps): update victoriametrics/vmagent docker tag to v1.157.0",
-  "updatedAt": "2026-11-26T01:46:07Z",
+  "updatedAt": "2026-11-27T06:49:56Z",
   "url": "https://github.com/duynhlab/homelab/pull/1601"
 }

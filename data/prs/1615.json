@@ -1,0 +1,41 @@
+{
+  "areas": [
+    "ci"
+  ],
+  "author": "renovate",
+  "branch": "renovate/renovatebot-github-action-47.x",
+  "bucket": "waiting",
+  "ci": "SUCCESS",
+  "closedAt": null,
+  "createdAt": "2026-11-27T05:46:34Z",
+  "dependency": {
+    "from": "v46.3.15",
+    "name": "renovatebot/github-action",
+    "sourceUrl": "https://github.com/renovatebot/github-action",
+    "to": "v47.0.0",
+    "updateType": "major"
+  },
+  "files": [
+    ".github/workflows/renovate.yml"
+  ],
+  "headSha": "4aa59a57a5884a17cd19421aed32937caa032fcb",
+  "isDraft": false,
+  "labels": [
+    "size/XS"
+  ],
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "notesTruncated": false,
+  "number": 1615,
+  "releaseNotesMarkdown": "### renovatebot/github-action\n\n### [`v47.0.0`](https://redirect.github.com/renovatebot/github-action/releases/tag/v47.0.0)\n\n[Compare Source](https://redirect.github.com/renovatebot/github-action/compare/v46.3.15...v47.0.0)\n\n##### ⚠ BREAKING CHANGES\n\n- **deps:** Update ghcr.io/renovatebot/renovate Docker tag to v45 ([#&#8203;1105](https://redirect.github.com/renovatebot/github-action/issues/1105))\n\n##### Features\n\n- **deps:** Update ghcr.io/renovatebot/renovate Docker tag to v45 ([#&#8203;1105](https://redirect.github.com/renovatebot/github-action/issues/1105)) ([3ac895b](https://redirect.github.com/renovatebot/github-action/commit/3ac895b8a5277408937f4b392eebaea2e0e2ef61))\n\n##### Continuous Integration\n\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.259.1 ([bcd64ad](https://redirect.github.com/renovatebot/github-action/commit/bcd64ad53e65f7dc6387a3feec154cbd907c38dc))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.260.0 ([48ddfc3](https://redirect.github.com/renovatebot/github-action/commit/48ddfc3eeeed7ec301bf57efb16afe130e01a41f))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.260.3 ([c359fba](https://redirect.github.com/renovatebot/github-action/commit/c359fbafc0437064e6ee0d93ead540f465a1220d))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.261.1 ([ecb9d99](https://redirect.github.com/renovatebot/github-action/commit/ecb9d99d24244d345c36308286ae6b9956fefdd1))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.261.2 ([c42ba48](https://redirect.github.com/renovatebot/github-action/commit/c42ba4823c69d9abd1edc3d2222f97404947affc))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.262.1 ([5654fe8](https://redirect.github.com/renovatebot/github-action/commit/5654fe89cb8ea61beeee7c38cbd23b02fb99fbd8))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.262.2 ([#&#8203;1104](https://redirect.github.com/renovatebot/github-action/issues/1104)) ([d54d7e3](https://redirect.github.com/renovatebot/github-action/commit/d54d7e3da03995cb9f989a954b5af1b511568b14))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.263.1 ([2d26803](https://redirect.github.com/renovatebot/github-action/commit/2d2680301d170ed7291109329dbf00e4dea49cce))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.263.4 ([70a9cce](https://redirect.github.com/renovatebot/github-action/commit/70a9cce55fcb6a3ba96f918b12267aacd2e28322))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.263.5 ([adb2c26](https://redirect.github.com/renovatebot/github-action/commit/adb2c26afb52720b4e2e4107c06d5dd81fb227e2))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.263.6 ([1517494](https://redirect.github.com/renovatebot/github-action/commit/15174944fd0f936b7d298db063ad437e9104bfad))\n- **deps:** update ghcr.io/renovatebot/renovate docker tag to v44.264.1 ([00a121b](https://redirect.github.com/renovatebot/github-action/commit/00a121b1e449856aa58396649a4d21b0e76a5dba))",
+  "review": null,
+  "reviewCommentUrl": null,
+  "reviewError": null,
+  "reviewState": "missing",
+  "schemaVersion": 1,
+  "state": "open",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
+  "title": "chore(deps): update renovatebot/github-action action to v47",
+  "updatedAt": "2026-11-27T06:50:26Z",
+  "url": "https://github.com/duynhlab/homelab/pull/1615"
+}

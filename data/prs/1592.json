@@ -19,7 +19,7 @@
     "kubernetes/infra/configs/observability/grafana/datasource-victoriametrics.yaml",
     "kubernetes/infra/configs/observability/grafana/grafana.yaml"
   ],
-  "headSha": "8e47d9017ee07c333fda6d09069c571cf2f725fc",
+  "headSha": "d12fb08b1c0b23a83eb5933a6f74fa46ec6af723",
   "isDraft": false,
   "labels": [
     "size/XS"
@@ -35,8 +35,8 @@
   "reviewState": "missing",
   "schemaVersion": 1,
   "state": "open",
-  "syncedAt": "2026-11-26T11:06:06.914Z",
+  "syncedAt": "2026-11-27T11:00:42.861Z",
   "title": "chore(deps): update dependency victoriametrics/victoriametrics-datasource to v1.0.3",
-  "updatedAt": "2026-11-26T01:44:31Z",
+  "updatedAt": "2026-11-27T06:48:16Z",
   "url": "https://github.com/duynhlab/homelab/pull/1592"
 }
