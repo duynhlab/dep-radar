@@ -4,9 +4,9 @@
   ],
   "author": "renovate",
   "branch": "renovate/renovatebot-github-action-47.x",
-  "bucket": "waiting",
+  "bucket": "closed",
   "ci": "SUCCESS",
-  "closedAt": null,
+  "closedAt": "2026-11-27T11:54:01Z",
   "createdAt": "2026-11-27T05:46:34Z",
   "dependency": {
     "from": "v46.3.15",
@@ -33,9 +33,9 @@
   "reviewError": null,
   "reviewState": "missing",
   "schemaVersion": 1,
-  "state": "open",
-  "syncedAt": "2026-11-27T11:00:42.861Z",
-  "title": "chore(deps): update renovatebot/github-action action to v47",
-  "updatedAt": "2026-11-27T06:50:26Z",
+  "state": "closed",
+  "syncedAt": "2026-11-27T22:46:51.021Z",
+  "title": "chore(deps): update renovatebot/github-action action to v47 - autoclosed",
+  "updatedAt": "2026-11-27T11:54:07Z",
   "url": "https://github.com/duynhlab/homelab/pull/1615"
 }
